@@ -54,7 +54,7 @@ export default {
       title: "Web Apps", //Project Title - Add Your Project Title Here
       para: "Say something", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: "web apps photo",
+      imageSrc: webapps,
       //Project URL - Add Your Project Url Here
       url: "",
     },
@@ -63,7 +63,7 @@ export default {
       title: "Work Projects", //Project Title - Add Your Project Title Here
       para: "Say something", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: "work projects photo",
+      imageSrc: workprojects,
       //Project URL - Add Your Project Url Here
       url: "",
     },
@@ -76,7 +76,7 @@ export default {
     "This page is a showcase of my work programming. I have been writing code for nearly 10 years working in the field of industrial automation. Recently I have gotten more into web development and have become passionate about honing my skills within this discipline.",
   aboutParaTwo: "",
   aboutParaThree: "",
-  aboutImage: hola,
+  aboutImage: me,
 
   //   End About Section ---------------------
 
