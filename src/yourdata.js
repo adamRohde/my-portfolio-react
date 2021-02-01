@@ -5,14 +5,14 @@ import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
-import me from "./images/me.jpg"
+// import me from "./images/me.jpg"
 // Social Icon
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 
-import hola from "./images/hola.jpg"
-import workprojects from "./images/work-projects.jpg"
-import webapps from "./images/web-apps.jpg"
+// import hola from "./images/hola.jpg"
+// import workprojects from "./images/work-projects.jpg"
+// import webapps from "./images/web-apps.jpg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -44,7 +44,7 @@ export default {
       title: "Random Spanish", //Project Title - Add Your Project Title Here
       para: "say something", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: hola,
+      imageSrc: "random spanish apps photos",
       //Project URL - Add Your Project Url Here
       url: "randomspanish.com",
     },
@@ -53,7 +53,7 @@ export default {
       title: "Web Apps", //Project Title - Add Your Project Title Here
       para: "Say something", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: webapps,
+      imageSrc: "web apps photo",
       //Project URL - Add Your Project Url Here
       url: "",
     },
@@ -62,7 +62,7 @@ export default {
       title: "Work Projects", //Project Title - Add Your Project Title Here
       para: "Say something", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: workprojects,
+      imageSrc: "work projects photo",
       //Project URL - Add Your Project Url Here
       url: "",
     },
@@ -75,7 +75,7 @@ export default {
     "This page is a showcase of my work programming. I have been writing code for nearly 10 years working in the field of industrial automation. Recently I have gotten more into web development and have become passionate about honing my skills within this discipline.",
   aboutParaTwo: "",
   aboutParaThree: "",
-  aboutImage: me,
+  aboutImage: "add picture of me path",
 
   //   End About Section ---------------------
 
