@@ -10,7 +10,7 @@ import codeIcon from "./images/code.svg"
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 
-//import me from "./images/me.jpg"
+import me from "./images/me.JPG"
 import hola from "./images/hola.jpg"
 import workprojects from "./images/work-projects.jpg"
 import webapps from "./images/web-apps.jpg"
@@ -76,7 +76,7 @@ export default {
     "This page is a showcase of my work programming. I have been writing code for nearly 10 years working in the field of industrial automation. Recently I have gotten more into web development and have become passionate about honing my skills within this discipline.",
   aboutParaTwo: "",
   aboutParaThree: "",
-  aboutImage: "",
+  aboutImage: me,
 
   //   End About Section ---------------------
 
