@@ -10,9 +10,9 @@ import codeIcon from "./images/code.svg"
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 
-// import hola from "./images/hola.jpg"
-// import workprojects from "./images/work-projects.jpg"
-// import webapps from "./images/web-apps.jpg"
+import hola from "./images/hola.jpg"
+import workprojects from "./images/work-projects.jpg"
+import webapps from "./images/web-apps.jpg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -44,7 +44,7 @@ export default {
       title: "Random Spanish", //Project Title - Add Your Project Title Here
       para: "say something", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: "random spanish apps photos",
+      imageSrc: hola,
       //Project URL - Add Your Project Url Here
       url: "randomspanish.com",
     },
