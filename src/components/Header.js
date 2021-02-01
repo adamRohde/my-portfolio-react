@@ -4,10 +4,10 @@ import data from "../yourdata"
 
 const Header = () => {
   return (
-    <div className="section" id="home">
+    <div className="section" id="about">
       <div className="container">
         <div className="header-wrapper">
-          <Fade bottom>
+          {/* <Fade bottom>
             <h2>
               Hi, I'm {data.name}{" "}
               <span role="img" aria-label="Emoji">
@@ -48,7 +48,7 @@ const Header = () => {
             >
               CONNECT WITH ME
             </a>
-          </Fade>
+          </Fade> */}
         </div>
       </div>
     </div>
