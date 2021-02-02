@@ -13,13 +13,19 @@ const Navbar = () => {
                 scrollTo("#about")
               }}
             >
-              <Link to="/">About</Link>
+              <Link className="nav-links" to="/">
+                <h3>About</h3>
+              </Link>
             </button>
             <button onClick={() => scrollTo("#work")}>
-              <Link to="/">Projects</Link>
+              <Link className="nav-links" to="/">
+                <h3>Work</h3>
+              </Link>
             </button>
             <button onClick={() => scrollTo("#contact")}>
-              <Link to="/">Contact</Link>
+              <Link className="nav-links" to="/">
+                <h3>Contact</h3>
+              </Link>
             </button>
           </div>
         </div>
