@@ -8,7 +8,7 @@ import codeIcon from "./images/code.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
+//import codepenIcon from "./images/codepen.svg"
 
 import myface from "./images/mi-face.jpg"
 import hola from "./images/hola.jpg"

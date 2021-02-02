@@ -1,15 +1,12 @@
 import React from "react"
 import Layout from "../components/Layouts/Layout"
 import SEO from "../components/seo"
-import Navbar from "../components/Navbar"
-import Footer from "../components/Footer"
 //Pages
 
 // Components
 import Header from "../components/Header"
 import Work from "../components/Projects"
 import About from "../components/About"
-import Skills from "../components/skills"
 import Promotion from "../components/Promotion"
 import ContactInfo from "../components/ContactInfo"
 

@@ -1,6 +1,6 @@
 import React from "react"
 import Card from "../components/atoms/Card"
-import Layout from "../components/Layouts/Layout"
+//import Layout from "../components/Layouts/Layout"
 import data from "../yourdata"
 import Fade from "react-reveal/Fade"
 import Navbar from "../components/Navbar"

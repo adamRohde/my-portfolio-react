@@ -1,5 +1,5 @@
 import React from "react"
-import data from "../yourdata"
+//import data from "../yourdata"
 
 var style = {
   backgroundColor: "white",
