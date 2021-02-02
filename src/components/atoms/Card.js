@@ -1,6 +1,13 @@
 import React from "react"
 
-const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+const Card = ({
+  heading,
+  paragraph,
+  imgUrl,
+  projectLink,
+  target,
+  buttonText,
+}) => {
   return (
     <div
       className="card"
@@ -16,11 +23,11 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
         <p className="text">{paragraph}</p>
         <a
           href={projectLink ? projectLink : "#"}
-          target="_blank"
+          target={target}
           rel="noopener noreferrer"
           className="btn"
         >
-          Explore
+          {buttonText}
         </a>
       </div>
     </div>

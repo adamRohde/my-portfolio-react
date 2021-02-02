@@ -15,74 +15,108 @@ import hola from "./images/hola.jpg"
 import workprojects from "./images/work-projects.jpg"
 import webapps from "./images/web-apps.jpg"
 
+import expensetracker from "./images/expensetracker.jpg"
+import rockpaperscissors from "./images/rock-paper-scissors.jpg"
+import snakegame from "./images/snake-game.jpg"
+import calc from "./images/calculator.jpg"
+import todo from "./images/to-do.jpg"
+
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
-  //   Header Details ---------------------
   name: "Adam",
-  headerTagline: [
-    //Line 1 For Header
-    "",
-    //Line 2 For Header
-    "",
-    //Line 3 For Header
-    "",
-  ],
-  //   Header Paragraph
+  headerTagline: ["", "", ""],
+
   headerParagraph:
     "This page is a showcase of my work programming. I have been writing code for nearly 10 years working in the field of industrial automation. Recently I have gotten more into web development and have become passionate about honing my skills within this discipline.",
 
-  //Contact Email
   contactEmail: "adamrohde@outlook.com",
 
-  // End Header Details -----------------------
-
-  // Work Section ------------------------
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "Random Spanish", //Project Title - Add Your Project Title Here
-      para: "say something", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+      title: "Random Spanish",
+      para: "say something",
       imageSrc: hola,
-      //Project URL - Add Your Project Url Here
+      target: "_blank",
       url: "randomspanish.com",
+      btn_text: "Go to site",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "Web Apps", //Project Title - Add Your Project Title Here
-      para: "Say something", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+      title: "Web Apps",
+      para: "Say something",
+
       imageSrc: webapps,
-      //Project URL - Add Your Project Url Here
-      url: "",
+      target: "",
+      url: "/WebApps",
+      btn_text: "Learn More",
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Work Projects", //Project Title - Add Your Project Title Here
-      para: "Say something", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+      title: "Work Projects",
+      para: "Say something",
       imageSrc: workprojects,
-      //Project URL - Add Your Project Url Here
-      url: "",
+      target: "",
+      url: "/WorkProjects",
+      btn_text: "Learn More",
     },
   ],
 
-  // End Work Section -----------------------
+  webapps: [
+    {
+      id: 1, //DO NOT CHANGE THIS (Please)😅
+      title: "React Expense Tracker",
+      para: "say something",
+      imageSrc: expensetracker,
+      target: "_blank",
+      url: "",
+      btn_text: "See the app",
+    },
+    {
+      id: 2, //DO NOT CHANGE THIS (Please)😅
+      title: "Rock-Paper-Scissors",
+      para: "say something",
+      imageSrc: rockpaperscissors,
+      target: "_blank",
+      url: "",
+      btn_text: "See the app",
+    },
+    {
+      id: 3, //DO NOT CHANGE THIS (Please)😅
+      title: "Snake Game",
+      para: "say something",
+      imageSrc: snakegame,
+      target: "_blank",
+      url: "",
+      btn_text: "See the app",
+    },
+    {
+      id: 4, //DO NOT CHANGE THIS (Please)😅
+      title: "Calculator",
+      para: "say something",
+      imageSrc: calc,
+      target: "_blank",
+      url: "",
+      btn_text: "See the app",
+    },
+    {
+      id: 5, //DO NOT CHANGE THIS (Please)😅
+      title: "Todo",
+      para: "say something",
+      imageSrc: todo,
+      target: "_blank",
+      url: "",
+      btn_text: "See the app",
+    },
+  ],
 
-  // About Secton --------------
   aboutParaOne:
     "This page is a showcase of my work programming. I have been writing code for nearly 10 years working in the field of industrial automation. Recently I have gotten more into web development and have become passionate about honing my skills within this discipline.",
   aboutParaTwo: "",
   aboutParaThree: "",
   aboutImage: myface,
-
-  //   End About Section ---------------------
-
-  // Skills Section ---------------
-
-  //   Import Icons from the top and link it here
 
   skills: [
     {
@@ -117,27 +151,17 @@ export default {
     },
   ],
 
-  // End Skills Section --------------------------
-
-  //   Promotion Section --------------------------
-
   promotionHeading: "",
   promotionPara: "",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
-
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading:
+    "Please reach out, I would love to collaborate on your next project",
   social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/adamRohde" },
-    {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
   ],
 
   // End Contact Section ---------------
 }
-
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com

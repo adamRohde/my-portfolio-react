@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade"
 
 import data from "../yourdata"
 
-const Work = () => {
+const Projects = () => {
   return (
     <div className="section" id="work">
       <div className="container">
@@ -21,7 +21,9 @@ const Work = () => {
                   heading={project.title}
                   paragraph={project.para}
                   imgUrl={project.imageSrc}
+                  target={project.target}
                   projectLink={project.url}
+                  buttonText={project.btn_text}
                 ></Card>
               ))}
             </Fade>
@@ -32,4 +34,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Projects
