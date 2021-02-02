@@ -25,10 +25,6 @@ const ContactInfo = () => {
               </a>
             ))}
           </div>
-          <span>
-            Original template created by{" "}
-            <a href="https://www.chetanverma.com/">Chetan Verma</a>
-          </span>
         </div>
       </div>
     </div>

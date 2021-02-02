@@ -1,35 +1,41 @@
 import React from "react"
 import data from "../yourdata"
-import { ScrollView } from "react"
 
 var style = {
   backgroundColor: "white",
   borderTop: "1px solid black",
   borderBottom: "1px solid black",
-
-  textAlign: "center",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
   padding: "1rem",
   position: "fixed",
   left: "0",
   bottom: "0",
   height: "1rem",
   width: "100%",
-  color: "white",
+  color: "black",
 }
 
 var phantom = {
   display: "block",
-  padding: "20px",
-  height: "60px",
+  padding: "2px",
+  height: "6px",
   width: "100%",
+  color: "black",
 }
 
 const Footer = () => {
   return (
     <div>
       <div style={phantom} />
-      <div style={style}></div>
-      Adams Portfolio
+
+      <div style={style}>
+        <span>
+          Original template created by{" "}
+          <a href="https://www.chetanverma.com/">Chetan Verma</a>
+        </span>
+      </div>
     </div>
   )
 }
