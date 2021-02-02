@@ -156,8 +156,7 @@ export default {
   // End Promotion Section -----------------
 
   //   Contact Section --------------
-  contactSubHeading:
-    "Please reach out, I would love to collaborate on your next project",
+  contactSubHeading: "Reach out! Lets collaborate on your next project!",
   social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/adamRohde" },

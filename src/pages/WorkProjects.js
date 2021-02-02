@@ -5,7 +5,7 @@ import data from "../yourdata"
 import Fade from "react-reveal/Fade"
 import Navbar from "../components/Navbar"
 
-const WorkProjects = () => {
+const workprojects = () => {
   return (
     <>
       <Navbar></Navbar>
@@ -35,4 +35,4 @@ const WorkProjects = () => {
   )
 }
 
-export default WorkProjects
+export default workprojects

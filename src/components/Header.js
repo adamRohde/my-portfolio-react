@@ -4,7 +4,7 @@ import React from "react"
 
 const Header = () => {
   return (
-    <div className="section" id="about">
+    <div className="section">
       <div className="container">
         <div className="header-wrapper">
           {/* <Fade bottom>
