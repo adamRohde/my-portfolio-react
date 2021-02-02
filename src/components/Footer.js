@@ -3,15 +3,18 @@ import data from "../yourdata"
 import { ScrollView } from "react"
 
 var style = {
-  backgroundColor: "#F8F8F8",
-  borderTop: "1px solid #E7E7E7",
+  backgroundColor: "white",
+  borderTop: "1px solid black",
+  borderBottom: "1px solid black",
+
   textAlign: "center",
-  padding: "20px",
+  padding: "1rem",
   position: "fixed",
   left: "0",
   bottom: "0",
-  height: "60px",
+  height: "1rem",
   width: "100%",
+  color: "white",
 }
 
 var phantom = {
@@ -26,6 +29,7 @@ const Footer = () => {
     <div>
       <div style={phantom} />
       <div style={style}></div>
+      Adams Portfolio
     </div>
   )
 }

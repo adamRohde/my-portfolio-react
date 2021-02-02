@@ -50,7 +50,7 @@ export default {
 
       imageSrc: webapps,
       target: "",
-      url: "/WebApps",
+      url: "/webapps",
       btn_text: "Learn More",
     },
     {
@@ -59,7 +59,7 @@ export default {
       para: "Say something",
       imageSrc: workprojects,
       target: "",
-      url: "/WorkProjects",
+      url: "/workprojects",
       btn_text: "Learn More",
     },
   ],
