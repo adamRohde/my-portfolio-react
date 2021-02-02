@@ -8,24 +8,14 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar-wrapper">
           <div className="links-wrapper">
-            <button
-              onClick={() => {
-                scrollTo("#about")
-              }}
-            >
-              <Link className="nav-links" to="/">
-                <h3>About</h3>
-              </Link>
+            <button onClick={() => scrollTo("#header")}>
+              <h3>About</h3>
             </button>
             <button onClick={() => scrollTo("#work")}>
-              <Link className="nav-links" to="/">
-                <h3>Work</h3>
-              </Link>
+              <h3>Projects</h3>
             </button>
             <button onClick={() => scrollTo("#contact")}>
-              <Link className="nav-links" to="/">
-                <h3>Contact</h3>
-              </Link>
+              <h3>Contact</h3>
             </button>
           </div>
         </div>

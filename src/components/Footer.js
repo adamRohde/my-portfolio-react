@@ -4,7 +4,7 @@ import React from "react"
 var style = {
   backgroundColor: "white",
   borderTop: "1px solid black",
-  borderBottom: "1px solid black",
+  //borderBottom: "1px solid black",
   display: "flex",
   alignItems: "center",
   justifyContent: "center",

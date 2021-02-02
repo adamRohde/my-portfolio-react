@@ -9,9 +9,7 @@ const Projects = () => {
     <div className="section" id="work">
       <div className="container">
         <div className="work-wrapper">
-          <Fade bottom>
-            <h1>Work</h1>
-          </Fade>
+          <h2>Projects</h2>
 
           <div className="grid">
             <Fade bottom cascade>

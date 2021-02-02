@@ -9,9 +9,8 @@ const Header = () => {
         <div className="header-wrapper">
           <div className="about-section">
             <div className="content">
-              <Fade bottom cascade>
-                <h2>About Me</h2>
-              </Fade>
+              <h2>About</h2>
+
               <p>
                 {data.aboutParaOne}
                 <br></br>
