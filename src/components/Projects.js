@@ -22,6 +22,7 @@ const Projects = () => {
                   target={project.target}
                   projectLink={project.url}
                   buttonText={project.btn_text}
+                  layout={project.setLayout}
                 ></Card>
               ))}
             </Fade>

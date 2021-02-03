@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useContext } from "react"
 
 const Card = ({
   heading,
@@ -7,7 +7,10 @@ const Card = ({
   projectLink,
   target,
   buttonText,
+  layout,
 }) => {
+  console.log("This is the page context from the card ")
+
   return (
     <div
       className="card"
@@ -26,6 +29,9 @@ const Card = ({
           target={target}
           rel="noopener noreferrer"
           className="btn"
+          onClick={() => {
+            console.log("clicked")
+          }}
         >
           {buttonText}
         </a>

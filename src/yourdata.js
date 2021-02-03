@@ -37,36 +37,39 @@ export default {
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
       title: "Random Spanish",
-      para: "say something",
+      para: "",
       imageSrc: hola,
       target: "_blank",
       url: "randomspanish.com",
       btn_text: "Go to site",
+      setLayout: "0",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
       title: "Web Apps",
-      para: "Say something",
+      para: "",
 
       imageSrc: webapps,
       target: "",
       url: "/webapps",
       btn_text: "Learn More",
+      setLayout: "1",
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
       title: "Work Projects",
-      para: "Say something",
+      para: "",
       imageSrc: workprojects,
       target: "",
       url: "/workprojects",
       btn_text: "Learn More",
+      setLayout: "1",
     },
   ],
 
   webapps: [
     {
-      id: 1, //DO NOT CHANGE THIS (Please)😅
+      id: 4, //DO NOT CHANGE THIS (Please)😅
       title: "React Expense Tracker",
       para: "say something",
       imageSrc: expensetracker,
@@ -75,36 +78,36 @@ export default {
       btn_text: "See the app",
     },
     {
-      id: 2, //DO NOT CHANGE THIS (Please)😅
+      id: 5, //DO NOT CHANGE THIS (Please)😅
       title: "Rock-Paper-Scissors",
-      para: "say something",
+      para: "",
       imageSrc: rockpaperscissors,
       target: "_blank",
       url: "",
       btn_text: "See the app",
     },
     {
-      id: 3, //DO NOT CHANGE THIS (Please)😅
+      id: 6, //DO NOT CHANGE THIS (Please)😅
       title: "Snake Game",
-      para: "say something",
+      para: "",
       imageSrc: snakegame,
       target: "_blank",
       url: "",
       btn_text: "See the app",
     },
     {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
+      id: 7, //DO NOT CHANGE THIS (Please)😅
       title: "Calculator",
-      para: "say something",
+      para: "",
       imageSrc: calc,
       target: "_blank",
       url: "",
       btn_text: "See the app",
     },
     {
-      id: 5, //DO NOT CHANGE THIS (Please)😅
+      id: 8, //DO NOT CHANGE THIS (Please)😅
       title: "Todo",
-      para: "say something",
+      para: "",
       imageSrc: todo,
       target: "_blank",
       url: "",

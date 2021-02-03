@@ -4,19 +4,25 @@
  *
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
-
-import React from "react"
 import "../../styles/mains.scss"
+import React from "react"
+import { layoutContext } from "../../../provider"
 import Navbar from "../Navbar"
 import Footer from "../Footer"
 
 const Layout = ({ children }) => {
+  console.log("Current LAYOUT page number is ", layoutContext)
+
   return (
-    <>
-      <Navbar />
-      <main>{children}</main>
-      <Footer />
-    </>
+    <layoutContext.Consumer>
+      {context => (
+        <React.Fragment>
+          <Navbar layout={context.layout} />
+          <main>{children}</main>
+          <Footer />
+        </React.Fragment>
+      )}
+    </layoutContext.Consumer>
   )
 }
 export default Layout

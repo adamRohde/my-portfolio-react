@@ -1,25 +1,34 @@
-import React from "react"
+import React, { useState } from "react"
 import Layout from "../components/Layouts/Layout"
 import SEO from "../components/seo"
-//Pages
 
-// Components
 import Header from "../components/Header"
-import Work from "../components/Projects"
-//import About from "../components/About"
+import Projects from "../components/Projects"
 import Promotion from "../components/Promotion"
 import ContactInfo from "../components/ContactInfo"
 
-const IndexPage = () => (
-  <>
-    <Layout>
-      <SEO title="Adam's Portfolio" />
-      <Header></Header>
-      <Work></Work>
-      <Promotion></Promotion>
-      <ContactInfo></ContactInfo>
-    </Layout>
-  </>
-)
+import { layoutContext } from "../../provider"
+
+const IndexPage = () => {
+  return (
+    <>
+      <Layout>
+        <layoutContext.Consumer>
+          {context => (
+            <>
+              {context.changeLayout("MAIN")}
+              <SEO title="Adam's Portfolio" />
+              <Header></Header>
+
+              <Projects></Projects>
+              <Promotion></Promotion>
+              <ContactInfo></ContactInfo>
+            </>
+          )}
+        </layoutContext.Consumer>
+      </Layout>
+    </>
+  )
+}
 
 export default IndexPage

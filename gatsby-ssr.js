@@ -1,7 +1,15 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/ssr-apis/
- */
+import Provider, { layoutContext } from "./provider"
+import react, { useState } from "react"
 
-// You can delete this file if you're not using it
+export const wrapRootElement = Provider
+
+export const onRouteUpdate = ({ location, prevLocation }) => {
+  console.log("new pathname", location.pathname)
+  console.log("old pathname", prevLocation ? prevLocation.pathname : null)
+
+  return (
+    <layoutContext.Consumer>
+      {context => <>{console.log(context.layout)}</>}
+    </layoutContext.Consumer>
+  )
+}
