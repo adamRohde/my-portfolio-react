@@ -16,12 +16,16 @@ const Navbar = () => {
               <div className="links-wrapper">
                 {context.layout === "WEB_APPS" ||
                 context.layout === "WORK_PROJECTS" ? (
-                  <div>
-                    <Link to="/">
-                      {" "}
+                  <button>
+                    <Link
+                      className="nav-links"
+                      to="/"
+                      activeStyle={{ color: "transparent" }}
+                      partiallyActive={true}
+                    >
                       <h3>Back</h3>
                     </Link>
-                  </div>
+                  </button>
                 ) : null}
 
                 {context.layout == "MAIN" ? (

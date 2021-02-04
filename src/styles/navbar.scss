@@ -22,21 +22,26 @@
       outline: none;
       border: 0px;
       cursor: pointer;
+
+      h3 {
+        color: white;
+        font-style: none;
+        text-decoration: none;
+      }
+
       &:hover {
         opacity: 1;
       }
-    }
-    .nav-links {
-      text-decoration: none;
-    }
+      Link {
+        opacity: 0.6;
+        color: white;
+        font-style: none;
+        text-decoration: none;
 
-    h3 {
-      color: white;
-      font-style: none;
-      text-decoration: none;
-    }
-    .active {
-      color: black;
+        &:hover {
+          opacity: 1;
+        }
+      }
     }
   }
 }
