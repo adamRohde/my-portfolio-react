@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/Layouts/Layout"
+import LayoutWorkProjects from "../components/Layouts/layout-workprojects"
 import Card from "../components/atoms/Card"
 import data from "../yourdata"
 import Fade from "react-reveal/Fade"
@@ -8,7 +8,7 @@ import { layoutContext } from "../../provider"
 const workprojects = () => {
   return (
     <>
-      <Layout>
+      <LayoutWorkProjects>
         <layoutContext.Consumer>
           {context => (
             <>
@@ -38,7 +38,7 @@ const workprojects = () => {
             </>
           )}
         </layoutContext.Consumer>
-      </Layout>
+      </LayoutWorkProjects>
     </>
   )
 }
