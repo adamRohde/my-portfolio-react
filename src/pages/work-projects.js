@@ -76,4 +76,4 @@ const workprojects = () => {
   )
 }
 
-export default work - projects
+export default workprojects
