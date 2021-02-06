@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import LayoutWebApps from "../components/Layouts/layout-webapps"
+import LayoutMain from "../components/Layouts/layout-main"
 import Card from "../components/atoms/Card"
 import data from "../yourdata"
 import Fade from "react-reveal/Fade"
@@ -10,7 +10,7 @@ const webapps = () => {
 
   return (
     <>
-      <LayoutWebApps>
+      <LayoutMain>
         <layoutContext.Consumer>
           {context => (
             <>
@@ -40,7 +40,7 @@ const webapps = () => {
             </>
           )}
         </layoutContext.Consumer>
-      </LayoutWebApps>
+      </LayoutMain>
     </>
   )
 }
