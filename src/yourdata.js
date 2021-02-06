@@ -48,7 +48,6 @@ export default {
       id: 2, //DO NOT CHANGE THIS (Please)😅
       title: "Web Apps",
       para: "",
-
       imageSrc: webapps,
       target: "",
       url: "/webapps",

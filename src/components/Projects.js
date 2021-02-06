@@ -8,22 +8,22 @@ const Projects = () => {
   return (
     <div className="section" id="work">
       <div className="container">
-        <div className="work-wrapper">
+        <div className="projects-wrapper">
           <h2>Projects</h2>
-
-          <div className="grid">
+          <div className="projects-grid">
             <Fade bottom cascade>
               {data.projects.map(project => (
-                <Card
-                  key={project.id}
-                  heading={project.title}
-                  paragraph={project.para}
-                  imgUrl={project.imageSrc}
-                  target={project.target}
-                  projectLink={project.url}
-                  buttonText={project.btn_text}
-                  layout={project.setLayout}
-                ></Card>
+                <section className="projects-card-container">
+                  <div>
+                    <a
+                      href={project.url ? project.url : "#"}
+                      target={project.target}
+                    >
+                      <h4> {project.title}</h4>
+                    </a>
+                  </div>
+                  <Card key={project.id} imgUrl={project.imageSrc}></Card>
+                </section>
               ))}
             </Fade>
           </div>

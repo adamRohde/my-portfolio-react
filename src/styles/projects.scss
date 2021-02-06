@@ -1,0 +1,43 @@
+.projects-wrapper {
+  width: 80vw;
+  margin-top: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .projects-grid {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    @include media(">=phone", "<lgphone") {
+      grid-template-columns: 1fr;
+    }
+    @include media(">=lgphone", "<tablet") {
+      grid-template-columns: 1fr;
+    }
+    @include media(">=tablet", "<desktop") {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .projects-card-container {
+      background-color: chocolate;
+      display: flex;
+      flex-direction: column-reverse;
+      border-radius: 0.5rem;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        text-decoration: none;
+        color: white;
+        h4 {
+          opacity: 0.6;
+        }
+        h4:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

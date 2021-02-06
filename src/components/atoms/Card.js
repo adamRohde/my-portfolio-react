@@ -1,16 +1,6 @@
 import React, { useContext } from "react"
 
-const Card = ({
-  heading,
-  paragraph,
-  imgUrl,
-  projectLink,
-  target,
-  buttonText,
-  layout,
-}) => {
-  console.log("This is the page context from the card ")
-
+const Card = ({ heading, paragraph, imgUrl }) => {
   return (
     <div
       className="card"
@@ -20,23 +10,7 @@ const Card = ({
           imgUrl +
           ")",
       }}
-    >
-      <div className="content">
-        <h1 className="header">{heading}</h1>
-        <p className="text">{paragraph}</p>
-        <a
-          href={projectLink ? projectLink : "#"}
-          target={target}
-          rel="noopener noreferrer"
-          className="btn"
-          onClick={() => {
-            console.log("clicked")
-          }}
-        >
-          {buttonText}
-        </a>
-      </div>
-    </div>
+    ></div>
   )
 }
 
