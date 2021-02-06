@@ -16,7 +16,7 @@ const Projects = () => {
                 <section className="projects-card-container">
                   <div>
                     <a
-                      href={project.url ? project.url : "#"}
+                      href={project.url ? project.url : ""}
                       target={project.target}
                     >
                       <h4> {project.title}</h4>
