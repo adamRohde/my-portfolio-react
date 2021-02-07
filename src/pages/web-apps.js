@@ -11,7 +11,6 @@ const webapps = () => {
           <div className="container">
             <div className="work-wrapper">
               <h1>Web Apps</h1>
-
               <div className="grid">
                 {data.webapps.map(webapp => (
                   <Card
