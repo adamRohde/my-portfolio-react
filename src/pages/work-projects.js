@@ -1,5 +1,5 @@
 import React from "react"
-import LayoutMain from "../components/Layouts/layout-main"
+import LayoutWorkProjects from "../components/Layouts/layout-workprojects"
 import Card from "../components/atoms/Card"
 import data from "../yourdata"
 import Fade from "react-reveal/Fade"
@@ -9,7 +9,7 @@ import equipmentPicture from "../images/equipment-pic.jpg"
 const workprojects = () => {
   return (
     <>
-      <LayoutMain>
+      <LayoutWorkProjects>
         <layoutContext.Consumer>
           {context => (
             <>
@@ -71,7 +71,7 @@ const workprojects = () => {
             </>
           )}
         </layoutContext.Consumer>
-      </LayoutMain>
+      </LayoutWorkProjects>
     </>
   )
 }
