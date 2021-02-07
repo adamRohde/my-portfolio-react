@@ -17,9 +17,8 @@ const webapps = () => {
               <div className="section">
                 <div className="container">
                   <div className="work-wrapper">
-                    <Fade bottom>
-                      <h1>Web Apps</h1>
-                    </Fade>
+                    <h1>Web Apps</h1>
+
                     <div className="grid">
                       {data.webapps.map(webapp => (
                         <Card

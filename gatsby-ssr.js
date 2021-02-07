@@ -1,4 +1,3 @@
-import Provider, { layoutContext } from "./provider"
-import react, { useState } from "react"
+import Provider from "./provider"
 
 export const wrapRootElement = Provider
