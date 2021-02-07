@@ -1,6 +1,7 @@
 import React from "react"
 import Card from "./atoms/Card"
 import Fade from "react-reveal/Fade"
+
 import data from "../yourdata"
 
 const Projects = () => {
@@ -15,13 +16,23 @@ const Projects = () => {
                 <section className="projects-card-container">
                   <div>
                     <a
-                      href={project.url ? project.url : ""}
+                      key={project.id}
+                      href={project.url ? project.url : "#"}
                       target={project.target}
                     >
                       <h4> {project.title}</h4>
                     </a>
                   </div>
-                  <Card key={project.id} imgUrl={project.imageSrc}></Card>
+                  <Card
+                    key={project.id}
+                    heading={project.title}
+                    paragraph={project.para}
+                    imgUrl={project.imageSrc}
+                    target={project.target}
+                    projectLink={project.url}
+                    buttonText={project.btn_text}
+                    layout={project.setLayout}
+                  ></Card>
                 </section>
               ))}
             </Fade>
