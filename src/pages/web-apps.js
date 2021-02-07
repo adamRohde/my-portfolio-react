@@ -7,7 +7,6 @@ import { layoutContext } from "../../provider"
 
 const webapps = () => {
   console.log("layoutContext  ", layoutContext)
-
   return (
     <>
       <LayoutMain>
