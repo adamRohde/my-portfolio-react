@@ -14,16 +14,15 @@ const Projects = () => {
             <Fade bottom cascade>
               {data.projects.map(project => (
                 <section className="projects-card-container">
-                  <Card
-                    key={project.id}
-                    heading={project.title}
-                    paragraph={project.para}
-                    imgUrl={project.imageSrc}
-                    target={project.target}
-                    projectLink={project.url}
-                    buttonText={project.btn_text}
-                    layout={project.setLayout}
-                  ></Card>
+                  <div>
+                    <a
+                      href={project.url ? project.url : ""}
+                      target={project.target}
+                    >
+                      <h4> {project.title}</h4>
+                    </a>
+                  </div>
+                  <Card key={project.id} imgUrl={project.imageSrc}></Card>
                 </section>
               ))}
             </Fade>
