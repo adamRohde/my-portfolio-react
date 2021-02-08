@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/Layouts/layout"
+import Layout from "../components/Layout/layout"
 import Fade from "react-reveal/Fade"
 import { layoutContext } from "../../provider"
 import equipmentPicture from "../images/equipment-pic.jpg"

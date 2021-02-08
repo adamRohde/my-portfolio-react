@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import Layout from "../components/Layouts/layout"
+import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import Header from "../components/Home-Page/Header"
 import Projects from "../components/Home-Page/Projects"

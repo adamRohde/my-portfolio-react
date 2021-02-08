@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import Layout from "../components/Layouts/layout"
+import Layout from "../components/Layout/layout"
 import WebAppsCard from "../components/Web-Apps/web-apps-card"
 import data from "../yourdata"
 import Fade from "react-reveal/Fade"
@@ -16,8 +16,8 @@ const webapps = () => {
               {context.changeLayout("WEB_APPS")}
 
               <div className="web-apps-wrapper">
-                <h3>Web Apps</h3>
                 <div className="web-apps-intro">
+                  <h1>Web Apps</h1>
                   <p>
                     These are apps I created to help myself better understand
                     web developement. All of these apps are my own. No tutorials
@@ -45,6 +45,7 @@ const webapps = () => {
             </>
           )}
         </layoutContext.Consumer>
+        <div style={{ marginBottom: "8rem" }}></div>
       </Layout>
     </>
   )
