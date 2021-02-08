@@ -1,0 +1,67 @@
+.web-apps-wrapper {
+  width: 100%;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h3 {
+    text-decoration: underline;
+  }
+
+  .web-apps-intro {
+    display: flex;
+    height: 80%;
+    width: 80%;
+    p {
+      margin-top: 0rem;
+    }
+  }
+
+  .web-apps-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    min-height: 80%;
+    min-width: 80%;
+    // @include media(">=phone", "<lgphone") {
+    //   grid-template-columns: 1fr;
+    // }
+    // @include media(">=lgphone", "<tablet") {
+    //   grid-template-columns: 1fr;
+    // }
+    // @include media(">=tablet", "<desktop") {
+    //   grid-template-columns: 1fr 1fr;
+    // }
+
+    .web-apps-section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      .web-apps-card {
+        width: 40vw;
+        height: 20rem;
+        margin: 2rem;
+        overflow: hidden !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 1rem;
+
+        a {
+          text-decoration: none;
+          color: white;
+          h4 {
+            opacity: 0.6;
+          }
+          h4:hover {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

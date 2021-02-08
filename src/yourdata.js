@@ -33,7 +33,7 @@ export default {
 
   contactEmail: "adamrohde@outlook.com",
 
-  projects: [
+  mywork: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
       title: "Random Spanish",
@@ -70,7 +70,16 @@ export default {
     {
       id: 4, //DO NOT CHANGE THIS (Please)😅
       title: "React Expense Tracker",
-      para: "say something",
+      para:
+        "Simple app that allows you to save your expenses.  This was app was my introduction to React.",
+      technologies: [
+        "React",
+        "Functional Components",
+        "Hosted on Heroku",
+        "Bootstrap",
+        "Localstorage",
+      ],
+
       imageSrc: expensetracker,
       target: "_blank",
       url: "",
@@ -79,7 +88,15 @@ export default {
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
       title: "Rock-Paper-Scissors",
-      para: "",
+      para:
+        "Mobile friendly rock, paper, scissors game. Used CSS grid, and Flex-box to try and make responsive.",
+      technologies: [
+        "Vanilla Javascript",
+        "CSS Grid and Flexbox",
+        "Dark and light themes",
+        "Settings page for customization",
+        "Localstorage",
+      ],
       imageSrc: rockpaperscissors,
       target: "_blank",
       url: "",
@@ -88,7 +105,13 @@ export default {
     {
       id: 6, //DO NOT CHANGE THIS (Please)😅
       title: "Snake Game",
-      para: "",
+      para:
+        "My rendition of the simple game snake, where you try to eat the apple without also eating your tail or going out of bounds.",
+      technologies: [
+        "Vanilla Javascript",
+        "IEFE Functions",
+        "Localstorage to save high score",
+      ],
       imageSrc: snakegame,
       target: "_blank",
       url: "",
@@ -97,7 +120,13 @@ export default {
     {
       id: 7, //DO NOT CHANGE THIS (Please)😅
       title: "Calculator",
-      para: "",
+      para:
+        "Simple calculator app using vanilla js. The app also incorporates a dark or light theme.",
+      technologies: [
+        "Vanilla Javascript",
+        "No use of eval function",
+        "Dark and light theme",
+      ],
       imageSrc: calc,
       target: "_blank",
       url: "",
@@ -107,6 +136,7 @@ export default {
       id: 8, //DO NOT CHANGE THIS (Please)😅
       title: "Todo",
       para: "",
+      technologies: ["Vanilla Javascript", "Localstorage"],
       imageSrc: todo,
       target: "_blank",
       url: "",

@@ -1,17 +1,17 @@
 import React, { useState } from "react"
-import LayoutMain from "../components/Layouts/layout-main"
+import Layout from "../components/Layouts/layout"
 import SEO from "../components/seo"
-import Header from "../components/Header"
-import Projects from "../components/Projects"
+import Header from "../components/Home-Page/Header"
+import Projects from "../components/Home-Page/Projects"
 import Promotion from "../components/Promotion"
-import ContactInfo from "../components/ContactInfo"
+import ContactInfo from "../components/Home-Page/ContactInfo"
 
 import { layoutContext } from "../../provider"
 
 const IndexPage = () => {
   return (
     <>
-      <LayoutMain>
+      <Layout>
         <layoutContext.Consumer>
           {context => (
             <>
@@ -24,7 +24,7 @@ const IndexPage = () => {
             </>
           )}
         </layoutContext.Consumer>
-      </LayoutMain>
+      </Layout>
     </>
   )
 }

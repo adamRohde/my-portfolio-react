@@ -17,6 +17,7 @@
 
   .work-projects-grid {
     display: flex;
+    flex-direction: column;
     margin: 5vh;
     min-height: 20vh;
     min-width: 100%;

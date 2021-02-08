@@ -1,6 +1,6 @@
 import React, { useContext } from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
-import { layoutContext } from "../../provider"
+import { layoutContext } from "../../../provider"
 import Link from "gatsby-link"
 
 const Navbar = () => {

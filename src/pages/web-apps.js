@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
-import LayoutWebApps from "../components/Layouts/layout-webapps"
-import Card from "../components/atoms/Card"
+import Layout from "../components/Layouts/layout"
+import WebAppsCard from "../components/Web-Apps/web-apps-card"
 import data from "../yourdata"
 import Fade from "react-reveal/Fade"
 import { layoutContext } from "../../provider"
@@ -9,37 +9,41 @@ const webapps = () => {
   console.log("layoutContext  ", layoutContext)
   return (
     <>
-      <LayoutWebApps>
+      <Layout>
         <layoutContext.Consumer>
           {context => (
             <>
               {context.changeLayout("WEB_APPS")}
-              <div className="section">
-                <div className="container">
-                  <div className="work-wrapper">
-                    <Fade bottom>
-                      <h1>Web Apps</h1>
-                    </Fade>
-                    <div className="grid">
-                      {data.webapps.map(webapp => (
-                        <Card
-                          key={webapp.id}
-                          heading={webapp.title}
-                          paragraph={webapp.para}
-                          imgUrl={webapp.imageSrc}
-                          target={webapp.target}
-                          projectLink={webapp.url}
-                          buttonText={webapp.btn_text}
-                        ></Card>
-                      ))}
-                    </div>
-                  </div>
+
+              <div className="web-apps-wrapper">
+                <h3>Web Apps</h3>
+                <div className="web-apps-intro">
+                  <p>
+                    These are apps I created to help myself better understand
+                    web developement. All of these apps are my own. No tutorials
+                    were followed.
+                  </p>
+                </div>
+
+                <div className="web-apps-grid">
+                  {data.webapps.map(webapp => (
+                    <WebAppsCard
+                      key={webapp.id}
+                      heading={webapp.title}
+                      paragraph={webapp.para}
+                      imgUrl={webapp.imageSrc}
+                      target={webapp.target}
+                      projectLink={webapp.url}
+                      buttonText={webapp.btn_text}
+                      technologies={webapp.technologies}
+                    ></WebAppsCard>
+                  ))}
                 </div>
               </div>
             </>
           )}
         </layoutContext.Consumer>
-      </LayoutWebApps>
+      </Layout>
     </>
   )
 }

@@ -1,11 +1,10 @@
-//import "../../styles/Layouts/layout-webapps.scss"
 import "../../styles/mains.scss"
 import React from "react"
 import { layoutContext } from "../../../provider"
-import Navbar from "../Navbar"
-import Footer from "../Footer"
+import Navbar from "./Navbar"
+import Footer from "./Footer"
 
-const LayoutWebApps = ({ children }) => {
+const Layout = ({ children }) => {
   console.log("Current LAYOUT page number is ", layoutContext)
 
   return (
@@ -16,4 +15,4 @@ const LayoutWebApps = ({ children }) => {
     </React.Fragment>
   )
 }
-export default LayoutWebApps
+export default Layout

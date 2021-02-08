@@ -1,3 +1,4 @@
+import "../../styles/card.scss"
 import React, { useContext } from "react"
 
 const Card = ({

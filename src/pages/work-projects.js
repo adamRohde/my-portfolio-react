@@ -1,7 +1,5 @@
 import React from "react"
-import LayoutWorkProjects from "../components/Layouts/layout-workprojects"
-import Card from "../components/atoms/Card"
-import data from "../yourdata"
+import Layout from "../components/Layouts/layout"
 import Fade from "react-reveal/Fade"
 import { layoutContext } from "../../provider"
 import equipmentPicture from "../images/equipment-pic.jpg"
@@ -10,7 +8,7 @@ import xmlParseVideo from "../images/XML_Parser.mp4"
 const workprojects = () => {
   return (
     <>
-      <LayoutWorkProjects>
+      <Layout>
         <layoutContext.Consumer>
           {context => (
             <>
@@ -38,7 +36,7 @@ const workprojects = () => {
                           IEC 61131. This language borrows it's syntax from
                           Pascal.
                         </li>
-
+                        <br></br>
                         <li>
                           <b>HMI (Human Machine Interface)</b>. It is the
                           interface for the operator of the machine.
@@ -48,7 +46,7 @@ const workprojects = () => {
                           using more open source web technologies to create
                           these interfaces
                         </li>
-
+                        <br></br>
                         <li>
                           <b>Servo Drive/Amplifier</b>. These are used to
                           control electric servo motors (4) which are capable of
@@ -56,7 +54,7 @@ const workprojects = () => {
                           is fead back to them via the orange cable so the drive
                           knows exactly where the motor is at all times
                         </li>
-
+                        <br></br>
                         <li>
                           <b>Servo Motor</b>. These motors allow for precise
                           motion control. They are used in robotics, machines
@@ -65,11 +63,19 @@ const workprojects = () => {
                       </ul>
                     </div>
                     <div className="work-projects-grid">
-                      <h2>
-                        <video width="100%" height="100%" controls>
-                          <source src={xmlParseVideo} type={"video/mp4"} />
-                        </video>
-                      </h2>
+                      <div>
+                        <h2>XML_Parser</h2>
+                      </div>
+                      <video width="90%" height="90%" controls>
+                        <source src={xmlParseVideo} type={"video/mp4"} />
+                      </video>
+                      <br></br>
+                      <a
+                        href="https://github.com/adamRohde/OPCUA_Driversheet_Builder"
+                        target="_blank"
+                      >
+                        Github Repo
+                      </a>
                     </div>
                     <div className="work-projects-grid">Section 3</div>
                   </div>
@@ -78,7 +84,7 @@ const workprojects = () => {
             </>
           )}
         </layoutContext.Consumer>
-      </LayoutWorkProjects>
+      </Layout>
     </>
   )
 }
