@@ -37,6 +37,13 @@
     .web-apps-section {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      background-color: goldenrod;
+      margin-top: 3rem;
+      border-radius: 1rem;
+
+      .web-apps-card-description {
+        margin-left: 1rem;
+      }
 
       .web-apps-card {
         width: 40vw;
@@ -49,7 +56,6 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        border-radius: 1rem;
 
         a {
           text-decoration: none;

@@ -14,7 +14,7 @@ const WebAppsCard = ({
   return (
     <div className="web-apps-section">
       <div className="web-apps-card-description">
-        <h4 className="header">{heading}</h4>
+        <h4>{heading}</h4>
         <p>{paragraph}</p>
 
         {technologies.map(technology => (
@@ -22,6 +22,11 @@ const WebAppsCard = ({
             <li>{technology}</li>
           </ul>
         ))}
+
+        <div style={{ marginTop: "2rem" }}>
+          <button>Go to the app</button>
+          <button style={{ marginLeft: "1rem" }}>Go to repo</button>
+        </div>
       </div>
 
       <div
