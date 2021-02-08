@@ -18,17 +18,15 @@ const WebAppsCard = ({
       <div className="web-apps-card-description">
         <h4>{heading}</h4>
         <p>{paragraph}</p>
-
         {technologies.map(technology => (
           <ul>
             <li>{technology}</li>
           </ul>
         ))}
-
         <div style={{ marginTop: "2rem" }}>
           <button>
             <a href={repo_url} target={target}>
-              Go to the repo
+              Repo
             </a>
           </button>
           <button style={{ marginLeft: "1rem" }}>
@@ -40,7 +38,7 @@ const WebAppsCard = ({
       </div>
 
       <div
-        className="web-apps-card "
+        className="web-apps-card"
         style={{
           backgroundImage:
             "linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.2)),url(" +
