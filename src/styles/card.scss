@@ -1,41 +1,60 @@
-.card {
-  width: 20rem;
-  height: 20rem;
-  overflow: hidden !important;
+.projects-card-container {
+  background-color: chocolate;
   display: flex;
-  align-items: center;
+  flex-direction: column-reverse;
+  border-radius: 0.5rem;
   justify-content: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  align-items: center;
 
-  .content {
-    font-family: "Open Sans";
-    text-align: center;
-    padding: 1rem;
-    opacity: 0;
-    transition: all 500ms ease-in-out;
-    transform: translate(0, 20px);
-    cursor: pointer;
-    h1 {
-      font-size: 1rem;
-      color: white;
+  a {
+    text-decoration: none;
+    color: white;
+    h4:hover {
+      color: rgb(110, 110, 196);
     }
-    p {
-      font-size: 10px;
-      color: white;
-      margin-bottom: 20px;
-    }
+  }
 
-    .btn {
-      background-color: black;
-      color: white;
-      padding: 10px;
-      text-decoration: none;
-    }
-    &:hover {
-      opacity: 1;
-      transform: translate(0, 0px);
+  .card {
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden !important;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .content {
+      font-family: "Open Sans";
+      text-align: center;
+      padding: 1rem;
+      opacity: 0;
+      transition: all 500ms ease-in-out;
+      transform: translate(0, 20px);
+
+      cursor: pointer;
+      h1 {
+        font-size: 1rem;
+        color: white;
+      }
+      p {
+        font-size: 10px;
+        color: white;
+        margin-bottom: 20px;
+      }
+
+      .btn {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+      }
+      &:hover {
+        opacity: 1;
+        transform: translate(0, 0px);
+      }
     }
   }
 }

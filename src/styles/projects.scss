@@ -19,22 +19,5 @@
     @include media(">=tablet", "<desktop") {
       grid-template-columns: 1fr 1fr;
     }
-
-    .projects-card-container {
-      background-color: chocolate;
-      display: flex;
-      flex-direction: column-reverse;
-      border-radius: 0.5rem;
-      justify-content: center;
-      align-items: center;
-
-      a {
-        text-decoration: none;
-        color: white;
-        h4:hover {
-          color: rgb(110, 110, 196);
-        }
-      }
-    }
   }
 }

@@ -34,7 +34,7 @@ const Navbar = () => {
                       <h3>About</h3>
                     </button>
                     <button onClick={() => scrollTo("#work")}>
-                      <h3>Projects</h3>
+                      <h3>My Work</h3>
                     </button>
                     <button onClick={() => scrollTo("#contact")}>
                       <h3>Contact</h3>
