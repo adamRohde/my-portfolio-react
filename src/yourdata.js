@@ -82,8 +82,9 @@ export default {
 
       imageSrc: expensetracker,
       target: "_blank",
-      url: "",
-      btn_text: "See the app",
+      repo_url: "https://github.com/adamRohde/expense-tracker",
+      app_url: "https://expense-tracker-2020-12-30.herokuapp.com/",
+      app_btn_text: "See the app",
     },
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
@@ -99,8 +100,9 @@ export default {
       ],
       imageSrc: rockpaperscissors,
       target: "_blank",
-      url: "",
-      btn_text: "See the app",
+      repo_url: "https://github.com/adamRohde/rock-paper-scissors-responsive",
+      app_url: "https://adamrohde.github.io/rock-paper-scissors-responsive/",
+      app_btn_text: "Play!",
     },
     {
       id: 6, //DO NOT CHANGE THIS (Please)😅
@@ -114,8 +116,9 @@ export default {
       ],
       imageSrc: snakegame,
       target: "_blank",
-      url: "",
-      btn_text: "See the app",
+      repo_url: "https://github.com/adamRohde/snake",
+      app_url: "https://adamrohde.github.io/snake/",
+      app_btn_text: "Play!",
     },
     {
       id: 7, //DO NOT CHANGE THIS (Please)😅
@@ -129,8 +132,9 @@ export default {
       ],
       imageSrc: calc,
       target: "_blank",
-      url: "",
-      btn_text: "See the app",
+      repo_url: "https://github.com/adamRohde/calculator",
+      app_url: "https://adamrohde.github.io/calculator/",
+      app_btn_text: "See the app",
     },
     {
       id: 8, //DO NOT CHANGE THIS (Please)😅
@@ -139,8 +143,9 @@ export default {
       technologies: ["Vanilla Javascript", "Localstorage"],
       imageSrc: todo,
       target: "_blank",
-      url: "",
-      btn_text: "See the app",
+      repo_url: "https://github.com/adamRohde/to-do-app",
+      app_url: "https://adamrohde.github.io/to-do-app/",
+      app_btn_text: "See the app",
     },
   ],
 

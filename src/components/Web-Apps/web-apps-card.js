@@ -4,9 +4,11 @@ const WebAppsCard = ({
   heading,
   paragraph,
   imgUrl,
+  repo_url,
+  app_url,
   projectLink,
   target,
-  buttonText,
+  app_btn_text,
   technologies,
 }) => {
   console.log("This is the page context from the card ")
@@ -24,8 +26,16 @@ const WebAppsCard = ({
         ))}
 
         <div style={{ marginTop: "2rem" }}>
-          <button>Go to the app</button>
-          <button style={{ marginLeft: "1rem" }}>Go to repo</button>
+          <button>
+            <a href={repo_url} target={target}>
+              Go to the repo
+            </a>
+          </button>
+          <button style={{ marginLeft: "1rem" }}>
+            <a href={app_url} target={target}>
+              {app_btn_text}
+            </a>
+          </button>
         </div>
       </div>
 
