@@ -38,6 +38,7 @@
       box-shadow: -1rem 1rem 0.5rem #888888;
       margin: 3rem 3rem 0rem 3rem;
       border-radius: 1rem;
+      transition: all 0.2s ease-in-out;
 
       .web-apps-card {
         width: 90%;
@@ -79,6 +80,9 @@
         margin-left: 1rem;
         margin-bottom: 2rem;
       }
+    }
+    .web-apps-section:hover {
+      transform: scale(1.01);
     }
   }
 }
