@@ -1,8 +1,7 @@
 .web-apps-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 
   h3 {
     align-self: flex-start;
@@ -10,6 +9,7 @@
   }
 
   .web-apps-intro {
+    margin-left: 3rem;
     display: flex;
     flex-direction: column;
     width: 53rem;
@@ -19,17 +19,19 @@
     }
 
     @include media(">=phone", "<lgphone") {
-      width: 20rem;
+      width: 30rem;
     }
   }
 
   .web-apps-grid {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     .web-apps-section {
       display: grid;
-      height: 25rem;
+      height: auto;
       width: 53rem;
       grid-template-columns: repeat(2, 1fr);
       background-color: goldenrod;
@@ -39,8 +41,7 @@
       transition: all 0.2s ease-in-out;
 
       .web-apps-card-description {
-        margin: 1rem;
-
+        margin: 1vw;
         a {
           color: white;
         }
@@ -68,28 +69,41 @@
             opacity: 1;
           }
         }
+        @include media(">=phone", "<lgphone") {
+          max-width: 20rem;
+          height: auto;
+          margin: 1rem;
+          overflow: hidden !important;
+          display: block;
+        }
       }
-    }
-    @include media(">=phone", "<lgphone") {
-      grid-template-columns: 1fr;
-      background-color: wheat;
-      height: auto;
-      width: auto;
-      max-width: 18rem;
-      grid-template-columns: 1fr;
-    }
-    @include media(">=lgphone", "<tablet") {
-      grid-template-columns: 1fr;
-      background-color: yellow;
-      grid-template-columns: 1fr;
-    }
-    @include media(">=tablet", "<desktop") {
-      grid-template-columns: 1fr;
-      grid-template-columns: 1fr 1fr;
+      @include media(">=phone", "<lgphone") {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        max-width: 31rem;
+        height: 80vh;
+        background-color: goldenrod;
+        border-radius: 1rem;
+        transition: all 0.2s ease-in-out;
+      }
+
+      // @include media(">=lgphone", "<tablet") {
+      //   grid-template-columns: 1fr;
+      //   background-color: yellow;
+      //   grid-template-columns: 1fr;
+      // }
+      // @include media(">=tablet", "<desktop") {
+      //   background-color: wheat;
+      // }
     }
 
     .web-apps-section:hover {
       transform: scale(1.01);
     }
+  }
+  @include media(">=phone", "<lgphone") {
+    width: 130vw;
+    margin: 1rem;
+    padding: 0;
   }
 }
