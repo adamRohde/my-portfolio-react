@@ -24,16 +24,24 @@ const WebAppsCard = ({
           </ul>
         ))}
         <div style={{ marginTop: "2rem" }}>
-          <button>
-            <a href={repo_url} target={target}>
-              Repo
-            </a>
-          </button>
-          <button style={{ marginLeft: "1rem" }}>
-            <a href={app_url} target={target}>
-              {app_btn_text}
-            </a>
-          </button>
+          <a
+            type="button"
+            className="btn btn-primary"
+            href={repo_url}
+            target={target}
+          >
+            Repo
+          </a>
+
+          <a
+            href={app_url}
+            target={target}
+            type="button"
+            className="btn btn-primary"
+            style={{ marginLeft: "1rem" }}
+          >
+            {app_btn_text}
+          </a>
         </div>
       </div>
 

@@ -2,9 +2,11 @@
   width: 100%;
   position: sticky;
   top: 0;
+  padding-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  background-color: transparent;
   .name {
     font-weight: 600;
   }

@@ -1,6 +1,4 @@
 .web-apps-wrapper {
-  width: 100%;
-  margin: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,6 +38,14 @@
       border-radius: 1rem;
       transition: all 0.2s ease-in-out;
 
+      .web-apps-card-description {
+        margin: 1rem;
+
+        a {
+          color: white;
+        }
+      }
+
       .web-apps-card {
         width: 90%;
         max-height: auto;
@@ -65,20 +71,18 @@
       }
 
       @include media(">=phone", "<lgphone") {
-        height: 25rem;
-        width: 20rem;
+        background-color: wheat;
+        height: auto;
+        width: auto;
+        max-width: 18rem;
         grid-template-columns: 1fr;
       }
       @include media(">=lgphone", "<tablet") {
+        background-color: yellow;
         grid-template-columns: 1fr;
       }
       @include media(">=tablet", "<desktop") {
         grid-template-columns: 1fr 1fr;
-      }
-
-      .web-apps-card-description {
-        margin-left: 1rem;
-        margin-bottom: 2rem;
       }
     }
     .web-apps-section:hover {

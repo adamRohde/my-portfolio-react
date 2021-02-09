@@ -72,6 +72,7 @@ const workprojects = () => {
                       <br></br>
                       <a
                         href="https://github.com/adamRohde/OPCUA_Driversheet_Builder"
+                        rel="noreferrer"
                         target="_blank"
                       >
                         Github Repo

@@ -1,5 +1,4 @@
 import React from "react"
-import Card from "./Card"
 import Fade from "react-reveal/Fade"
 
 import data from "../../yourdata"
@@ -12,14 +11,24 @@ const Projects = () => {
           <h2>Projects</h2>
           <div className="projects-grid">
             {data.mywork.map(mywork => (
-              <section className="projects-card-container">
+              <a
+                className="projects-card-container"
+                href={mywork.url ? mywork.url : ""}
+                target={mywork.target}
+              >
                 <div>
-                  <a href={mywork.url ? mywork.url : ""} target={mywork.target}>
-                    <h4>{mywork.title}</h4>
-                  </a>
+                  <h5>{mywork.title}</h5>
                 </div>
-                <Card key={mywork.id} imgUrl={mywork.imageSrc}></Card>
-              </section>
+                <div
+                  className="card"
+                  style={{
+                    backgroundImage:
+                      "linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.2)),url(" +
+                      mywork.imageSrc +
+                      ")",
+                  }}
+                ></div>
+              </a>
             ))}
           </div>
         </div>

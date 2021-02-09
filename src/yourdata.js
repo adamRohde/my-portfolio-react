@@ -36,7 +36,7 @@ export default {
   mywork: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "Random Spanish",
+      title: "randomspanish.com",
       para: "",
       imageSrc: hola,
       target: "_blank",
@@ -46,7 +46,7 @@ export default {
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "Web Apps",
+      title: "Web apps",
       para: "",
       imageSrc: webapps,
       target: "",
@@ -56,7 +56,7 @@ export default {
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Work Projects",
+      title: "Work projects",
       para: "",
       imageSrc: workprojects,
       target: "",

@@ -12,7 +12,7 @@ var style = {
   position: "fixed",
   left: "0",
   bottom: "0",
-  height: "1rem",
+  height: "0.75rem",
   width: "100%",
   color: "black",
 }
@@ -20,7 +20,7 @@ var style = {
 var phantom = {
   display: "block",
   padding: "2px",
-  height: "6px",
+  height: "3px",
   width: "100%",
   color: "black",
 }
