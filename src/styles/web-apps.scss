@@ -103,9 +103,9 @@
       // }
     }
 
-    .web-apps-section:hover {
-      transform: scale(1.01);
-    }
+    // .web-apps-section:hover {
+    //   transform: scale(1.01);
+    // }
   }
   @include media(">=phone", "<lgphone") {
     width: 130vw;
