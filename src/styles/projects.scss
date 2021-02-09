@@ -35,6 +35,13 @@
   text-decoration: none;
   color: white;
 
+  h5 {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: white;
+  }
+
   .card {
     width: 20rem;
     height: 20rem;
@@ -46,17 +53,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
-    h5 {
-      font-size: 1rem;
-      margin-top: 1.5rem;
-      color: white;
-    }
-    p {
-      font-size: 10px;
-      color: white;
-      margin-bottom: 20px;
-    }
 
     .btn {
       background-color: black;
@@ -71,5 +67,7 @@
   }
 }
 .projects-card-container:hover {
+  text-decoration: none;
+  color: white;
   transform: scale(1.01);
 }

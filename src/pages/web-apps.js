@@ -17,7 +17,7 @@ const webapps = () => {
 
               <div className="web-apps-wrapper">
                 <div className="web-apps-intro">
-                  <h1>Web Apps</h1>
+                  <h2>Web Apps</h2>
                   <p>
                     These are apps I created to help myself better understand
                     web developement. All of these apps are my own. No tutorials

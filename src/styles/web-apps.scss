@@ -69,22 +69,25 @@
           }
         }
       }
-
-      @include media(">=phone", "<lgphone") {
-        background-color: wheat;
-        height: auto;
-        width: auto;
-        max-width: 18rem;
-        grid-template-columns: 1fr;
-      }
-      @include media(">=lgphone", "<tablet") {
-        background-color: yellow;
-        grid-template-columns: 1fr;
-      }
-      @include media(">=tablet", "<desktop") {
-        grid-template-columns: 1fr 1fr;
-      }
     }
+    @include media(">=phone", "<lgphone") {
+      grid-template-columns: 1fr;
+      background-color: wheat;
+      height: auto;
+      width: auto;
+      max-width: 18rem;
+      grid-template-columns: 1fr;
+    }
+    @include media(">=lgphone", "<tablet") {
+      grid-template-columns: 1fr;
+      background-color: yellow;
+      grid-template-columns: 1fr;
+    }
+    @include media(">=tablet", "<desktop") {
+      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
+    }
+
     .web-apps-section:hover {
       transform: scale(1.01);
     }

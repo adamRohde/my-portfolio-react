@@ -17,12 +17,10 @@ const workprojects = () => {
                 <div className="container">
                   <div className="work-projects-wrapper ">
                     <Fade bottom>
-                      <h1>Industrial Automation</h1>
+                      <h2>Industrial Automation</h2>
                     </Fade>
                     <section className="work-projects-intro">
-                      <a>
-                        <img src={equipmentPicture} />
-                      </a>
+                      <img src={equipmentPicture} />
                     </section>
                     <div className="work-projects-grid">
                       <ul>
