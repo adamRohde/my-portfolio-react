@@ -2,6 +2,10 @@
   width: 100%;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   h3 {
     align-self: flex-start;
@@ -9,13 +13,15 @@
   }
 
   .web-apps-intro {
-    margin-left: 3rem;
-    display: flex;
     flex-direction: column;
-    width: 53rem;
+    width: 63vw;
+    margin-top: 6vh;
     p {
+      display: flex;
+      align-items: flex-start;
       margin-top: 3vh;
-      margin-bottom: 3vh;
+      margin-bottom: 1vh;
+      width: 53vw;
     }
 
     @include media(">=phone", "<lgphone") {
@@ -31,8 +37,8 @@
 
     .web-apps-section {
       display: grid;
-      height: auto;
-      width: 53rem;
+      min-height: 45vh;
+      width: 63vw;
       grid-template-columns: repeat(2, 1fr);
       background-color: goldenrod;
       box-shadow: -1rem 1rem 0.5rem #888888;
