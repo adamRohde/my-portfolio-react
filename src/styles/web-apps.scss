@@ -1,13 +1,16 @@
 .web-apps-intro {
   margin: 3rem 1rem 2rem 1rem;
+  max-width: 900px;
 }
 
 .web-apps-card {
   width: 90vw;
+  max-width: 1024px;
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
   text-decoration: none;
   height: auto;
-  // border: 0.5rem firebrick solid;
   border-radius: 1rem;
   margin: 1rem;
   padding: 1rem;
@@ -17,11 +20,9 @@
     background-color: rgb(255, 255, 255);
     border-radius: 1rem 0 0 1rem;
     padding: 1rem;
-
     .the-buttons {
       margin: 1rem 0 0 1rem;
       justify-self: start;
-
       //Breaks at 320 - 424
       @include media(">=phone", "<lgphone") {
         margin: 0rem 0 0 1rem;
@@ -31,7 +32,6 @@
         margin: 0rem 0 0 1rem;
       }
     }
-
     //Breaks at 320 - 424
     @include media(">=phone", "<lgphone") {
     }
