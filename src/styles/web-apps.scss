@@ -1,115 +1,75 @@
-.web-apps-wrapper {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.web-apps-intro {
+  margin: 3rem 1rem 2rem 1rem;
+}
 
-  h3 {
-    align-self: flex-start;
-    text-decoration: underline;
-  }
+.web-apps-card {
+  width: 90vw;
+  display: grid;
+  text-decoration: none;
+  height: auto;
+  // border: 0.5rem firebrick solid;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
 
-  .web-apps-intro {
-    flex-direction: column;
-    width: 63vw;
-    margin-top: 6vh;
-    p {
-      display: flex;
-      align-items: flex-start;
-      margin-top: 3vh;
-      margin-bottom: 1vh;
-      width: 53vw;
-    }
+  .about {
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem 0 0 1rem;
+    padding: 1rem;
 
-    @include media(">=phone", "<lgphone") {
-      width: 30rem;
-    }
-  }
+    .the-buttons {
+      margin: 1rem 0 0 1rem;
+      justify-self: start;
 
-  .web-apps-grid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    .web-apps-section {
-      display: grid;
-      min-height: 45vh;
-      width: 63vw;
-      grid-template-columns: repeat(2, 1fr);
-      background-color: goldenrod;
-      box-shadow: -1rem 1rem 0.5rem #888888;
-      margin: 3rem 3rem 0rem 3rem;
-      border-radius: 1rem;
-      transition: all 0.2s ease-in-out;
-
-      .web-apps-card-description {
-        margin: 1vw;
-        a {
-          color: white;
-        }
-      }
-
-      .web-apps-card {
-        width: 90%;
-        max-height: auto;
-        margin: 1rem;
-        overflow: hidden !important;
-        display: block;
-        align-items: center;
-        justify-content: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-
-        a {
-          text-decoration: none;
-          color: white;
-          h4 {
-            opacity: 0.6;
-          }
-          h4:hover {
-            opacity: 1;
-          }
-        }
-        @include media(">=phone", "<lgphone") {
-          max-width: 20rem;
-          height: auto;
-          margin: 1rem;
-          overflow: hidden !important;
-          display: block;
-        }
-      }
+      //Breaks at 320 - 424
       @include media(">=phone", "<lgphone") {
-        grid-template-columns: 1fr;
-        padding: 1rem;
-        max-width: 31rem;
-        height: 80vh;
-        background-color: goldenrod;
-        border-radius: 1rem;
-        transition: all 0.2s ease-in-out;
+        margin: 0rem 0 0 1rem;
       }
-
-      // @include media(">=lgphone", "<tablet") {
-      //   grid-template-columns: 1fr;
-      //   background-color: yellow;
-      //   grid-template-columns: 1fr;
-      // }
-      // @include media(">=tablet", "<desktop") {
-      //   background-color: wheat;
-      // }
+      //Breaks at 425 - 767
+      @include media(">=lgphone", "<tablet") {
+        margin: 0rem 0 0 1rem;
+      }
     }
 
-    // .web-apps-section:hover {
-    //   transform: scale(1.01);
-    // }
+    //Breaks at 320 - 424
+    @include media(">=phone", "<lgphone") {
+    }
+    //Breaks at 425 - 767
+    @include media(">=lgphone", "<tablet") {
+    }
   }
+
+  .image {
+    border-radius: 0.5rem;
+    background-color: aqua;
+    overflow: hidden !important;
+    display: block;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    //Breaks at 320 - 424
+    @include media(">=phone", "<lgphone") {
+    }
+    //Breaks at 425 - 767
+    @include media(">=lgphone", "<tablet") {
+    }
+  }
+
+  //Breaks at 320 - 424
   @include media(">=phone", "<lgphone") {
-    width: 130vw;
-    margin: 1rem;
-    padding: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  //Breaks at 425 - 767
+  @include media(">=lgphone", "<tablet") {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  //767 and up
+  @include media(">=tablet", "<desktop") {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
   }
 }

@@ -13,35 +13,34 @@ const webapps = () => {
         <layoutContext.Consumer>
           {context => (
             <>
-              {context.changeLayout("WEB_APPS")}
-
-              <div className="web-apps-wrapper">
-                <div className="web-apps-intro">
-                  <h2>Web Apps</h2>
-                  <p>
-                    These are apps I created to help myself better understand
-                    web developement. All of these apps are my own. No tutorials
-                    were followed.
-                  </p>
-                </div>
-
-                <div className="web-apps-grid">
-                  {data.webapps.map(webapp => (
-                    <WebAppsCard
-                      key={webapp.id}
-                      heading={webapp.title}
-                      paragraph={webapp.para}
-                      imgUrl={webapp.imageSrc}
-                      repo_url={webapp.repo_url}
-                      app_url={webapp.app_url}
-                      target={webapp.target}
-                      projectLink={webapp.url}
-                      app_btn_text={webapp.app_btn_text}
-                      technologies={webapp.technologies}
-                    ></WebAppsCard>
-                  ))}
+              <div className="section">
+                <div className="container">
+                  {context.changeLayout("WEB_APPS")}
+                  <div className="web-apps-intro">
+                    <h2>Web Apps</h2>
+                    <p>
+                      These are apps I created to help myself better understand
+                      web developement. All of these apps are my own. No
+                      tutorials were followed.
+                    </p>
+                  </div>
                 </div>
               </div>
+
+              {data.webapps.map(webapp => (
+                <WebAppsCard
+                  key={webapp.id}
+                  heading={webapp.title}
+                  paragraph={webapp.para}
+                  imgUrl={webapp.imageSrc}
+                  repo_url={webapp.repo_url}
+                  app_url={webapp.app_url}
+                  target={webapp.target}
+                  projectLink={webapp.url}
+                  app_btn_text={webapp.app_btn_text}
+                  technologies={webapp.technologies}
+                ></WebAppsCard>
+              ))}
             </>
           )}
         </layoutContext.Consumer>

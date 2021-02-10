@@ -9,7 +9,7 @@
     display: grid;
     margin-top: 1rem;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 1rem;
     text-decoration: none;
 
     @include media(">=phone", "<lgphone") {
@@ -31,7 +31,6 @@
   border-radius: 0.5rem;
   justify-content: center;
   align-items: center;
-  // transition: all 0.2s ease-in-out;
   text-decoration: none;
   color: white;
 
@@ -43,8 +42,10 @@
   }
 
   .card {
-    width: 20rem;
-    height: 20rem;
+    width: 33vw;
+    height: 33vh;
+    min-width: 225px;
+    min-height: 225px;
     overflow: hidden !important;
     border-radius: 0.5rem 0.5rem 0rem 0rem;
     display: flex;
@@ -53,21 +54,5 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
-    .btn {
-      background-color: black;
-      color: white;
-      padding: 10px;
-      text-decoration: none;
-    }
-    // &:hover {
-    //   opacity: 1;
-    //   transform: translate(0, 0px);
-    // }
   }
 }
-// .projects-card-container:hover {
-//   text-decoration: none;
-//   color: white;
-//   transform: scale(1.01);
-// }
