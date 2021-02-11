@@ -1,5 +1,5 @@
 .projects-wrapper {
-  width: 80vw;
+  width: 100%;
   margin-top: 25vh;
   display: flex;
   flex-direction: column;
@@ -24,35 +24,57 @@
   }
 }
 
-.projects-card-container {
-  background-color: chocolate;
+.project-card {
+  overflow: hidden !important;
+  background-color: rgb(138, 86, 49);
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   border-radius: 0.5rem;
   justify-content: center;
   align-items: center;
   text-decoration: none;
   color: white;
 
+  .project-img {
+    width: 30vw;
+    height: 28vh;
+    overflow: hidden !important;
+
+    @include media(">=phone", "<lgphone") {
+      width: 60vw;
+      height: auto;
+    }
+    @include media(">=lgphone", "<tablet") {
+      width: 60vw;
+      height: auto;
+    }
+    @include media(">=tablet", "<desktop") {
+    }
+  }
+
   h5 {
+    text-decoration: none;
     font-size: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     color: white;
   }
-
-  .card {
-    width: 33vw;
-    height: 33vh;
-    min-width: 225px;
-    min-height: 225px;
-    overflow: hidden !important;
-    border-radius: 0.5rem 0.5rem 0rem 0rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
 }
+.project-card:hover {
+  text-decoration: none;
+}
+
+// .card {
+//   width: 33vw;
+//   height: 33vh;
+//   min-width: 225px;
+//   min-height: 225px;
+//   overflow: hidden !important;
+//   border-radius: 0.5rem 0.5rem 0rem 0rem;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
+// }

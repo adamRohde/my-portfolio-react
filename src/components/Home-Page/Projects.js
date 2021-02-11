@@ -8,26 +8,16 @@ const Projects = () => {
     <div className="section" id="work">
       <div className="container">
         <div className="projects-wrapper">
-          <h2>Projects</h2>
+          <h2>My Work</h2>
           <div className="projects-grid">
             {data.mywork.map(mywork => (
               <a
-                className="projects-card-container"
+                className="project-card"
                 href={mywork.url ? mywork.url : ""}
                 target={mywork.target}
               >
-                <div>
-                  <h5>{mywork.title}</h5>
-                </div>
-                <div
-                  className="card"
-                  style={{
-                    backgroundImage:
-                      "linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.2)),url(" +
-                      mywork.imageSrc +
-                      ")",
-                  }}
-                ></div>
+                <img className="project-img" src={mywork.imageSrc} />
+                <h5>{mywork.title}</h5>
               </a>
             ))}
           </div>
