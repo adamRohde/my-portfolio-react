@@ -1,8 +1,8 @@
 button {
   text-decoration: none;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   font-family: "Open Sans";
-  opacity: 0.6;
+  opacity: 1;
   transition: all 0.2s ease-in-out;
   font-size: 1.1rem;
   color: black;
@@ -15,12 +15,9 @@ button {
     font-style: none;
     text-decoration: none;
   }
-  h3:hover {
-    color: blue;
-  }
 
   Link {
-    opacity: 0.6;
+    opacity: 1;
     color: white;
     font-style: none;
     text-decoration: none;

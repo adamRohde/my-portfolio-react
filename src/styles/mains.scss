@@ -37,12 +37,14 @@ body {
 }
 
 .section-nav {
+  display: flex;
   width: 100%;
   background-color: firebrick;
   height: auto;
   overflow: hidden;
   position: sticky;
   top: 0;
+  justify-content: center;
 
   // width: 100%;
   // position: sticky;

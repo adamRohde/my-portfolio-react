@@ -1,6 +1,6 @@
 .about-section {
   width: 80vw;
-  margin-top: 8vh;
+  margin-top: 16vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,13 +16,17 @@
   }
   .content {
     width: 50%;
+    margin-right: 2rem;
     @include media(">=phone", "<lgphone") {
+      margin-right: 0;
       width: 100%;
     }
     @include media(">=lgphone", "<tablet") {
+      margin-right: 0;
       width: 100%;
     }
     @include media(">=tablet", "<desktop") {
+      margin-right: 0;
       width: 100%;
     }
 
@@ -43,7 +47,8 @@
     }
   }
   .image-wrapper {
-    max-width: 50%;
+    max-width: 43vw;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
