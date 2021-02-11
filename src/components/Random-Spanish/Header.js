@@ -8,10 +8,10 @@ const Header = () => {
       <div className="container">
         <div className="about-section">
           <div className="content">
-            <h2>About</h2>
+            <h2>Randomspanish.com</h2>
 
             <p>
-              {data.aboutParaMain}
+              {data.aboutParaRandomSpanish}
               <br></br>
               <br></br>
               {data.aboutParaTwo}
@@ -20,8 +20,8 @@ const Header = () => {
               {data.aboutParaThree}
             </p>
           </div>
-          <div className="image-wrapper">
-            <img src={data.aboutImage} alt="about"></img>
+          <div>
+            <img src={data.randomSpanishImage} alt="about"></img>
           </div>
         </div>
       </div>

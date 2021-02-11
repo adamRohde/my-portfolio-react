@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout/layout"
 import Fade from "react-reveal/Fade"
 import { layoutContext } from "../../provider"
+import Header from "../components/Work-Projects/Header.js"
 import equipmentPicture from "../images/equipment-pic.jpg"
 import xmlParseVideo from "../images/XML_Parser.mp4"
 
@@ -16,12 +17,7 @@ const workprojects = () => {
               <div className="section">
                 <div className="container">
                   <div className="work-projects-wrapper ">
-                    <Fade bottom>
-                      <h2>Industrial Automation</h2>
-                    </Fade>
-                    <section className="work-projects-intro">
-                      <img src={equipmentPicture} />
-                    </section>
+                    <Header />
                     <div className="work-projects-grid">
                       <ul>
                         <li>

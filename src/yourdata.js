@@ -12,9 +12,11 @@ import githubIcon from "./images/github.svg"
 
 import myface from "./images/mi-face.jpg"
 import hola from "./images/hola.jpg"
-import workprojects from "./images/work-projects.jpg"
-import webapps from "./images/web-apps.jpg"
 
+import workprojects from "./images/work-projects.jpg"
+import equipmentImage from "./images/equipment-pic.jpg"
+
+import webapps from "./images/web-apps.jpg"
 import expensetracker from "./images/expensetracker.jpg"
 import rockpaperscissors from "./images/rock-paper-scissors.jpg"
 import snakegame from "./images/snake-game.jpg"
@@ -28,9 +30,6 @@ export default {
   name: "Adam",
   headerTagline: ["", "", ""],
 
-  headerParagraph:
-    "This page is a showcase of my work programming. I have been writing code for nearly 10 years working in the field of industrial automation. Recently I have gotten more into web development and have become passionate about honing my skills within this discipline.",
-
   contactEmail: "adamrohde@outlook.com",
 
   mywork: [
@@ -39,8 +38,8 @@ export default {
       title: "randomspanish.com",
       para: "",
       imageSrc: hola,
-      target: "_blank",
-      url: "randomspanish.com",
+      target: "",
+      url: "/random-spanish",
       btn_text: "Go to site",
       setLayout: "0",
     },
@@ -149,11 +148,16 @@ export default {
     },
   ],
 
-  aboutParaOne:
+  aboutParaMain:
     "This page is a showcase of my work programming. I have been writing code for nearly 10 years working in the field of industrial automation. Recently I have gotten more into web development and have become passionate about honing my skills within this discipline.",
-  aboutParaTwo: "",
-  aboutParaThree: "",
+  aboutParaRandomSpanish:
+    "This app I created to help myself and family learn Spanish.  I wanted to a simple site that would allow users to save their own person phrases that they could later be tested on",
+  aboutWorkProjects:
+    "This page showcases some of the work I've done programming over the past 13 years.  I also discuss some basics of Industrial Automation to give some context.  ",
+
   aboutImage: myface,
+  randomSpanishImage: "",
+  workProjectsImage: equipmentImage,
 
   skills: [
     {

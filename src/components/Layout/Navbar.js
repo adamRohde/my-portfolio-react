@@ -1,7 +1,7 @@
 import React, { useContext } from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
 import { layoutContext } from "../../../provider"
-import Link from "gatsby-link"
+import Link, { navigate } from "gatsby-link"
 
 const Navbar = () => {
   console.log("Current Navbar page number is ")
@@ -14,9 +14,13 @@ const Navbar = () => {
           <div className="navbar-wrapper">
             {context.layout === "WEB_APPS" ||
             context.layout === "WORK_PROJECTS" ? (
-              <Link style={{ color: "white" }} to="/" partiallyActive={true}>
+              <button
+                style={{ color: "white" }}
+                onClick={() => navigate("/")}
+                partiallyActive={true}
+              >
                 <h3>Back</h3>
-              </Link>
+              </button>
             ) : null}
 
             {context.layout == "MAIN" ? (
