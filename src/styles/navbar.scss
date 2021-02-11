@@ -1,49 +1,28 @@
-.navbar-wrapper {
-  width: 100%;
-  position: sticky;
-  top: 0;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+button {
+  text-decoration: none;
+  padding: 1rem 1rem 1rem 1rem;
+  font-family: "Open Sans";
+  opacity: 0.6;
+  transition: all 0.2s ease-in-out;
+  font-size: 1.1rem;
+  color: black;
   background-color: transparent;
-  .name {
-    font-weight: 600;
+  outline: none;
+  border: 0px;
+
+  h3 {
+    color: white;
+    font-style: none;
+    text-decoration: none;
   }
-  .links-wrapper {
-    button {
-      text-decoration: none;
-      padding: 0rem 1rem 0rem 1rem;
-      font-family: "Open Sans";
-      opacity: 0.6;
-      transition: all 0.2s ease-in-out;
-      font-size: 1.1rem;
-      color: black;
-      background-color: transparent;
-      outline: none;
-      border: 0px;
-      cursor: pointer;
+  h3:hover {
+    color: blue;
+  }
 
-      h3 {
-        color: white;
-        font-style: none;
-        text-decoration: none;
-      }
-
-      &:hover {
-        opacity: 1;
-      }
-      Link {
-        opacity: 0.6;
-        color: white;
-        font-style: none;
-        text-decoration: none;
-
-        &:hover {
-          opacity: 1;
-        }
-      }
-    }
+  Link {
+    opacity: 0.6;
+    color: white;
+    font-style: none;
+    text-decoration: none;
   }
 }
