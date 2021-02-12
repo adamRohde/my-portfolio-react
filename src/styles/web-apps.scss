@@ -3,6 +3,24 @@
   max-width: 900px;
 }
 
+h2 {
+  font-size: 3rem;
+  line-height: 1rem;
+  margin: 3rem 0rem 3rem 0rem;
+  @include media(">=phone", "<tablet") {
+    font-size: 2rem;
+    line-height: 1rem;
+  }
+}
+p {
+  font-size: 1.2rem;
+  @include media(">=phone", "<tablet") {
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
 .web-apps-card {
   width: 90vw;
   max-width: 1024px;
@@ -11,13 +29,17 @@
   grid-template-rows: 1fr;
   text-decoration: none;
   height: auto;
-  border-radius: 1rem;
-  margin: 1rem;
-  padding: 1rem;
+  margin-bottom: 10vh;
 
+  h4 {
+    font-size: 3rem;
+    // margin: 3rem 0rem 3rem 0rem;
+    @include media(">=phone", "<tablet") {
+      font-size: 1.5rem;
+    }
+  }
   .about {
     display: grid;
-    background-color: rgb(255, 255, 255);
     border-radius: 1rem 0 0 1rem;
     padding: 1rem;
     .the-buttons {
@@ -38,6 +60,11 @@
     //Breaks at 425 - 767
     @include media(">=lgphone", "<tablet") {
     }
+
+    li {
+      list-style: none;
+      font-style: italic;
+    }
   }
 
   .image {
@@ -49,12 +76,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    //Breaks at 320 - 424
-    @include media(">=phone", "<lgphone") {
-    }
-    //Breaks at 425 - 767
-    @include media(">=lgphone", "<tablet") {
-    }
   }
 
   //Breaks at 320 - 424

@@ -14,14 +14,16 @@ const webapps = () => {
           {context => (
             <>
               <div className="section">
-                {context.changeLayout("WEB_APPS")}
-                <div className="web-apps-intro">
-                  <h2>Web Apps</h2>
-                  <p>
-                    These are apps I created to help myself better understand
-                    web developement. All of these apps are my own. No tutorials
-                    were followed.
-                  </p>
+                <div className="container">
+                  {context.changeLayout("WEB_APPS")}
+                  <div className="web-apps-intro">
+                    <h2>Web Apps</h2>
+                    <p>
+                      These are apps I created to help myself better understand
+                      web developement. All of these apps are my own. No
+                      tutorials were followed.
+                    </p>
+                  </div>
                 </div>
               </div>
 
@@ -42,6 +44,7 @@ const webapps = () => {
             </>
           )}
         </layoutContext.Consumer>
+
         <div style={{ marginBottom: "8rem" }}></div>
       </Layout>
     </>
