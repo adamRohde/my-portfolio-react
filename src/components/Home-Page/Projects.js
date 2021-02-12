@@ -11,14 +11,16 @@ const Projects = () => {
           <h2>My Work</h2>
           <div className="projects-grid">
             {data.mywork.map(mywork => (
-              <a
-                className="project-card"
-                href={mywork.url ? mywork.url : ""}
-                target={mywork.target}
-              >
-                <img className="project-img" src={mywork.imageSrc} />
-                <p>{mywork.title}</p>
-              </a>
+              <span>
+                <a
+                  className="project-card"
+                  href={mywork.url ? mywork.url : ""}
+                  target={mywork.target}
+                >
+                  <img className="project-img" src={mywork.imageSrc} />
+                  <p>{mywork.title}</p>
+                </a>
+              </span>
             ))}
           </div>
         </div>
