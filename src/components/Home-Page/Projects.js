@@ -5,8 +5,8 @@ import data from "../../yourdata"
 
 const Projects = () => {
   return (
-    <div className="section" id="work">
-      <div className="container">
+    <div className="section-main" id="work">
+      <div className="container-center">
         <div className="projects-wrapper">
           <h2>My Work</h2>
           <div className="projects-grid">
@@ -17,7 +17,7 @@ const Projects = () => {
                 target={mywork.target}
               >
                 <img className="project-img" src={mywork.imageSrc} />
-                <h5>{mywork.title}</h5>
+                <p>{mywork.title}</p>
               </a>
             ))}
           </div>

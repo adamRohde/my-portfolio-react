@@ -5,7 +5,7 @@ import data from "../yourdata"
 const Promotion = () => {
   return (
     <div className="section">
-      <div className="container">
+      <div className="container-center">
         <div className="promotion-container">
           <Fade bottom cascade>
             <h1>{data.promotionHeading}</h1>

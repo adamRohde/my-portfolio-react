@@ -1,23 +1,29 @@
 .projects-wrapper {
   width: 100%;
-  margin-top: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 
+  h2 {
+    font-size: 3rem;
+    line-height: 1rem;
+    margin: 3rem 0rem 3rem 0rem;
+    @include media(">=phone", "<tablet") {
+      font-size: 2rem;
+      line-height: 1rem;
+    }
+  }
+
   .projects-grid {
     display: grid;
-    margin-top: 1rem;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     text-decoration: none;
 
-    @include media(">=phone", "<lgphone") {
+    @include media(">=phone", "<tablet") {
       grid-template-columns: 1fr;
     }
-    @include media(">=lgphone", "<tablet") {
-      grid-template-columns: 1fr;
-    }
+
     @include media(">=tablet", "<desktop") {
       grid-template-columns: 1fr 1fr;
     }
@@ -40,41 +46,25 @@
     height: 28vh;
     overflow: hidden !important;
 
-    @include media(">=phone", "<lgphone") {
-      width: 60vw;
+    @include media(">=phone", "<tablet") {
+      width: 70vw;
       height: auto;
-    }
-    @include media(">=lgphone", "<tablet") {
-      width: 60vw;
-      height: auto;
-    }
-    @include media(">=tablet", "<desktop") {
     }
   }
 
-  h5 {
+  p {
+    font-size: 1.2rem;
     text-decoration: none;
-    font-size: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     color: white;
+    @include media(">=phone", "<tablet") {
+      text-align: justify;
+      font-size: 1rem;
+      font-weight: 500;
+    }
   }
 }
 .project-card:hover {
   text-decoration: none;
 }
-
-// .card {
-//   width: 33vw;
-//   height: 33vh;
-//   min-width: 225px;
-//   min-height: 225px;
-//   overflow: hidden !important;
-//   border-radius: 0.5rem 0.5rem 0rem 0rem;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   background-position: center;
-// }

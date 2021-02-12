@@ -4,8 +4,8 @@ import data from "../../yourdata"
 
 const Header = () => {
   return (
-    <div className="section" id="header">
-      <div className="container">
+    <div className="section-main" id="header">
+      <div className="container-center">
         <div className="about-section">
           <div className="content">
             <h2>About</h2>

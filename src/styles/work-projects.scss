@@ -6,7 +6,8 @@
   justify-content: center;
 
   .about-section {
-    margin: 8vh;
+    width: 100%;
+    margin: 5vh;
     display: grid;
     grid-template-rows: auto auto;
     align-items: center;
@@ -17,31 +18,21 @@
       max-height: auto;
       align-self: center;
 
-      p {
-        font-size: large;
-
-        @include media(">=phone", "<lgphone") {
-          font-size: small;
-        }
-        @include media(">=lgphone", "<tablet") {
-          font-size: medium;
-        }
-        @include media(">=tablet", "<desktop") {
-          font-size: large;
+      h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        @include media(">=phone", "<tablet") {
+          font-size: 2rem;
         }
       }
-      h3 {
-        margin-top: 1vh;
-        margin-bottom: 1vh;
-        font-weight: bold;
-        @include media(">=phone", "<lgphone") {
-          font-size: large;
-        }
-        @include media(">=lgphone", "<tablet") {
-          font-size: x-large;
-        }
-        @include media(">=tablet", "<desktop") {
-          font-size: xx-large;
+
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        @include media(">=phone", "<tablet") {
+          text-align: justify;
+          font-size: 1rem;
+          font-weight: 500;
         }
       }
     }
@@ -54,39 +45,19 @@
     }
   }
 
-  .work-projects-grid {
+  .definitions {
     display: flex;
     flex-direction: column;
-    margin: 5vh;
+    justify-content: center;
     min-height: 20vh;
     min-width: 100%;
-    // @include media(">=phone", "<lgphone") {
-    //   grid-template-columns: 1fr;
-    // }
-    // @include media(">=lgphone", "<tablet") {
-    //   grid-template-columns: 1fr;
-    // }
-    // @include media(">=tablet", "<desktop") {
-    //   grid-template-columns: 1fr 1fr;
-    // }
 
-    .work-projects-card-container {
-      background-color: chocolate;
-      display: flex;
-      flex-direction: column-reverse;
-      border-radius: 0.5rem;
-      justify-content: center;
-      align-items: center;
-
-      a {
-        text-decoration: none;
-        color: white;
-        h4 {
-          opacity: 0.6;
-        }
-        h4:hover {
-          opacity: 1;
-        }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      @include media(">=phone", "<tablet") {
+        text-align: justify;
+        font-size: 0.9rem;
       }
     }
   }

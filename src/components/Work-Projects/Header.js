@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <section className="about-section">
       <div className="about-wrapper">
-        <h3>Industrial Automation</h3>
+        <h2>Industrial Automation</h2>
         <p>
           {data.aboutWorkProjects}
           {/* <br></br>

@@ -18,43 +18,39 @@ const workprojects = () => {
                 <div className="container">
                   <div className="work-projects-wrapper ">
                     <Header />
-                    <div className="work-projects-grid">
-                      <ul>
-                        <li>
-                          <b>Programmable Logic Controller (PLC)</b>. It is the
-                          brains for most industrial machinery. Code is written
-                          to this device so that the machine becomes automated.
-                          The languages used for PLCs varies from vendor to
-                          vendor. I have the most experience with a language
-                          called Structured Text which is definied within the
-                          IEC 61131. This language borrows it's syntax from
-                          Pascal.
-                        </li>
-                        <br></br>
-                        <li>
-                          <b>HMI (Human Machine Interface)</b>. It is the
-                          interface for the operator of the machine.
-                          Historically the GUIs for HMIs have been written with
-                          native development environments created by the vendor
-                          of the HMI. Recently there has been a trend towards
-                          using more open source web technologies to create
-                          these interfaces
-                        </li>
-                        <br></br>
-                        <li>
-                          <b>Servo Drive/Amplifier</b>. These are used to
-                          control electric servo motors (4) which are capable of
-                          following precise motion trajectories. Position data
-                          is fead back to them via the orange cable so the drive
-                          knows exactly where the motor is at all times
-                        </li>
-                        <br></br>
-                        <li>
-                          <b>Servo Motor</b>. These motors allow for precise
-                          motion control. They are used in robotics, machines
-                          tool (CNC) and web handling applications
-                        </li>
-                      </ul>
+                    <div className="definitions">
+                      <p>
+                        <i>Programmable Logic Controller (PLC)</i>. It is the
+                        brains for most industrial machinery. Code is written to
+                        this device so that the machine becomes automated. The
+                        languages used for PLCs varies from vendor to vendor. I
+                        have the most experience with a language called
+                        Structured Text which is definied within the IEC 61131.
+                        This language borrows it's syntax from Pascal.
+                      </p>
+                      <br></br>
+                      <p>
+                        <i>HMI (Human Machine Interface)</i>. It is the
+                        interface for the operator of the machine. Historically
+                        the GUIs for HMIs have been written with native
+                        development environments created by the vendor of the
+                        HMI. Recently there has been a trend towards using more
+                        open source web technologies to create these interfaces
+                      </p>
+                      <br></br>
+                      <p>
+                        <i>Servo Drive/Amplifier</i>. These are used to control
+                        electric servo motors (4) which are capable of following
+                        precise motion trajectories. Position data is fead back
+                        to them via the orange cable so the drive knows exactly
+                        where the motor is at all times
+                      </p>
+                      <br></br>
+                      <p>
+                        <i>Servo Motor</i>. These motors allow for precise
+                        motion control. They are used in robotics, machines tool
+                        (CNC) and web handling applications
+                      </p>
                     </div>
                     <div className="work-projects-grid">
                       <div>

@@ -15,7 +15,7 @@ const WebAppsCard = ({
 
   return (
     <div className="section">
-      <div className="container">
+      <div className="container-center">
         <div className="web-apps-card">
           <h4>{heading}</h4>
           <p>{paragraph}</p>

@@ -4,12 +4,12 @@ import data from "../../yourdata"
 
 const ContactInfo = () => {
   return (
-    <div className="section" id="contact">
-      <div className="container">
+    <div className="section-main" id="contact">
+      <div className="container-center">
         <div className="footer-container">
           <Fade bottom cascade>
-            <h1>Contact</h1>
-            <h2>{data.contactSubHeading}</h2>
+            <h2>Contact</h2>
+            <h4>{data.contactSubHeading}</h4>
           </Fade>
           <a className="email-link" href={`mailto:${data.contactEmail}`}>
             {data.contactEmail}

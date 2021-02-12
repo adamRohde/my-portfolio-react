@@ -19,8 +19,7 @@ const IndexPage = () => {
               <SEO title="Adam's Portfolio" />
               <Header></Header>
               <Projects></Projects>
-              <Promotion></Promotion>
-              <ContactInfo></ContactInfo>
+              <ContactInfo style={{ marginTop: "15vh" }}></ContactInfo>
             </>
           )}
         </layoutContext.Consumer>

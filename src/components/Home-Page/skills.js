@@ -3,8 +3,8 @@ import data from "../../yourdata"
 
 const Skills = () => {
   return (
-    <div className="section">
-      <div className="container">
+    <div className="section-main">
+      <div className="container-center-center">
         <div className="skills-container">
           <h1>Skills</h1>
           <div className="skills-grid">

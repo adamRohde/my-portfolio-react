@@ -12,12 +12,12 @@ const Header = () => {
 
             <p>
               {data.aboutParaRandomSpanish}
-              <br></br>
+              {/* <br></br>
               <br></br>
               {data.aboutParaTwo}
               <br></br>
               <br></br>
-              {data.aboutParaThree}
+              {data.aboutParaThree} */}
             </p>
           </div>
           <div>
