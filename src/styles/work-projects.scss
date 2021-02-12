@@ -2,28 +2,28 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 
   .about-section {
     width: 100%;
-    margin-top: 5vh;
     display: grid;
-    grid-template-rows: auto auto;
-    align-items: center;
+    grid-template-rows: 1fr 1fr;
+    align-items: start;
+    justify-content: start;
 
     .about-wrapper {
       display: grid;
       max-width: 100%;
+      margin-top: 5vh;
+      margin-bottom: 5vh;
       max-height: auto;
       align-self: center;
 
       h2 {
         font-size: 3rem;
-        margin-bottom: 1rem;
+        line-height: 4rem;
         @include media(">=phone", "<tablet") {
           font-size: 2rem;
-          line-height: 2rem;
+          line-height: 3rem;
         }
       }
 
@@ -35,6 +35,9 @@
           font-size: 1rem;
           font-weight: 500;
         }
+      }
+      @include media(">=phone", "<tablet") {
+        margin-top: 0vh;
       }
     }
 
