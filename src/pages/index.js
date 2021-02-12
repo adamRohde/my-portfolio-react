@@ -16,7 +16,7 @@ const IndexPage = () => {
           {context => (
             <>
               {context.changeLayout("MAIN")}
-              <SEO title="Adam's Portfolio" />
+              {/* <SEO title="Adam's Portfolio" /> */}
               <Header></Header>
               <Projects></Projects>
               <ContactInfo style={{ marginTop: "15vh" }}></ContactInfo>

@@ -43,7 +43,7 @@
 
   .project-img {
     width: 30vw;
-    height: 28vh;
+    height: auto;
     overflow: hidden !important;
 
     @include media(">=phone", "<tablet") {
