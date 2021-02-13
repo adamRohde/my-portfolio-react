@@ -4,16 +4,12 @@
 }
 
 h2 {
-  font-size: 3rem;
-  line-height: 1rem;
-  margin: 3rem 0rem 3rem 0rem;
   @include media(">=phone", "<tablet") {
     font-size: 2rem;
     line-height: 1rem;
   }
 }
 p {
-  font-size: 1.2rem;
   @include media(">=phone", "<tablet") {
     text-align: justify;
     font-size: 1rem;
@@ -32,8 +28,6 @@ p {
   margin-bottom: 10vh;
 
   h4 {
-    font-size: 2rem;
-    // margin: 3rem 0rem 3rem 0rem;
     @include media(">=phone", "<tablet") {
       font-size: 1.5rem;
     }

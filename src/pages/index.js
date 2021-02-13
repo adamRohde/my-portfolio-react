@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
-import Header from "../components/Home-Page/Header"
-import Projects from "../components/Home-Page/Projects"
+import About from "../components/Home-Page/About"
+import MyWork from "../components/Home-Page/MyWork"
 import Promotion from "../components/Promotion"
 import ContactInfo from "../components/Home-Page/ContactInfo"
 
@@ -17,8 +17,8 @@ const IndexPage = () => {
             <>
               {context.changeLayout("MAIN")}
               {/* <SEO title="Adam's Portfolio" /> */}
-              <Header></Header>
-              <Projects></Projects>
+              <About></About>
+              <MyWork></MyWork>
               <ContactInfo style={{ marginTop: "15vh" }}></ContactInfo>
             </>
           )}

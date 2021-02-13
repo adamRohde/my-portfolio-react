@@ -2,9 +2,9 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../../yourdata"
 
-const Header = () => {
+const About = () => {
   return (
-    <div className="section-main" id="header">
+    <div className="section-main" id="about">
       <div className="container-center">
         <div className="about-section">
           <div className="content">
@@ -29,4 +29,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default About

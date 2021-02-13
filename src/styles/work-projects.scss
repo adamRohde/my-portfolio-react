@@ -19,8 +19,6 @@
       align-self: center;
 
       h2 {
-        font-size: 3rem;
-        line-height: 4rem;
         @include media(">=phone", "<tablet") {
           font-size: 2rem;
           line-height: 3rem;
@@ -28,8 +26,6 @@
       }
 
       p {
-        font-size: 1.2rem;
-        margin-bottom: 1rem;
         @include media(">=phone", "<tablet") {
           text-align: justify;
           font-size: 1rem;
