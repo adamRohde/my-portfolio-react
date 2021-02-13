@@ -1,5 +1,7 @@
 h2 {
+  display: flex;
   margin-bottom: 2rem;
+  justify-content: center;
   @include media(">=phone", "<tablet") {
     font-size: 2rem;
     line-height: 1rem;
@@ -34,7 +36,7 @@ h2 {
 
   .project-img {
     width: 30vw;
-    height: 35vh;
+    height: auto;
     overflow: hidden !important;
 
     @include media(">=phone", "<tablet") {
