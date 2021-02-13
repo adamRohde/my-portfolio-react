@@ -1,43 +1,41 @@
 .about-section {
-  width: 80vw;
+  width: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  @include media(">=phone", "<lgphone") {
+  @include media(">=phone", "<tablet") {
     flex-direction: column-reverse;
   }
-  @include media(">=lgphone", "<tablet") {
-    flex-direction: column-reverse;
-  }
-  @include media(">=tablet", "<desktop") {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
+
   .content {
-    width: 50%;
-    margin-right: 2rem;
+    max-width: 45vw;
+    margin-bottom: 2rem;
 
     @include media(">=phone", "<tablet") {
-      margin-right: 0;
       width: 100%;
     }
 
     h2 {
+      margin-top: 1rem;
       @include media(">=phone", "<tablet") {
-        font-size: 2rem;
-        line-height: 1rem;
+        margin-top: 2rem;
       }
     }
     p {
+      margin-right: 1.5rem;
       @include media(">=phone", "<tablet") {
         text-align: justify;
         font-size: 1rem;
         font-weight: 500;
       }
     }
+    @include media(">=phone", "<tablet") {
+      max-width: 70vw;
+      //align-self: flex-start;
+    }
   }
   .image-wrapper {
-    max-width: 43vw;
+    max-width: 50vw;
     height: auto;
     display: flex;
     align-items: center;
