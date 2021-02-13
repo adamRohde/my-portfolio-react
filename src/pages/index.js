@@ -16,10 +16,10 @@ const IndexPage = () => {
           {context => (
             <>
               {context.changeLayout("MAIN")}
-              {/* <SEO title="Adam's Portfolio" /> */}
+              <SEO title="Adam's Portfolio" />
               <About></About>
               <MyWork></MyWork>
-              <ContactInfo style={{ marginTop: "15vh" }}></ContactInfo>
+              <ContactInfo></ContactInfo>
             </>
           )}
         </layoutContext.Consumer>

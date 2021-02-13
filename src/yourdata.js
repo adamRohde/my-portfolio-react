@@ -29,7 +29,6 @@ export default {
 
   name: "Adam",
   headerTagline: ["", "", ""],
-
   contactEmail: "adamrohde@outlook.com",
 
   mywork: [
