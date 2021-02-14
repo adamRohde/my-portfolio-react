@@ -30,13 +30,20 @@
     }
 
     h1 {
-      margin-top: 1rem;
-      padding-left: 4rem;
+      margin-top: 3rem;
+      padding: 0rem 0 0rem 4rem;
       grid-row-start: 1;
-      background-color: firebrick;
+      background: rgb(178, 34, 34);
+      background: linear-gradient(
+        90deg,
+        rgba(178, 34, 34, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
       color: white;
       text-align: left;
       @include media("<tablet") {
+        background-color: firebrick;
+
         font-size: 2rem;
         padding-left: 1rem;
         padding-right: 9rem;
@@ -75,7 +82,7 @@
     grid-row-start: 1;
     grid-column: span 1;
     grid-column-start: 1;
-    margin-left: 1.5rem;
+    margin: 5rem 0 0 1.5rem;
 
     p {
       color: black;

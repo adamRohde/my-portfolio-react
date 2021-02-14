@@ -15,7 +15,7 @@ const Navbar = () => {
             {context.layout === "WEB_APPS" ||
             context.layout === "WORK_PROJECTS" ? (
               <button
-                style={{ color: "white" }}
+                style={{ justifyContent: "flex-start" }}
                 onClick={() => navigate("/")}
                 partiallyActive={true}
               >
