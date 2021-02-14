@@ -4,16 +4,19 @@
   background-size: cover;
   height: 100vh;
   width: auto;
+  max-width: 1119px;
+  max-height: 671px;
 }
 
 .about-randspan {
   width: auto;
   height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 3fr;
   grid-template-rows: 1fr 1fr;
   justify-content: center;
   align-items: center;
+  background-size: contain;
   @include media("<tablet") {
     flex-direction: column-reverse;
   }
@@ -59,10 +62,9 @@
 
   // ##################################### Image #####################################
   .image-wrapper-randspan {
-    max-width: 100vw;
-    max-height: auto;
     grid-row: span 2 / -1;
     grid-column: span 1 / -1;
+
     @include media("<tablet") {
       grid-column: span 2 / -1;
       grid-row: 1;
