@@ -7,15 +7,7 @@ const Header = () => {
     <section className="about-section">
       <div className="about-wrapper">
         <h2>Industrial Automation</h2>
-        <p>
-          {data.aboutWorkProjects}
-          {/* <br></br>
-          <br></br>
-          {data.aboutParaTwo}
-          <br></br>
-          <br></br>
-          {data.aboutParaThree} */}
-        </p>
+        <p>{data.aboutWorkProjects}</p>
       </div>
       <div className="image-wrapper">
         <img src={data.workProjectsImage} alt="about"></img>

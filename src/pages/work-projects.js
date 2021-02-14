@@ -5,6 +5,7 @@ import { layoutContext } from "../../provider"
 import Header from "../components/Work-Projects/Header.js"
 import equipmentPicture from "../images/equipment-pic.jpg"
 import xmlParseVideo from "../images/XML_Parser.mp4"
+import data from "../yourdata"
 
 const workprojects = () => {
   return (
@@ -16,8 +17,16 @@ const workprojects = () => {
               {context.changeLayout("WORK_PROJECTS")}
               <div className="section">
                 <div className="container">
+                  <div className="image-wrapper">
+                    <img src={data.workProjectsImage} alt="about"></img>
+                  </div>
                   <div className="work-projects-wrapper ">
-                    <Header />
+                    <section className="about-section">
+                      <div className="about-wrapper">
+                        <h2>Industrial Automation</h2>
+                        <p>{data.aboutWorkProjects}</p>
+                      </div>
+                    </section>
                     <div className="definitions">
                       <p>
                         <i>Programmable Logic Controller (PLC)</i>. It is the
