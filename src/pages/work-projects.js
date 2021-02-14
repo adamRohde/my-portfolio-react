@@ -3,6 +3,7 @@ import Layout from "../components/Layout/layout"
 import Fade from "react-reveal/Fade"
 import { layoutContext } from "../../provider"
 import Header from "../components/Work-Projects/Header.js"
+import Accordions from "../components/Work-Projects/Accordions.js"
 import equipmentPicture from "../images/equipment-pic.jpg"
 import xmlParseVideo from "../images/XML_Parser.mp4"
 import data from "../yourdata"
@@ -14,6 +15,7 @@ const workprojects = () => {
         <layoutContext.Consumer>
           {context => (
             <>
+              <Accordions />
               {context.changeLayout("WORK_PROJECTS")}
               <div className="section">
                 <div className="container">
@@ -24,6 +26,7 @@ const workprojects = () => {
                     <section className="about-section">
                       <div className="about-wrapper">
                         <h2>Industrial Automation</h2>
+
                         <p>{data.aboutWorkProjects}</p>
                       </div>
                     </section>
