@@ -1,5 +1,6 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
+import { Link } from "react-scroll"
 import data from "../../yourdata"
 
 const Header = () => {
@@ -38,7 +39,13 @@ const Header = () => {
             Password: mastermind
           </p>
 
-          <button className="btn btn-primary">Go to site</button>
+          <a
+            className="btn btn-primary"
+            href="https://www.randomspanish.com"
+            target="_blank"
+          >
+            Go to site
+          </a>
         </div>
       </div>
     </div>
