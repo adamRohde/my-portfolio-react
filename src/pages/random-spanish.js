@@ -13,14 +13,9 @@ const randomspanish = () => {
         <layoutContext.Consumer>
           {context => (
             <>
+              <Header />
+
               {context.changeLayout("WORK_PROJECTS")}
-              <div className="section">
-                <div className="container">
-                  <div className="work-projects-wrapper ">
-                    <Header />
-                  </div>
-                </div>
-              </div>
             </>
           )}
         </layoutContext.Consumer>

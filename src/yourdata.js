@@ -12,6 +12,7 @@ import githubIcon from "./images/github.svg"
 
 import myface from "./images/mi-face.jpg"
 import hola from "./images/hola.jpg"
+import sanmiguel from "./images/streets-of-san-miguel.jpg"
 
 import workprojects from "./images/work-projects.jpg"
 import equipmentImage from "./images/equipment-pic.jpg"
@@ -149,13 +150,12 @@ export default {
 
   aboutParaMain:
     "This page is a showcase of my work programming. I have been writing code for nearly 10 years working in the field of industrial automation. Recently I have gotten more into web development and have become passionate about honing my skills within this discipline.",
-  aboutParaRandomSpanish:
-    "This app I created to help myself and family learn Spanish.  I wanted to a simple site that would allow users to save their own person phrases that they could later be tested on",
+  aboutParaRandomSpanish: "Randomspanish.com",
   aboutWorkProjects:
     "This page showcases some of the work I've done programming over the past 13 years.  I also discuss some basics of Industrial Automation to give some context.  ",
 
   aboutImage: myface,
-  randomSpanishImage: "",
+  randomSpanishImage: sanmiguel,
   workProjectsImage: equipmentImage,
 
   skills: [

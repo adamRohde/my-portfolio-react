@@ -4,23 +4,44 @@ import data from "../../yourdata"
 
 const Header = () => {
   return (
-    <section className="about-section">
-      <div className="about-wrapper">
-        <h2>Randomspanish.com</h2>
-        <p>
-          {data.aboutParaRandomSpanish}
-          {/* <br></br>
-          <br></br>
-          {data.aboutParaTwo}
-          <br></br>
-          <br></br>
-          {data.aboutParaThree} */}
-        </p>
+    <div className="section-randspan" id="randomspanish">
+      <div className="about-randspan">
+        <div className="heading">
+          <h1>{data.aboutParaRandomSpanish}</h1>
+        </div>
+        <div className="image-wrapper">
+          <img src={data.randomSpanishImage} alt="about"></img>
+        </div>
+        <div className="description">
+          <p>
+            I built this site while learning Spanish. I was paying for a
+            subscription to a well known language learning site but I was
+            dissapointed when there was no way to save phrases that I could go
+            back to and study. So I decided to build my own site. If you would
+            like to try logging in to test the site use the credentials found at
+            the bottom of the screen
+            <br />
+            <br />
+            - React
+            <br />
+            - Graphql
+            <br />
+            - AWS Amplify
+            <br />
+            - DynamoDB
+            <br />
+            - Bootstrap
+            <br />
+            <br />
+            Username: mastermind
+            <br />
+            Password: mastermind
+          </p>
+
+          <button className="btn btn-primary">Go to site</button>
+        </div>
       </div>
-      <div className="image-wrapper">
-        <img src={data.workProjectsImage} alt="about"></img>
-      </div>
-    </section>
+    </div>
   )
 }
 

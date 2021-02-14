@@ -1,65 +1,99 @@
-.work-projects-wrapper {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#randomspanish {
+  display: block;
+  background-image: url(../images/random-spanish-background.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+
+.about-randspan {
+  width: auto;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 3fr;
   justify-content: center;
+  align-items: center;
+  @include media("<tablet") {
+    flex-direction: column-reverse;
+  }
 
-  .about-section {
-    width: 100%;
-    margin-top: 5vh;
-    display: grid;
-    grid-template-rows: auto auto;
-    align-items: center;
-
-    .about-wrapper {
-      display: grid;
-      max-width: 100%;
-      max-height: auto;
-      align-self: center;
-
-      h2 {
-        font-size: 3rem;
-        margin-bottom: 1rem;
-        @include media(">=phone", "<tablet") {
-          font-size: 1.6rem;
-          line-height: 2rem;
-        }
-      }
-
-      p {
-        font-size: 1.2rem;
-        margin-bottom: 1rem;
-        @include media(">=phone", "<tablet") {
-          text-align: justify;
-          font-size: 1rem;
-          font-weight: 500;
-        }
-      }
+  .heading {
+    margin-top: 2rem;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    z-index: 2;
+    align-self: flex-start;
+    @include media("<tablet") {
+      width: 100%;
     }
 
-    .image-wrapper {
-      margin: 0;
+    h1 {
+      margin-top: 1rem;
+      padding-left: 4rem;
+      grid-row-start: 1;
+      background-color: firebrick;
+      color: white;
+      text-align: left;
+      @include media("<tablet") {
+        font-size: 2rem;
+        padding-left: 1rem;
+        padding-right: 9rem;
+      }
+    }
+    p {
+      margin-right: 1.5rem;
+      text-align: center;
+      @include media(">=phone", "<tablet") {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    }
+    @include media("<tablet") {
+      align-self: flex-end;
+    }
+  }
+  .image-wrapper {
+    width: 100%;
+    height: 100%;
+    grid-row-start: 1;
+    grid-column: span 1 / -1;
+    @include media("<tablet") {
+      grid-column: span 2 / -1;
+    }
+
+    img {
       max-width: 100%;
-      max-height: auto;
-      border-radius: 0.5rem;
+      max-height: 100%;
+      object-fit: cover;
     }
   }
 
-  .definitions {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 20vh;
-    min-width: 100%;
+  .description {
+    grid-row-start: 1;
+    grid-column: span 1;
+    grid-column-start: 1;
+    margin-left: 1.5rem;
 
     p {
-      font-size: 1.2rem;
-      margin-bottom: 1rem;
-      @include media(">=phone", "<tablet") {
-        text-align: justify;
-        font-size: 0.9rem;
-      }
+      color: black;
     }
+
+    button {
+      margin-bottom: 5rem;
+    }
+
+    @include media("<tablet") {
+      // max-width: 70vw;
+      grid-row-start: 3;
+      grid-column: span 2;
+      margin: 1rem;
+    }
+  }
+
+  @include media(">=phone", "<tablet") {
+    // grid-template-columns: 1fr;
   }
 }
