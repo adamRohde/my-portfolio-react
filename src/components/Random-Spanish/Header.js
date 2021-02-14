@@ -10,7 +10,7 @@ const Header = () => {
         <div className="heading">
           <h1>{data.aboutParaRandomSpanish}</h1>
         </div>
-        <div className="image-wrapper">
+        <div className="image-wrapper-randspan">
           <img src={data.randomSpanishImage} alt="about"></img>
         </div>
         <div className="description">

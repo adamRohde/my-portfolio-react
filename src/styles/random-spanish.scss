@@ -11,13 +11,14 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 3fr;
+  grid-template-rows: 1fr 1fr;
   justify-content: center;
   align-items: center;
   @include media("<tablet") {
     flex-direction: column-reverse;
   }
 
+  // ##################################### Heading #####################################
   .heading {
     margin-top: 3vh;
     grid-row-start: 1;
@@ -49,38 +50,36 @@
         padding-right: 9rem;
       }
     }
-    p {
-      margin-right: 1.5rem;
-      text-align: center;
-      @include media(">=phone", "<tablet") {
-        text-align: center;
-        font-size: 1rem;
-        font-weight: 500;
-      }
-    }
+
     @include media("<tablet") {
       align-self: flex-end;
     }
   }
-  .image-wrapper {
-    width: 100%;
-    height: auto;
-    grid-row-start: 1;
+  // ##################################### Heading #####################################
+
+  // ##################################### Image #####################################
+  .image-wrapper-randspan {
+    max-width: 100vw;
+    max-height: auto;
+    grid-row: span 2 / -1;
     grid-column: span 1 / -1;
     @include media("<tablet") {
       grid-column: span 2 / -1;
+      grid-row: 1;
     }
 
     img {
       max-width: 100%;
       max-height: 100%;
-      object-fit: cover;
+      // object-fit: cover;
     }
   }
+  // ##################################### Image #####################################
 
+  // ##################################### Description #####################################
   .description {
-    grid-row-start: 1;
-    grid-column: span 1;
+    // grid-row-start: 1;
+    grid-row-start: 2;
     grid-column-start: 1;
     margin: 0vh 1.5vw 0 2.5vw;
 
@@ -88,8 +87,8 @@
       color: black;
     }
 
-    button {
-      margin-bottom: 5rem;
+    a {
+      margin-bottom: 5vh;
     }
 
     @include media("<tablet") {
@@ -99,6 +98,7 @@
       margin: 1rem;
     }
   }
+  // ##################################### Description #####################################
 
   @include media(">=phone", "<tablet") {
     // grid-template-columns: 1fr;
