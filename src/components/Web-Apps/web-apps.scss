@@ -19,6 +19,7 @@
     background-color: rgb(178, 34, 34);
     padding: 1vh 0 1vh 1vw;
     color: floralwhite;
+    border-radius: 0.5rem;
     @include media(">=phone", "<tablet") {
       font-size: 1.5rem;
     }
@@ -55,10 +56,10 @@
   }
 
   .image {
-    border-radius: 0.5rem;
     margin: 0 0 0 1vw;
     width: 100%;
     height: 100%;
+    border-radius: 0.5rem;
     overflow: hidden !important;
     display: block;
     align-items: center;
