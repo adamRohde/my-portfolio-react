@@ -9,7 +9,7 @@ const WebAppsCard = () => {
       {console.log(data)}
 
       {data.WebApps.map(webapp => (
-        <section className="web-apps-card-wrapper">
+        <section className="wa-card-wrapper">
           <div>
             <h4>{webapp.title}</h4>
             <p>{webapp.para}</p>

@@ -1,11 +1,11 @@
-import React, { useEffect } from "react"
+import React from "react"
 import Layout from "../components/Layout/layout"
+import Navbar from "../components/Layout/Navbar"
 import WebAppsCard from "../components/Web-Apps/web-apps-card"
 import Header from "../components/Web-Apps/Header"
-
-import data from "../yourdata"
-import Fade from "react-reveal/Fade"
 import { layoutContext } from "../../provider"
+// import data from "../yourdata"
+// import Fade from "react-reveal/Fade"
 
 const webapps = () => {
   console.log("layoutContext  ", layoutContext)
@@ -18,6 +18,7 @@ const webapps = () => {
               <div className="section">
                 <div className="container-center">
                   {context.changeLayout("WEB_APPS")}
+                  <Navbar />
                   <Header />
                   <WebAppsCard />
                 </div>

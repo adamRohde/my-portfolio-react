@@ -1,4 +1,4 @@
-.header-wrapper {
+.wp-header-wrapper {
   margin: 15vh 4vw 0 4vw;
   h2 {
     font-size: 3rem;
@@ -9,7 +9,7 @@
   }
 }
 
-.carousels-wrapper {
+.wp-carousels-wrapper {
   margin: 5vh 4vw 5vh 4vw;
   .carousel-item {
     width: 100%;
@@ -20,18 +20,18 @@
   }
 }
 
-.accordion-image-grid {
+.wp-accordion-image-grid {
   display: grid;
   grid-template-columns: 2fr 3fr;
 
-  .accordions-wrapper {
+  .wp-accordions-wrapper {
     width: 100%;
     .accordion {
       margin: 0vh 0.5vw 0 4vw;
     }
   }
 
-  .mainimage-wrapper {
+  .wp-mainimage-wrapper {
     margin: 0vh 4vw 0 0.5vw;
     img {
       width: 100%;

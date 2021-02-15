@@ -1,7 +1,7 @@
-import React, { useContext } from "react"
+import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
 import { layoutContext } from "../../../provider"
-import Link, { navigate } from "gatsby-link"
+import { navigate } from "gatsby-link"
 
 const Navbar = () => {
   console.log("Current Navbar page number is ")

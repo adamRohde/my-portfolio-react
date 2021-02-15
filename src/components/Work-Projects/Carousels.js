@@ -1,13 +1,13 @@
 import React, { useState } from "react"
-import Fade from "react-reveal/Fade"
 import data from "../../yourdata"
-import { Carousel, Card, Button } from "react-bootstrap"
+import { Carousel } from "react-bootstrap"
+// import Fade from "react-reveal/Fade"
 
 const Carousels = () => {
   const [open, setOpen] = useState(0)
 
   return (
-    <section className="carousels-wrapper">
+    <section className="wp-carousels-wrapper">
       <Carousel controls={false}>
         <Carousel.Item>
           <video controls>

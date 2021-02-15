@@ -1,11 +1,11 @@
 import React from "react"
-import Fade from "react-reveal/Fade"
 import data from "../../yourdata"
 import { Accordion, Card, Button } from "react-bootstrap"
+// import Fade from "react-reveal/Fade"
 
 const Accordions = () => {
   return (
-    <section className="accordions-wrapper">
+    <section className="wp-accordions-wrapper">
       {data.workProjectsEquipment.map(mywork => (
         <>
           <Accordion defaultActiveKey="0">

@@ -1,34 +1,13 @@
-// .web-apps-intro {
-//   margin: 6rem 1rem 2rem 1rem;
-// }
-
-// h2 {
-//   // background-color: firebrick;
-//   @include media(">=phone", "<tablet") {
-//     font-size: 2rem;
-//     line-height: 1rem;
-//   }
-// }
-// p {
-//   color: rgb(44, 44, 44);
-//   @include media(">=phone", "<tablet") {
-//     text-align: justify;
-//     font-size: 1rem;
-//     font-weight: 500;
-//   }
-// }
-
-.web-apps-header-wrapper {
+.wa-header-wrapper {
   margin: 15vh 4vw 5vh 4vw;
   max-width: 1024px;
 }
 
-.web-apps-card-wrapper {
-  margin: 0 0 15vh 0;
+.wa-card-wrapper {
+  margin: 0 4vw 15vh 4vw;
   background: white;
   background-size: cover;
   border-radius: 0rem;
-  width: 100%;
   max-width: 1024px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);

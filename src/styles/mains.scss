@@ -50,8 +50,8 @@ body {
 }
 
 .section-nav {
-  display: flex;
-  position: absolute;
+  display: grid;
+  grid-row-start: 1;
   width: 100%;
   background-color: rgb(109, 109, 109);
   height: auto;

@@ -3,11 +3,12 @@ import data from "../../yourdata"
 // import Fade from "react-reveal/Fade"
 // import { Link } from "react-scroll"
 
-const Header = () => {
+const MainImage = () => {
   return (
-    <div className="rs-header-wrapper">
-      <h1>{data.aboutParaRandomSpanish}</h1>
+    <div className="rs-mainimage-wrapper">
+      <img src={data.randomSpanishImage} alt="about"></img>
     </div>
   )
 }
-export default Header
+
+export default MainImage
