@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <section className="wp-header-wrapper">
       <h2>Industrial Automation</h2>
-      <p>{data.aboutWorkProjects}</p>
+      <h5>{data.aboutWorkProjects}</h5>
     </section>
   )
 }

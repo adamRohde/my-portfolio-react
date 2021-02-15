@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <section className="wa-header-wrapper">
       <h2>Web Apps</h2>
-      <p>
+      <h5>
         These are apps I created to help myself better understand web
         developement. All of these apps are my own. No tutorials were followed.
-      </p>
+      </h5>
     </section>
   )
 }
