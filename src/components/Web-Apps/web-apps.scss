@@ -4,7 +4,7 @@
 }
 
 .wa-card-wrapper {
-  margin: 0 4vw 15vh 4vw;
+  margin: 7.5vh 4vw 7.5vh 4vw;
   background: white;
   background-size: cover;
   border-radius: 0rem;
@@ -65,21 +65,17 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    //Breaks at 425 - 767
+    @include media("<tablet") {
+      margin-top: 4vh;
+    }
   }
 
-  //Breaks at 320 - 424
-  @include media(">=phone", "<lgphone") {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
   //Breaks at 425 - 767
-  @include media(">=lgphone", "<tablet") {
+  @include media("<tablet") {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }
   //767 and up
-  @include media(">=tablet", "<desktop") {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-  }
 }
