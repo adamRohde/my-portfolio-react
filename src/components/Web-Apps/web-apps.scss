@@ -1,41 +1,43 @@
-.web-apps-intro {
-  margin: 6rem 1rem 2rem 1rem;
-}
+// .web-apps-intro {
+//   margin: 6rem 1rem 2rem 1rem;
+// }
 
-h2 {
-  // background-color: firebrick;
-  @include media(">=phone", "<tablet") {
-    font-size: 2rem;
-    line-height: 1rem;
-  }
-}
-p {
-  color: rgb(44, 44, 44);
-  @include media(">=phone", "<tablet") {
-    text-align: justify;
-    font-size: 1rem;
-    font-weight: 500;
-  }
+// h2 {
+//   // background-color: firebrick;
+//   @include media(">=phone", "<tablet") {
+//     font-size: 2rem;
+//     line-height: 1rem;
+//   }
+// }
+// p {
+//   color: rgb(44, 44, 44);
+//   @include media(">=phone", "<tablet") {
+//     text-align: justify;
+//     font-size: 1rem;
+//     font-weight: 500;
+//   }
+// }
+
+.web-apps-header-wrapper {
+  margin: 15vh 4vw 5vh 4vw;
+  max-width: 1024px;
 }
 
 .web-apps-card-wrapper {
+  margin: 0 0 15vh 0;
   background: white;
-  // background-image: url("../images/web-apps-background.jpg");
   background-size: cover;
   border-radius: 0rem;
-  width: 90vw;
+  width: 100%;
   max-width: 1024px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   text-decoration: none;
-  margin-bottom: 5vh;
 
   h4 {
     background-color: rgb(178, 34, 34);
-    padding-bottom: 1vh;
-    padding-top: 1vh;
-    padding-left: 1vh;
+    padding: 1vh 0 1vh 1vw;
     color: floralwhite;
     @include media(">=phone", "<tablet") {
       font-size: 1.5rem;
@@ -74,7 +76,7 @@ p {
 
   .image {
     border-radius: 0.5rem;
-    margin: 1rem;
+    margin: 0 0 0 1vw;
     width: 100%;
     height: 100%;
     overflow: hidden !important;
