@@ -24,6 +24,8 @@ import snakegame from "./images/snake-game.jpg"
 import calc from "./images/calculator.jpg"
 import todo from "./images/to-do.jpg"
 
+import XML_Parser from "./images/XML_Parser.mp4"
+
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -186,10 +188,35 @@ export default {
     },
   ],
 
-  //################################################ About Sections  ################################################
-  //################################################ About Sections  ################################################
-  //################################################ About Sections  ################################################
+  //################################################ Carousel Vids  ################################################
+  //################################################ Carousel Vids  ################################################
+  //################################################ Carousel Vids  ################################################
+  carouselVids: [
+    {
+      id: 13,
+      name: "Parsing XML data in VBA",
+      src: XML_Parser,
+    },
+    {
+      id: 14,
+      name: "C# application for automating machine startup",
+      src: workprojects,
+    },
+    {
+      id: 15,
+      name: "Android app for polling data",
+      src: webapps,
+    },
+    {
+      id: 16,
+      name: "C programming for machine diagnostics",
+      src: hola,
+    },
+  ],
 
+  //################################################ About Sections  ################################################
+  //################################################ About Sections  ################################################
+  //################################################ About Sections  ################################################
   aboutParaMain:
     "This page is a showcase of my work programming. I have been writing code for nearly 10 years working in the field of industrial automation. Recently I have gotten more into web development and have become passionate about honing my skills within this discipline.",
   aboutParaRandomSpanish: "Randomspanish.com",

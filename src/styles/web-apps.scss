@@ -4,13 +4,14 @@
 }
 
 h2 {
+  // background-color: firebrick;
   @include media(">=phone", "<tablet") {
     font-size: 2rem;
     line-height: 1rem;
   }
 }
 p {
-  color: rgb(117, 117, 117);
+  color: rgb(44, 44, 44);
   @include media(">=phone", "<tablet") {
     text-align: justify;
     font-size: 1rem;
@@ -20,7 +21,9 @@ p {
 
 .web-apps-card {
   background: white;
-  border-radius: 1rem;
+  // background-image: url("../images/web-apps-background.jpg");
+  background-size: cover;
+  border-radius: 0rem;
   width: 90vw;
   max-width: 1024px;
   display: grid;
@@ -28,9 +31,14 @@ p {
   grid-template-rows: 1fr;
   text-decoration: none;
   height: auto;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 
   h4 {
+    background-color: rgb(178, 34, 34);
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    padding-left: 1vh;
+    color: floralwhite;
     @include media(">=phone", "<tablet") {
       font-size: 1.5rem;
     }
@@ -39,6 +47,7 @@ p {
     display: grid;
     border-radius: 1rem 0 0 1rem;
     padding: 1rem;
+
     .the-buttons {
       margin: 1rem 0 0 1rem;
       justify-self: start;
@@ -59,7 +68,7 @@ p {
     }
 
     li {
-      color: rgb(68, 68, 68);
+      color: rgb(0, 0, 0);
       list-style: none;
       font-style: italic;
     }
