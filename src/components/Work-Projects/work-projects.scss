@@ -9,14 +9,6 @@
   }
 }
 
-.mainimage-wrapper {
-  margin: 0vh 4vw 0 4vw;
-  img {
-    width: 100%;
-    height: auto;
-  }
-}
-
 .carousels-wrapper {
   margin: 5vh 4vw 5vh 4vw;
   .carousel-item {
@@ -28,10 +20,26 @@
   }
 }
 
-.accordions-wrapper {
-  width: 100%;
-  .accordion {
-    margin: 0vh 4vw 0 4vw;
+.accordion-image-grid {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+
+  .accordions-wrapper {
+    width: 100%;
+    .accordion {
+      margin: 0vh 0.5vw 0 4vw;
+    }
+  }
+
+  .mainimage-wrapper {
+    margin: 0vh 4vw 0 0.5vw;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  @include media("<tablet") {
+    grid-template-columns: 1fr;
   }
 }
 

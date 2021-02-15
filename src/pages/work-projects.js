@@ -20,8 +20,10 @@ const workprojects = () => {
               <div className="section">
                 <div className="container-center">
                   <Header />
-                  <MainImage />
-                  <Accordions />
+                  <div className="accordion-image-grid">
+                    <Accordions />
+                    <MainImage />
+                  </div>
                   <Carousels />
                 </div>
               </div>
