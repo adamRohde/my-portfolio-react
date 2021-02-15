@@ -1,6 +1,6 @@
 import React from "react"
 import data from "../../yourdata"
-import { Accordion, Card, Button } from "react-bootstrap"
+import { Accordion, useAccordionToggle, Card, Button } from "react-bootstrap"
 // import Fade from "react-reveal/Fade"
 
 const Accordions = () => {
@@ -12,6 +12,10 @@ const Accordions = () => {
             <Card>
               <Card.Header>
                 <Accordion.Toggle
+                  style={{
+                    color: "black",
+                    textDecoration: "none",
+                  }}
                   as={Button}
                   variant="link"
                   eventKey={mywork.id}
