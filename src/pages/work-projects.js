@@ -6,6 +6,8 @@ import Accordions from "../components/Work-Projects/Accordions.js"
 import xmlParseVideo from "../images/XML_Parser.mp4"
 import data from "../yourdata"
 import Carousels from "../components/Work-Projects/Carousels"
+import Header from "../components/Work-Projects/Header"
+import MainImage from "../components/Work-Projects/MainImage"
 
 const workprojects = () => {
   return (
@@ -16,28 +18,11 @@ const workprojects = () => {
             <>
               {context.changeLayout("WORK_PROJECTS")}
               <div className="section">
-                <div className="container">
-                  <h2 style={{ marginTop: "10vh" }}>Industrial Automation</h2>
-                  <p>{data.aboutWorkProjects}</p>
-                  <div className="image-wrapper">
-                    <img src={data.workProjectsImage} alt="about"></img>
-                    <Accordions />
-                  </div>
-                  <div className="work-projects-carousel">
-                    <Carousels />
-
-                    {/* <video width="100%" height="auto" controls>
-                      <source src={xmlParseVideo} type={"video/mp4"} />
-                    </video>
-                    <br></br>
-                    <a
-                      href="https://github.com/adamRohde/OPCUA_Driversheet_Builder"
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      Github Repo
-                    </a> */}
-                  </div>
+                <div className="container-center">
+                  <Header />
+                  <MainImage />
+                  <Accordions />
+                  <Carousels />
                 </div>
               </div>
             </>

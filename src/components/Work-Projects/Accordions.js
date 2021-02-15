@@ -1,13 +1,11 @@
-import React, { useState } from "react"
+import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../../yourdata"
 import { Accordion, Card, Button } from "react-bootstrap"
 
 const Accordions = () => {
-  const [open, setOpen] = useState(0)
-
   return (
-    <>
+    <section className="accordions-wrapper">
       {data.workProjectsEquipment.map(mywork => (
         <>
           <Accordion defaultActiveKey="0">
@@ -28,7 +26,7 @@ const Accordions = () => {
           </Accordion>
         </>
       ))}
-    </>
+    </section>
   )
 }
 

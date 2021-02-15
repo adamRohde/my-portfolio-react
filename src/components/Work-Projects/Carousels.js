@@ -7,10 +7,10 @@ const Carousels = () => {
   const [open, setOpen] = useState(0)
 
   return (
-    <>
+    <section className="carousels-wrapper">
       <Carousel controls={false}>
         <Carousel.Item>
-          <video width="100%" height="auto" controls>
+          <video controls>
             <source src={data.carouselVids[0].src} type={"video/mp4"} />
           </video>
 
@@ -19,7 +19,7 @@ const Carousels = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </>
+    </section>
   )
 }
 

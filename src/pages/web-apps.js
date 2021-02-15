@@ -24,23 +24,9 @@ const webapps = () => {
                       tutorials were followed.
                     </p>
                   </div>
+                  <WebAppsCard />
                 </div>
               </div>
-
-              {data.webapps.map(webapp => (
-                <WebAppsCard
-                  key={webapp.id}
-                  heading={webapp.title}
-                  paragraph={webapp.para}
-                  imgUrl={webapp.imageSrc}
-                  repo_url={webapp.repo_url}
-                  app_url={webapp.app_url}
-                  target={webapp.target}
-                  projectLink={webapp.url}
-                  app_btn_text={webapp.app_btn_text}
-                  technologies={webapp.technologies}
-                ></WebAppsCard>
-              ))}
             </>
           )}
         </layoutContext.Consumer>
