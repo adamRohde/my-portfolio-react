@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import "./include-media.scss";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
+
 // Components
 @import "./navbar.scss";
 @import "./about.scss";
@@ -32,7 +33,7 @@ body {
 }
 
 #about {
-  padding-top: 10vh;
+  padding-top: 12vh;
   padding-bottom: 22vh;
 }
 
@@ -49,6 +50,7 @@ body {
 
 .section-nav {
   display: flex;
+  position: absolute;
   width: 100%;
   background-color: rgb(109, 109, 109);
   height: auto;

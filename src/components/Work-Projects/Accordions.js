@@ -1,43 +1,34 @@
-import React from "react"
+import React, { useState } from "react"
 import Fade from "react-reveal/Fade"
 import data from "../../yourdata"
+import { Accordion, Card, Button } from "react-bootstrap"
 
 const Accordions = () => {
+  const [open, setOpen] = useState(0)
+
   return (
-    <div classname="accordion" id="accordionExample">
-      <div classname="accordion-item">
-        <h6 classname="accordion-header" id="headingOne">
-          <button
-            classname="accordion-button"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#collapseOne"
-            aria-expanded="true"
-            aria-controls="collapseOne"
-          >
-            Accordion Item #1
-          </button>
-        </h6>
-        <div
-          id="collapseOne"
-          classname="accordion-collapse collapse show"
-          aria-labelledby="headingOne"
-          data-bs-parent="#accordionExample"
-        >
-          <div classname="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is
-            hidden by default, until the collapse plugin adds the appropriate
-            classnamees that we use to style each element. These classnamees
-            control the overall appearance, as well as the showing and hiding
-            via CSS transitions. You can modify any of this with custom CSS or
-            overriding our default variables. It's also worth noting that just
-            about any HTML can go within the <code>.accordion-body</code>,
-            though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-      <button className="btn btn-success">test button</button>
-    </div>
+    <>
+      {data.workProjectsEquipment.map(mywork => (
+        <>
+          <Accordion defaultActiveKey="0">
+            <Card>
+              <Card.Header>
+                <Accordion.Toggle
+                  as={Button}
+                  variant="link"
+                  eventKey={mywork.id}
+                >
+                  {mywork.name}
+                </Accordion.Toggle>
+              </Card.Header>
+              <Accordion.Collapse eventKey={mywork.id}>
+                <Card.Body> {mywork.description}</Card.Body>
+              </Accordion.Collapse>
+            </Card>
+          </Accordion>
+        </>
+      ))}
+    </>
   )
 }
 

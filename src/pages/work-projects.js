@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import Layout from "../components/Layout/layout"
 import Fade from "react-reveal/Fade"
 import { layoutContext } from "../../provider"
@@ -15,72 +15,30 @@ const workprojects = () => {
         <layoutContext.Consumer>
           {context => (
             <>
-              <Accordions />
               {context.changeLayout("WORK_PROJECTS")}
               <div className="section">
                 <div className="container">
+                  <h2 style={{ marginTop: "10vh" }}>Industrial Automation</h2>
+                  <p>{data.aboutWorkProjects}</p>
                   <div className="image-wrapper">
                     <img src={data.workProjectsImage} alt="about"></img>
+                    <Accordions />
                   </div>
-                  <div className="work-projects-wrapper ">
-                    <section className="about-section">
-                      <div className="about-wrapper">
-                        <h2>Industrial Automation</h2>
-
-                        <p>{data.aboutWorkProjects}</p>
-                      </div>
-                    </section>
-                    <div className="definitions">
-                      <p>
-                        <i>Programmable Logic Controller (PLC)</i>. It is the
-                        brains for most industrial machinery. Code is written to
-                        this device so that the machine becomes automated. The
-                        languages used for PLCs varies from vendor to vendor. I
-                        have the most experience with a language called
-                        Structured Text which is definied within the IEC 61131.
-                        This language borrows it's syntax from Pascal.
-                      </p>
-                      <br></br>
-                      <p>
-                        <i>HMI (Human Machine Interface)</i>. It is the
-                        interface for the operator of the machine. Historically
-                        the GUIs for HMIs have been written with native
-                        development environments created by the vendor of the
-                        HMI. Recently there has been a trend towards using more
-                        open source web technologies to create these interfaces
-                      </p>
-                      <br></br>
-                      <p>
-                        <i>Servo Drive/Amplifier</i>. These are used to control
-                        electric servo motors (4) which are capable of following
-                        precise motion trajectories. Position data is fead back
-                        to them via the orange cable so the drive knows exactly
-                        where the motor is at all times
-                      </p>
-                      <br></br>
-                      <p>
-                        <i>Servo Motor</i>. These motors allow for precise
-                        motion control. They are used in robotics, machines tool
-                        (CNC) and web handling applications
-                      </p>
+                  <div className="work-projects-grid">
+                    <div>
+                      <h2>Fix Me!</h2>
                     </div>
-                    <div className="work-projects-grid">
-                      <div>
-                        <h2>Fix Me!</h2>
-                      </div>
-                      <video width="90%" height="90%" controls>
-                        <source src={xmlParseVideo} type={"video/mp4"} />
-                      </video>
-                      <br></br>
-                      <a
-                        href="https://github.com/adamRohde/OPCUA_Driversheet_Builder"
-                        rel="noreferrer"
-                        target="_blank"
-                      >
-                        Github Repo
-                      </a>
-                    </div>
-                    <div className="work-projects-grid">Section 3</div>
+                    <video width="100%" height="auto" controls>
+                      <source src={xmlParseVideo} type={"video/mp4"} />
+                    </video>
+                    <br></br>
+                    <a
+                      href="https://github.com/adamRohde/OPCUA_Driversheet_Builder"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      Github Repo
+                    </a>
                   </div>
                 </div>
               </div>

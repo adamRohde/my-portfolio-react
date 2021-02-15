@@ -17,7 +17,6 @@ const Navbar = () => {
               <button
                 style={{ justifyContent: "flex-start" }}
                 onClick={() => navigate("/")}
-                partiallyActive={true}
               >
                 <h3>Back</h3>
               </button>

@@ -32,6 +32,9 @@ export default {
   headerTagline: ["", "", ""],
   contactEmail: "adamrohde@outlook.com",
 
+  //################################################ My Work Main  ################################################
+  //################################################ My Work Main  ################################################
+  //################################################ My Work Main  ################################################
   mywork: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
@@ -64,6 +67,10 @@ export default {
       setLayout: "1",
     },
   ],
+
+  //################################################ Web Apps  ################################################
+  //################################################ Web Apps  ################################################
+  //################################################ Web Apps  ################################################
 
   webapps: [
     {
@@ -148,6 +155,41 @@ export default {
     },
   ],
 
+  //################################################ Work Equipment  ################################################
+  //################################################ Work Equipment  ################################################
+  //################################################ Work Equipment  ################################################
+
+  workProjectsEquipment: [
+    {
+      id: 9,
+      name: "1) PLC (Programmable Logic Controller)",
+      description:
+        "It is the brains for most industrial machinery. Code is written to this device so that the machine becomes automated. The languages used for PLCs varies from vendor to vendor. I have the most experience with a language called Structured Text which is definied within the IEC 61131. This language borrows it's syntax from Pascal.",
+    },
+    {
+      id: 10,
+      name: "2) HMI (Human Machine Interface)",
+      description:
+        "It is the interface for the operator of the machine. Historically the GUIs for HMIs have been written with native development environments created by the vendor of the HMI. Recently there has been a trend towards using more open source web technologies to create these interfaces.",
+    },
+    {
+      id: 11,
+      name: "3) Servo Drive/Amplifier",
+      description:
+        "These are used to control electric servo motors (4) which are capable of following precise motion trajectories. Position data is fead back to them via the orange cable so the drive knows exactly where the motor is at all times.",
+    },
+    {
+      id: 12,
+      name: "4) Servo Motor",
+      description:
+        "These motors allow for precise motion control. They are used in robotics, machines tool (CNC) and web handling applications",
+    },
+  ],
+
+  //################################################ About Sections  ################################################
+  //################################################ About Sections  ################################################
+  //################################################ About Sections  ################################################
+
   aboutParaMain:
     "This page is a showcase of my work programming. I have been writing code for nearly 10 years working in the field of industrial automation. Recently I have gotten more into web development and have become passionate about honing my skills within this discipline.",
   aboutParaRandomSpanish: "Randomspanish.com",
@@ -157,6 +199,10 @@ export default {
   aboutImage: myface,
   randomSpanishImage: sanmiguel,
   workProjectsImage: equipmentImage,
+
+  //################################################ Skills  ################################################
+  //################################################ Skills  ################################################
+  //################################################ Skills  ################################################
 
   skills: [
     {

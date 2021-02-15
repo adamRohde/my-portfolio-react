@@ -3,9 +3,7 @@ import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import About from "../components/Home-Page/About"
 import MyWork from "../components/Home-Page/MyWork"
-import Promotion from "../components/Promotion"
 import ContactInfo from "../components/Home-Page/ContactInfo"
-
 import { layoutContext } from "../../provider"
 
 const IndexPage = () => {
