@@ -8,7 +8,10 @@ const Header = () => {
       <h2>Web Apps</h2>
       <h5>
         These are apps I created to help myself better understand web
-        developement. All of these apps are my own. No tutorials were followed.
+        developement. All of{" "}
+        <strong style={{ color: "black" }}>
+          these apps are my own. No tutorials were followed.
+        </strong>
       </h5>
     </section>
   )
