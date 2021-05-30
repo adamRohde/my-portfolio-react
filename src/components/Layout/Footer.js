@@ -8,8 +8,9 @@ const Footer = () => {
 
       <div>
         <span>
-          Original template created by{" "}
-          <a href="https://www.chetanverma.com/">Chetan Verma</a>
+          <div className="footer">
+            <p>Copyright &copy; 2021 RippledWater.com - All Rights Reseved.</p>{" "}
+          </div>
         </span>
       </div>
     </div>

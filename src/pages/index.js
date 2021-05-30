@@ -5,6 +5,7 @@ import About from "../components/Home-Page/About"
 import WorkPages from "../pages/work"
 import ContactPage from "../pages/contact"
 import Navbar from "../components/Layout/Navbar"
+import Footer from "../components/Layout/Footer"
 import ContactInfo from "../components/Home-Page/ContactInfo"
 import { layoutContext } from "../../provider"
 import { BrowserRouter, Route } from "react-router-dom"
@@ -28,6 +29,7 @@ const IndexPage = () => {
 
                 {/* <MyWork></MyWork> */}
                 {/* <ContactInfo></ContactInfo> */}
+                <Footer />
               </BrowserRouter>
             </>
           )}
