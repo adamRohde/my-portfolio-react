@@ -1,4 +1,4 @@
-button {
+a {
   text-decoration: none;
   padding: 0.6rem 2rem 0.6rem 2rem;
   font-family: "Open Sans";
@@ -14,7 +14,7 @@ button {
   }
 
   h3 {
-    color: white;
+    color: rgb(65, 56, 56);
     font-size: 1.3rem;
     text-decoration: none;
     @include media(">=phone", "<tablet") {

@@ -9,11 +9,11 @@ h2 {
 }
 
 .projects-grid {
+  width: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
   text-decoration: none;
-
   @include media(">=phone", "<tablet") {
     grid-template-columns: 1fr;
   }
@@ -24,7 +24,7 @@ h2 {
 }
 
 .project-card {
-  overflow: hidden !important;
+  // overflow: hidden !important;
   background-color: firebrick;
   display: flex;
   flex-direction: column;
@@ -33,11 +33,13 @@ h2 {
   align-items: center;
   text-decoration: none;
   color: white;
+  max-width: 25vw;
+  height: auto;
 
   .project-img {
-    width: 30vw;
+    max-width: 25vw;
     height: auto;
-    overflow: hidden !important;
+    // overflow: hidden !important;
 
     @include media(">=phone", "<tablet") {
       width: 70vw;
