@@ -8,24 +8,22 @@ const Navbar2 = () => {
   return (
     <layoutContext.Consumer>
       {context => (
-        <div className="container-center">
-          <div className="section-nav-2">
-            {console.log("layout context is ", context.layout)}
-            <div className="navbar-wrapper">
-              <div>
-                <a>
-                  <Link to="/randomSpanish">randomspanish.com</Link>
-                </a>
-                <a>
-                  <Link to="/webApps">Web Apps</Link>
-                </a>
-                <a>
-                  <Link to="/industrialAutomation">Industrial Automation</Link>
-                </a>
-                <a>
-                  <Link to="/mobile">Mobile Apps</Link>
-                </a>
-              </div>
+        <div className="section-nav-2">
+          {console.log("layout context is ", context.layout)}
+          <div className="navbar-wrapper">
+            <div>
+              <a>
+                <Link to="/random-spanish">randomspanish.com</Link>
+              </a>
+              <a>
+                <Link to="/web-apps">Web Apps</Link>
+              </a>
+              <a>
+                <Link to="/industrial-automation">Industrial Automation</Link>
+              </a>
+              <a>
+                <Link to="/mobile">Mobile Apps</Link>
+              </a>
             </div>
           </div>
         </div>

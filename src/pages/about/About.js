@@ -5,7 +5,7 @@ import data from "../../yourdata"
 const About = () => {
   return (
     <>
-      <div className="container-center">
+      <div className="container-compensate-tilt-center">
         <div className="about-section">
           <Fade bottom cascade>
             <div className="content">

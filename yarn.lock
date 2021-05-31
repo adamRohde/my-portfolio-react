@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"3d-react-carousal@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/3d-react-carousal/-/3d-react-carousal-3.1.0.tgz#533433ffe101ed3020d0d28ef2e08c0d914e328a"
+  integrity sha512-1eevbOougKHviNNQGs9aVqn4nIsFJSiKTx8k9XWOtWBhaJ5/BxMI4W0+Gt6ek90XBpe1F5VMczf5H/PjBZmxeA==
+  dependencies:
+    react-fast-compare "^3.0.2"
+
 "@ardatan/aggregate-error@0.0.6":
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/@ardatan/aggregate-error/-/aggregate-error-0.0.6.tgz#fe6924771ea40fc98dc7a7045c2e872dc8527609"
@@ -955,6 +962,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.13.10":
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
+  integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.4.2", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.3", "@babel/runtime@^7.8.7":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.13.tgz#0a21452352b02542db0ffb928ac2d3ca7cb6d66d"
@@ -999,6 +1013,46 @@
     "@babel/helper-validator-identifier" "^7.10.4"
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
+
+"@coreui/coreui@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@coreui/coreui/-/coreui-3.4.0.tgz#3e3627a1f48a00f6289204a23f71eaa6ea94e370"
+  integrity sha512-WqzockdWVkXUNmNwlqdu+AxM+9JoiWGe4rKaySu/dZme1NvVOn2ukjJlpTkssal8UKcSHyitzNixtkMCmUxE1A==
+
+"@coreui/icons-react@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@coreui/icons-react/-/icons-react-1.1.0.tgz#c1462663f895818cc58adb97a0c19568cbb76254"
+  integrity sha512-OXDg09RsxlK5t6WizudsJUxgzJSAHeytwVG1hqn2ww5zIrJn5++5rNTp95N/kff4/er4f7jspwJ1/7n6mQAz2Q==
+  dependencies:
+    classnames "^2.2.6"
+    prop-types "^15.7.2"
+
+"@coreui/icons@^2.0.0-rc.0":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@coreui/icons/-/icons-2.0.1.tgz#778022fe2b366abf9594d142607026e4edc667f8"
+  integrity sha512-gBfFRLPUt3Bv9EZbJRbT3sQRHrhH0c4dRbeE9GpWJgJY8kvE9+3Hf5xGK9XyQhFynHx4o2WQeMxsReQLddlK9w==
+
+"@coreui/react@^3.4.6":
+  version "3.4.6"
+  resolved "https://registry.yarnpkg.com/@coreui/react/-/react-3.4.6.tgz#17b984305af1aeb4a5083785b1ea016e590c3c2c"
+  integrity sha512-qu9/2kDNb24jXMaoGolOM5Jp9+wdweVWPJFixnAOMCobhUt0TNHa9yJakCfr7mopMV8teYvWBjBhl5I2er1/xw==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@coreui/icons" "^2.0.0-rc.0"
+    "@coreui/icons-react" "^1.1.0"
+    "@coreui/utils" "~1.3.1"
+    "@popperjs/core" "^2.9.1"
+    classnames "~2.2.6"
+    core-js "^3.9.1"
+    perfect-scrollbar "~1.5.0"
+    prop-types "~15.7.2"
+    react-transition-group "~4.4.1"
+    tippy.js "^6.3.1"
+
+"@coreui/utils@~1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@coreui/utils/-/utils-1.3.1.tgz#ebe6fa00ae7f46d166b26f116e74d55dfc89f5e0"
+  integrity sha512-WuWHX7bg89cJH34TWVsLe9RsxzBhTApj+X2Ja19xhjcpxt5Gv11Ozm+fwYt6DD7DgncTvpwYrMcnNlpp701UOg==
 
 "@endemolshinegroup/cosmiconfig-typescript-loader@3.0.2":
   version "3.0.2"
@@ -1541,6 +1595,11 @@
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.6.0.tgz#f022195afdfc942e088ee2101285a1d31c7d727f"
   integrity sha512-cPqjjzuFWNK3BSKLm0abspP0sp/IGOli4p5I5fKFAzdS8fvjdOwDCfZqAaIiXd9lPkOWi3SUUfZof3hEb7J/uw==
+
+"@popperjs/core@^2.8.3", "@popperjs/core@^2.9.1":
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.9.2.tgz#adea7b6953cbb34651766b0548468e743c6a2353"
+  integrity sha512-VZMYa7+fXHdwIq1TDhSXoVmSPEGM/aa+6Aiq3nVVJ9bXr24zScr+NlKFKC3iPljA7ho/GAZr+d2jOf5GIRC30Q==
 
 "@reach/router@^1.3.4":
   version "1.3.4"
@@ -3536,7 +3595,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.6:
+classnames@^2.2.6, classnames@~2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
@@ -3951,6 +4010,11 @@ core-js@^3.6.5:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.7.0.tgz#b0a761a02488577afbf97179e4681bf49568520f"
   integrity sha512-NwS7fI5M5B85EwpWuIwJN4i/fbisQUwLwiSNUWeXlkAZ0sbBjLEvLvFLf1uzAUV66PcEPt4xCGCmOZSxVf3xzA==
+
+core-js@^3.9.1:
+  version "3.13.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.13.1.tgz#30303fabd53638892062d8b4e802cac7599e9fb7"
+  integrity sha512-JqveUc4igkqwStL2RTRn/EPFGBOfEZHxJl/8ej1mXJR75V3go2mFF4bmUYkEIT1rveHKnkUlcJX/c+f1TyIovQ==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -10244,6 +10308,11 @@ pend@~1.2.0:
   resolved "https://registry.yarnpkg.com/pend/-/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
   integrity sha1-elfrVQpng/kRUzH89GY9XI4AelA=
 
+perfect-scrollbar@~1.5.0:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/perfect-scrollbar/-/perfect-scrollbar-1.5.1.tgz#8ee5b3ca06ce9c3f7338fd4ab67a55248a6cf3be"
+  integrity sha512-MrSImINnIh3Tm1hdPT6bji6fmIeRorVEegQvyUnhqko2hDGTHhmjPefHXfxG/Jb8xVbfCwgmUIlIajERGXjVXQ==
+
 performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
@@ -10845,7 +10914,7 @@ prop-types-extra@^1.1.0:
     react-is "^16.3.2"
     warning "^4.0.0"
 
-prop-types@^15.5.10, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.10, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@~15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -11134,7 +11203,7 @@ react-error-overlay@^3.0.0:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
   integrity sha512-XzgvowFrwDo6TWcpJ/WTiarb9UI6lhA4PMzS7n1joK3sHfBBBOQHUc0U4u57D6DWO9vHv6lVSWx2Q/Ymfyv4hw==
 
-react-fast-compare@^3.1.1:
+react-fast-compare@^3.0.2, react-fast-compare@^3.1.1:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
   integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
@@ -11245,6 +11314,16 @@ react-transition-group@^4.4.1:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.1.tgz#63868f9325a38ea5ee9535d828327f85773345c9"
   integrity sha512-Djqr7OQ2aPUiYurhPalTrVy9ddmFCCzwhqQmtN+J3+3DzLO209Fdr70QrN8Z3DsglWql6iY1lDWAfpFiBtuKGw==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    dom-helpers "^5.0.1"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
+
+react-transition-group@~4.4.1:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.2.tgz#8b59a56f09ced7b55cbd53c36768b922890d5470"
+  integrity sha512-/RNYfRAMlZwDSr6z4zNKV6xu53/e2BuaBbGhbyYIXTrmgu/bGHzmqOs7mJSJBHy9Ud+ApHx3QjrkKSp1pxvlFg==
   dependencies:
     "@babel/runtime" "^7.5.5"
     dom-helpers "^5.0.1"
@@ -13092,6 +13171,13 @@ tinycolor2@^1.4.1:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/tinycolor2/-/tinycolor2-1.4.2.tgz#3f6a4d1071ad07676d7fa472e1fac40a719d8803"
   integrity sha512-vJhccZPs965sV/L2sU4oRQVAos0pQXwsvTLkWYdqJ+a8Q5kPFzJTuOFwy7UniPli44NKQGAglksjvOcpo95aZA==
+
+tippy.js@^6.3.1:
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-6.3.1.tgz#3788a007be7015eee0fd589a66b98fb3f8f10181"
+  integrity sha512-JnFncCq+rF1dTURupoJ4yPie5Cof978inW6/4S6kmWV7LL9YOSEVMifED3KdrVPEG+Z/TFH2CDNJcQEfaeuQww==
+  dependencies:
+    "@popperjs/core" "^2.8.3"
 
 tmp@^0.0.33:
   version "0.0.33"

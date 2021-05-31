@@ -1,7 +1,7 @@
-import React from "react"
+import React, { useState } from "react"
 import Layout from "../../components/Layout/layout"
 import SEO from "../../components/seo"
-import Contact from "./Contact"
+import WorkProjects from "./Work-projects"
 import { layoutContext } from "../../../provider"
 import Navbar from "../../components/Layout/Navbar"
 import Footer from "../../components/Layout/Footer"
@@ -17,7 +17,7 @@ const IndexPage = () => {
               <SEO title="Adam's Portfolio" />
               <Navbar />
               <div className="section-main">
-                <Contact />
+                <WorkProjects />
               </div>
               <Footer />
             </>

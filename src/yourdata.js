@@ -218,7 +218,7 @@ export default {
   //################################################ About Sections  ################################################
   //################################################ About Sections  ################################################
   aboutParaMain:
-    "This page is a showcase of my work programming. I have been writing code for nearly 10 years working in the field of industrial automation. Recently I have gotten more into web development and have become passionate about honing my skills within this discipline.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat in ante metus dictum at tempor commodo. Risus viverra adipiscing at in tellus integer feugiat scelerisque. Nullam eget felis eget nunc lobortis mattis aliquam. Purus viverra.",
   aboutParaRandomSpanish: "Randomspanish.com",
   aboutWorkProjects:
     "This page showcases some of the work I've done programming over the past 13 years.  I also discuss some basics of Industrial Automation to give some context.  ",

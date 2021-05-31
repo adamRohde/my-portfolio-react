@@ -5,6 +5,9 @@
   "version": "0.1.0",
   "author": "Chetan Verma <hello@chetanverma.com>",
   "dependencies": {
+    "3d-react-carousal": "^3.1.0",
+    "@coreui/coreui": "^3.4.0",
+    "@coreui/react": "^3.4.6",
     "@popperjs/core": "^2.6.0",
     "bootstrap": "^4.6.0",
     "gatsby": "^2.26.1",

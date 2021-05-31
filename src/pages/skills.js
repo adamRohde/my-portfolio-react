@@ -4,7 +4,7 @@ import data from "../yourdata"
 const Skills = () => {
   return (
     <div className="section-main">
-      <div className="container-center-center">
+      <div className="container-compensate-tilt-center">
         <div className="skills-container">
           <h1>Skills</h1>
           <div className="skills-grid">

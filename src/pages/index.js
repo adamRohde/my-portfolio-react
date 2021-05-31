@@ -3,6 +3,8 @@ import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import About from "./about/About"
 import { layoutContext } from "../../provider"
+import Navbar from "../components/Layout/Navbar"
+import Footer from "../components/Layout/Footer"
 
 const IndexPage = () => {
   return (
@@ -11,11 +13,13 @@ const IndexPage = () => {
         <layoutContext.Consumer>
           {context => (
             <>
-              {context.changeLayout("ABOUT")}
+              {context.changeLayout("MAIN")}
               <SEO title="Adam's Portfolio" />
-              <div className="section-main" id="work">
+              <Navbar />
+              <div className="section-main">
                 <About />
               </div>
+              <Footer />
             </>
           )}
         </layoutContext.Consumer>

@@ -4,6 +4,9 @@ import SEO from "../../components/seo"
 import Work from "./Work"
 import Navbar2 from "../../components/Layout/Navbar2"
 import { layoutContext } from "../../../provider"
+import Navbar from "../../components/Layout/Navbar"
+import Footer from "../../components/Layout/Footer"
+import Carousel from "../../components/Carousel/MyCarousel"
 
 const IndexPage = () => {
   return (
@@ -12,12 +15,18 @@ const IndexPage = () => {
         <layoutContext.Consumer>
           {context => (
             <>
-              {context.changeLayout("WORK")}
+              {context.changeLayout("MAIN")}
               <SEO title="Adam's Portfolio" />
-              <div className="section-main" id="work">
-                {/* <Navbar2 /> */}
-                <Work />
+              <Navbar />
+              <Navbar2 />
+              {/* <div style={{ paddingTop: "10vh" }}>
+                <Carousel />
+              </div> */}
+              <div className="section-main">
+                <Carousel />
               </div>
+
+              <Footer />
             </>
           )}
         </layoutContext.Consumer>
