@@ -1,9 +1,7 @@
 import React, { useState } from "react"
 import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
-import About from "./About"
-// import Footer from "../components/Layout/Footer"
-// import Navbar from "../components/Layout/Navbar"
+import About from "./about/About"
 import { layoutContext } from "../../provider"
 
 const IndexPage = () => {
