@@ -2,10 +2,15 @@
   display: block;
   position: absolute;
   bottom: 0;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  padding: 1em;
-  flex-shrink: 0;
+  background-image: linear-gradient(
+    85deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0)
+  );
+  color: rgb(97, 97, 97);
+  padding: 0.6em;
+  width: 100%;
+  text-align: center;
 }
 
 p {

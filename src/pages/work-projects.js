@@ -6,9 +6,6 @@ import Navbar from "../components/Layout/Navbar"
 import Carousels from "../components/Work-Projects/Carousels"
 import Header from "../components/Work-Projects/Header"
 import MainImage from "../components/Work-Projects/MainImage"
-// import xmlParseVideo from "../images/XML_Parser.mp4"
-// import data from "../yourdata"
-// import Fade from "react-reveal/Fade"
 
 const workprojects = () => {
   return (

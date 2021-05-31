@@ -2,11 +2,11 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../../yourdata"
 
-const ContactInfo = () => {
+const Contact = () => {
   return (
-    <div className="section-main" id="contact">
-      <div className="container-center">
-        <div className="footer-container">
+    <>
+      <>
+        <div className="container-center">
           <Fade bottom cascade>
             <h2>Contact</h2>
             <h4>{data.contactSubHeading}</h4>
@@ -26,9 +26,9 @@ const ContactInfo = () => {
             ))}
           </div>
         </div>
-      </div>
-    </div>
+      </>
+    </>
   )
 }
 
-export default ContactInfo
+export default Contact
