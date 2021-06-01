@@ -5,11 +5,12 @@
   "version": "0.1.0",
   "author": "Chetan Verma <hello@chetanverma.com>",
   "dependencies": {
-    "3d-react-carousal": "^3.1.0",
+    "3d-react-carousal": "adamRohde/react-carousel-3d",
     "@coreui/coreui": "^3.4.0",
     "@coreui/react": "^3.4.6",
     "@popperjs/core": "^2.6.0",
     "bootstrap": "^4.6.0",
+    "clone": "^2.1.2",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
     "gatsby-plugin-manifest": "^2.6.1",
@@ -20,6 +21,7 @@
     "gatsby-plugin-smoothscroll": "^1.2.0",
     "gatsby-source-filesystem": "^2.5.0",
     "gatsby-transformer-sharp": "^2.6.0",
+    "gh": "^2.8.9",
     "jquery": "^3.5.1",
     "node-sass": "^4.0.0",
     "popper.js": "^1.16.1",
@@ -31,7 +33,9 @@
     "react-reveal": "^1.2.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scroll": "^1.8.1"
+    "react-scroll": "^1.8.1",
+    "repo": "^0.0.15",
+    "uuidv4": "^6.2.8"
   },
   "devDependencies": {
     "prettier": "2.1.2"
