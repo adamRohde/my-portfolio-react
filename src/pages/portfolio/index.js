@@ -21,7 +21,7 @@ const IndexPage = () => {
               <div className="container-center ">
                 <Carousel />
               </div>
-              <div className="section-main"></div>
+              <div className="section-main-portfolio"></div>
               <Footer />
             </>
           )}

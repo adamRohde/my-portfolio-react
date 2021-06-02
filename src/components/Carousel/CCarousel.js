@@ -24,21 +24,6 @@ const images = [randomspanish_pic, webapps_pic, workprojects_pic, mobile_pic]
 //const images = [astronaut, celebrating, education, taken]
 
 function CCarousel() {
-  const NextArrow = ({ onClick }) => {
-    return (
-      <div className="arrow next" onClick={onClick}>
-        <FaArrowRight />
-      </div>
-    )
-  }
-  const PrevArrow = ({ onClick }) => {
-    return (
-      <div className="arrow prev" onClick={onClick}>
-        <FaArrowLeft />
-      </div>
-    )
-  }
-
   const [imageIndex, setImageIndex] = useState(0)
 
   const settings = {
@@ -80,19 +65,19 @@ function CCarousel() {
   )
 }
 
-{
-  /* <Slider {...settings}>
-        <div className="slide">
-          <img src={randomspanish_pic} alt={"1"}></img>
-        </div>
-        <div className="activeSlide">
-          <img src={webapps_pic} alt={"2"}></img>
-        </div>
-        <div className="slide">
-          <img src={workprojects_pic} alt={"3"}></img>
-        </div>
-      </Slider>
-    </div> */
+const NextArrow = ({ onClick }) => {
+  return (
+    <div className="arrow next" onClick={onClick}>
+      <FaArrowRight />
+    </div>
+  )
+}
+const PrevArrow = ({ onClick }) => {
+  return (
+    <div className="arrow prev" onClick={onClick}>
+      <FaArrowLeft />
+    </div>
+  )
 }
 
 export default CCarousel

@@ -26,13 +26,25 @@ body {
   scroll-behavior: smooth;
 }
 
-// .section-main {
-//   width: 100vw;
-//   height: auto;
-//   overflow: hidden;
-// }
-
 .section-main {
+  background-image: linear-gradient(
+    45deg,
+    rgb(247, 247, 247),
+    rgb(119, 119, 119)
+  );
+  transform: skewY(-7deg);
+  z-index: -1;
+  position: relative;
+  margin-top: -100vh;
+  padding-top: 110vh;
+  background-repeat: no-repeat;
+  overflow: visible;
+  border-bottom-left-radius: 50% 10%;
+  border-bottom-right-radius: 150% -15%;
+  height: 170vh;
+}
+
+.section-main-portfolio {
   width: 100vw;
   height: auto;
   overflow: hidden;
@@ -53,42 +65,42 @@ body {
   height: 170vh;
 }
 
-.section-main-about {
-  background-image: linear-gradient(
-    45deg,
-    rgb(247, 247, 247),
-    rgb(119, 119, 119)
-  );
-  transform: skewY(-7deg);
-  z-index: -1;
-  position: relative;
-  margin-top: -100vh;
-  padding-top: 110vh;
-  background-repeat: no-repeat;
-  overflow: visible;
-  border-bottom-left-radius: 50% 10%;
-  border-bottom-right-radius: 150% -15%;
-  height: 170vh;
-}
+// .section-main-about {
+//   background-image: linear-gradient(
+//     45deg,
+//     rgb(247, 247, 247),
+//     rgb(119, 119, 119)
+//   );
+//   transform: skewY(-7deg);
+//   z-index: -1;
+//   position: relative;
+//   margin-top: -100vh;
+//   padding-top: 110vh;
+//   background-repeat: no-repeat;
+//   overflow: visible;
+//   border-bottom-left-radius: 50% 10%;
+//   border-bottom-right-radius: 150% -15%;
+//   height: 170vh;
+// }
 
-#work {
-  background-image: linear-gradient(
-    45deg,
-    rgb(247, 247, 247),
-    rgb(119, 119, 119)
-  );
-  transform: skewY(-7deg);
-  z-index: -1;
-  position: relative;
-  margin-top: -100vh;
-  padding-top: 110vh;
-  padding-bottom: -18vh;
-  background-repeat: no-repeat;
-  overflow: visible;
-  border-bottom-left-radius: 50% 10%;
-  border-bottom-right-radius: 150% -15%;
-  height: 170vh;
-}
+// #work {
+//   background-image: linear-gradient(
+//     45deg,
+//     rgb(247, 247, 247),
+//     rgb(119, 119, 119)
+//   );
+//   transform: skewY(-7deg);
+//   z-index: -1;
+//   position: relative;
+//   margin-top: -100vh;
+//   padding-top: 110vh;
+//   padding-bottom: -18vh;
+//   background-repeat: no-repeat;
+//   overflow: visible;
+//   border-bottom-left-radius: 50% 10%;
+//   border-bottom-right-radius: 150% -15%;
+//   height: 170vh;
+// }
 
 // #contact {
 //   background-image: linear-gradient(

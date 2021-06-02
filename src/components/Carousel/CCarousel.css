@@ -9,17 +9,18 @@
 
 .slide img {
   width: 30vw;
+  position: relative;
   z-index: -1;
 }
 
 .slide {
-  transform: scale(0.5);
+  transform: scale(0.8);
   transition: transform 300ms;
   opacity: 1;
 }
 
 .activeSlide {
-  transform: scale(0.8);
+  transform: scale(1);
   opacity: 1;
   position: relative;
   z-index: 5;
@@ -27,7 +28,6 @@
 
 .activeSlide img {
   width: 50vw;
-  /* margin-right: -9vw; */
   margin-left: -6.5vw;
 }
 
@@ -37,6 +37,7 @@
   cursor: pointer;
   margin-left: 5vw;
   margin-right: 5vw;
+  z-index: 10;
 }
 
 .arrow svg {
