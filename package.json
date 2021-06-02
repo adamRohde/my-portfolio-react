@@ -5,7 +5,6 @@
   "version": "0.1.0",
   "author": "Chetan Verma <hello@chetanverma.com>",
   "dependencies": {
-    "3d-react-carousal": "adamRohde/react-carousel-3d",
     "@coreui/coreui": "^3.4.0",
     "@coreui/react": "^3.4.6",
     "@popperjs/core": "^2.6.0",
@@ -30,11 +29,14 @@
     "react-bootstrap": "^1.4.3",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
     "react-reveal": "^1.2.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scroll": "^1.8.1",
+    "react-slick": "^0.28.1",
     "repo": "^0.0.15",
+    "slick-carousel": "^1.8.1",
     "uuidv4": "^6.2.8"
   },
   "devDependencies": {

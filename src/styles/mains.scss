@@ -44,8 +44,7 @@ body {
   transform: skewY(-7deg);
   z-index: -1;
   position: relative;
-  margin-top: -100vh;
-  padding-top: 110vh;
+  margin-top: -170vh;
   padding-bottom: -18vh;
   background-repeat: no-repeat;
   overflow: visible;
@@ -54,23 +53,23 @@ body {
   height: 170vh;
 }
 
-// #about {
-//   background-image: linear-gradient(
-//     45deg,
-//     rgb(247, 247, 247),
-//     rgb(119, 119, 119)
-//   );
-//   transform: skewY(-7deg);
-//   z-index: -1;
-//   position: relative;
-//   margin-top: -100vh;
-//   padding-top: 110vh;
-//   padding-bottom: -18vh;
-//   background-repeat: no-repeat;
-//   overflow: visible;
-//   border-bottom-left-radius: 50% 10%;
-//   border-bottom-right-radius: 150% -15%;
-// }
+.section-main-about {
+  background-image: linear-gradient(
+    45deg,
+    rgb(247, 247, 247),
+    rgb(119, 119, 119)
+  );
+  transform: skewY(-7deg);
+  z-index: -1;
+  position: relative;
+  margin-top: -100vh;
+  padding-top: 110vh;
+  background-repeat: no-repeat;
+  overflow: visible;
+  border-bottom-left-radius: 50% 10%;
+  border-bottom-right-radius: 150% -15%;
+  height: 170vh;
+}
 
 #work {
   background-image: linear-gradient(
@@ -160,4 +159,9 @@ body {
   flex-direction: column;
   margin-left: 11vh;
   margin-right: 11vh;
+}
+
+.container-center {
+  width: 100%;
+  margin: 2vw;
 }
