@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <>
-        <div className="container-compensate-tilt-center">
+        <div className="container-center">
           <div className="contact-container">
             <Fade bottom cascade>
               <h2>Contact</h2>

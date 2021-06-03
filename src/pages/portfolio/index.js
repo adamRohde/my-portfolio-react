@@ -2,9 +2,9 @@ import React from "react"
 import Layout from "../../components/Layout/layout"
 import SEO from "../../components/seo"
 // import Work from "./Work"
-import Navbar2 from "../../components/Layout/Navbar2"
 import { layoutContext } from "../../../provider"
-import Navbar from "../../components/Layout/Navbar"
+import Navbar1 from "../../components/Layout/navbar/Navbar"
+import Navbar2 from "../../components/Layout/navbartest/NavbarTest"
 import Footer from "../../components/Layout/Footer"
 import Carousel from "../../components/Carousel/CCarousel"
 
@@ -17,7 +17,7 @@ const IndexPage = () => {
             <>
               {context.changeLayout("MAIN")}
               <SEO title="Adam's Portfolio" />
-              <Navbar />
+              <Navbar1 />
               <div className="container-center ">
                 <Carousel />
               </div>

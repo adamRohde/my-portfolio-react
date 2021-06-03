@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../../components/Layout/layout"
-import Navbar from "../../components/Layout/Navbar"
 import WebAppsCard from "../../components/Web-Apps/web-apps-card"
 import Header from "../../components/Web-Apps/Header"
 import { layoutContext } from "../../../provider"

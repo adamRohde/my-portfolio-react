@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../../components/Layout/layout"
 import { layoutContext } from "../../../provider"
-import Navbar from "../../components/Layout/Navbar"
 import Header from "../../components/Random-Spanish/Header.js"
 import About from "../../components/Random-Spanish/About"
 import MainImage from "../../components/Random-Spanish/MainImage"
