@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
 
 // Components
-@import "../components/Layout/navbar/navbar.scss";
 @import "../pages/about/about.scss";
 @import "./mywork.scss";
 @import "./skills.scss";
@@ -34,46 +33,43 @@ body {
   display: grid;
   width: auto;
   height: auto;
-  margin-top: 1vh;
+  margin-top: 2.5vh;
   justify-content: center;
-  Link {
+
+  a {
     font-size: medium;
+    color: black;
+    padding-right: 1vw;
+    padding-left: 1vw;
   }
 }
 
-// .section-nav-2 {
-//   display: grid;
-//   grid-row-start: 1;
-//   width: auto;
-//   background-color: rgba(0, 0, 0, 0);
-//   height: auto;
-//   overflow: hidden;
-//   top: 0;
-//   justify-content: center;
-//   z-index: 3;
-//   // border-bottom: 1px ridge black;
-//   margin: 2vh 15vw 0vh 15vw;
-//   box-sizing: padding-box;
+.section-nav-2 {
+  display: grid;
+  grid-row-start: 1;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0);
+  height: auto;
+  overflow: hidden;
+  top: 0;
+  justify-content: center;
+  z-index: 3;
+  // border-bottom: 1px ridge black;
+  margin: 2vh 15vw 0vh 15vw;
+  box-sizing: padding-box;
 
-//   a {
-//     font-size: small;
-//     // padding-right: 1vw;
-//     // padding-left: 1vw;
-//   }
-// }
+  a {
+    font-size: medium;
+    color: black;
+    padding-right: 1vw;
+    padding-left: 1vw;
+  }
+}
 
-// .container-compensate-tilt {
-//   transform: skewY(7deg);
-// }
-
-// .container-compensate-tilt-center {
-//   transform: skewY(7deg);
-//   width: auto;
-//   display: flex;
-//   flex-direction: column;
-//   margin-left: 11vh;
-//   margin-right: 11vh;
-// }
+.active {
+  border-bottom: solid 1px black;
+  color: black;
+}
 
 .container-center {
   width: auto;

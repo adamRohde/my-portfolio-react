@@ -15,7 +15,7 @@ const webapps = () => {
           {context => (
             <>
               <div className="section">
-                <div className="container-compensate-tilt-center">
+                <div className="container-center">
                   {context.changeLayout("WEB_APPS")}
                   <Header />
                   <WebAppsCard />

@@ -1,5 +1,5 @@
 import React from "react"
-import { layoutContext } from "../../../provider"
+import { layoutContext } from "../../../../provider"
 import { Link } from "gatsby"
 import Fade from "react-reveal/Fade"
 
@@ -15,16 +15,20 @@ const Navbar2 = () => {
             <div className="navbar-wrapper">
               <div>
                 <a>
-                  <Link to="/random-spanish">randomspanish.com</Link>
+                  <Link to="/random-spanish" activeClassName="active">
+                    randomspanish.com
+                  </Link>
                 </a>
                 <a>
-                  <Link to="/web-apps">Web Apps</Link>
+                  <Link to="/web-apps" activeClassName="active">
+                    Web Apps
+                  </Link>
                 </a>
                 <a>
-                  <Link to="/industrial-automation">Industrial Automation</Link>
+                  <Link activeClassName="active">Industrial Automation</Link>
                 </a>
                 <a>
-                  <Link to="/mobile">Mobile Apps</Link>
+                  <Link activeClassName="active">Mobile Apps</Link>
                 </a>
               </div>
             </div>

@@ -1,32 +1,14 @@
 a {
-  text-decoration: none;
   padding: 0.6rem 2rem 0.6rem 2rem;
   font-family: "Open Sans";
   opacity: 1;
   transition: all 0.2s ease-in-out;
-  font-size: 1.1rem;
-  color: black;
   background-color: transparent;
-  outline: none;
-  border: 0px;
   @include media(">=phone", "<tablet") {
     padding: 0.6rem 1rem 0.6rem 1rem;
   }
+}
 
-  h3 {
-    color: rgb(65, 56, 56);
-    font-size: 1.3rem;
-    text-decoration: none;
-    @include media(">=phone", "<tablet") {
-      font-size: 1rem;
-      // margin-right: 2.5rem;
-    }
-  }
-
-  Link {
-    opacity: 1;
-    color: white;
-    font-style: none;
-    text-decoration: none;
-  }
+Link {
+  font-size: large;
 }

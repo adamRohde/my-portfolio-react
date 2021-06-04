@@ -10,26 +10,41 @@ const Navbar = () => {
     console.log("Hello", { activeItem }, { val })
   }
 
+  const activeLink = () => {
+    console.log("Active??")
+  }
+
   return (
     <div className="section-nav">
       <div className="navbar-wrapper">
-        <Menu pointing secondary>
-          <a>
-            <Link to="/" onClick={handleItemClick}>
-              About
-            </Link>
-          </a>
-          <a>
-            <Link to="/portfolio" onClick={handleItemClick}>
-              Portfolio
-            </Link>
-          </a>
-          <a>
-            <Link to="/contact" onClick={handleItemClick}>
-              Contact
-            </Link>
-          </a>
-        </Menu>
+        <>
+          <Link
+            to="/"
+            onClick={handleItemClick}
+            active={activeLink}
+            activeClassName="active"
+          >
+            About
+          </Link>
+
+          <Link
+            to="/portfolio"
+            active={activeLink}
+            onClick={handleItemClick}
+            activeClassName="active"
+          >
+            Portfolio
+          </Link>
+
+          <Link
+            to="/contact"
+            active={activeLink}
+            onClick={handleItemClick}
+            activeClassName="active"
+          >
+            Contact
+          </Link>
+        </>
       </div>
     </div>
   )
