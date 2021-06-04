@@ -16,7 +16,7 @@ const IndexPage = () => {
             <>
               {context.changeLayout("MAIN")}
               <SEO title="Adam's Portfolio" />
-              <Navbar2 />
+              <Navbar1 />
               <div className="section-main">
                 <WorkProjects />
               </div>

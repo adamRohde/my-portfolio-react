@@ -1,20 +1,35 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
+import { Menu, Segment } from "semantic-ui-react"
 
 const Navbar = () => {
-  console.log("Current Navbar page number is ")
+  const [activeItem, setActiveItem] = useState("")
+
+  let handleItemClick = val => {
+    setActiveItem("About")
+    console.log("Hello", { activeItem }, { val })
+  }
+
   return (
     <div className="section-nav">
       <div className="navbar-wrapper">
-        <a>
-          <Link to="/">About</Link>
-        </a>
-        <a>
-          <Link to="/portfolio">Portfolio</Link>
-        </a>
-        <a>
-          <Link to="/contact">Contact</Link>
-        </a>
+        <Menu pointing secondary>
+          <a>
+            <Link to="/" onClick={handleItemClick}>
+              About
+            </Link>
+          </a>
+          <a>
+            <Link to="/portfolio" onClick={handleItemClick}>
+              Portfolio
+            </Link>
+          </a>
+          <a>
+            <Link to="/contact" onClick={handleItemClick}>
+              Contact
+            </Link>
+          </a>
+        </Menu>
       </div>
     </div>
   )
