@@ -9,31 +9,31 @@ const Navbar2 = () => {
   return (
     <layoutContext.Consumer>
       {context => (
-        <Fade top cascade>
-          <div className="section-nav-2">
-            {console.log("layout context is ", context.layout)}
-            <div className="navbar-wrapper">
-              <div>
-                <a>
-                  <Link to="/random-spanish" activeClassName="active">
-                    randomspanish.com
-                  </Link>
-                </a>
-                <a>
-                  <Link to="/web-apps" activeClassName="active">
-                    Web Apps
-                  </Link>
-                </a>
-                <a>
-                  <Link activeClassName="active">Industrial Automation</Link>
-                </a>
-                <a>
-                  <Link activeClassName="active">Mobile Apps</Link>
-                </a>
-              </div>
+        // <Fade top cascade>
+        <div className="section-nav-2">
+          {console.log("layout context is ", context.layout)}
+          <div className="navbar-wrapper">
+            <div>
+              <a>
+                <Link to="/portfolio/random-spanish" activeClassName="active">
+                  randomspanish.com
+                </Link>
+              </a>
+              <a>
+                <Link to="/portfolio/web-apps" activeClassName="active">
+                  Web Apps
+                </Link>
+              </a>
+              <a>
+                <Link activeClassName="active">Industrial Automation</Link>
+              </a>
+              <a>
+                <Link activeClassName="active">Mobile Apps</Link>
+              </a>
             </div>
           </div>
-        </Fade>
+        </div>
+        // </Fade>
       )}
     </layoutContext.Consumer>
   )
