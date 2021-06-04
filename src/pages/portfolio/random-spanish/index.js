@@ -19,9 +19,7 @@ const IndexPage = () => {
               <Navbar1 />
               <Navbar2 />
               <div className="section-main">
-                <div className="container-compensate-tilt">
-                  <RandomSpanish />
-                </div>
+                <RandomSpanish />
               </div>
               <Footer />
             </>

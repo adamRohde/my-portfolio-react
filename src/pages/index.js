@@ -6,9 +6,8 @@ import { layoutContext } from "../../provider"
 import Navbar1 from "../components/Layout/navbar/Navbar"
 import Navbar2 from "../components/Layout/navbartest/NavbarTest"
 import Navbar3 from "../components/Layout/navbar3/navbar3"
-
 import Footer from "../components/Layout/Footer"
-import "semantic-ui-css/semantic.min.css"
+//import "semantic-ui-css/semantic.min.css"
 
 const IndexPage = () => {
   return (
@@ -20,7 +19,7 @@ const IndexPage = () => {
               {context.changeLayout("MAIN")}
               <SEO title="Adam's Portfolio" />
               <Navbar1 />
-              <div className="section-main">
+              <div className="section-main" style={{ height: "85vh" }}>
                 <About />
               </div>
 

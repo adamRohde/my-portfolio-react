@@ -12,8 +12,7 @@ const randomspanish = () => {
         <layoutContext.Consumer>
           {context => (
             <div className="rs-grid">
-              <div className="rs-item-nav"></div>
-
+              {/* <div className="rs-item-nav"></div> */}
               <Header />
               <About />
               <MainImage />

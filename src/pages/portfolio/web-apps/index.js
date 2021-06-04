@@ -21,6 +21,7 @@ const IndexPage = () => {
               <div className="section-main">
                 <WebApps />
               </div>
+              <Footer />
             </>
           )}
         </layoutContext.Consumer>
