@@ -10,5 +10,10 @@ a {
 }
 
 Link {
-  font-size: large;
+  font-size: small;
+  color: blue;
+  :hover {
+    text-decoration: none;
+    border: none;
+  }
 }

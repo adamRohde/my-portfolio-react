@@ -1,9 +1,9 @@
 import React, { useState } from "react"
 import Layout from "../../../components/Layout/layout"
 import SEO from "../../../components/seo"
-import WorkProjects from "./Work-projects"
+import IndustrialAutomation from "./Industrial-Automation"
 import { layoutContext } from "../../../../provider"
-import Navbar1 from "../../../components/Layout/navbar/Navbar"
+import Navbar1 from "../../../components/Layout/navbar/MyNavbar"
 import Navbar2 from "../../../components/Layout/navbar2/Navbar2"
 import Footer from "../../../components/Layout/Footer"
 
@@ -19,7 +19,7 @@ const IndexPage = () => {
               <Navbar1 />
               <Navbar2 />
               <div className="section-main">
-                <WorkProjects />
+                <IndustrialAutomation />
               </div>
               <Footer />
             </>
