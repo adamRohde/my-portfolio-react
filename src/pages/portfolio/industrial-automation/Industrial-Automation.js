@@ -3,7 +3,8 @@ import Layout from "../../../components/Layout/layout"
 import { layoutContext } from "../../../../provider"
 import Accordions from "../../../components/Work-Projects/Accordions.js"
 import Carousels from "../../../components/Work-Projects/Carousels"
-import Header from "../../../components/Work-Projects/Header"
+// import Header from "../../../components/Work-Projects/Header"
+import Header from "../../../components/Header/Header"
 import MainImage from "../../../components/Work-Projects/MainImage"
 
 const workprojects = () => {
@@ -16,7 +17,7 @@ const workprojects = () => {
               {context.changeLayout("WORK_PROJECTS")}
               <div className="section">
                 <div className="container-compensate-tilt-center">
-                  <Header />
+                  <Header title={"Industrial Automation"} />
                   <div className="wp-accordion-image-grid">
                     <Accordions />
                     <MainImage />

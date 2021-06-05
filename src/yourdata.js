@@ -222,7 +222,7 @@ export default {
     "  This is where I started my programming career programming machines.  The language used in this field is call" +
     " IEC611-31 (not the best name) but the syntax is derived from the language Pascal." +
     " Over the years there has a been a trend to start using higher level languages to program machines." +
-    "As of even more recently, web-based technologies.",
+    " More recently, web-based technologies.  This has lead me down the path of expanding ",
 
   aboutParaRandomSpanish: "Randomspanish.com",
   aboutWorkProjects:
