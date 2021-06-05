@@ -15,13 +15,11 @@ const webapps = () => {
         <layoutContext.Consumer>
           {context => (
             <>
-              <div className="section">
-                <div className="container-center">
-                  {context.changeLayout("WEB_APPS")}
-                  <Header />
-                  <WebAppsCard />
-                </div>
-              </div>
+              {context.changeLayout("WEB_APPS")}
+              <Header />
+              <WebAppsCard />
+              {/* </div>
+              </div> */}
             </>
           )}
         </layoutContext.Consumer>

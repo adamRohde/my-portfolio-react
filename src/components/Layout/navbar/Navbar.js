@@ -5,19 +5,6 @@ import { Menu, Segment } from "semantic-ui-react"
 import Navbar2 from "../navbar2/Navbar2"
 
 const Navbar = () => {
-  const [activeItem, setActiveItem] = useState("")
-
-  let handleItemClick = val => {
-    setActiveItem(val)
-    console.log("Hello", { val })
-  }
-
-  const activeLink = val => {
-    console.log({ val })
-  }
-
-  let pageLocation = ""
-
   return (
     <layoutContext.Consumer>
       {context => (
@@ -25,24 +12,19 @@ const Navbar = () => {
           <div className="section-nav">
             <div className="navbar-wrapper-1 ">
               <>
-                <Link to="/" active={pageLocation} activeClassName="active">
+                <Link to="/" activeClassName="active">
                   About
                 </Link>
 
                 <Link
                   to="/portfolio"
-                  active={pageLocation}
                   activeClassName="active"
                   partiallyActive={true}
                 >
                   Portfolio
                 </Link>
 
-                <Link
-                  to="/contact"
-                  active={pageLocation}
-                  activeClassName="active"
-                >
+                <Link to="/contact" activeClassName="active">
                   Contact
                 </Link>
               </>

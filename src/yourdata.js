@@ -218,7 +218,12 @@ export default {
   //################################################ About Sections  ################################################
   //################################################ About Sections  ################################################
   aboutParaMain:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat in ante metus dictum at tempor commodo. Risus viverra adipiscing at in tellus integer feugiat scelerisque. Nullam eget felis eget nunc lobortis mattis aliquam. Purus viverra.",
+    "Hello, my name is Adam!  My background is in the field of Industrial Automation. " +
+    "  This is where I started my programming career programming machines.  The language used in this field is call" +
+    " IEC611-31 (not the best name) but the syntax is derived from the language Pascal." +
+    " Over the years there has a been a trend to start using higher level languages to program machines." +
+    "As of even more recently, web-based technologies.",
+
   aboutParaRandomSpanish: "Randomspanish.com",
   aboutWorkProjects:
     "This page showcases some of the work I've done programming over the past 13 years.  I also discuss some basics of Industrial Automation to give some context.  ",
