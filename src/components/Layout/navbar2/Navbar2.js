@@ -10,8 +10,8 @@ const Navbar2 = () => {
     console.log("This is the location", getUrlParts(window.location.href))
   }
 
+  let address = " "
   let divAnimationClass = "fade-in-image"
-  let address = getUrlParts(window.location.href)
 
   function getUrlParts(url) {
     var a = document.createElement("a")
@@ -27,6 +27,8 @@ const Navbar2 = () => {
       search: a.search,
     }
   }
+
+  address = getUrlParts(window.location.href)
 
   address.pathname === "/portfolio"
     ? (divAnimationClass = "fade-in-image")
