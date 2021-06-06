@@ -7,24 +7,8 @@ import Fade from "react-reveal/Fade"
 const Navbar2 = () => {
   let address = ""
   let divAnimationClass = "fade-in-image"
-  const url = typeof window !== "undefined" ? window.location.href : ""
-
-  //address = getUrlParts(url)
-
-  // function getUrlParts(url) {
-  //   var a =
-  //     document.createElement("a") !== "undefined"
-  //       ? document.createElement("a")
-  //       : ""
-  //   if (a !== "undefined") {
-  //     a.href = url
-  //     return {
-  //       pathname: a.pathname,
-  //     }
-  //   } else {
-  //     a.href = ""
-  //   }
-  // }
+  const url = typeof window !== "undefined" ? window.location.pathname : ""
+  console.log("Hell from url 1 ", url)
 
   url === "/portfolio"
     ? (divAnimationClass = "fade-in-image")
