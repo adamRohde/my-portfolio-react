@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import { Navbar, Nav } from "react-bootstrap"
 import Fade from "react-reveal/Fade"
 
-let currentUrl = window.location.href
+//let currentUrl = window.location.href
 
 const Navbar2 = () => {
   console.log("Current Navbar page number is ")
@@ -12,28 +12,28 @@ const Navbar2 = () => {
   let address = " "
   let divAnimationClass = "fade-in-image"
 
-  function getUrlParts(url) {
-    var a = document.createElement("a")
-    a.href = url
-    return {
-      href: a.href,
-      host: a.host,
-      hostname: a.hostname,
-      port: a.port,
-      pathname: a.pathname,
-      protocol: a.protocol,
-      hash: a.hash,
-      search: a.search,
-    }
-  }
+  // function getUrlParts(url) {
+  //   var a = document.createElement("a")
+  //   a.href = url
+  //   return {
+  //     href: a.href,
+  //     host: a.host,
+  //     hostname: a.hostname,
+  //     port: a.port,
+  //     pathname: a.pathname,
+  //     protocol: a.protocol,
+  //     hash: a.hash,
+  //     search: a.search,
+  //   }
+  // }
 
-  console.log("Hello from navbar2 ", currentUrl)
+  // console.log("Hello from navbar2 ", currentUrl)
 
-  address = getUrlParts(currentUrl)
+  // address = getUrlParts(currentUrl)
 
-  address.pathname === "/portfolio"
-    ? (divAnimationClass = "fade-in-image")
-    : (divAnimationClass = "")
+  // address.pathname === "/portfolio"
+  //   ? (divAnimationClass = "fade-in-image")
+  //   : (divAnimationClass = "")
 
   return (
     <layoutContext.Consumer>
