@@ -4,6 +4,8 @@ import { Link } from "gatsby"
 import { Navbar, Nav } from "react-bootstrap"
 import Fade from "react-reveal/Fade"
 
+let currentUrl = window.location.href
+
 const Navbar2 = () => {
   console.log("Current Navbar page number is ")
 
@@ -25,7 +27,9 @@ const Navbar2 = () => {
     }
   }
 
-  address = getUrlParts(window.location.href)
+  console.log("Hello from navbar2 ", currentUrl)
+
+  address = getUrlParts(currentUrl)
 
   address.pathname === "/portfolio"
     ? (divAnimationClass = "fade-in-image")
