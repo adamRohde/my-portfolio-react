@@ -69,16 +69,16 @@ export default {
       btn_text: "Learn More",
       setLayout: "1",
     },
-    {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
-      title: "Mobile",
-      para: "",
-      imageSrc: mobile,
-      target: "",
-      url: "/portfolio/mobile",
-      btn_text: "Learn More",
-      setLayout: "1",
-    },
+    // {
+    //   id: 4, //DO NOT CHANGE THIS (Please)😅
+    //   title: "Mobile",
+    //   para: "",
+    //   imageSrc: mobile,
+    //   target: "",
+    //   url: "/portfolio/mobile",
+    //   btn_text: "Learn More",
+    //   setLayout: "1",
+    // },
   ],
 
   //################################################ Web Apps  ################################################
