@@ -9,17 +9,24 @@ const Navbar2 = () => {
   let divAnimationClass = "fade-in-image"
   const url = typeof window !== "undefined" ? window.location.href : ""
 
-  // address = getUrlParts(url)
+  address = getUrlParts(url)
 
-  // function getUrlParts(url) {
-  //   var a = document.createElement("a")
-  //   a.href = url
-  //   return {
-  //     pathname: a.pathname,
-  //   }
-  // }
+  function getUrlParts(url) {
+    var a =
+      document.createElement("a") !== "undefined"
+        ? document.createElement("a")
+        : ""
+    if (a !== "undefined") {
+      a.href = url
+      return {
+        pathname: a.pathname,
+      }
+    } else {
+      a.href = ""
+    }
+  }
 
-  url === "/portfolio"
+  address.pathname === "/portfolio"
     ? (divAnimationClass = "fade-in-image")
     : (divAnimationClass = "")
 
