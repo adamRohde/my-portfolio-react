@@ -10,7 +10,6 @@ const Navbar2 = () => {
     console.log("This is the location", getUrlParts(window.location.href))
   }
 
-  let url = window.location.href
   let divAnimationClass = "fade-in-image"
   let address = getUrlParts(window.location.href)
 
