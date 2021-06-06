@@ -5,16 +5,12 @@ import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
-
 // Social Icon
 import githubIcon from "./images/github.svg"
 //import codepenIcon from "./images/codepen.svg"
-
 import myface from "./images/mi-face.jpg"
 import sanmiguel from "./images/streets-of-san-miguel.jpg"
-
 import equipmentImage from "./images/equipment-pic.jpg"
-
 import hola from "./images/hola.jpg"
 import industrialautomation from "./images/work-projects.jpg"
 import webapps from "./images/web-apps.jpg"
@@ -24,7 +20,6 @@ import rockpaperscissors from "./images/rock-paper-scissors.jpg"
 import snakegame from "./images/snake-game.jpg"
 import calc from "./images/calculator.jpg"
 import todo from "./images/to-do.jpg"
-
 import XML_Parser from "./images/XML_Parser.mp4"
 
 export default {

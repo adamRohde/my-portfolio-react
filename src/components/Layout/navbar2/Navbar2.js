@@ -6,9 +6,6 @@ import Fade from "react-reveal/Fade"
 
 const Navbar2 = () => {
   console.log("Current Navbar page number is ")
-  {
-    console.log("This is the location", getUrlParts(window.location.href))
-  }
 
   let address = " "
   let divAnimationClass = "fade-in-image"
