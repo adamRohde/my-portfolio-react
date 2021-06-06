@@ -14,11 +14,10 @@ const webapps = () => {
       <Layout>
         <layoutContext.Consumer>
           {context => (
-            <>
+            <div>
               {context.changeLayout("WEB_APPS")}
               <Header title={"Web Apps"} />
-              <WebAppsCard />
-            </>
+            </div>
           )}
         </layoutContext.Consumer>
       </Layout>

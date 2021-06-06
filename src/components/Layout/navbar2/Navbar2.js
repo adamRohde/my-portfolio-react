@@ -52,8 +52,8 @@ const Navbar2 = () => {
                 >
                   Industrial Automation
                 </Link>
-                <Link to="/portfolio/mobile-apps" activeClassName="active2">
-                  Mobile Apps
+                <Link to="/portfolio/mobile" activeClassName="active2">
+                  Mobile
                 </Link>
               </div>
             </div>

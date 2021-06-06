@@ -4,11 +4,12 @@
 
 // Components
 @import "../pages/about/about.scss";
-@import "./mywork.scss";
+@import "./portfolio.scss";
 @import "./skills.scss";
 @import "./promotion.scss";
 @import "../pages/contact/contact.scss";
 @import "./footer.scss";
+@import "./../components/Header/Header.scss";
 @import "../components/Work-Projects/work-projects.scss";
 @import "../components/Web-Apps/web-apps.scss";
 @import "../components/Random-Spanish/random-spanish.scss";
@@ -37,7 +38,7 @@ body {
   background: rgb(255, 255, 255);
   width: auto;
   height: auto;
-  margin-top: 1vh;
+  margin-top: 3vh;
   margin-bottom: 2vh;
   margin-left: 2vw;
   margin-right: 2vw;
@@ -171,10 +172,9 @@ body {
 }
 
 .container-center {
-  width: auto;
-  margin-top: 11vh;
-  margin-left: 11vw;
-  margin-right: 11vw;
+  display: grid;
+  justify-content: center;
+  margin-top: 5vh;
 }
 
 // .navbar-wrapper-1 {

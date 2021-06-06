@@ -2,17 +2,15 @@ import React from "react"
 import Layout from "../../../components/Layout/layout"
 import { layoutContext } from "../../../../provider"
 import Header from "../../../components/Header/Header.js"
-import About from "../../../components/Random-Spanish/About"
-import MainImage from "../../../components/Random-Spanish/MainImage"
 
-const randomspanish = () => {
+const Mobile = () => {
   return (
     <>
       <Layout>
         <layoutContext.Consumer>
           {context => (
             <div>
-              <Header title={"RandomSpanish.com"} />
+              <Header title={"Mobile"} />
             </div>
           )}
         </layoutContext.Consumer>
@@ -21,4 +19,4 @@ const randomspanish = () => {
   )
 }
 
-export default randomspanish
+export default Mobile

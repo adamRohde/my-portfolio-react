@@ -15,15 +15,8 @@ const workprojects = () => {
           {context => (
             <>
               {context.changeLayout("WORK_PROJECTS")}
-              <div className="section">
-                <div className="container-compensate-tilt-center">
-                  <Header title={"Industrial Automation"} />
-                  <div className="wp-accordion-image-grid">
-                    <Accordions />
-                    <MainImage />
-                  </div>
-                  <Carousels />
-                </div>
+              <div>
+                <Header title={"Industrial Automation"} />
               </div>
             </>
           )}

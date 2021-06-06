@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Layout from "../../../components/Layout/layout"
 import SEO from "../../../components/seo"
-import WebApps from "./Web-apps"
+import Mobile from "./Mobile"
 import { layoutContext } from "../../../../provider"
 import Navbar1 from "../../../components/Layout/navbar/Navbar"
 import Navbar2 from "../../../components/Layout/navbar2/Navbar2"
@@ -14,12 +14,12 @@ const IndexPage = () => {
         <layoutContext.Consumer>
           {context => (
             <>
-              {context.changeLayout("MAIN")}
+              {context.changeLayout("MOBILE-APPS")}
               <SEO title="Adam's Portfolio" />
               <Navbar1 />
               <Navbar2 />
               <div className="section-main" style={{ height: "85vh" }}>
-                <WebApps />
+                <Mobile />
               </div>
               <Footer />
             </>

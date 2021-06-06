@@ -11,13 +11,14 @@ import githubIcon from "./images/github.svg"
 //import codepenIcon from "./images/codepen.svg"
 
 import myface from "./images/mi-face.jpg"
-import hola from "./images/hola.jpg"
 import sanmiguel from "./images/streets-of-san-miguel.jpg"
 
-import workprojects from "./images/work-projects.jpg"
 import equipmentImage from "./images/equipment-pic.jpg"
 
+import hola from "./images/hola.jpg"
+import industrialautomation from "./images/work-projects.jpg"
 import webapps from "./images/web-apps.jpg"
+import mobile from "./images/mobile.jpg"
 import expensetracker from "./images/expensetracker.jpg"
 import rockpaperscissors from "./images/rock-paper-scissors.jpg"
 import snakegame from "./images/snake-game.jpg"
@@ -40,31 +41,41 @@ export default {
   mywork: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "randomspanish.com",
+      title: "RandomSpanish.com",
       para: "",
       imageSrc: hola,
       target: "",
-      url: "/random-spanish",
+      url: "/portfolio/random-spanish",
       btn_text: "Go to site",
       setLayout: "0",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "Web apps",
+      title: "Web",
       para: "",
       imageSrc: webapps,
       target: "",
-      url: "/web-apps",
+      url: "/portfolio/web-apps",
       btn_text: "Learn More",
       setLayout: "1",
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Work projects",
+      title: "Industrial Automation",
       para: "",
-      imageSrc: workprojects,
+      imageSrc: industrialautomation,
       target: "",
-      url: "/work-projects",
+      url: "/portfolio/industrial-automation",
+      btn_text: "Learn More",
+      setLayout: "1",
+    },
+    {
+      id: 4, //DO NOT CHANGE THIS (Please)😅
+      title: "Mobile",
+      para: "",
+      imageSrc: mobile,
+      target: "",
+      url: "/portfolio/mobile",
       btn_text: "Learn More",
       setLayout: "1",
     },
@@ -200,7 +211,7 @@ export default {
     {
       id: 14,
       name: "C# application for automating machine startup",
-      src: workprojects,
+      src: industrialautomation,
     },
     {
       id: 15,
