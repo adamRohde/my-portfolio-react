@@ -1,11 +1,9 @@
 import React from "react"
 import Layout from "../../../components/Layout/layout"
 import { layoutContext } from "../../../../provider"
-import Accordions from "../../../components/Work-Projects/Accordions.js"
-import Carousels from "../../../components/Work-Projects/Carousels"
-// import Header from "../../../components/Work-Projects/Header"
 import Header from "../../../components/Header/Header"
-import MainImage from "../../../components/Work-Projects/MainImage"
+import MainImage from "../../../components/Industrial-Automation/MainImage"
+import About from "../../../components/Industrial-Automation/About"
 
 const workprojects = () => {
   return (
@@ -17,6 +15,10 @@ const workprojects = () => {
               {context.changeLayout("WORK_PROJECTS")}
               <div>
                 <Header title={"Industrial Automation"} />
+                <div className="ia-grid">
+                  <About />
+                  <MainImage />
+                </div>
               </div>
             </>
           )}

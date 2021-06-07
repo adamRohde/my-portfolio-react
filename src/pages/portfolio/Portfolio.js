@@ -8,7 +8,7 @@ const Work = () => {
       <Header title={"Portfolio"} />
       <div className="container-center">
         <div className="projects-grid">
-          {/* {data.mywork.map(mywork => (
+          {data.mywork.map(mywork => (
             <a
               className="project-card"
               href={mywork.url ? mywork.url : ""}
@@ -17,7 +17,7 @@ const Work = () => {
               <img className="project-img" src={mywork.imageSrc} />
               <p>{mywork.title}</p>
             </a>
-          ))} */}
+          ))}
         </div>
       </div>
     </div>

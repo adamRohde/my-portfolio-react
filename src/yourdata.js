@@ -64,16 +64,16 @@ export default {
       btn_text: "Learn More",
       setLayout: "1",
     },
-    // {
-    //   id: 4, //DO NOT CHANGE THIS (Please)😅
-    //   title: "Mobile",
-    //   para: "",
-    //   imageSrc: mobile,
-    //   target: "",
-    //   url: "/portfolio/mobile",
-    //   btn_text: "Learn More",
-    //   setLayout: "1",
-    // },
+    {
+      id: 4, //DO NOT CHANGE THIS (Please)😅
+      title: "Mobile",
+      para: "",
+      imageSrc: mobile,
+      target: "",
+      url: "/portfolio/mobile",
+      btn_text: "Learn More",
+      setLayout: "1",
+    },
   ],
 
   //################################################ Web Apps  ################################################
@@ -82,7 +82,7 @@ export default {
 
   WebApps: [
     {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
+      id: 5, //DO NOT CHANGE THIS (Please)😅
       title: "React Expense Tracker",
       para:
         "Simple app that allows you to save your expenses.  This was app was my introduction to React.",
@@ -101,7 +101,7 @@ export default {
       app_btn_text: "See the app",
     },
     {
-      id: 5, //DO NOT CHANGE THIS (Please)😅
+      id: 6, //DO NOT CHANGE THIS (Please)😅
       title: "Rock-Paper-Scissors",
       para:
         "Mobile friendly rock, paper, scissors game. Used CSS grid, and Flex-box to try and make responsive.",
@@ -119,7 +119,7 @@ export default {
       app_btn_text: "Play!",
     },
     {
-      id: 6, //DO NOT CHANGE THIS (Please)😅
+      id: 7, //DO NOT CHANGE THIS (Please)😅
       title: "Snake Game",
       para:
         "My rendition of the simple game snake, where you try to eat the apple without also eating your tail or going out of bounds.",
@@ -135,7 +135,7 @@ export default {
       app_btn_text: "Play!",
     },
     {
-      id: 7, //DO NOT CHANGE THIS (Please)😅
+      id: 8, //DO NOT CHANGE THIS (Please)😅
       title: "Calculator",
       para:
         "Simple calculator app using vanilla js. The app also incorporates a dark or light theme.",
@@ -151,7 +151,7 @@ export default {
       app_btn_text: "See the app",
     },
     {
-      id: 8, //DO NOT CHANGE THIS (Please)😅
+      id: 9, //DO NOT CHANGE THIS (Please)😅
       title: "Todo",
       para: "",
       technologies: ["Vanilla Javascript", "Localstorage"],
@@ -169,25 +169,25 @@ export default {
 
   workProjectsEquipment: [
     {
-      id: 9,
+      id: 10,
       name: "1) PLC (Programmable Logic Controller)",
       description:
         "It is the brains for most industrial machinery. Code is written to this device so that the machine becomes automated. The languages used for PLCs varies from vendor to vendor. I have the most experience with a language called Structured Text which is definied within the IEC 61131. This language borrows it's syntax from Pascal.",
     },
     {
-      id: 10,
+      id: 11,
       name: "2) HMI (Human Machine Interface)",
       description:
         "It is the interface for the operator of the machine. Historically the GUIs for HMIs have been written with native development environments created by the vendor of the HMI. Recently there has been a trend towards using more open source web technologies to create these interfaces.",
     },
     {
-      id: 11,
+      id: 12,
       name: "3) Servo Drive/Amplifier",
       description:
         "These are used to control electric servo motors (4) which are capable of following precise motion trajectories. Position data is fead back to them via the orange cable so the drive knows exactly where the motor is at all times.",
     },
     {
-      id: 12,
+      id: 13,
       name: "4) Servo Motor",
       description:
         "These motors allow for precise motion control. They are used in robotics, machines tool (CNC) and web handling applications",
@@ -199,22 +199,22 @@ export default {
   //################################################ Carousel Vids  ################################################
   carouselVids: [
     {
-      id: 13,
+      id: 14,
       name: "Parsing XML data in VBA",
       src: XML_Parser,
     },
     {
-      id: 14,
+      id: 15,
       name: "C# application for automating machine startup",
       src: industrialautomation,
     },
     {
-      id: 15,
+      id: 16,
       name: "Android app for polling data",
       src: webapps,
     },
     {
-      id: 16,
+      id: 17,
       name: "C programming for machine diagnostics",
       src: hola,
     },

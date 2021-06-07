@@ -13,6 +13,10 @@ const randomspanish = () => {
           {context => (
             <div>
               <Header title={"RandomSpanish.com"} />
+              <div className="rs-grid">
+                <About />
+                <MainImage />
+              </div>
             </div>
           )}
         </layoutContext.Consumer>

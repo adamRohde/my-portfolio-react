@@ -17,6 +17,7 @@ const webapps = () => {
             <div>
               {context.changeLayout("WEB_APPS")}
               <Header title={"Web Apps"} />
+              <WebAppsCard />
             </div>
           )}
         </layoutContext.Consumer>

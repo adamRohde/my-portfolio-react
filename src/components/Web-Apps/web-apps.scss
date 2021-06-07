@@ -3,101 +3,112 @@
   max-width: 1024px;
 }
 
-.wa-card-wrapper {
-  margin: 7.5vh 4vw 7.5vh 4vw;
-  background: white;
-  background-size: cover;
-  border-radius: 0rem;
-  min-height: 50vh;
-  max-width: 1024px;
+.wa-card-section {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  text-decoration: none;
-
-  h4 {
-    background-color: rgb(178, 34, 34);
-    padding: 1vh 0 1vh 1vw;
-    color: floralwhite;
-    border-radius: 0.5rem;
-    @include media(">=phone", "<tablet") {
-      font-size: 1.5rem;
-    }
-  }
-  .about {
-    display: grid;
-    border-radius: 1rem 0 0 1rem;
-    padding: 1rem;
-
-    .the-buttons {
-      margin: 1rem 0 0 1rem;
-      justify-self: start;
-      //Breaks at 320 - 424
-      @include media(">=phone", "<lgphone") {
-        margin: 0rem 0 0 1rem;
-      }
-      //Breaks at 425 - 767
-      @include media(">=lgphone", "<tablet") {
-        margin: 0rem 0 0 1rem;
-      }
-    }
-    //Breaks at 320 - 424
-    @include media(">=phone", "<lgphone") {
-    }
-    //Breaks at 425 - 767
-    @include media(">=lgphone", "<tablet") {
-    }
-
-    li {
-      color: rgb(0, 0, 0);
-      list-style: none;
-      font-style: italic;
-    }
-  }
-
-  .image {
-    margin: 0 0 0 1vw;
-    width: 100%;
-    height: 100%;
-    border-radius: 0.5rem;
-    overflow: hidden !important;
-    display: block;
-    align-items: center;
+  justify-content: centers;
+  .wa-card-wrapper {
+    margin: 5vh 4vw 5vh 4vw;
+    background: white;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    border-radius: 0rem;
+    min-height: auto;
+    max-width: 1024px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    text-decoration: none;
+
+    h4 {
+      // background-color: rgb(0, 0, 0);
+      // background: linear-gradient(
+      //   90deg,
+      //   rgb(0, 0, 0) 0%,
+      //   rgba(255, 255, 255, 0) 100%
+      // );
+      padding: 1vh 0 1vh 0vw;
+      color: rgb(0, 0, 0);
+      border-radius: 0.5rem;
+      @include media(">=phone", "<tablet") {
+        font-size: 1.5rem;
+      }
+    }
+    .about {
+      display: grid;
+      border-radius: 1rem 0 0 1rem;
+      padding: 1rem;
+
+      .the-buttons {
+        // padding: 1rem 0rem 0rem 2rem;
+        padding-left: 1vw;
+        // justify-self: start;
+        //Breaks at 320 - 424
+        @include media(">=phone", "<lgphone") {
+          margin: 0rem 0 0 1rem;
+        }
+        //Breaks at 425 - 767
+        @include media(">=lgphone", "<tablet") {
+          margin: 0rem 0 0 1rem;
+        }
+      }
+      //Breaks at 320 - 424
+      // @include media(">=phone", "<lgphone") {
+      // }
+      //Breaks at 425 - 767
+      // @include media(">=lgphone", "<tablet") {
+      // }
+
+      li {
+        color: rgb(0, 0, 0);
+        list-style: none;
+        font-style: italic;
+      }
+    }
+
+    .image {
+      margin: 0 0 0 8vw;
+      width: 100%;
+      height: 100%;
+      border-radius: 0.5rem;
+      overflow: hidden !important;
+      display: block;
+      align-items: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      //Breaks at 425 - 767
+      @include media("<tablet") {
+        margin-top: 4vh;
+      }
+    }
 
     //Breaks at 425 - 767
     @include media("<tablet") {
-      margin-top: 4vh;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
     }
+    //767 and up
   }
 
-  //Breaks at 425 - 767
-  @include media("<tablet") {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-  //767 and up
-}
+  h1 {
+    margin-top: 3vh;
+    padding: 0rem 0 0rem 4rem;
+    grid-row-start: 1;
+    background: rgb(178, 34, 34);
+    background: linear-gradient(
+      90deg,
+      rgb(0, 0, 0) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    color: white;
+    text-align: left;
+    @include media("<tablet") {
+      background-color: firebrick;
 
-h1 {
-  margin-top: 3vh;
-  padding: 0rem 0 0rem 4rem;
-  grid-row-start: 1;
-  background: rgb(178, 34, 34);
-  background: linear-gradient(
-    90deg,
-    rgba(178, 34, 34, 1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  color: white;
-  text-align: left;
-  @include media("<tablet") {
-    background-color: firebrick;
-
-    font-size: 2rem;
-    padding-left: 1rem;
-    padding-right: 9rem;
+      font-size: 2rem;
+      padding-left: 1rem;
+      padding-right: 9rem;
+    }
   }
 }

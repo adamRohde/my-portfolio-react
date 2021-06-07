@@ -11,6 +11,7 @@ const Mobile = () => {
           {context => (
             <div>
               <Header title={"Mobile"} />
+              <div className="main-grid"></div>
             </div>
           )}
         </layoutContext.Consumer>
