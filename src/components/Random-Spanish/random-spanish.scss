@@ -1,6 +1,6 @@
 .rs-grid {
   width: auto;
-  height: 100vh;
+  height: auto;
   display: grid;
   grid-template-columns: 2fr 3fr;
   grid-template-rows: auto 1fr 20fr;
@@ -20,9 +20,6 @@
     z-index: 4;
   }
 
-  // ##################################### Header #####################################
-  // ##################################### Header #####################################
-  // ##################################### Header #####################################
   .rs-header-wrapper {
     grid-row: 2 / 3;
     grid-column: 1 / 3;

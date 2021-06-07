@@ -13,11 +13,9 @@ const About = () => {
         recently, Sr Applications Engineer.
         <br />
         <br /> */}
-        Within the field of industrial automation a growing tend has emerged
-        where device manufacturers have started creating APIs that allow higher
-        level programming languages to interface with PLC or other industrial
-        controllers. This trend is what lead me into learning languages like C#,
-        Java, and Javascript. A few projects that I have developed include -
+        Aside from writing PLC code, working in the field of industrial
+        automation has given me the opportunity to work with many different
+        technologies. I listed a few of my favorites below -
         <br />
         <br />
         - C# WPF Application to automate the restore process of electronic servo
