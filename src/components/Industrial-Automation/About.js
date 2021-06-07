@@ -13,13 +13,12 @@ const About = () => {
         recently, Sr Applications Engineer.
         <br />
         <br /> */}
-        Aside from writing PLC code, working in the field of industrial
-        automation has given me the opportunity to work with many different
-        technologies. I listed a few of my favorites below -
+        This is work I've done while working in the field of Industrial
+        Automation (Links to come) -
         <br />
         <br />
-        - C# WPF Application to automate the restore process of electronic servo
-        systems
+        - Javascript hash table for quickly looking up error codes and their
+        descriptions
         <br />
         <br />
         - Android App (Java) developed for a customer to show at Pack Expo. The

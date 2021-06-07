@@ -20,10 +20,10 @@ const IndexPage = () => {
               <SEO title="Adam's Portfolio" />
               <Navbar1 />
               <Navbar2 />
-              {/* <div className="section-main" style={{ height: "85vh" }}>
+              <div className="section-main" style={{ height: "85vh" }}>
                 <Portfolio />
               </div>
-              <Footer /> */}
+              <Footer />
             </>
           )}
         </layoutContext.Consumer>
