@@ -14,10 +14,7 @@
 @import "../components/Web-Apps/web-apps.scss";
 @import "../components/Random-Spanish/random-spanish.scss";
 @import "../components/Industrial-Automation/industrial-automation.scss";
-
-* {
-  font-family: "Montserrat";
-}
+@import "../components/Mobile/mobile.scss";
 
 body {
   margin: 0;
