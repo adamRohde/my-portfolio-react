@@ -14,14 +14,11 @@ const About = () => {
         written by me.
         <br />
         <br />
-        - Java
+        <ul>
+          <li>Java</li>
+          <li>Android Studio</li>
+        </ul>
         <br />
-        - Android Studio
-        <br />
-        -
-        <br />
-        -
-        <br />-
       </p>
 
       <a
