@@ -14,7 +14,7 @@ const webapps = () => {
           {context => (
             <div>
               {context.changeLayout("WEB_APPS")}
-              <Header title={"Web Apps"} />
+              <Header title={"Web Apps"} type={"arrow"} />
               <About />
               <WebAppsCard />
             </div>

@@ -2,9 +2,9 @@
   width: auto;
   height: auto;
   display: grid;
-  margin: 0vh 0vw 2vh 0vw;
+  margin: -6vh 0vw 2vh 0vw;
   grid-template-columns: 2fr 3fr;
-  grid-template-rows: auto 1fr 20fr;
+  grid-template-rows: 1fr 20fr;
   grid-template-areas:
     "rs-item-nav rs-item-nav"
     "rs-header-wrapper rs-header-wrapper"
@@ -12,6 +12,7 @@
   background-size: cover;
   @include media("<tablet") {
     flex-direction: column-reverse;
+    margin: 0 0vw 2vh 0vw;
   }
 
   .mobile-item-nav {

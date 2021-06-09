@@ -5,7 +5,7 @@ import Header from "../../components/Header/Header"
 const Work = () => {
   return (
     <div>
-      <Header title={"Portfolio"} />
+      <Header title={"Portfolio"} type={"full"} />
       <div className="container-center">
         <div className="projects-grid">
           {data.mywork.map(mywork => (

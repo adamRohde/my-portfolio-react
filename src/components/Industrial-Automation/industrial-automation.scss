@@ -2,6 +2,7 @@
   width: auto;
   height: auto;
   display: grid;
+  margin: -6vh 0vw 2vh 0vw;
   grid-template-columns: 2fr 2fr;
   grid-template-rows: auto 1fr 20fr;
   grid-template-areas:
@@ -63,7 +64,7 @@
   .ia-about-wrapper {
     grid-row: 3 / 4;
     grid-column: 1 / 2;
-    margin: 0vh 1.5vw 0 2.5vw;
+    margin: 6vh 1.5vw 0 2.5vw;
     width: auto;
     align-self: start;
     @include media("<tablet") {
@@ -93,7 +94,6 @@
 
   .ia-mainimage-wrapper {
     display: block;
-    margin-top: -0.5rem;
     background-size: contain;
     align-self: start;
     justify-self: flex-end;

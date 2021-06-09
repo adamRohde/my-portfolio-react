@@ -14,7 +14,7 @@ const workprojects = () => {
             <>
               {context.changeLayout("WORK_PROJECTS")}
               <div>
-                <Header title={"Industrial Automation"} />
+                <Header title={"Industrial Automation"} type={"arrow"} />
                 <div className="ia-grid">
                   <About />
                   <MainImage />

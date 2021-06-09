@@ -17,6 +17,7 @@ const About = () => {
         <br />
         <ul>
           <li>React</li>
+          <li>Google Translate API</li>
           {/* <br /> */}
           <li>Graphql</li>
           {/* <br /> */}
@@ -24,7 +25,7 @@ const About = () => {
           {/* <br /> */}
           <li>DynamoDB</li>
           {/* <br /> */}
-          <li>Bootstrap</li>
+          {/* <li>Bootstrap</li> */}
         </ul>
         Username: mastermind
         <br />

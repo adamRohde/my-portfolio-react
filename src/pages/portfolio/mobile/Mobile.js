@@ -12,7 +12,7 @@ const Mobile = () => {
         <layoutContext.Consumer>
           {context => (
             <div>
-              <Header title={"Mobile"} />
+              <Header title={"Mobile"} type={"arrow"} />
               <div className="mobile-grid">
                 <About />
                 <MainImage />

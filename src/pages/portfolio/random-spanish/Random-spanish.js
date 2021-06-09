@@ -12,7 +12,7 @@ const randomspanish = () => {
         <layoutContext.Consumer>
           {context => (
             <div>
-              <Header title={"RandomSpanish.com"} />
+              <Header title={"RandomSpanish.com"} type={"arrow"} />
               <div className="rs-grid">
                 <About />
                 <MainImage />
