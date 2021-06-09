@@ -15,21 +15,22 @@ const About = () => {
         of the screen
         <br />
         <br />
-        - React
-        <br />
-        - Graphql
-        <br />
-        - AWS Amplify
-        <br />
-        - DynamoDB
-        <br />
-        - Bootstrap
-        <br />
-        <br />
+        <ul>
+          <li>React</li>
+          {/* <br /> */}
+          <li>Graphql</li>
+          {/* <br /> */}
+          <li>AWS Amplify</li>
+          {/* <br /> */}
+          <li>DynamoDB</li>
+          {/* <br /> */}
+          <li>Bootstrap</li>
+        </ul>
         Username: mastermind
         <br />
         Password: mastermind
       </p>
+      <br />
 
       <a
         className="btn btn-primary"
