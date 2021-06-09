@@ -11,7 +11,7 @@ const About = () => {
             <div className="content">
               <h1 style={{ color: "black" }}>About me</h1>
               {/* <p style={{ color: "black" }}>{data.aboutParaMain}</p> */}
-              <p>
+              <h5>
                 {" "}
                 Hello! My name is Adam, welcome! This site is designed to
                 showcase coding projects I've built while learning full stack
@@ -45,7 +45,7 @@ const About = () => {
                 from a predictable console.log is no different then the feeling
                 I first got seeing tires being evently distributed across a
                 conveyor. */}
-              </p>
+              </h5>
             </div>
             <div className="image-wrapper">
               <img src={data.aboutImage} alt="about"></img>
