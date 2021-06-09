@@ -18,7 +18,9 @@ const About = () => {
         <ul>
           <li>React</li>
           {/* <br /> */}
+          <li>Google Translate API</li>
           <li>Graphql</li>
+
           {/* <br /> */}
           <li>AWS Amplify</li>
           {/* <br /> */}
