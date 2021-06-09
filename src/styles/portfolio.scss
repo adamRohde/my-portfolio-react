@@ -40,8 +40,8 @@ h2 {
   max-width: 25vw;
   height: auto;
 
-  @include media(">=tablet", "<desktop") {
-    width: 70vw;
+  @include media("<=tablet", "<desktop") {
+    max-width: 70vw;
     height: auto;
   }
 
@@ -51,8 +51,8 @@ h2 {
     border-radius: 0.5rem 0.5rem 0rem 0rem;
     // overflow: hidden !important;
 
-    @include media(">=phone", "<tablet") {
-      width: 70vw;
+    @include media("<=tablet", "<desktop") {
+      max-width: 70vw;
       height: auto;
     }
   }

@@ -12,7 +12,7 @@ const About = () => {
         dissapointed when there was no way to save phrases that I could go back
         to and study. So I decided to build my own site. If you would like to
         try logging in to test the site use the credentials found at the bottom
-        of the screen
+        of the screen.
         <br />
         <br />
         <ul>

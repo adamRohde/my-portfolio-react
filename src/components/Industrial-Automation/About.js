@@ -14,28 +14,25 @@ const About = () => {
         <br />
         <br /> */}
         This is work I've done while working in the field of Industrial
-        Automation (Links to come)
+        Automation (Links to come).
         <br />
         <br />
         <ul>
           <li>
             Javascript hash table for quickly looking up error codes and their
-            descriptions
+            descriptions.
           </li>
           <br />
           <li>
-            Android App (Java) developed for a customer to show at Pack Expo.
-            The app pulled production data off a machine that made secure
-            pouches. The app also allowed for controlling certain operations of
-            the machine
+            I built an Android App (Java) for a company that makes industrial
+            web handling machines. The app pulled production data off the
+            machine and also allowed for controlling certain operations.
           </li>
-          <br />
-          <li>VBA application to parse XML data</li>
+
           <br />
           <li>
             C program written for the Bosch XDK sensor. The program logged
-            vibration, acoustic data off machines to determine how well they
-            were running
+            vibration, and acoustic data to bench mark production equipment.
           </li>
         </ul>
         <br />
