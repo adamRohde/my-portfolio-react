@@ -1,7 +1,7 @@
 .header-wrapper {
   z-index: 2;
   align-self: center;
-  width: 50%;
+  width: 100%;
   @include media("<tablet") {
     width: 50%;
   }
@@ -10,12 +10,12 @@
     margin-top: 0rem;
     padding: 0rem 0 0rem 4rem;
     grid-row-start: 1;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(
-      90deg,
-      rgb(0, 0, 0) 0%,
-      rgba(255, 255, 255, 0) 100%
-    );
+    background: firebrick;
+    // background: linear-gradient(
+    //   90deg,
+    //   rgb(0, 0, 0) 0%,
+    //   rgba(255, 255, 255, 0) 100%
+    // );
     color: white;
     text-align: left;
     @include media("<tablet") {

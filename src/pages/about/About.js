@@ -23,13 +23,12 @@ const About = () => {
                 <br />
                 Thank you!
                 <br />
-                <br />A few skills. . .
-                <ul>
+                {/* <ul>
                   <li>PLC Development- (IEC-61131)</li>
                   <li>Android- (Java)</li>
                   <li>Web- Javascript, React, SQL, MongoDB, PHP</li>
                   <li>Desktop WPF Applications- (C#)</li>
-                </ul>
+                </ul> */}
                 <br />
                 <br />
                 {/* My first 'production' code. . . It was a PLC program that
