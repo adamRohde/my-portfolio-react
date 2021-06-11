@@ -20,7 +20,7 @@ const IndexPage = () => {
               <SEO title="Adam's Portfolio" />
               <Navbar1 />
               <Navbar2 />
-              <div className="section-main" style={{ height: "auto" }}>
+              <div className="section-main">
                 <Portfolio />
               </div>
               <Footer />

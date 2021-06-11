@@ -17,32 +17,28 @@ const Navbar2 = () => {
   return (
     <layoutContext.Consumer>
       {context => (
-        <div className={divAnimationClass}>
-          <div>
-            <div className="section-nav-2">
-              {/* <div className="navbar-wrapper-2"> */}
-              <Link
-                to="/portfolio/random-spanish"
-                activeClassName="active2"
-                location={address}
-              >
-                {console.log("Hello from Link ", address)}
-                RandomSpanish.com
-              </Link>
-              <Link to="/portfolio/web-apps" activeClassName="active2">
-                Web Apps
-              </Link>
-              <Link
-                to="/portfolio/industrial-automation"
-                activeClassName="active2"
-              >
-                Industrial Automation
-              </Link>
-              <Link to="/portfolio/mobile" activeClassName="active2">
-                Mobile
-              </Link>
-            </div>
-            {/* </div> */}
+        <div>
+          <div className="section-nav-2">
+            <Link
+              to="/portfolio/random-spanish"
+              activeClassName="active2"
+              location={address}
+            >
+              {console.log("Hello from Link ", address)}
+              RandomSpanish.com
+            </Link>
+            <Link to="/portfolio/web-apps" activeClassName="active2">
+              Web Apps
+            </Link>
+            <Link
+              to="/portfolio/industrial-automation"
+              activeClassName="active2"
+            >
+              Industrial Automation
+            </Link>
+            <Link to="/portfolio/mobile" activeClassName="active2">
+              Mobile
+            </Link>
           </div>
         </div>
       )}

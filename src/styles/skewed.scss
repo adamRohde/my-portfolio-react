@@ -1,6 +1,12 @@
 .section-about-skewed {
   overflow: show;
-  background: rgb(255, 208, 0);
+  background: rgb(143, 142, 142);
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255) 0%,
+    rgb(143, 142, 142) 100%
+  );
+
   transform: skew(0deg, -10deg) translateY(-20vh);
 }
 .section-about-anti-skewed {
