@@ -1,0 +1,8 @@
+.section-about-skewed {
+  overflow: show;
+  background: rgb(255, 208, 0);
+  transform: skew(0deg, -10deg) translateY(-20vh);
+}
+.section-about-anti-skewed {
+  transform: skew(0deg, 10deg);
+}

@@ -15,6 +15,7 @@
 @import "../components/Random-Spanish/random-spanish.scss";
 @import "../components/Industrial-Automation/industrial-automation.scss";
 @import "../components/Mobile/mobile.scss";
+@import "./skewed.scss";
 
 body {
   margin: 0;
@@ -33,7 +34,8 @@ body {
 }
 
 .section-main {
-  background: rgb(255, 255, 255);
+  overflow: hidden;
+  background: white;
   width: auto;
   height: auto;
   margin-top: 3vh;

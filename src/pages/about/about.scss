@@ -3,8 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 30vh;
+  padding-bottom: 0vh;
   padding-left: 2vw;
   padding-right: 2vw;
   @include media("<desktop") {
@@ -18,8 +18,8 @@
       width: 100%;
     }
 
-    h1 {
-      margin: 9.5vh 0.5vw 0.5vh 0vw;
+    h2 {
+      margin: 8.5vh 0.5vw 0.5vh 0vw;
       @include media("<desktop") {
         margin-top: 2rem;
       }

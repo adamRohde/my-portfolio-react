@@ -16,8 +16,13 @@ const IndexPage = () => {
               {context.changeLayout("MAIN")}
               <SEO title="Adam's Portfolio" />
               <Navbar1 />
-              <div className="section-main" style={{ height: "auto" }}>
-                <About />
+
+              <div className="section-main">
+                <div className="section-about-skewed">
+                  <div className="section-about-anti-skewed">
+                    <About />
+                  </div>
+                </div>
               </div>
               <Footer />
             </>
