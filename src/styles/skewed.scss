@@ -9,3 +9,12 @@
 .section-about-anti-skewed {
   transform: skew(0deg, 10deg);
 }
+
+.section-lowright-skewed {
+  overflow: show;
+  background: $businessprofessionalgradient2;
+  transform: skew(0deg, 10deg) translateY(20vh);
+}
+.section-lowright-anti-skewed {
+  transform: skew(0deg, -10deg);
+}

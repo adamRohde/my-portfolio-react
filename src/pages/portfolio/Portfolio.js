@@ -6,8 +6,8 @@ const Work = () => {
   return (
     <div>
       <Header title={"Portfolio"} />
-      <div className="container-center">
-        <div className="projects-grid">
+      <div id="portfolio">
+        {/* <div className="projects-grid">
           {data.mywork.map(mywork => (
             <a
               className="project-card"
@@ -18,7 +18,7 @@ const Work = () => {
               <p>{mywork.title}</p>
             </a>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   )

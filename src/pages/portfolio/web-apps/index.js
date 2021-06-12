@@ -10,25 +10,9 @@ import Footer from "../../../components/Layout/Footer"
 const IndexPage = () => {
   return (
     <>
-      <Layout>
-        <layoutContext.Consumer>
-          {context => (
-            <>
-              {context.changeLayout("MAIN")}
-              <SEO title="Adam's Portfolio" />
-              <Navbar1 />
-              <Navbar2 />
-              <div
-                className="section-main"
-                id="webapps"
-                style={{ height: "auto" }}
-              >
-                <WebApps />
-              </div>
-            </>
-          )}
-        </layoutContext.Consumer>
-      </Layout>
+      <section className="section-about-skewed" id="webapps">
+        <WebApps />
+      </section>
     </>
   )
 }

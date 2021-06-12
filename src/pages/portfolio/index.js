@@ -11,30 +11,26 @@ import RandomSpanish from "./random-spanish/index"
 import WebApps from "./web-apps/index"
 import IndustrialAutomation from "./industrial-automation/index"
 import Mobile from "./mobile/index"
+import Fade from "react-reveal/Fade"
 
 const IndexPage = () => {
   return (
     <>
-      <Layout>
-        <layoutContext.Consumer>
-          {context => (
-            <>
-              {context.changeLayout("MAIN")}
-              <SEO title="Adam's Portfolio" />
-              <Navbar1 />
-              <Navbar2 />
-              <div className="section-main">
-                <Portfolio />
-                <RandomSpanish />
-                <WebApps />
-                <Mobile />
-                <IndustrialAutomation />
-              </div>
-              <Footer />
-            </>
-          )}
-        </layoutContext.Consumer>
-      </Layout>
+      <>
+        <SEO title="Adam's Portfolio" />
+        <Navbar1 />
+        <Fade bottom cascade>
+          <Navbar2 />
+        </Fade>
+        <div className="section-main">
+          <Portfolio />
+          <RandomSpanish />
+          <WebApps />
+          <Mobile />
+          <IndustrialAutomation />
+        </div>
+        <Footer />
+      </>
     </>
   )
 }

@@ -8,19 +8,13 @@ import MainImage from "../../../components/Mobile/MainImage"
 const Mobile = () => {
   return (
     <>
-      <Layout>
-        <layoutContext.Consumer>
-          {context => (
-            <div>
-              <Header title={"Mobile"} />
-              <div className="mobile-grid">
+      <section className="section-about-anti-skewed">
+        <Header title={"Mobile"} />
+        {/* <div className="mobile-grid">
                 <About />
                 <MainImage />
-              </div>
-            </div>
-          )}
-        </layoutContext.Consumer>
-      </Layout>
+              </div> */}
+      </section>
     </>
   )
 }

@@ -7,24 +7,13 @@ import About from "../../../components/Industrial-Automation/About"
 
 const workprojects = () => {
   return (
-    <>
-      <Layout>
-        <layoutContext.Consumer>
-          {context => (
-            <>
-              {context.changeLayout("WORK_PROJECTS")}
-              <div>
-                <Header title={"Industrial Automation"} />
-                <div className="ia-grid">
+    <section className="section-about-anti-skewed">
+      <Header title={"Industrial Automation"} />
+      {/* <div className="ia-grid">
                   <About />
                   <MainImage />
-                </div>
-              </div>
-            </>
-          )}
-        </layoutContext.Consumer>
-      </Layout>
-    </>
+                </div> */}
+    </section>
   )
 }
 
