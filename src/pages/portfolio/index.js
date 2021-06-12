@@ -27,8 +27,8 @@ const IndexPage = () => {
                 <Portfolio />
                 <RandomSpanish />
                 <WebApps />
-                <IndustrialAutomation />
                 <Mobile />
+                <IndustrialAutomation />
               </div>
               <Footer />
             </>

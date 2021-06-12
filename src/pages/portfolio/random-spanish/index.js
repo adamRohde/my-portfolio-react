@@ -18,10 +18,13 @@ const IndexPage = () => {
               <SEO title="Adam's Portfolio" />
               <Navbar1 />
               <Navbar2 />
-              <div className="section-main" style={{ height: "auto" }}>
+              <div
+                className="section-main"
+                id="randomspanish"
+                style={{ height: "auto" }}
+              >
                 <RandomSpanish />
               </div>
-              <Footer />
             </>
           )}
         </layoutContext.Consumer>
