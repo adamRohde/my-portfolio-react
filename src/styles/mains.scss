@@ -27,13 +27,7 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   background-color: #ececec;
-  background-image: repeating-linear-gradient(
-    135deg,
-    rgb(241, 241, 241),
-    rgb(241, 241, 241) 5px,
-    rgb(250, 250, 250) 5px,
-    rgb(250, 250, 250) 10px
-  );
+  background-image: $stripedbackground;
 }
 
 main {
@@ -45,7 +39,7 @@ main {
   overflow: hidden;
   background: white;
   width: auto;
-  height: 200vh;
+  height: auto;
   margin-top: 15vh;
   margin-bottom: 2vh;
   margin-left: 2vw;

@@ -5,7 +5,9 @@
   top: 7vh;
   display: flex;
   flex-direction: row;
-  background: $coolyellow;
+  //   background: $businessprofessionalgradient;
+  background: white;
+  align-self: center;
   width: 100%;
   height: auto;
   margin-top: 0vh;
@@ -14,6 +16,7 @@
   overflow: hidden;
   z-index: 3;
   justify-content: center;
+  border-top: solid 1px $nicelinecolor;
 
   @include media("<=tablet") {
     flex-direction: column;
@@ -31,13 +34,14 @@
   }
   a:hover {
     text-decoration: none;
+    transform: scale(1.03, 1.03);
     border: none;
-    color: rgb(0, 0, 0);
-    border-bottom: solid 1px rgb(0, 0, 0);
+    color: black;
+    border-bottom: solid 1px black;
     cursor: pointer;
   }
   .active2 {
-    border-bottom: solid 1px rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
+    border-bottom: solid 1px black;
+    color: black;
   }
 }
