@@ -103,14 +103,87 @@ h2 {
 }
 
 #randomspanish {
-  height: 100rem;
+  height: 200vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr 5fr 5fr 5fr;
+  background: rgb(206, 206, 206);
+
+  .row_1 {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    height: 100%;
+
+    .google_translate_icon {
+      align-self: center;
+      height: 100%;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url(../images/Google_Translate_Icon.png);
+    }
+    .rs_translation_image {
+      align-self: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 100%;
+      background-image: url(../images/rs_translation.png);
+    }
+  }
+
+  .row_2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+
+    .rs_save_image {
+      align-self: center;
+      height: 20em;
+      background-size: contain;
+      background-repeat: no-repeat;
+      img {
+        background-image: url(../images/rs_saving.png);
+      }
+    }
+    .graphql_icon {
+      align-self: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 5em;
+      img {
+        background-image: url(../images/graphql_icon.png);
+      }
+    }
+  }
+
+  .row_3 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    .mongodb_icon {
+      align-self: center;
+      height: 5em;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url(../images/mongodb_icon.png);
+    }
+    .rs_testing {
+      align-self: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 20em;
+      background-image: url(../images/rs_tesing.jpg);
+    }
+  }
 }
 
-#webapps {
-}
+// .row2 {
+// }
 
-#mobile {
-}
+// .row3 {
+// }
 
-#industrialautomation {
-}
+// #webapps {
+// }
+
+// #mobile {
+// }
+
+// #industrialautomation {
+// }
