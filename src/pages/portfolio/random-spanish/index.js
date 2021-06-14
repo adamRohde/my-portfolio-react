@@ -10,7 +10,7 @@ import Footer from "../../../components/Layout/Footer"
 const IndexPage = () => {
   return (
     <>
-      <section className="section-about-skewed" id="randomspanish">
+      <section className="portfolio-main" id="randomspanish">
         <RandomSpanish />
       </section>
     </>

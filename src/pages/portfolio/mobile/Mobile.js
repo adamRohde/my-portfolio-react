@@ -8,7 +8,7 @@ import MainImage from "../../../components/Mobile/MainImage"
 const Mobile = () => {
   return (
     <>
-      <section className="section-about-anti-skewed">
+      <section>
         <Header title={"Mobile"} />
         {/* <div className="mobile-grid">
                 <About />

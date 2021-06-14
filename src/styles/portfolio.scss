@@ -77,29 +77,40 @@ h2 {
   text-decoration: none;
 }
 
+.portfolio-main {
+  margin-top: 8rem;
+  background: white;
+  height: 50rem;
+  margin-left: 2vw;
+  margin-right: 2vw;
+
+  h1 {
+    color: black;
+    font-size: 5rem;
+  }
+
+  p {
+    margin: 3rem 3rem 3rem 7rem;
+    font-size: 1.5rem;
+  }
+}
+
 #portfolio {
-  background: turquoise;
-  display: grid;
-  justify-content: center;
-  height: 100vh;
+  h1 {
+    font-size: 8rem;
+    color: black;
+  }
 }
 
 #randomspanish {
-  background: white;
-  height: 200vh;
+  height: 100rem;
 }
 
 #webapps {
-  background: turquoise;
-  height: 100vh;
 }
 
 #mobile {
-  background: white;
-  height: 100vh;
 }
 
 #industrialautomation {
-  background: turquoise;
-  height: 100vh;
 }

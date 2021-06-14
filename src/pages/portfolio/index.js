@@ -22,7 +22,7 @@ const IndexPage = () => {
         <Fade bottom cascade>
           <Navbar2 />
         </Fade>
-        <div className="section-main">
+        <div>
           <Portfolio />
           <RandomSpanish />
           <WebApps />

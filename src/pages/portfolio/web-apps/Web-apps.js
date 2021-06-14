@@ -8,7 +8,7 @@ import About from "../../../components/Web-Apps/About"
 const webapps = () => {
   console.log("layoutContext  ", layoutContext)
   return (
-    <section className="section-about-anti-skewed">
+    <section>
       <Header title={"Web Apps"} />
       {/* <About />
               <WebAppsCard /> */}

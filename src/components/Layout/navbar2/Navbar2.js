@@ -7,31 +7,31 @@ const Navbar2 = () => {
       <div className="section-nav-2">
         <button
           type="button"
-          class="btn btn-dark"
+          class="btn btn-link"
           onClick={() => scrollTo("#randomspanish")}
         >
-          RandomSpanish.com
+          <p>RandomSpanish.com</p>
         </button>
         <button
           type="button"
-          class="btn btn-dark"
+          class="btn btn-link"
           onClick={() => scrollTo("#webapps")}
         >
-          Play apps
+          <p>Play apps</p>
         </button>
         <button
           type="button"
-          class="btn btn-dark"
+          class="btn btn-link"
           onClick={() => scrollTo("#mobile")}
         >
-          Mobile
+          <p>Mobile</p>
         </button>
         <button
           type="button"
-          class="btn btn-dark"
+          class="btn btn-link"
           onClick={() => scrollTo("#industrialautomation")}
         >
-          Industrial Automation
+          <p>Industrial Automation</p>
         </button>
       </div>
     </div>

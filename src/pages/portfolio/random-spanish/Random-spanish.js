@@ -5,7 +5,7 @@ import MainImage from "../../../components/Random-Spanish/MainImage"
 
 const randomspanish = () => {
   return (
-    <section className="section-about-anti-skewed">
+    <section>
       <Header title={"RandomSpanish.com"} />
       {/* <div className="rs-grid">
                 <About />

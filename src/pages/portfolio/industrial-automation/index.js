@@ -7,7 +7,7 @@ import { layoutContext } from "../../../../provider"
 const IndexPage = () => {
   return (
     <>
-      <section className="section-about-skewed" id="industrialautomation">
+      <section className="portfolio-main" id="industrialautomation">
         <IndustrialAutomation />
       </section>
     </>

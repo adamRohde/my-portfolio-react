@@ -7,7 +7,7 @@ import About from "../../../components/Industrial-Automation/About"
 
 const workprojects = () => {
   return (
-    <section className="section-about-anti-skewed">
+    <section>
       <Header title={"Industrial Automation"} />
       {/* <div className="ia-grid">
                   <About />
