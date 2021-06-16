@@ -9,11 +9,12 @@ const Mobile = () => {
   return (
     <>
       <section>
-        <Header title={"Mobile"} />
-        {/* <div className="mobile-grid">
-                <About />
-                <MainImage />
-              </div> */}
+        {/* <Header title={"Mobile"} /> */}
+        <h2>Mobile</h2>
+        <div className="mobile-grid">
+          <About />
+          <MainImage />
+        </div>
       </section>
     </>
   )

@@ -8,11 +8,12 @@ import About from "../../../components/Industrial-Automation/About"
 const workprojects = () => {
   return (
     <section>
-      <Header title={"Industrial Automation"} />
-      {/* <div className="ia-grid">
-                  <About />
-                  <MainImage />
-                </div> */}
+      {/* <Header title={"Industrial Automation"} /> */}
+      <h2>Industrial Automation</h2>
+      <div className="ia-grid">
+        <About />
+        <MainImage />
+      </div>
     </section>
   )
 }

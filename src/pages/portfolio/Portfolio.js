@@ -1,12 +1,11 @@
 import React from "react"
 import data from "../../yourdata"
-import Header from "../../components/Header/Header"
 
 const Work = () => {
   return (
     <div>
       <div className="portfolio-main" id="portfolio">
-        <Header title={"My Work!"} />
+        <h1>My Work!</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

@@ -13,7 +13,7 @@ const WebAppsCard = () => {
           <div>
             <section className="wa-card-wrapper">
               <div>
-                <h4>{webapp.title}</h4>
+                <h3>{webapp.title}</h3>
                 <p>{webapp.para}</p>
 
                 {webapp.technologies.map(technology => (
@@ -44,15 +44,15 @@ const WebAppsCard = () => {
                 </div>
               </div>
 
-              {/* <div
-              className="image"
-              style={{
-                backgroundImage:
-                  "linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.2)),url(" +
-                  webapp.imageSrc +
-                  ")",
-              }}
-            ></div> */}
+              <div
+                className="image"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.2)),url(" +
+                    webapp.imageSrc +
+                    ")",
+                }}
+              ></div>
             </section>
           </div>
         </>

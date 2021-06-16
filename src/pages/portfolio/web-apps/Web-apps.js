@@ -9,9 +9,10 @@ const webapps = () => {
   console.log("layoutContext  ", layoutContext)
   return (
     <section>
-      <Header title={"Web Apps"} />
-      {/* <About />
-              <WebAppsCard /> */}
+      {/* <Header title={"Web Apps"} /> */}
+      <h2>Web Apps</h2>
+      <About />
+      <WebAppsCard />
     </section>
   )
 }
