@@ -1,131 +1,45 @@
-.projects-grid {
-  width: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2.5rem;
-  text-decoration: none;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  margin: 0vh 0vw 0vh 0vw;
-
-  @include media(">=phone", "<tablet") {
-    grid-template-columns: 1fr;
-  }
-
-  @include media(">=tablet", "<desktop") {
-    grid-template-columns: 1fr 1fr;
-  }
+section {
+  margin-top: 0rem;
+  margin-bottom: 10rem;
 }
 
-// .project-card {
-//   background-color: firebrick;
-//   display: flex;
-//   flex-direction: column;
-//   border-radius: 0.5rem;
-//   align-items: center;
-//   justify-content: center;
-//   text-decoration: none;
-//   color: white;
-//   max-width: 25vw;
-//   height: auto;
+h2 {
+  color: black;
+  font-size: 5rem;
+  margin-left: 5rem;
+}
 
-//   @include media("<=tablet", "<desktop") {
-//     max-width: 70vw;
-//     height: auto;
-//   }
-
-//   .project-img {
-//     min-width: 25vw;
-//     border-radius: 0.5rem 0.5rem 0rem 0rem;
-//     // overflow: hidden !important;
-
-//     @include media("<=tablet", "<desktop") {
-//       max-width: 70vw;
-//       height: auto;
-//     }
-//   }
-
-//   .project-card:hover {
-//     transform: scale(1.2, 0.5);
-//   }
-
-//   p {
-//     font-size: 1.2rem;
-//     text-decoration: none;
-//     margin-top: 0.5rem;
-//     margin-bottom: 0.5rem;
-//     color: white;
-//     @include media(">=phone", "<tablet") {
-//       text-align: justify;
-//       font-size: 1rem;
-//       font-weight: 500;
-//     }
-//   }
-// }
-// .project-card:hover {
-//   text-decoration: none;
-// }
-
-.portfolio-main {
-  height: 90vh;
+#mywork {
+  height: auto;
   margin-top: 2rem;
-  background: rgb(206, 206, 206);
+  // background: rgb(206, 206, 206);
+  background: white;
   display: grid;
-
-  h1,
-  h2,
-  p {
-    justify-self: center;
-  }
-
   h1 {
     color: black;
     font-size: 7rem;
-    margin: 5rem 0rem 1rem 1rem;
+    margin: 5rem 0rem 1rem 5rem;
   }
-
-  h2 {
-    color: black;
-    font-size: 6rem;
-    margin: 6rem 0rem 6rem 1rem;
-  }
-
   p {
     color: rgb(60, 60, 60);
-    display: grid;
+    width: 65%;
+    font-size: 1.8rem;
+    margin: 5rem 0 0rem 7rem;
+  }
+}
+
+#randomspanish {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  background-repeat: no-repeat;
+  p {
+    color: rgb(60, 60, 60);
     width: 55%;
     font-size: 1.5rem;
+    margin: 1rem 0 1rem 7rem;
   }
-
-  ul {
-    width: 65%;
-    margin: 1rem 3rem 0rem 7rem;
-    font-size: 1.5rem;
-    justify-self: start;
-    list-style-type: none;
-  }
-
-  .poweredBy {
-    font-size: 0.8rem;
-    line-height: 3rem;
-    margin-top: 0.5rem;
-    margin-left: 1.5rem;
-    font-weight: lighter;
-    justify-self: center;
-  }
-
-  .callToAction {
-    // transform: scale(1.4);
-    font-size: 2rem;
-    font-weight: bold;
-  }
-
-  .highlighted {
-    transform: scale(1.1);
-    font-weight: bold;
-  }
-
   #icon {
     max-height: auto;
     width: 7rem;
@@ -135,7 +49,6 @@
   #icon:hover {
     transform: scale(1.05);
   }
-
   #googleIcon {
     max-height: auto;
     width: 3rem;
@@ -146,56 +59,47 @@
     transform: scale(1.05);
   }
 
-  .btn {
-    // align-self: end;
-    margin: 0 0 5rem 0;
-    height: 3rem;
-    transition: all 0.2s ease-in-out;
+  .imageRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 8rem;
+    margin-bottom: 0rem;
+    p {
+      width: 45%;
+      font-size: 1.1rem;
+      align-self: center;
+      justify-self: end;
+    }
   }
-  .btn:hover {
-    transform: scale(1.05);
-  }
-}
-
-#portfolio {
-  p {
-    padding-bottom: 10rem;
-  }
-}
-
-#randomspanish {
-  height: auto;
-  width: 100%;
-  display: grid;
-  grid-template-rows: 2fr 5fr 5fr 5fr auto;
-  // background: rgb(206, 206, 206);
-  background-repeat: no-repeat;
-
-  p {
-    justify-self: center;
-  }
-
-  // h2 {
-  //   margin-top: 3rem;
-  // }
-
-  img {
-    width: 80%;
+  .imageRowImage {
+    display: flex;
+    width: 55%;
     height: auto;
+    border-radius: 1rem;
   }
-
-  .imageRow1 {
-    margin: 3rem 0rem 3rem 3rem;
-    justify-self: center;
+  .Row1 {
+    p {
+      margin: 0rem 0rem 0rem 5rem;
+    }
+    .img1 {
+      margin: 0rem 5rem 0rem 0rem;
+    }
   }
-
-  .imageRow2 {
-    margin: 3rem 3rem 3rem 0rem;
-    justify-self: start;
+  .Row2 {
+    .img2 {
+      margin: 0rem 0rem 0rem 5rem;
+    }
+    p {
+      margin: 0rem 5rem 0rem 2rem;
+    }
   }
-
-  .imageRow3 {
-    margin: 3rem 3rem 3rem 0rem;
-    justify-self: start;
+  .Row3 {
+    p {
+      margin: 0rem 0rem 0rem 5rem;
+    }
+    .img3 {
+      margin: 0rem 5rem 0rem 0rem;
+    }
   }
 }

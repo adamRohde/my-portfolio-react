@@ -13,12 +13,12 @@ const About = () => {
               {/* <p style={{ color: "black" }}>{data.aboutParaMain}</p> */}
               <p>
                 {" "}
-                Hello! My name is Adam, welcome! This site is designed to
-                showcase coding projects I've built while learning full stack
-                web development. Also highlighted are projects I've created over
-                the years working in the field of industrial automation. You
-                will find my email in the contact section, please don't hesitate
-                to reach out!
+                Hello! My name is Adam! I have been working in the field of
+                Industrial automation for 13 years. This field has increasingly
+                started adopting web technologies therefore so have I! I have
+                been programming with languages like Java and C# for nearly ten
+                years and as of about 2 years ago, I have dived head first into
+                the world of web!
                 <br />
                 <br />
                 Thank you!
