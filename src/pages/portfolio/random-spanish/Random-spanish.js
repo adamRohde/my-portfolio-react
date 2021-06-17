@@ -8,44 +8,33 @@ import graphqlIcon from "../../../images/graphql_icon.png"
 import googleTranslateIcon from "../../../images/Google_Translate_Icon.png"
 import mongodb_icon from "../../../images/mongodb_icon.png"
 import aws_icon from "../../../images/aws_icon.png"
+import translate_gif from "../../../gifs/translate.gif"
+import testing_gif from "../../../gifs/testing.gif"
 
 const randomspanish = () => {
   return (
     <>
-      <h2>RandomSpanish.com</h2>
-      <div className="about">
-        <p>
-          <span className="callToAction">
-            Wanna learn Spanish???? Me too!!!
-          </span>{" "}
-          The problem is, all the language learning sites want big bucks for
-          simple features. So I give you simple features for free!!!
-          <br></br>
-          <br></br>
-          The tech includes...
-          <div>
-            <span>
-              {" "}
-              <img id="icon" src={reactIcon}></img>
-              {" |"}
-              <img id="icon" src={graphqlIcon}></img>
-              {" |"}
-              <img id="icon" src={mongodb_icon}></img> <span> </span> {" |"}
-              <img id="googleIcon" src={googleTranslateIcon}></img>{" "}
-              <span> </span> {" |"}
-              <img id="icon" src={aws_icon}></img>
-            </span>
-          </div>
-          <br></br>
-          <button className="btn btn-primary" style={{ height: "3rem" }}>
-            Go to RandomSpanish.com
-          </button>
-        </p>
-      </div>
+      <h2>
+        <a href="https://www.randomspanish.com/" style={{ color: "black" }}>
+          <span style={{ color: "red" }}>R</span>andom{""}
+          <span style={{ color: "red" }}>S</span>panish.{""}
+          <span style={{ color: "red" }}>C</span>
+          {""}om
+        </a>
+      </h2>
 
-      <img src={rsTranslateImage} />
-      <img src={rsSaveImage} />
-      <img src={rsTestImage} />
+      <img className="imageRow1" src={translate_gif}></img>
+      <img className="imageRow2" src={testing_gif} />
+      <img className="imageRow3" src={rsTestImage} />
+      <h5 className="poweredBy">
+        Site powered by:{" "}
+        <span>
+          <img id="icon" src={graphqlIcon}></img>{" "}
+          <img id="icon" src={mongodb_icon}></img> <span> </span>{" "}
+          <img id="googleIcon" src={googleTranslateIcon}></img> <span> </span>{" "}
+          <img id="icon" src={aws_icon}></img>
+        </span>
+      </h5>
     </>
   )
 }
