@@ -16,21 +16,19 @@ import Fade from "react-reveal/Fade"
 const IndexPage = () => {
   return (
     <>
-      <>
-        <SEO title="Adam's Portfolio" />
-        <Navbar1 />
-        <Fade bottom cascade>
-          <Navbar2 />
-        </Fade>
-        <div>
-          <Portfolio />
-          <RandomSpanish />
-          <WebApps />
-          <Mobile />
-          <IndustrialAutomation />
-        </div>
-        <Footer />
-      </>
+      <SEO title="Adam's Portfolio" />
+      <Navbar1 />
+      <Fade bottom cascade>
+        <Navbar2 />
+      </Fade>
+      <div>
+        <Portfolio />
+        <RandomSpanish />
+        <WebApps />
+        <Mobile />
+        <IndustrialAutomation />
+      </div>
+      <Footer />
     </>
   )
 }

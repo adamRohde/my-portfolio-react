@@ -1,4 +1,5 @@
 // Skills Icons
+
 import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
 import reactIcon from "./images/react.svg"
@@ -9,18 +10,14 @@ import codeIcon from "./images/code.svg"
 import githubIcon from "./images/github.svg"
 //import codepenIcon from "./images/codepen.svg"
 import myface from "./images/4.jpg"
-import sanmiguel from "./images/streets-of-san-miguel.jpg"
-import equipmentImage from "./images/equipment-pic.jpg"
-import hola from "./images/hola.jpg"
 import industrialautomation from "./images/work-projects.jpg"
 import webapps from "./images/web-apps.jpg"
 import mobile from "./images/mobile.jpg"
 import expensetracker from "./images/expensetracker.jpg"
-import rockpaperscissors from "./images/rock-paper-scissors.jpg"
-import snakegame from "./images/snake-game.jpg"
-import calc from "./images/calculator.jpg"
-import todo from "./images/to-do.jpg"
-import XML_Parser from "./images/XML_Parser.mp4"
+import rockpaperscissors from "./images/rockpaperscissors.jpg"
+import calc from "./images/calc.jpg"
+
+let dummy
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -30,15 +27,12 @@ export default {
   headerTagline: ["", "", ""],
   contactEmail: "adamrohde@outlook.com",
 
-  //################################################ My Work Main  ################################################
-  //################################################ My Work Main  ################################################
-  //################################################ My Work Main  ################################################
   mywork: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
       title: "RandomSpanish.com",
       para: "",
-      imageSrc: hola,
+      imageSrc: dummy,
       target: "",
       url: "/portfolio/random-spanish",
       btn_text: "Go to site",
@@ -118,22 +112,24 @@ export default {
       app_url: "https://adamrohde.github.io/rock-paper-scissors-responsive/",
       app_btn_text: "Play!",
     },
-    {
-      id: 7, //DO NOT CHANGE THIS (Please)😅
-      title: "Snake Game",
-      para:
-        "My rendition of the simple game snake, where you try to eat the apple without also eating your tail or going out of bounds.",
-      technologies: [
-        "Vanilla Javascript",
-        "IEFE Functions",
-        "Localstorage to save high score",
-      ],
-      imageSrc: snakegame,
-      target: "_blank",
-      repo_url: "https://github.com/adamRohde/snake",
-      app_url: "https://adamrohde.github.io/snake/",
-      app_btn_text: "Play!",
-    },
+
+    // {
+    //   id: 7, //DO NOT CHANGE THIS (Please)😅
+    //   title: "Snake Game",
+    //   para:
+    //     "My rendition of the simple game snake, where you try to eat the apple without also eating your tail or going out of bounds.",
+    //   technologies: [
+    //     "Vanilla Javascript",
+    //     "IEFE Functions",
+    //     "Localstorage to save high score",
+    //   ],
+    //   imageSrc: snakegame,
+    //   target: "_blank",
+    //   repo_url: "https://github.com/adamRohde/snake",
+    //   app_url: "https://adamrohde.github.io/snake/",
+    //   app_btn_text: "Play!",
+    // },
+
     {
       id: 8, //DO NOT CHANGE THIS (Please)😅
       title: "Calculator",
@@ -150,22 +146,19 @@ export default {
       app_url: "https://adamrohde.github.io/calculator/",
       app_btn_text: "See the app",
     },
-    {
-      id: 9, //DO NOT CHANGE THIS (Please)😅
-      title: "Todo",
-      para: "",
-      technologies: ["Vanilla Javascript", "Localstorage"],
-      imageSrc: todo,
-      target: "_blank",
-      repo_url: "https://github.com/adamRohde/to-do-app",
-      app_url: "https://adamrohde.github.io/to-do-app/",
-      app_btn_text: "See the app",
-    },
-  ],
 
-  //################################################ Work Equipment  ################################################
-  //################################################ Work Equipment  ################################################
-  //################################################ Work Equipment  ################################################
+    // {
+    //   id: 9, //DO NOT CHANGE THIS (Please)😅
+    //   title: "Todo",
+    //   para: "",
+    //   technologies: ["Vanilla Javascript", "Localstorage"],
+    //   imageSrc: todo,
+    //   target: "_blank",
+    //   repo_url: "https://github.com/adamRohde/to-do-app",
+    //   app_url: "https://adamrohde.github.io/to-do-app/",
+    //   app_btn_text: "See the app",
+    // },
+  ],
 
   workProjectsEquipment: [
     {
@@ -201,7 +194,7 @@ export default {
     {
       id: 14,
       name: "Parsing XML data in VBA",
-      src: XML_Parser,
+      src: dummy,
     },
     {
       id: 15,
@@ -216,7 +209,7 @@ export default {
     {
       id: 17,
       name: "C programming for machine diagnostics",
-      src: hola,
+      src: dummy,
     },
   ],
 
@@ -236,8 +229,8 @@ export default {
     "This page showcases some of the work I've done programming over the past 13 years.  I also discuss some basics of Industrial Automation to give some context.  ",
 
   aboutImage: myface,
-  randomSpanishImage: sanmiguel,
-  workProjectsImage: equipmentImage,
+  randomSpanishImage: dummy,
+  workProjectsImage: dummy,
 
   //################################################ Skills  ################################################
   //################################################ Skills  ################################################

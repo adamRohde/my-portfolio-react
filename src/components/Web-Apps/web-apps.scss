@@ -1,114 +1,85 @@
-.wa-header-wrapper {
-  margin: 8vh 4vw 8vh 4vw;
-  max-width: 1024px;
-}
-
-.wa-card-section {
+#wa-card-wrapper {
+  margin: 2.5rem 0 0 5rem;
+  padding: 2.5rem;
+  // background: chocolate;
+  background: rgb(226, 218, 218);
+  background-size: cover;
+  border-radius: 0rem;
+  height: auto;
+  width: 90%;
   display: grid;
-  justify-content: centers;
-  .wa-card-wrapper {
-    margin: 5vh 4vw 5vh 4vw;
-    background: rgb(206, 206, 206);
-    background-size: cover;
-    border-radius: 0rem;
-    min-height: auto;
-    max-width: 1024px;
+  // justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  // grid-template-columns: 1fr;
+  text-decoration: none;
+
+  h3 {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    @include media(">=phone", "<tablet") {
+      font-size: 1.5rem;
+    }
+  }
+
+  p {
+    color: black;
+    margin: 0 0 1rem 0.5rem;
+    font-size: 1rem;
+  }
+
+  .about {
     display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 1fr;
-    text-decoration: none;
+    border-radius: 1rem 0 0 1rem;
+    padding: 1rem;
 
-    h3 {
-      padding: 1vh 0 1vh 0vw;
-      font-size: 2.5rem;
+    .the-buttons {
+      padding-left: 1vw;
+
+      @include media(">=phone", "<lgphone") {
+        margin: 0rem 0 0 1rem;
+      }
+      //Breaks at 425 - 767
+      @include media(">=lgphone", "<tablet") {
+        margin: 0rem 0 0 1rem;
+      }
+    }
+    //Breaks at 320 - 424
+    // @include media(">=phone", "<lgphone") {
+    // }
+    //Breaks at 425 - 767
+    // @include media(">=lgphone", "<tablet") {
+    // }
+
+    li {
       color: rgb(0, 0, 0);
-      border-radius: 0.5rem;
-      @include media(">=phone", "<tablet") {
-        font-size: 1.5rem;
-      }
+      list-style: none;
+      font-style: italic;
     }
+  }
 
-    p {
-      margin: 0;
-    }
-
-    .about {
-      display: grid;
-      border-radius: 1rem 0 0 1rem;
-      padding: 1rem;
-
-      .the-buttons {
-        // padding: 1rem 0rem 0rem 2rem;
-        padding-left: 1vw;
-        // justify-self: start;
-        //Breaks at 320 - 424
-        @include media(">=phone", "<lgphone") {
-          margin: 0rem 0 0 1rem;
-        }
-        //Breaks at 425 - 767
-        @include media(">=lgphone", "<tablet") {
-          margin: 0rem 0 0 1rem;
-        }
-      }
-      //Breaks at 320 - 424
-      // @include media(">=phone", "<lgphone") {
-      // }
-      //Breaks at 425 - 767
-      // @include media(">=lgphone", "<tablet") {
-      // }
-
-      li {
-        color: rgb(0, 0, 0);
-        list-style: none;
-        font-style: italic;
-      }
-    }
-
-    .image {
-      margin: 0 0 0 8vw;
-      width: 100%;
-      height: 100%;
-      border-radius: 0.5rem;
-      overflow: hidden !important;
-      display: block;
-      align-items: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-
-      //Breaks at 425 - 767
-      @include media("<tablet") {
-        margin-top: 4vh;
-      }
-    }
+  .wa-image {
+    // margin: 0 0 0 8vw;
+    width: 80%;
+    height: auto;
+    border-radius: 0.5rem;
+    overflow: hidden !important;
+    display: block;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
     //Breaks at 425 - 767
     @include media("<tablet") {
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr;
-    }
-    //767 and up
-  }
-
-  h1 {
-    margin-top: 3vh;
-    padding: 0rem 0 0rem 4rem;
-    grid-row-start: 1;
-    background: rgb(178, 34, 34);
-    background: linear-gradient(
-      90deg,
-      rgb(0, 0, 0) 0%,
-      rgba(255, 255, 255, 0) 100%
-    );
-    color: white;
-    text-align: left;
-    @include media("<tablet") {
-      background-color: firebrick;
-
-      font-size: 2rem;
-      padding-left: 1rem;
-      padding-right: 9rem;
+      margin-top: 4vh;
     }
   }
+
+  //Breaks at 425 - 767
+  @include media("<tablet") {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  //767 and up
 }

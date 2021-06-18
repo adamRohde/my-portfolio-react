@@ -16,10 +16,11 @@ const randomspanish = () => {
   return (
     <>
       <h2>
-        <span style={{ color: "red" }}>R</span>andom{""}
+        {/* <span style={{ color: "red" }}>R</span>andom{""}
         <span style={{ color: "red" }}>S</span>panish.{""}
         <span style={{ color: "red" }}>C</span>
-        {""}om
+        {""}om */}
+        RandomSpanish.com
       </h2>
 
       <div>
@@ -51,20 +52,20 @@ const randomspanish = () => {
         <img className="imageRowImage img1" src={translate_gif}></img>
       </div>
 
-      <div className="imageRow Row2">
-        <img className="imageRowImage img2" src={testYourself} />
+      <div className="imageRow Row1">
         <p>
           The user can this test themself with the computer randomly selecting
           words/phrases they have previously saved.
         </p>
+        <img className="imageRowImage img1" src={testYourself} />
       </div>
 
-      <div className="imageRow Row3">
+      <div className="imageRow Row1">
         <p>
           The user can save as many phrases as they would like after signing up
           for a account.
         </p>
-        <img className="imageRowImage img3" src={savePhrases} />
+        <img className="imageRowImage img1" src={savePhrases} />
       </div>
 
       {/* <h5 className="poweredBy">
