@@ -9,7 +9,7 @@ const About = () => {
         <div className="about-section">
           <Fade bottom cascade>
             <div className="content">
-              <h2>About me</h2>
+              <h1>About me</h1>
               {/* <p style={{ color: "black" }}>{data.aboutParaMain}</p> */}
               <p>
                 {" "}

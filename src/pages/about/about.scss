@@ -18,7 +18,7 @@
       width: 100%;
     }
 
-    h2 {
+    h1 {
       margin: 8.5vh 0.5vw 0.5vh 0vw;
       color: black;
       font-size: 4rem;
@@ -30,7 +30,7 @@
     p {
       margin: 2.5vh 4vw 0vh 0vw;
       color: black;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       @include media("<desktop") {
         text-align: justify;
         font-size: 1rem;
