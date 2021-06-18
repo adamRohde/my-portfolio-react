@@ -2,7 +2,7 @@ import React from "react"
 import data from "../../yourdata"
 import rps_image from "../../images/rockpaperscissors.jpg"
 import calc from "../../images/calc.jpg"
-import expenseTracker from "../../images/expenseTracker.jpg"
+import expenseTracker from "../../images/expensetracker.jpg"
 
 const WebAppsCard = () => {
   return (

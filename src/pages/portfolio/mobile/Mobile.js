@@ -6,8 +6,9 @@ const Mobile = () => {
   return (
     <>
       <h2>
-        <span style={{ color: "red" }}>M</span>o{""}
-        <span style={{ color: "red" }}>b</span>ile{""}
+        Mobile
+        {/* <span style={{ color: "red" }}>M</span>o{""}
+        <span style={{ color: "red" }}>b</span>ile{""} */}
       </h2>
 
       <div className="two-column">
