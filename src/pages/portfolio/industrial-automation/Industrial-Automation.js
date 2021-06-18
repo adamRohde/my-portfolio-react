@@ -1,9 +1,8 @@
 import React from "react"
-import Layout from "../../../components/Layout/layout"
-import { layoutContext } from "../../../../provider"
-import Header from "../../../components/Header/Header"
-import MainImage from "../../../components/Industrial-Automation/MainImage"
-import About from "../../../components/Industrial-Automation/About"
+// import Layout from "../../../components/Layout/layout"
+// import { layoutContext } from "../../../../provider"
+// import MainImage from "../../../components/Industrial-Automation/MainImage"
+// import About from "../../../components/Industrial-Automation/About"
 
 const workprojects = () => {
   return (
