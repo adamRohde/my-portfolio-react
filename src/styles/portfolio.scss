@@ -1,6 +1,6 @@
 section {
   margin-top: 0rem;
-  margin-bottom: 18rem;
+  margin-bottom: 0rem;
 }
 
 h2 {
@@ -11,9 +11,9 @@ h2 {
 
 #mywork {
   height: auto;
-  margin-top: 2rem;
-  // background: rgb(206, 206, 206);
-  background: white;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: rgb(255, 255, 255);
   display: grid;
   h1 {
     color: black;
@@ -32,11 +32,16 @@ h2 {
   height: auto;
   width: 100%;
   display: grid;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: rgb(186, 186, 186);
+
   grid-template-rows: auto auto auto auto auto auto;
   background-repeat: no-repeat;
   p {
-    color: rgb(60, 60, 60);
+    color: rgb(0, 0, 0);
     width: 55%;
+
     font-size: 1.3rem;
     margin: 1rem 1rem 1rem 7rem;
   }
@@ -107,6 +112,9 @@ h2 {
 #webapps {
   height: auto;
   width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: rgb(255, 255, 255);
   display: grid;
   grid-template-rows: auto auto auto auto auto auto;
   background-repeat: no-repeat;
@@ -186,6 +194,9 @@ h2 {
   height: auto;
   width: 100%;
   display: grid;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: rgb(186, 186, 186);
   grid-template-rows: auto auto auto auto auto auto;
   background-repeat: no-repeat;
   p {
@@ -246,6 +257,8 @@ h2 {
   height: auto;
   width: 100%;
   display: grid;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   grid-template-rows: auto auto auto auto auto auto;
   background-repeat: no-repeat;
   p {

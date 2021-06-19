@@ -23,9 +23,9 @@ const Mobile = () => {
             them up with career paths that the app deemed a good fit, given how
             they answered the questions.
           </p>
-          <span style={{ margin: "0 0 0 5rem" }}>
+          {/* <span style={{ margin: "0 0 0 5rem" }}>
             <img id="icon" src={androidIcon}></img>{" "}
-          </span>
+          </span> */}
           <div style={{ margin: "1rem 0 0 5rem" }}>
             <button class="btn btn-primary">See the repo</button>
           </div>
