@@ -36,13 +36,13 @@
     .the-buttons {
       padding-left: 1vw;
 
-      @include media(">=phone", "<lgphone") {
-        margin: 0rem 0 0 1rem;
-      }
-      //Breaks at 425 - 767
-      @include media(">=lgphone", "<tablet") {
-        margin: 0rem 0 0 1rem;
-      }
+      // @include media(">=phone", "<lgphone") {
+      //   margin: 0rem 0 0 1rem;
+      // }
+      // //Breaks at 425 - 767
+      // @include media(">=lgphone", "<tablet") {
+      //   margin: 0rem 0 0 1rem;
+      // }
     }
     //Breaks at 320 - 424
     // @include media(">=phone", "<lgphone") {

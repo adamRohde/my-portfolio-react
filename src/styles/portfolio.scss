@@ -26,6 +26,24 @@ h2 {
     font-size: 1.3rem;
     margin: 5rem 0 0rem 7rem;
   }
+
+  @include media("<=tablet") {
+    padding-top: 10rem;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      justify-self: center;
+      margin: 5rem 0rem 1rem 0rem;
+    }
+
+    p {
+      width: auto;
+      font-size: 1rem;
+      margin: 1rem 2rem 0rem 2rem;
+    }
+  }
 }
 
 #randomspanish {
@@ -75,36 +93,44 @@ h2 {
       font-size: 1.3rem;
       align-self: center;
       justify-self: end;
-    }
-  }
-  .imageRowImage {
-    display: flex;
-    width: 55%;
-    height: auto;
-    border-radius: 1rem;
-  }
-  .Row1 {
-    p {
       margin: 0rem 0rem 0rem 5rem;
     }
-    .img1 {
+    .imageRowImage {
+      display: flex;
+      width: 55%;
+      height: auto;
+      border-radius: 1rem;
       margin: 0rem 5rem 0rem 0rem;
     }
+
+    @include media("<=tablet") {
+      flex-direction: column-reverse;
+      align-items: center;
+
+      p {
+        width: auto;
+        font-size: 1rem;
+        margin: 1rem 2rem 0rem 2rem;
+      }
+
+      .imageRowImage {
+        display: flex;
+        width: 90%;
+        height: auto;
+        border-radius: 1rem;
+        margin: 0rem 0rem 0rem 0rem;
+      }
+    }
   }
-  .Row2 {
-    .img2 {
-      margin: 0rem 0rem 0rem 5rem;
-    }
+
+  @include media("<=tablet") {
+    flex-direction: column;
+    align-items: center;
+
     p {
-      margin: 0rem 5rem 0rem 2rem;
-    }
-  }
-  .Row3 {
-    p {
-      margin: 0rem 2rem 0rem 5rem;
-    }
-    .img3 {
-      margin: 0rem 5rem 0rem 0rem;
+      width: auto;
+      font-size: 1rem;
+      margin: 1rem 2rem 0rem 2rem;
     }
   }
 }
@@ -164,30 +190,6 @@ h2 {
     border-radius: 1rem;
     margin: 0rem 5rem 0rem 0rem;
   }
-  // .Row {
-  //   p {
-  //     margin: 0rem 0rem 0rem 5rem;
-  //   }
-  //   .img1 {
-  //     margin: 0rem 5rem 0rem 0rem;
-  //   }
-  // }
-  // .Row2 {
-  //   .img2 {
-  //     margin: 0rem 0rem 0rem 5rem;
-  //   }
-  //   p {
-  //     margin: 0rem 5rem 0rem 2rem;
-  //   }
-  // }
-  // .Row3 {
-  //   p {
-  //     margin: 0rem 2rem 0rem 5rem;
-  //   }
-  //   .img3 {
-  //     margin: 0rem 5rem 0rem 0rem;
-  //   }
-  // }
 }
 
 #mobile {
@@ -199,12 +201,7 @@ h2 {
   background: rgb(186, 186, 186);
   grid-template-rows: auto auto auto auto auto auto;
   background-repeat: no-repeat;
-  p {
-    color: rgb(60, 60, 60);
-    width: 80%;
-    font-size: 1.3rem;
-    margin: 1rem 4rem 4rem 7rem;
-  }
+
   #icon {
     max-height: auto;
     width: 7rem;
@@ -227,28 +224,37 @@ h2 {
   .two-column {
     display: grid;
     grid-template-columns: 2fr 1fr;
-  }
 
-  .imageRow {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 8rem;
-    margin-bottom: 0rem;
     p {
-      width: 45%;
+      color: rgb(60, 60, 60);
+      width: 80%;
       font-size: 1.3rem;
-      align-self: center;
-      justify-self: end;
+      margin: 1rem 4rem 4rem 7rem;
+    }
+
+    @include media("<=tablet") {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+
+      p {
+        width: auto;
+        font-size: 1rem;
+        justify-self: center;
+      }
+
+      img {
+        display: flex;
+        justify-self: center;
+        width: 40%;
+      }
     }
   }
 
-  .Row1 {
-    p {
-      margin: 0rem 0rem 0rem 5rem;
-    }
-    .img1 {
-      margin: 0rem 5rem 0rem 0rem;
+  @include media("<=tablet") {
+    h2 {
+      margin: 0rem 0rem 2rem 0rem;
+      justify-self: center;
     }
   }
 }

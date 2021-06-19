@@ -31,11 +31,7 @@ const Mobile = () => {
           </div>
         </div>
 
-        <img
-          className="imageRowImage img1"
-          style={{ borderRadius: "2em" }}
-          src={androidGif}
-        ></img>
+        <img style={{ borderRadius: "2em" }} src={androidGif}></img>
       </div>
 
       {/* <div className="imageRow Row1">
