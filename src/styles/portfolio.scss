@@ -1,32 +1,41 @@
+@import "./variables.scss";
+
 section {
   margin-top: 0rem;
   margin-bottom: 0rem;
 }
+section:nth-of-type(even) {
+  background: $bg-highlight;
+}
 
 h2 {
   color: black;
-  font-size: 2.5rem;
+  font-size: $fs-h2-desktop;
   margin-left: 5rem;
+
+  @include media("<=tablet") {
+    font-size: $fs-h2-mobile;
+    margin: 1em;
+  }
 }
 
 #mywork {
   height: auto;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background: rgb(255, 255, 255);
   display: grid;
+
   h1 {
     color: black;
-    font-size: 4rem;
-    margin: 5rem 0rem 1rem 5rem;
+    font-size: $fs-h1-desktop;
+    margin: 5rem 0rem 0rem 5rem;
   }
   p {
     color: rgb(60, 60, 60);
     width: 65%;
-    font-size: 1.3rem;
-    margin: 5rem 0 0rem 7rem;
+    font-size: $fs-p-desktop;
+    margin: 2rem 0 0rem 7rem;
   }
-
   @include media("<=tablet") {
     padding-top: 10rem;
     display: grid;
@@ -44,279 +53,9 @@ h2 {
       margin: 1rem 2rem 0rem 2rem;
     }
   }
-}
-
-#randomspanish {
-  height: auto;
-  width: 100%;
-  display: grid;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background: rgb(186, 186, 186);
-
-  grid-template-rows: auto auto auto auto auto auto;
-  background-repeat: no-repeat;
-  p {
-    color: rgb(0, 0, 0);
-    width: 55%;
-
-    font-size: 1.3rem;
-    margin: 1rem 1rem 1rem 7rem;
-  }
-  #icon {
-    max-height: auto;
-    width: 7rem;
-    margin: 0rem 0 0 1rem;
-    transition: all 0.2s ease-in-out;
-  }
-  #icon:hover {
-    transform: scale(1.05);
-  }
-  #googleIcon {
-    max-height: auto;
-    width: 3rem;
-    margin: 0rem 0 0 1rem;
-    transition: all 0.2s ease-in-out;
-  }
-  #googleIcon:hover {
-    transform: scale(1.05);
-  }
-
-  .imageRow {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 8rem;
-    margin-bottom: 0rem;
-    p {
-      width: 45%;
-      font-size: 1.3rem;
-      align-self: center;
-      justify-self: end;
-      margin: 0rem 0rem 0rem 5rem;
-    }
-    .imageRowImage {
-      display: flex;
-      width: 55%;
-      height: auto;
-      border-radius: 1rem;
-      margin: 0rem 5rem 0rem 0rem;
-    }
-
-    @include media("<=tablet") {
-      flex-direction: column-reverse;
-      align-items: center;
-
-      p {
-        width: auto;
-        font-size: 1rem;
-        margin: 1rem 2rem 0rem 2rem;
-      }
-
-      .imageRowImage {
-        display: flex;
-        width: 90%;
-        height: auto;
-        border-radius: 1rem;
-        margin: 0rem 0rem 0rem 0rem;
-      }
-    }
-  }
-
   @include media("<=tablet") {
-    flex-direction: column;
-    align-items: center;
-
-    p {
-      width: auto;
-      font-size: 1rem;
-      margin: 1rem 2rem 0rem 2rem;
-    }
-  }
-}
-
-#webapps {
-  height: auto;
-  width: 100%;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background: rgb(255, 255, 255);
-  display: grid;
-  grid-template-rows: auto auto auto auto auto auto;
-  background-repeat: no-repeat;
-  p {
-    color: rgb(60, 60, 60);
-    width: 55%;
-    font-size: 1.3rem;
-    margin: 1rem 0 1rem 7rem;
-  }
-  #icon {
-    max-height: auto;
-    width: 7rem;
-    margin: 0rem 0 0 1rem;
-    transition: all 0.2s ease-in-out;
-  }
-  #icon:hover {
-    transform: scale(1.05);
-  }
-  #googleIcon {
-    max-height: auto;
-    width: 3rem;
-    margin: 0rem 0 0 1rem;
-    transition: all 0.2s ease-in-out;
-  }
-  #googleIcon:hover {
-    transform: scale(1.05);
-  }
-
-  .imageRow {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 8rem;
+    margin-top: 0rem;
     margin-bottom: 0rem;
-    p {
-      width: 45%;
-      font-size: 1.3rem;
-      align-self: center;
-      justify-self: end;
-      margin: 0rem 2rem 0rem 5rem;
-    }
-  }
-  .imageRowImage {
-    display: flex;
-    width: 55%;
-    height: auto;
-    border-radius: 1rem;
-    margin: 0rem 5rem 0rem 0rem;
-  }
-}
-
-#mobile {
-  height: auto;
-  width: 100%;
-  display: grid;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background: rgb(186, 186, 186);
-  grid-template-rows: auto auto auto auto auto auto;
-  background-repeat: no-repeat;
-
-  #icon {
-    max-height: auto;
-    width: 7rem;
-    margin: 0rem 0 0 1rem;
-    transition: all 0.2s ease-in-out;
-  }
-  #icon:hover {
-    transform: scale(1.05);
-  }
-  #googleIcon {
-    max-height: auto;
-    width: 3rem;
-    margin: 0rem 0 0 1rem;
-    transition: all 0.2s ease-in-out;
-  }
-  #googleIcon:hover {
-    transform: scale(1.05);
-  }
-
-  .two-column {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-
-    p {
-      color: rgb(60, 60, 60);
-      width: 80%;
-      font-size: 1.3rem;
-      margin: 1rem 4rem 4rem 7rem;
-    }
-
-    @include media("<=tablet") {
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: center;
-
-      p {
-        width: auto;
-        font-size: 1rem;
-        justify-self: center;
-      }
-
-      img {
-        display: flex;
-        justify-self: center;
-        width: 40%;
-      }
-    }
-  }
-
-  @include media("<=tablet") {
-    h2 {
-      margin: 0rem 0rem 2rem 0rem;
-      justify-self: center;
-    }
-  }
-}
-
-#industrialautomation {
-  height: auto;
-  width: 100%;
-  display: grid;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  grid-template-rows: auto auto auto auto auto auto;
-  background-repeat: no-repeat;
-  p {
-    color: rgb(60, 60, 60);
-    width: 80%;
-    font-size: 1.3rem;
-    margin: 1rem 4rem 4rem 7rem;
-  }
-  #icon {
-    max-height: auto;
-    width: 7rem;
-    margin: 0rem 0 0 1rem;
-    transition: all 0.2s ease-in-out;
-  }
-  #icon:hover {
-    transform: scale(1.05);
-  }
-  #googleIcon {
-    max-height: auto;
-    width: 3rem;
-    margin: 0rem 0 0 1rem;
-    transition: all 0.2s ease-in-out;
-  }
-  #googleIcon:hover {
-    transform: scale(1.05);
-  }
-
-  .two-column {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-  }
-
-  .imageRow {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 8rem;
-    margin-bottom: 0rem;
-    p {
-      width: 45%;
-      font-size: 1.3rem;
-      align-self: center;
-      justify-self: end;
-    }
-  }
-
-  .Row1 {
-    p {
-      margin: 0rem 0rem 0rem 5rem;
-    }
-    .img1 {
-      margin: 0rem 5rem 0rem 0rem;
-    }
   }
 }

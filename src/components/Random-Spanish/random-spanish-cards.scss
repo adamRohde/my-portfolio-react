@@ -1,0 +1,40 @@
+@import "../../styles/variables.scss";
+
+.card-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 0rem;
+  p {
+    width: 45%;
+    font-size: $fs-p-desktop;
+    margin: 0rem 1rem 0rem 5rem;
+  }
+  img {
+    display: flex;
+    width: 55%;
+    height: auto;
+    border-radius: 1rem;
+    margin: 0rem 3rem 0rem 0rem;
+  }
+
+  @include media("<=tablet") {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 3rem;
+    p {
+      font-size: $fs-p-mobile;
+      margin: 1em;
+      width: 90vw;
+    }
+
+    img {
+      margin: 0;
+      width: 90vw;
+      border-radius: 1em;
+    }
+  }
+}

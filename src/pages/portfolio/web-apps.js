@@ -1,12 +1,12 @@
 import React from "react"
-import Layout from "../../../components/Layout/layout"
-import WebAppsCard from "../../../components/Web-Apps/web-apps-card"
-import { layoutContext } from "../../../../provider"
+import Layout from "../../components/Layout/layout"
+import WebAppsCard from "../../components/Web-Apps/web-apps-card"
+import { layoutContext } from "../../../provider"
 
 const webapps = () => {
   console.log("layoutContext  ", layoutContext)
   return (
-    <>
+    <section id="webapps">
       <h2>
         {/* <span style={{ color: "red" }}>W</span>eb
         <span style={{ color: "red" }}>A</span>pps */}
@@ -28,7 +28,7 @@ const webapps = () => {
       </div>
 
       <WebAppsCard />
-    </>
+    </section>
   )
 }
 

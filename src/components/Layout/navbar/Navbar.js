@@ -9,21 +9,6 @@ const Navbar = () => {
 
   // handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
-  function aboutFunc(breadCrumbs) {
-    setFromWhere(breadCrumbs)
-    console.log("We coming from 1 " + breadCrumbs + " yall!")
-  }
-
-  function portfolioFunc(breadCrumbs) {
-    setFromWhere(breadCrumbs)
-    console.log("We coming from 2 " + breadCrumbs + " yall!")
-  }
-
-  function contactFunc(breadCrumbs) {
-    setFromWhere("portfolio")
-    console.log("We coming from 3 " + breadCrumbs + " yall!")
-  }
-
   let isActive = ""
 
   return (
@@ -37,7 +22,7 @@ const Navbar = () => {
                   About
                 </Link>
                 <Link
-                  to="/portfolio"
+                  to="/portfolio/Portfolio"
                   activeClassName="active"
                   partiallyActive={true}
                 >

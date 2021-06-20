@@ -1,0 +1,61 @@
+@import "./variables.scss";
+
+#mobile {
+  height: auto;
+  width: 100%;
+  display: grid;
+  padding: 5rem 0rem 5rem 0rem;
+  grid-template-rows: auto auto auto auto auto auto;
+  background-repeat: no-repeat;
+
+  .about-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .two-column {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    p {
+      color: rgb(60, 60, 60);
+      width: 80%;
+      font-size: $fs-p-desktop;
+      margin: 1rem 4rem 4rem 7rem;
+    }
+  }
+
+  .button-container {
+    margin: 1rem 0 0 5rem;
+  }
+
+  @include media("<=tablet") {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 0rem 2rem 0rem;
+
+    .two-column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .about-paragraph {
+      display: flex;
+      align-items: center;
+      P {
+        font-size: $fs-p-mobile;
+        width: 90vw;
+        margin: 0em 2em 2em 2em;
+      }
+    }
+
+    .button-container {
+      margin: 0em 0em 2em 0em;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

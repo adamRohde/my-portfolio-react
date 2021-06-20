@@ -6,15 +6,16 @@
 // Components
 @import "../pages/about/about.scss";
 @import "./portfolio.scss";
+@import "./random-spanish.scss";
+@import "./web-apps.scss";
+@import "./mobile.scss";
+@import "./industrial-automation.scss";
 @import "./skills.scss";
 @import "./promotion.scss";
 @import "../pages/contact/contact.scss";
 @import "./footer.scss";
-// @import "../components/Work-Projects/work-projects.scss";
 @import "../components/Web-Apps/web-apps.scss";
-// @import "../components/Random-Spanish/random-spanish.scss";
-// @import "../components/Industrial-Automation/industrial-automation.scss";
-@import "../components/Mobile/mobile.scss";
+@import "../components/Random-Spanish/random-spanish-cards.scss";
 @import "./skewed.scss";
 @import "../components/Layout/navbar2/navbar2.scss";
 @import "../components//Layout/navbar/navbar.scss";
@@ -26,9 +27,7 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  background-color: #ececec;
-  // background-image: $stripedbackground;
-  background-image: white;
+  background-color: $bg-primary;
 }
 
 main {
@@ -38,15 +37,12 @@ main {
 
 .section-main {
   overflow: hidden;
-  background: white;
+  background: $bg-primary;
   width: auto;
   height: auto;
   margin-top: 5em;
   margin-left: 2vw;
   margin-right: 2vw;
-  border-radius: 0rem 0rem 0rem 0rem;
-  border: solid 1px rgb(230, 230, 230);
-  box-shadow: 0px 1px 2px rgb(223, 223, 223);
   z-index: -1;
 }
 

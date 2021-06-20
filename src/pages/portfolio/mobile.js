@@ -1,18 +1,15 @@
 import React from "react"
-import androidIcon from "../../../images/icons/android_icon.jpg"
-import androidGif from "../../../gifs/android.gif"
+import androidIcon from "../../images/icons/android_icon.jpg"
+import androidGif from "../../gifs/android.gif"
 
 const Mobile = () => {
   return (
-    <>
-      <h2>
-        Mobile
-        {/* <span style={{ color: "red" }}>M</span>o{""}
-        <span style={{ color: "red" }}>b</span>ile{""} */}
-      </h2>
+    // <section id="mobile">
 
+    <section id="mobile">
       <div className="two-column">
-        <div>
+        <div className="about-paragraph">
+          <h2>Mobile</h2>
           <p>
             I met a group of people thru a Facebook group dedicated to software
             development. I was brought on to help with the front end
@@ -26,23 +23,14 @@ const Mobile = () => {
           {/* <span style={{ margin: "0 0 0 5rem" }}>
             <img id="icon" src={androidIcon}></img>{" "}
           </span> */}
-          <div style={{ margin: "1rem 0 0 5rem" }}>
+          <div className="button-container">
             <button class="btn btn-primary">See the repo</button>
           </div>
         </div>
 
         <img style={{ borderRadius: "2em" }} src={androidGif}></img>
       </div>
-
-      {/* <div className="imageRow Row1">
-        <p>
-          User is able to translate phrases from English to Spanish or Spanish
-          to English and save the words/phrases to test themself on at a later
-          time.
-        </p>
-      
-      </div> */}
-    </>
+    </section>
   )
 }
 

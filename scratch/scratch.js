@@ -61,3 +61,30 @@ const WebAppsCard = ({
 }
 
 export default WebAppsCard
+
+{
+  /* <div className="imageRow ">
+        <p>
+          User is able to translate phrases from English to Spanish or Spanish
+          to English and save the words/phrases to test themself on at a later
+          time.
+        </p>
+        <img className="imageRowImage " src={translate_gif}></img>
+      </div>
+
+      <div className="imageRow ">
+        <p>
+          The user can this test themself with the computer randomly selecting
+          words/phrases they have previously saved.
+        </p>
+        <img className="imageRowImage " src={testYourself} />
+      </div>
+
+      <div className="imageRow ">
+        <p>
+          The user can save as many phrases as they would like after signing up
+          for a account.
+        </p>
+        <img className="imageRowImage " src={savePhrases} />
+      </div> */
+}

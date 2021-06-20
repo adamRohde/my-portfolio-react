@@ -6,7 +6,7 @@ import React from "react"
 
 const workprojects = () => {
   return (
-    <>
+    <section id="industrialautomation">
       {/* <Header title={"Industrial Automation"} /> */}
       <h2>Industrial Automation</h2>
       <div className="ia-grid">
@@ -19,7 +19,7 @@ const workprojects = () => {
           meet.
         </p>
       </div>
-    </>
+    </section>
   )
 }
 

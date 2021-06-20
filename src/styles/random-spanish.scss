@@ -1,0 +1,67 @@
+@import "./variables.scss";
+
+#randomspanish {
+  height: auto;
+  width: 100%;
+  display: grid;
+  padding: 5rem 0em 5rem 0em;
+  grid-template-rows: auto auto auto auto auto auto;
+  background-repeat: no-repeat;
+
+  .about-paragraph {
+    color: rgb(0, 0, 0);
+    width: 55%;
+    font-size: $fs-p-desktop;
+    margin: 1rem 1rem 1rem 7rem;
+  }
+
+  .button-container {
+    margin: 1rem 0 0 5rem;
+  }
+
+  #icon {
+    max-height: auto;
+    width: 7rem;
+    margin: 0rem 0 0 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+  #icon:hover {
+    transform: scale(1.05);
+  }
+
+  #googleIcon {
+    max-height: auto;
+    width: 3rem;
+    margin: 0rem 0 0 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+  #googleIcon:hover {
+    transform: scale(1.05);
+  }
+
+  @include media("<=tablet") {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0em 0em 2em 0em;
+
+    .about-paragraph {
+      font-size: $fs-p-mobile;
+      margin: 0;
+      width: 90vw;
+    }
+
+    .button-container {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    #icon,
+    #googleIcon {
+      display: none;
+    }
+  }
+}

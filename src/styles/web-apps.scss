@@ -1,0 +1,41 @@
+@import "./variables.scss";
+
+#webapps {
+  height: auto;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  background-repeat: no-repeat;
+  p {
+    color: rgb(60, 60, 60);
+    width: 55%;
+    font-size: $fs-p-desktop;
+    margin: 1rem 0 1rem 7rem;
+  }
+  #icon {
+    max-height: auto;
+    width: 7rem;
+    margin: 0rem 0 0 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+  #icon:hover {
+    transform: scale(1.05);
+  }
+  #googleIcon {
+    max-height: auto;
+    width: 3rem;
+    margin: 0rem 0 0 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+  #googleIcon:hover {
+    transform: scale(1.05);
+  }
+
+  @include media("<=tablet") {
+    width: 100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+}

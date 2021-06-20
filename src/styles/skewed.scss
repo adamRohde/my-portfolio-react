@@ -2,7 +2,7 @@
 
 .section-about-skewed {
   overflow: show;
-  background: $businessprofessionalgradient2;
+  background: white;
 
   transform: skew(0deg, -10deg) translateY(-20vh);
 }
@@ -12,7 +12,7 @@
 
 .section-lowright-skewed {
   overflow: show;
-  background: $businessprofessionalgradient2;
+  background: $bg-primary;
   transform: skew(0deg, 10deg) translateY(20vh);
 }
 .section-lowright-anti-skewed {

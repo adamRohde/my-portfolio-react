@@ -1,19 +1,11 @@
-// Skills Icons
-
-// import htmlIcon from "./images/html.svg"
-// import cssIcon from "./images/css.svg"
-// import reactIcon from "./images/react.svg"
-// import jsIcon from "./images/javascript.svg"
-// import designIcon from "./images/design.svg"
-// import codeIcon from "./images/code.svg"
-// Social Icon
-// import githubIcon from "./images/svg/githubIcon"
-//import codepenIcon from "./images/codepen.svg"
 import myface from "./images/4.jpg"
 import industrialautomation from "./images/work-projects.jpg"
 import expensetracker from "./images/expensetracker.jpg"
 import rockpaperscissors from "./images/rockpaperscissors.jpg"
 import calc from "./images/calc.jpg"
+import translate_gif from "./gifs/translate.gif"
+import testYourself from "./images/testyourself.png"
+import savePhrases from "./images/savephrases.png"
 
 let dummy
 
@@ -68,10 +60,6 @@ export default {
     },
   ],
 
-  //################################################ Web Apps  ################################################
-  //################################################ Web Apps  ################################################
-  //################################################ Web Apps  ################################################
-
   WebApps: [
     {
       id: 5, //DO NOT CHANGE THIS (Please)😅
@@ -111,25 +99,8 @@ export default {
       app_btn_text: "Play!",
     },
 
-    // {
-    //   id: 7, //DO NOT CHANGE THIS (Please)😅
-    //   title: "Snake Game",
-    //   para:
-    //     "My rendition of the simple game snake, where you try to eat the apple without also eating your tail or going out of bounds.",
-    //   technologies: [
-    //     "Vanilla Javascript",
-    //     "IEFE Functions",
-    //     "Localstorage to save high score",
-    //   ],
-    //   imageSrc: snakegame,
-    //   target: "_blank",
-    //   repo_url: "https://github.com/adamRohde/snake",
-    //   app_url: "https://adamrohde.github.io/snake/",
-    //   app_btn_text: "Play!",
-    // },
-
     {
-      id: 8, //DO NOT CHANGE THIS (Please)😅
+      id: 7, //DO NOT CHANGE THIS (Please)😅
       title: "Calculator",
       para:
         "Simple calculator app using vanilla js. The app also incorporates a dark or light theme.",
@@ -144,76 +115,56 @@ export default {
       app_url: "https://adamrohde.github.io/calculator/",
       app_btn_text: "See the app",
     },
-
-    // {
-    //   id: 9, //DO NOT CHANGE THIS (Please)😅
-    //   title: "Todo",
-    //   para: "",
-    //   technologies: ["Vanilla Javascript", "Localstorage"],
-    //   imageSrc: todo,
-    //   target: "_blank",
-    //   repo_url: "https://github.com/adamRohde/to-do-app",
-    //   app_url: "https://adamrohde.github.io/to-do-app/",
-    //   app_btn_text: "See the app",
-    // },
   ],
 
   workProjectsEquipment: [
     {
-      id: 10,
+      id: 8,
       name: "1) PLC (Programmable Logic Controller)",
       description:
         "It is the brains for most industrial machinery. Code is written to this device so that the machine becomes automated. The languages used for PLCs varies from vendor to vendor. I have the most experience with a language called Structured Text which is definied within the IEC 61131. This language borrows it's syntax from Pascal.",
     },
     {
-      id: 11,
+      id: 9,
       name: "2) HMI (Human Machine Interface)",
       description:
         "It is the interface for the operator of the machine. Historically the GUIs for HMIs have been written with native development environments created by the vendor of the HMI. Recently there has been a trend towards using more open source web technologies to create these interfaces.",
     },
     {
-      id: 12,
+      id: 10,
       name: "3) Servo Drive/Amplifier",
       description:
         "These are used to control electric servo motors (4) which are capable of following precise motion trajectories. Position data is fead back to them via the orange cable so the drive knows exactly where the motor is at all times.",
     },
     {
-      id: 13,
+      id: 11,
       name: "4) Servo Motor",
       description:
         "These motors allow for precise motion control. They are used in robotics, machines tool (CNC) and web handling applications",
     },
   ],
 
-  //################################################ Carousel Vids  ################################################
-  //################################################ Carousel Vids  ################################################
-  //################################################ Carousel Vids  ################################################
-  carouselVids: [
+  randomSpanishCards: [
+    {
+      id: 12,
+      text:
+        "User is able to translate phrases from English to Spanish or Spanish to English and save the words/phrases to test themself on at a later time.",
+      src: translate_gif,
+    },
+    {
+      id: 13,
+      text:
+        "The user can this test themself with the computer randomly selecting words/phrases they have previously saved.",
+      src: testYourself,
+    },
     {
       id: 14,
-      name: "Parsing XML data in VBA",
-      src: dummy,
-    },
-    {
-      id: 15,
-      name: "C# application for automating machine startup",
-      src: industrialautomation,
-    },
-    {
-      id: 16,
-      name: "Android app for polling data",
-      src: dummy,
-    },
-    {
-      id: 17,
-      name: "C programming for machine diagnostics",
-      src: dummy,
+      text:
+        "The user can save as many phrases as they would like after signing up for a account.",
+      src: savePhrases,
     },
   ],
 
-  //################################################ About Sections  ################################################
-  //################################################ About Sections  ################################################
-  //################################################ About Sections  ################################################
   aboutParaMain:
     "Hello!  Welcome to my site, I'm Adam!  This site is designed to be a showcase for coding projects I've built recently while learning full stack web development " +
     "and also for projects I've created over the years working in the field of industrial automation " +

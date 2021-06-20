@@ -11,6 +11,10 @@
   padding: 0.6em;
   width: 100%;
   text-align: center;
+
+  @include media("<=tablet") {
+    // display: none;
+  }
 }
 
 p {
