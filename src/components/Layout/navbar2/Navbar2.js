@@ -3,38 +3,30 @@ import scrollTo from "gatsby-plugin-smoothscroll"
 
 const Navbar2 = () => {
   return (
-    <div>
-      <div className="section-nav-2">
-        <button
-          type="button"
-          class="btn btn-link active"
-          onClick={() => scrollTo("#randomspanish")}
-        >
-          <p>RandomSpanish.com</p>
-        </button>
-        <button
-          type="button"
-          class="btn btn-link active"
-          onClick={() => scrollTo("#webapps")}
-        >
-          <p>Play apps</p>
-        </button>
-        <button
-          type="button"
-          class="btn btn-link active"
-          onClick={() => scrollTo("#mobile")}
-        >
-          <p>Mobile</p>
-        </button>
-        <button
-          type="button"
-          class="btn btn-link active"
-          onClick={() => scrollTo("#industrialautomation")}
-        >
-          <p>Industrial Automation</p>
-        </button>
-      </div>
-    </div>
+    <>
+      <nav className="navbar-2">
+        <div class="navbar-links">
+          <ul>
+            <li>
+              <a onClick={() => scrollTo("#randomspanish")}>
+                RandomSpanish.com
+              </a>
+            </li>
+            <li>
+              <a onClick={() => scrollTo("#webapps")}>Web Apps</a>
+            </li>
+            <li>
+              <a onClick={() => scrollTo("#mobile")}>Mobile</a>
+            </li>
+            <li>
+              <a onClick={() => scrollTo("#industrialautomation")}>
+                Industrial Automation
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </>
   )
 }
 

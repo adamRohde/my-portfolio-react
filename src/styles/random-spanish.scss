@@ -9,14 +9,20 @@
   background-repeat: no-repeat;
 
   .about-paragraph {
+    width: 100%;
+    font-size: $fs-p-desktop;
+    margin: 0rem 1rem 1rem 7rem;
+  }
+
+  .about-paragraph p {
+    margin: 1rem 0rem 0rem 0rem;
     color: rgb(0, 0, 0);
     width: 55%;
     font-size: $fs-p-desktop;
-    margin: 1rem 1rem 1rem 7rem;
   }
 
   .button-container {
-    margin: 1rem 0 0 5rem;
+    margin: 3rem 0 0 0rem;
   }
 
   #icon {
@@ -50,7 +56,14 @@
     .about-paragraph {
       font-size: $fs-p-mobile;
       margin: 0;
-      width: 90vw;
+      width: 90%;
+    }
+
+    .about-paragraph p {
+      margin: 1rem 0rem 0rem 0rem;
+      color: rgb(0, 0, 0);
+      width: 90%;
+      font-size: $fs-p-mobile;
     }
 
     .button-container {
@@ -61,7 +74,7 @@
 
     #icon,
     #googleIcon {
-      display: none;
+      transform: scale(0.9);
     }
   }
 }

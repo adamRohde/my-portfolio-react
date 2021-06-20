@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 .about-section {
   width: 100%;
   display: flex;
@@ -19,21 +21,21 @@
     }
 
     h1 {
-      margin: 8.5vh 0.5vw 0.5vh 0vw;
+      margin: 5rem 0rem 0rem 2rem;
       color: black;
-      font-size: 4rem;
+      font-size: $fs-h1-desktop;
       justify-content: left;
       @include media("<desktop") {
         margin-top: 2rem;
       }
     }
     p {
-      margin: 2.5vh 4vw 0vh 0vw;
+      margin: 2rem 0 0rem 4rem;
       color: black;
-      font-size: 1.3rem;
+      font-size: $fs-p-desktop;
       @include media("<desktop") {
         text-align: justify;
-        font-size: 1rem;
+        font-size: $fs-p-mobile;
         font-weight: 500;
       }
     }

@@ -21,18 +21,18 @@
 @import "../components//Layout/navbar/navbar.scss";
 @import "./variables.scss";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-  background-color: $bg-primary;
 }
 
 main {
-  margin: 0vh 0vw 0vh 0vw;
-  z-index: -1;
+  margin: 0;
+  padding: 0;
 }
 
 .section-main {
@@ -40,10 +40,8 @@ main {
   background: $bg-primary;
   width: auto;
   height: auto;
-  margin-top: 5em;
-  margin-left: 2vw;
-  margin-right: 2vw;
-  z-index: -1;
+  margin: 0;
+  padding: 0;
 }
 
 .fade-in-image {

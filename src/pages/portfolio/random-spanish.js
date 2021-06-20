@@ -11,22 +11,22 @@ const randomspanish = () => {
     <section id="randomspanish">
       <h2>RandomSpanish.com</h2>
 
-      <div>
-        <p className="about-paragraph">
-          I built this site to try and learn Spanish. The first rendition used
-          PHP, SQL, Javascript, HTML and CSS. I rebuilt the site using React,
-          GraphQL and MongoDB. All the translations are utilizing the Google
-          Translate API and hosting and Authentication is being handled via AWS
-          Amplify.
-        </p>
-        <span style={{ margin: "0 0 0 5rem" }}>
+      <div className="about-paragraph">
+        Tools used -
+        <span>
           <img id="icon" src={reactIcon}></img>{" "}
           <img id="icon" src={graphqlIcon}></img>{" "}
           <img id="icon" src={mongodb_icon}></img> <span> </span>{" "}
           <img id="googleIcon" src={googleTranslateIcon}></img> <span> </span>{" "}
           <img id="icon" src={aws_icon}></img>
         </span>
-
+        <p>
+          I built this site to try and learn Spanish. The first rendition used
+          PHP, SQL, Javascript, HTML and CSS. I rebuilt the site using React,
+          GraphQL and MongoDB. All the translations are utilizing the Google
+          Translate API and hosting and Authentication is being handled via AWS
+          Amplify.
+        </p>
         <div className="button-container">
           <button class="btn btn-primary">See the site</button>
         </div>

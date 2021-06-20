@@ -15,10 +15,31 @@ const Navbar = () => {
     <layoutContext.Consumer>
       {context => (
         <>
-          <div className="section-nav">
-            <div className="navbar-wrapper-1 ">
+          <div className="navbar">
+            <div className="navbar-links">
               <nav>
-                <Link to="/" activeClassName="active">
+                <ul>
+                  <li>
+                    <Link to="/" activeClassName="active">
+                      About
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="/portfolio/Portfolio"
+                      activeClassName="active"
+                      partiallyActive={true}
+                    >
+                      Portfolio
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/contact" activeClassName="active">
+                      Contact
+                    </Link>
+                  </li>
+                </ul>
+                {/* <Link to="/" activeClassName="active">
                   About
                 </Link>
                 <Link
@@ -30,7 +51,7 @@ const Navbar = () => {
                 </Link>
                 <Link to="/contact" activeClassName="active">
                   Contact
-                </Link>
+                </Link> */}
               </nav>
             </div>
           </div>
