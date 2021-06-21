@@ -25,7 +25,6 @@ const Work = () => {
             These are projects I've built and worked on in my spare time. No
             tutorials were followed to make anything you will find below.
           </p>
-          {/* <hr style={{ margin: " 0vh 0 0vh" }} /> */}
         </section>
 
         <RandomSpanish />

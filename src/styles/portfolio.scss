@@ -1,58 +1,85 @@
 @import "./variables.scss";
 
+//#############################################################################
+//#############################################################################
+//#############################################################################
+
 section {
-  margin-top: 0rem;
-  margin-bottom: 0rem;
+  display: grid;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: $bg-primary;
+  @include media("<=tablet") {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0em 0em 2em 0em;
+  }
 }
 section:nth-of-type(even) {
-  background: $bg-highlight;
+  display: grid;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: $bg-highlight;
+  @include media("<=tablet") {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0em 0em 2em 0em;
+  }
 }
 
 h2 {
   color: black;
   font-size: $fs-h2-desktop;
-  margin-left: 5rem;
-
+  margin: 2rem 0rem 1rem 5rem;
   @include media("<=tablet") {
+    margin: 2rem 0rem 2rem 0rem;
+    text-align: justify;
     font-size: $fs-h2-mobile;
-    margin: 1em;
   }
 }
 
+p {
+  color: rgb(60, 60, 60);
+  width: 55%;
+  font-size: $fs-p-desktop;
+  margin: 2rem 0 0rem 7rem;
+  text-align: justify;
+  @include media("<=tablet") {
+    margin: 2rem 0rem 2rem 0rem;
+    width: 75vw;
+    text-align: justify;
+    font-size: $fs-p-mobile;
+  }
+}
+
+//#############################################################################
+//#############################################################################
+//#############################################################################
+
 #mywork {
   height: auto;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  display: grid;
 
   h2 {
-    color: black;
-    font-size: $fs-h2-desktop;
-    margin: 5rem 0rem 0rem 5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
   }
+
   p {
-    color: rgb(60, 60, 60);
-    width: 65%;
-    font-size: $fs-p-desktop;
-    margin: 2rem 0 0rem 7rem;
+    margin-bottom: 3rem;
   }
 
   @include media("<=tablet") {
-    width: 100%;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    padding-top: 0rem;
-
-    h2 {
-      justify-self: center;
-      font-size: $fs-h2-mobile;
-      margin: 5rem 0rem 1rem 0rem;
-    }
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
     p {
-      width: auto;
-      font-size: $fs-p-mobile;
-      margin: 1rem 2rem 0rem 2rem;
+      margin-bottom: 2rem;
     }
   }
 }

@@ -12,14 +12,16 @@ const randomspanish = () => {
       <h2>RandomSpanish.com</h2>
 
       <div className="about-paragraph">
-        Tools used -
-        <span>
-          <img id="icon" src={reactIcon}></img>{" "}
-          <img id="icon" src={graphqlIcon}></img>{" "}
-          <img id="icon" src={mongodb_icon}></img> <span> </span>{" "}
-          <img id="googleIcon" src={googleTranslateIcon}></img> <span> </span>{" "}
-          <img id="icon" src={aws_icon}></img>
-        </span>
+        <div className="icons-container">
+          Tools used -
+          <span>
+            <img className="icon" src={reactIcon}></img>{" "}
+            <img className="icon" src={graphqlIcon}></img>{" "}
+            <img className="icon" src={mongodb_icon}></img> <span> </span>{" "}
+            <img className="googleIcon" src={googleTranslateIcon}></img>{" "}
+            <span> </span> <img className="icon" src={aws_icon}></img>
+          </span>
+        </div>
         <p>
           I built this site to try and learn Spanish. The first rendition used
           PHP, SQL, Javascript, HTML and CSS. I rebuilt the site using React,

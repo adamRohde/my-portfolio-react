@@ -1,50 +1,43 @@
 @import "./variables.scss";
 
+//#############################################################################
+//#############################################################################
+//#############################################################################
+
 #randomspanish {
   height: auto;
-  width: 100%;
-  display: grid;
-  padding: 5rem 0em 5rem 0em;
-  grid-template-rows: auto auto auto auto auto auto;
-  background-repeat: no-repeat;
+  // padding: 5rem 0em 5rem 0em;
 
-  .about-paragraph {
-    width: 100%;
-    font-size: $fs-p-desktop;
-    margin: 0rem 1rem 1rem 7rem;
-  }
-
-  .about-paragraph p {
-    margin: 1rem 0rem 0rem 0rem;
-    color: rgb(0, 0, 0);
+  .icons-container {
     width: 55%;
-    font-size: $fs-p-desktop;
+    margin: 0rem 0rem 1rem 7rem;
   }
 
-  .button-container {
-    margin: 3rem 0 0 0rem;
-  }
-
-  #icon {
-    max-height: auto;
+  .icon {
+    height: auto;
     width: 7rem;
+
     margin: 0rem 0 0 1rem;
     transition: all 0.2s ease-in-out;
   }
 
-  #icon:hover {
+  .icon:hover {
     transform: scale(1.05);
   }
 
-  #googleIcon {
-    max-height: auto;
+  .googleIcon {
+    height: auto;
     width: 3rem;
     margin: 0rem 0 0 1rem;
     transition: all 0.2s ease-in-out;
   }
 
-  #googleIcon:hover {
+  .googleIcon:hover {
     transform: scale(1.05);
+  }
+
+  .button-container {
+    margin: 3rem 0 0 7rem;
   }
 
   @include media("<=tablet") {
@@ -54,20 +47,31 @@
     padding: 0em 0em 2em 0em;
 
     .about-paragraph {
-      font-size: $fs-p-mobile;
+      margin: 2rem 0rem 2rem 0rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       margin: 0;
-      width: 90%;
+      font-size: $fs-p-mobile;
     }
 
-    .about-paragraph p {
-      margin: 1rem 0rem 0rem 0rem;
-      color: rgb(0, 0, 0);
-      width: 90%;
-      font-size: $fs-p-mobile;
+    .icons-container {
+      margin: 0rem 0rem 1rem 0rem;
+      width: 75vw;
+    }
+
+    .icon {
+      height: auto;
+      width: 4rem;
+    }
+
+    .googleIcon {
+      height: auto;
+      width: 1.9rem;
     }
 
     .button-container {
-      margin: 0;
+      margin: 2rem 0rem 0rem 0rem;
       display: flex;
       justify-content: center;
     }

@@ -1,5 +1,5 @@
 // $bg-primary: rgb(252, 172, 53);
-$bg-primary: rgb(247, 247, 247);
+$bg-primary: rgb(255, 255, 255);
 $bg-highlight: rgb(214, 214, 214);
 
 $accent-primary: #ff0000;
@@ -8,12 +8,12 @@ $accent-primary-ltr: lighten($accent-primary, 10%);
 $accent-primary-dk: darken($accent-primary, 5%);
 $accent-primary-dkr: darken($accent-primary, 10%);
 
-$fs-h1-desktop: 8vw;
+$fs-h1-desktop: 3.3rem;
 $fs-h2-desktop: 2.5rem;
 $fs-h3-desktop: 28px;
-$fs-p-desktop: 1.5vw;
+$fs-p-desktop: 1.2rem;
 
 $fs-h1-mobile: 3rem;
-$fs-h2-mobile: 7vw;
+$fs-h2-mobile: 2.2rem;
 $fs-h3-mobile: 28px;
-$fs-p-mobile: 3.5vw;
+$fs-p-mobile: 1rem;

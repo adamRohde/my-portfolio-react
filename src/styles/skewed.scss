@@ -2,7 +2,7 @@
 
 .section-about-skewed {
   overflow: show;
-  background: white;
+  background: $bg-primary;
 
   transform: skew(0deg, -10deg) translateY(-20vh);
 }
