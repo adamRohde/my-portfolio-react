@@ -1,13 +1,6 @@
 @import "./variables.scss";
 
-#mobile {
-  height: auto;
-  width: 100%;
-  display: grid;
-  padding: 5rem 0rem 5rem 0rem;
-  grid-template-rows: auto auto auto auto auto auto;
-  background-repeat: no-repeat;
-
+.mobile {
   .about-paragraph {
     display: flex;
     flex-direction: column;
@@ -17,25 +10,17 @@
   .two-column {
     display: grid;
     grid-template-columns: 2fr 1fr;
-
     p {
-      color: rgb(60, 60, 60);
+      margin-top: 0rem;
       width: 80%;
-      font-size: $fs-p-desktop;
-      margin: 1rem 4rem 4rem 7rem;
     }
   }
 
   .button-container {
-    margin: 1rem 0 0 5rem;
+    margin: 1rem 0 0 7rem;
   }
 
   @include media("<=tablet") {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0rem 0rem 2rem 0rem;
-
     .two-column {
       display: flex;
       flex-direction: column;
@@ -45,16 +30,22 @@
     .about-paragraph {
       display: flex;
       align-items: center;
-      P {
-        font-size: $fs-p-mobile;
-        width: 75vw;
-        margin: 0em 2em 2em 2em;
-        text-align: justify;
+
+      .icon {
+        height: auto;
+        width: 7rem;
+
+        margin: 0rem 0 0 1rem;
+        transition: all 0.2s ease-in-out;
+      }
+
+      .icon:hover {
+        transform: scale(1.05);
       }
     }
 
     .button-container {
-      margin: 0em 0em 2em 0em;
+      margin: 2rem 0rem 2rem 0rem;
       display: flex;
       justify-content: center;
     }

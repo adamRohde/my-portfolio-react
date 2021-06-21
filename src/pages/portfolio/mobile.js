@@ -6,7 +6,7 @@ const Mobile = () => {
   return (
     // <section id="mobile">
 
-    <section id="mobile">
+    <section className="mobile">
       <div className="two-column">
         <div className="about-paragraph">
           <h2>Mobile</h2>

@@ -19,7 +19,7 @@ const Work = () => {
         <Navbar2 />
       </Fade>
       <div>
-        <section id="mywork">
+        <section className="mywork">
           <h2>My Work</h2>
           <p className="about-paragraph">
             These are projects I've built and worked on in my spare time. No

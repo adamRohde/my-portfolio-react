@@ -1,6 +1,7 @@
 // $bg-primary: rgb(252, 172, 53);
 $bg-primary: rgb(255, 255, 255);
-$bg-highlight: rgb(214, 214, 214);
+$bg-highlight: rgb(220, 220, 220);
+//$bg-highlight: rgb(252, 172, 53);
 
 $accent-primary: #ff0000;
 $accent-primary-lt: lighten($accent-primary, 5%);
@@ -14,6 +15,6 @@ $fs-h3-desktop: 28px;
 $fs-p-desktop: 1.2rem;
 
 $fs-h1-mobile: 3rem;
-$fs-h2-mobile: 2.2rem;
+$fs-h2-mobile: 2rem;
 $fs-h3-mobile: 28px;
 $fs-p-mobile: 1rem;

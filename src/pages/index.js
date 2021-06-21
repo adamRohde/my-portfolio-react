@@ -17,7 +17,7 @@ const IndexPage = () => {
               <SEO title="Adam's Portfolio" />
               <Navbar />
               <About />
-              <Footer />
+              {/* <Footer /> */}
             </>
           )}
         </layoutContext.Consumer>

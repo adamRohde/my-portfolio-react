@@ -8,18 +8,19 @@ const About = () => {
       <div>
         <div className="about-section">
           <div className="about-me-container">
-            <h2>About me</h2>
+            <h2>Hi, I'm Adam!</h2>
             <p>
               {" "}
-              Hello! My name is Adam! I have been working in the field of
-              Industrial automation for 13 years. This field has increasingly
-              started adopting web technologies therefore so have I! I have been
-              programming with languages like Java and C# for nearly ten years
-              and as of about 2 years ago, I have dived head first into the
-              world of web!
+              I have been working in the field of Industrial automation for 13
+              years programming industrial machines. Recently I've made a
+              decision that I want to redirect my career so that it takes a
+              stronger software development focus. I have been programming OOP
+              languages like C# and Java for approximately 10 years and recently
+              have dived into the world of web developement. This site aims to
+              show you some of my work.
               <br />
               <br />
-              Thank you!
+              Thanks for stoping!
               <br />
             </p>
           </div>
