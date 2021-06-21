@@ -25,7 +25,7 @@ const randomspanish = () => {
         <p>
           I built this site to try and learn Spanish. The first rendition used
           PHP, SQL, Javascript, HTML and CSS. I rebuilt the site using React,
-          GraphQL and MongoDB. All the translations are utilizing the Google
+          GraphQL and MongoDB. All the translations are using the Google
           Translate API and hosting and Authentication is being handled via AWS
           Amplify.
         </p>

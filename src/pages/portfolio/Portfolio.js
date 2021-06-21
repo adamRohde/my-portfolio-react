@@ -20,7 +20,7 @@ const Work = () => {
       </Fade>
       <div>
         <section className="mywork">
-          <h2>My Work</h2>
+          <h1>My Work</h1>
           <p className="about-paragraph">
             These are projects I've built and worked on in my spare time. No
             tutorials were followed to make anything you will find below.

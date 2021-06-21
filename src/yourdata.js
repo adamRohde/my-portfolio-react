@@ -147,20 +147,17 @@ export default {
   randomSpanishCards: [
     {
       id: 12,
-      text:
-        "User is able to translate phrases from English to Spanish or Spanish to English and save the words/phrases to test themself on at a later time.",
+      text: "Translate phrases",
       src: translate_gif,
     },
     {
       id: 13,
-      text:
-        "The user can this test themself with the computer randomly selecting words/phrases they have previously saved.",
+      text: "Test yourself",
       src: testYourself,
     },
     {
       id: 14,
-      text:
-        "The user can save as many phrases as they would like after signing up for a account.",
+      text: "Save your phrases",
       src: savePhrases,
     },
   ],

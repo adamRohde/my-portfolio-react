@@ -73,6 +73,17 @@ section:nth-of-type(even) {
   }
 }
 
+h1 {
+  color: black;
+  font-size: $fs-h1-desktop;
+  margin: 1rem 0rem 1rem 5rem;
+  @include media("<=tablet") {
+    margin: 2rem 0rem 1rem 0rem;
+    text-align: justify;
+    font-size: $fs-h1-mobile;
+  }
+}
+
 h2 {
   color: black;
   font-size: $fs-h2-desktop;
@@ -81,6 +92,18 @@ h2 {
     margin: 1rem 0rem 1rem 0rem;
     text-align: justify;
     font-size: $fs-h2-mobile;
+  }
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-size: $fs-h3-desktop;
+  font-weight: normal;
+  // margin: 1rem 0rem 1rem 5rem;
+  @include media("<=tablet") {
+    // margin: 1rem 0rem 1rem 0rem;
+    text-align: justify;
+    font-size: $fs-h3-mobile;
   }
 }
 

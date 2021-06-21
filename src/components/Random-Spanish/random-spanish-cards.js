@@ -6,7 +6,9 @@ const RandomSpanishCards = () => {
     <>
       {data.randomSpanishCards.map(cards => (
         <div className="card-row">
-          <p>{cards.text}</p>
+          <div className="caption-container">
+            <h3>{cards.text}</h3>
+          </div>
           <img src={cards.src} />
         </div>
       ))}

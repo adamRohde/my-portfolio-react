@@ -5,19 +5,28 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 8rem;
+  justify-items: flex-end;
+  margin-top: 5rem;
   margin-bottom: 0rem;
-  p {
+
+  .caption-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  h3 {
+    display: flex;
     width: 45%;
-    font-size: $fs-p-desktop;
+    font-size: $fs-h3-desktop;
     margin: 0rem 1rem 0rem 5rem;
   }
   img {
     display: flex;
-    width: 55%;
+    width: 60%;
     height: auto;
     border-radius: 1rem;
-    margin: 0rem 5rem 0rem 0rem;
+    margin: 0rem 7rem 0rem 0rem;
   }
 
   @include media("<=tablet") {
@@ -25,8 +34,13 @@
     flex-direction: column-reverse;
     align-items: center;
     margin-top: 3rem;
-    p {
-      font-size: $fs-p-mobile;
+
+    .caption-container {
+      justify-content: center;
+    }
+
+    h3 {
+      font-size: $fs-h3-mobile;
       margin: 1em;
       width: 75vw;
       text-align: justify;
