@@ -13,16 +13,13 @@
 
   p {
     margin-top: 0rem;
+    font-size: 2rem;
   }
 
   @include media("<=tablet") {
     display: grid;
     align-content: center;
     justify-content: center;
-
-    // .mywork-container {
-    //   margin: 8rem 0rem 0rem 0rem;
-    // }
 
     h1 {
       margin: 4rem 0rem 0rem 0rem;
@@ -34,8 +31,6 @@
       margin: 1.2rem 0rem 0rem 0rem;
       padding: 0;
       font-size: 1.2rem;
-      // width: 70%;
-      // margin-bottom: 2rem;
     }
   }
 }
