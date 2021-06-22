@@ -1,50 +1,74 @@
 @import "../../styles/variables.scss";
 
-.about-me-container p {
-  width: auto;
-  margin: 2rem 0 0rem 7rem;
-  text-align: justify;
-}
-
 .about-section {
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  min-height: 100vh;
+  // background-image: url("../images/bg.png") !important;
+
+  .about-me-container {
+    display: grid;
+    // border: solid 2px black;
+    width: 90%;
+    height: fit-content;
+    align-content: center;
+    justify-self: center;
+    align-self: center;
+    margin-left: 4rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0);
+    h2 {
+      margin: 0;
+    }
+    p {
+      width: 100%;
+      margin: 0;
+      padding: 1rem 0rem 0rem 2rem;
+    }
+  }
 
   .image-container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    // border: solid 2px black;
+    justify-self: center;
+    align-self: center;
+    width: 80%;
     img {
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
       border-radius: 50%;
-      max-width: 80%;
-      max-height: 80%;
     }
   }
 
   @include media("<desktop") {
-    width: 100%;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
-    padding: 10vh 0vw 0vh 0vw;
+    grid-template-columns: 100%;
+    grid-template-rows: 3fr 5fr;
+    justify-items: center;
+    align-content: center;
+
+    .image-container {
+      width: 55%;
+      margin-top: 5rem;
+      grid-row: 1/2;
+      margin: 0;
+      padding: 6rem 0rem 2em 0rem;
+
+      img {
+        max-width: 100%;
+      }
+    }
 
     .about-me-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      display: grid;
+      grid-row: 2/2;
+      width: 85%;
       margin: 0;
-      max-width: 75vw;
-      h1 {
-        margin: 0rem 0rem 1rem 0rem;
-        font-size: $fs-h2-mobile;
-      }
+      align-content: center;
+
       p {
+        width: 100%;
         margin: 0;
-        text-align: justify;
-        font-size: $fs-p-mobile;
+        padding: 1rem 0rem 0rem 0rem;
       }
     }
   }

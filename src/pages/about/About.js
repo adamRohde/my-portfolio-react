@@ -1,11 +1,12 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../../yourdata"
+// import Footer from "../../components/Layout/footer/Footer"
 
 const About = () => {
   return (
     <>
-      <div className="about-section">
+      <section className="about-section">
         <div className="about-me-container">
           <h2>Hi, I'm Adam!</h2>
           <p>
@@ -19,14 +20,20 @@ const About = () => {
             of my work.
             <br />
             <br />
-            Thanks for stoping!
+            Expertise -
+            <span style={{ fontWeight: "bold" }}>
+              {" "}
+              React, OOP, Android development, training, industrial automation,
+              PLC development, technical writing.
+            </span>
             <br />
           </p>
         </div>
         <div className="image-container">
           <img src={data.aboutImage} alt="about"></img>
         </div>
-      </div>
+        {/* <Footer /> */}
+      </section>
     </>
   )
 }

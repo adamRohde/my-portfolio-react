@@ -15,7 +15,7 @@ const Navbar = () => {
     <layoutContext.Consumer>
       {context => (
         <>
-          <div className="navbar">
+          <nav className="navbar">
             <div className="navbar-links">
               <nav>
                 <ul>
@@ -39,22 +39,9 @@ const Navbar = () => {
                     </Link>
                   </li>
                 </ul>
-                {/* <Link to="/" activeClassName="active">
-                  About
-                </Link>
-                <Link
-                  to="/portfolio/Portfolio"
-                  activeClassName="active"
-                  partiallyActive={true}
-                >
-                  Portfolio
-                </Link>
-                <Link to="/contact" activeClassName="active">
-                  Contact
-                </Link> */}
               </nav>
             </div>
-          </div>
+          </nav>
         </>
       )}
     </layoutContext.Consumer>

@@ -1,9 +1,13 @@
+@import "../../styles/variables.scss";
+
 .contact-container {
   width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 20vh;
+  padding-top: 15vh;
+  background-color: white;
   h2 {
     @include media(">=phone", "<tablet") {
       font-size: 2rem;
@@ -14,6 +18,23 @@
   h4 {
     @include media(">=phone", "<tablet") {
       font-size: 1rem;
+    }
+  }
+
+  .form-container {
+    width: 70vw;
+  }
+
+  .mb-3 {
+    width: 100%;
+    background-color: white;
+
+    input {
+      border: solid 1px black;
+    }
+
+    textarea {
+      border: solid 1px black;
     }
   }
 

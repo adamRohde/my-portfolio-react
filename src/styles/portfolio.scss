@@ -1,7 +1,13 @@
 @import "./variables.scss";
 
 .mywork {
-  h2 {
+  height: 80vh;
+  align-content: center;
+
+  .mywork-container {
+  }
+
+  h1 {
     margin-top: 3rem;
   }
 
@@ -10,11 +16,26 @@
   }
 
   @include media("<=tablet") {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+    // .mywork-container {
+    //   margin: 8rem 0rem 0rem 0rem;
+    // }
+
+    h1 {
+      margin: 4rem 0rem 0rem 0rem;
+      padding: 0;
+      //  margin-top: 3rem;
+    }
 
     p {
-      margin-bottom: 2rem;
+      margin: 1.2rem 0rem 0rem 0rem;
+      padding: 0;
+      font-size: 1.2rem;
+      // width: 70%;
+      // margin-bottom: 2rem;
     }
   }
 }

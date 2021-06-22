@@ -6,6 +6,7 @@ import calc from "./images/calc.jpg"
 import translate_gif from "./gifs/translate.gif"
 import testYourself from "./images/testyourself.png"
 import savePhrases from "./images/savephrases.png"
+import githubImage from "./images/icons/github.png"
 
 let dummy
 
@@ -220,10 +221,10 @@ export default {
   // End Promotion Section -----------------
 
   //   Contact Section --------------
-  contactSubHeading: "Reach out! Lets collaborate on your next project!",
+  contactSubHeading: "",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: dummy, url: "https://github.com/adamRohde" },
+    { img: githubImage, url: "https://github.com/adamRohde" },
   ],
 
   // End Contact Section ---------------

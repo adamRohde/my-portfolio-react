@@ -1,4 +1,4 @@
-import "../../styles/mains.scss"
+import "../../styles/main.scss"
 import React from "react"
 import { layoutContext } from "../../../provider"
 
