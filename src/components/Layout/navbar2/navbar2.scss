@@ -3,8 +3,8 @@
 .navbar-2 {
   width: 100%;
   position: fixed;
-  top: 2.5rem;
-  display: none;
+  top: 3.5rem;
+  display: grid;
   background: $accent-primary;
   color: $bg-primary;
   justify-content: space-around;

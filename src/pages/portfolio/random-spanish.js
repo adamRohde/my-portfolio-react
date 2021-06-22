@@ -8,7 +8,7 @@ import RandomSpanishCards from "../../components/Random-Spanish/random-spanish-c
 
 const randomspanish = () => {
   return (
-    <section className="randomspanish">
+    <section className="randomspanish" id="randomspanish">
       <h2>RandomSpanish.com</h2>
 
       <div className="about-paragraph">

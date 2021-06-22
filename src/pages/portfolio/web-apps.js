@@ -6,7 +6,7 @@ import { layoutContext } from "../../../provider"
 const webapps = () => {
   console.log("layoutContext  ", layoutContext)
   return (
-    <section id="webapps">
+    <section className="webapps" id="webapps">
       <h2>
         {/* <span style={{ color: "red" }}>W</span>eb
         <span style={{ color: "red" }}>A</span>pps */}
