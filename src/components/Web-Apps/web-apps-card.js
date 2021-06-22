@@ -8,8 +8,11 @@ const WebAppsCard = () => {
   return (
     <>
       {data.WebApps.map(webapp => (
-        <section id="wa-card-wrapper">
-          <div>
+        <section
+          className="grid-container"
+          style={{ backgroundColor: "white" }}
+        >
+          <div className="wa-about-section">
             <h3>{webapp.title}</h3>
             <p>{webapp.para}</p>
 

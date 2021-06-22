@@ -104,7 +104,7 @@ export default {
       id: 7, //DO NOT CHANGE THIS (Please)😅
       title: "Calculator",
       para:
-        "Simple calculator app using vanilla js. The app also incorporates a dark or light theme.",
+        "Simple calculator app using vanilla js. The app also incorporates a dark or light theme.  No eval function was used... that would be too easy :)",
       technologies: [
         "Vanilla Javascript",
         "No use of eval function",

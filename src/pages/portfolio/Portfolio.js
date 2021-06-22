@@ -23,16 +23,15 @@ const Work = () => {
           <div classname="mywork-container">
             <h1>My Work</h1>
             <p className="about-paragraph">
-              These are projects I've built and worked on in my spare time. No
-              tutorials were followed to make anything you will find below.
+              These are projects from the past year (2020). More to come soon...
             </p>
           </div>
         </section>
 
         <RandomSpanish />
-        {/* <WebApps /> */}
+        <WebApps />
         <Mobile />
-        {/* <IndustrialAutomation /> */}
+        <IndustrialAutomation />
       </div>
       <Footer />
     </>
