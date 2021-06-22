@@ -12,15 +12,14 @@ const About = () => {
           <p>
             {" "}
             I have been working in the field of Industrial automation for 13
-            years programming industrial machines. Recently I've made a decision
-            that I want to redirect my career so that it takes a stronger
+            years programming industrial machines. Recently I've made a decision to redirect my career so it takes a stronger
             software development focus. I have been programming OOP languages
             like C# and Java for approximately 10 years and recently have dived
             into the world of web developement. This site aims to show you some
             of my work.
             <br />
             <br />
-            Expertise -
+            Skills -
             <span style={{ fontWeight: "bold" }}>
               {" "}
               React, OOP, Android development, training, industrial automation,
