@@ -14,7 +14,7 @@ const About = () => {
             I have been working in the field of Industrial automation for 13
             years programming industrial machines. Recently I've made a decision to redirect my career so it takes a stronger
             software development focus. I have been programming OOP languages
-            like C# and Java for approximately 10 years and recently have dived
+            like C# and Java for approximately 10 years and I recently dived
             into the world of web developement. This site aims to show you some
             of my work.
             <br />
