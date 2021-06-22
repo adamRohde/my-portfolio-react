@@ -23,7 +23,7 @@ const Work = () => {
           <div classname="mywork-container">
             <h1>My Work</h1>
             <p className="about-paragraph">
-              All of these projects I completed in the past year.  I will be updating this regularly.
+              All of these projects I completed in the past year.  I will be updating this regularly as changes are made.
             </p>
           </div>
         </section>
