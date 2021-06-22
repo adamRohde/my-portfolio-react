@@ -30,12 +30,13 @@ const randomspanish = () => {
           Amplify.
         </p>
         <div className="button-container">
-          <button
+          <a
             className="btn btn-primary"
-            onClick={{ href: "https://www.randomspanish.com/" }}
+            href="https://www.randomspanish.com"
+            target="_blank"
           >
-            See the site
-          </button>
+            Go to site
+          </a>
         </div>
       </div>
 

@@ -9,6 +9,12 @@ const Mobile = () => {
     <section className="mobile">
       <div className="two-column">
         <div className="about-paragraph">
+          {/* <div>
+            Tools used -
+            <span>
+              <img className="icon" src={androidIcon}></img>{" "}
+            </span>
+          </div> */}
           <h2>Mobile</h2>
           <p>
             I met a group of people thru a Facebook group dedicated to software
@@ -20,11 +26,15 @@ const Mobile = () => {
             them up with career paths that the app deemed a good fit, given how
             they answered the questions.
           </p>
-          {/* <span style={{ margin: "0 0 0 5rem" }}>
-            <img id="icon" src={androidIcon}></img>{" "}
-          </span> */}
+
           <div className="button-container">
-            <button class="btn btn-primary">See the repo</button>
+            <a
+              className="btn btn-primary"
+              href="https://github.com/adamRohde/Android-Survey"
+              target="_blank"
+            >
+              Go to site
+            </a>
           </div>
         </div>
 
