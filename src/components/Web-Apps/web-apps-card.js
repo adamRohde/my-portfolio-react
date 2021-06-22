@@ -7,14 +7,21 @@ import expenseTracker from "../../images/expensetracker.jpg"
 const WebAppsCard = () => {
   return (
     <>
+
+<hr style={{color: "black"}}></hr>
+
       {data.WebApps.map(webapp => (
         <section
           className="grid-container"
           style={{ backgroundColor: "white" }}
         >
+       
           <div className="wa-about-section">
             <h3>{webapp.title}</h3>
             <p>{webapp.para}</p>
+
+
+          
 
             {webapp.technologies.map(technology => (
               <ul>
@@ -43,6 +50,8 @@ const WebAppsCard = () => {
             </div>
           </div>
           <img className="wa-image" src={webapp.imageSrc} />
+
+          <hr style={{color: "black"}}></hr>
         </section>
       ))}
     </>

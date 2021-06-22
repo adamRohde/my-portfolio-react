@@ -40,7 +40,7 @@ const randomspanish = () => {
         </div>
       </div>
 
-      <RandomSpanishCards />
+      {/* <RandomSpanishCards /> */}
     </section>
   )
 }
