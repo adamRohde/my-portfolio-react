@@ -50,7 +50,7 @@
   }
 
   .wa-image {
-    width: 80%;
+    width: 50%;
     height: auto;
     border-radius: 0.5rem;
     overflow: hidden !important;
@@ -77,6 +77,10 @@
 
     h3 {
       font-size: $fs-h3-mobile;
+    }
+
+    .wa-image {
+      width: 80%;
     }
 
     .wa-about-section {

@@ -23,7 +23,7 @@ const Work = () => {
           <div classname="mywork-container">
             <h1>My Work</h1>
             <p className="about-paragraph">
-              These are projects from the past year (2020). More to come soon...
+              All of these projects I completed in the past year.  I will be updating this regularly.
             </p>
           </div>
         </section>

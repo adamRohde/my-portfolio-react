@@ -34,6 +34,7 @@
 
   .navbar-links li:hover {
     background-color: rgb(255, 81, 81);
+    cursor: pointer;
   }
 
   @include media("<=tablet") {
