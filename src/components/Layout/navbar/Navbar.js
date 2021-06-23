@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { layoutContext } from "../../../../provider"
 import { Link, Router } from "gatsby"
 import { Menu, Segment } from "semantic-ui-react"
+import scrollTo from "gatsby-plugin-smoothscroll"
 //
 
 const Navbar = () => {
@@ -20,23 +21,27 @@ const Navbar = () => {
               <nav>
                 <ul>
                   <li>
-                    <Link to="/" activeClassName="active">
-                      About
-                    </Link>
+                    <a onClick={() => scrollTo("#about")}>Home</a>
                   </li>
                   <li>
-                    <Link
-                      to="/portfolio/Portfolio"
+                    <a
                       activeClassName="active"
-                      partiallyActive={true}
+                      onClick={() => scrollTo("#mywork")}
                     >
                       Portfolio
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link to="/contact" activeClassName="active">
+                    <a
+                      activeClassName="active"
+                      onClick={() => scrollTo("#contact")}
+                    >
                       Contact
-                    </Link>
+                    </a>
+
+                    {/* <Link to="/contact" activeClassName="active">
+                      Contact
+                    </Link> */}
                   </li>
                 </ul>
               </nav>

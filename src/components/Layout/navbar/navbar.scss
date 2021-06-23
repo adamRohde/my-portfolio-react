@@ -37,14 +37,15 @@
     padding: 0.5rem;
   }
 
-  .navbar-links li:hover {
+  .navbar-links a:hover {
     // background-color: #555;
     transform: scale(1.05);
   }
 
   .active {
-    background-color: #555;
+    background-color: white;
     border-radius: 0.5rem;
+    border-bottom: solid 1px white;
   }
 
   @include media("<desktop") {

@@ -18,11 +18,12 @@ const Work = () => {
         <Navbar2 />
       </Fade>
       <div>
-        <section className="mywork">
+        <section className="mywork" id="mywork">
           <div classname="mywork-container">
             <h1>My Work</h1>
             <p className="about-paragraph">
-              All of these projects I completed in the past year.  I will be updating this section regularly as I build new things.
+              All of these projects I completed in the past year. I will be
+              updating this section regularly as I build new things.
             </p>
           </div>
         </section>
