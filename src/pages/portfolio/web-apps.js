@@ -3,7 +3,7 @@ import Layout from "../../components/Layout/layout"
 import WebAppsCard from "../../components/Web-Apps/web-apps-card"
 import { layoutContext } from "../../../provider"
 
-const webapps = () => {
+const WebApps = () => {
   console.log("layoutContext  ", layoutContext)
   return (
     <section className="webapps" id="webapps">
@@ -15,15 +15,15 @@ const webapps = () => {
 
       <div>
         <p>
-          These are a few small fun apps I created when attending Andy
-          Sterkowitz's Web Bootcamp. These apps were my introduction to HTML,
-          CSS and Javascript. All of{" "}
+          These are small fun apps I created when attending Andy Sterkowitz's
+          Web Bootcamp. These apps were my introduction to HTML, CSS and
+          Javascript.{" "}
           <strong style={{ color: "black" }}>
-            these apps were written by me and me alone. No tutorials were
+            All of them were written by me and me alone. No tutorials were
             followed.{"  "}
           </strong>
           Despite the simplicity I am still proud of this work. We all have
-          beginnings, these apps were mine :).
+          beginnings, these simple apps were mine :).
         </p>
       </div>
 
@@ -32,4 +32,4 @@ const webapps = () => {
   )
 }
 
-export default webapps
+export default WebApps

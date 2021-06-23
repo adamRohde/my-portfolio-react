@@ -33,7 +33,7 @@ const Mobile = () => {
               href="https://github.com/adamRohde/Android-Survey"
               target="_blank"
             >
-              Go to site
+              Repo
             </a>
           </div>
         </div>

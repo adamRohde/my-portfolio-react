@@ -22,12 +22,11 @@ const WebAppsCard = () => {
 
 
           
-
+            <p> Technical details  - 
             {webapp.technologies.map(technology => (
-              <ul>
-                <li>{technology}</li>
-              </ul>
+                <span style={{ fontWeight: "bold" }}> {" "}{technology},  {" "}</span>
             ))}
+              </p>
 
             <div className="the-buttons">
               <a

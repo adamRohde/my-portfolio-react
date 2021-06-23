@@ -1,12 +1,13 @@
-import React from "react"
+import React, { useState } from "react"
 import reactIcon from "../../images/icons/react_icon.png"
 import graphqlIcon from "../../images/icons/graphql_icon.png"
 import googleTranslateIcon from "../../images/icons/Google_Translate_Icon.png"
 import mongodb_icon from "../../images/icons/mongodb_icon.png"
 import aws_icon from "../../images/icons/aws_icon.png"
 import RandomSpanishCards from "../../components/Random-Spanish/random-spanish-cards.js"
+import RandomSpanishCarousel from "../../components/Random-Spanish/rs-carousel"
 
-const randomspanish = () => {
+const RandomSpanish = () => {
   return (
     <section className="randomspanish" id="randomspanish">
       <h2>RandomSpanish.com</h2>
@@ -25,8 +26,8 @@ const randomspanish = () => {
         <p>
           I built this site to try and learn Spanish. The first rendition used
           PHP, SQL, Javascript, HTML and CSS. I rebuilt the site using React,
-          GraphQL and MongoDB. All the translations are using the Google
-          Translate API and hosting and Authentication is being handled via AWS
+          GraphQL and MongoDB. The translations are done using the Google
+          Translate API while hosting and authentication is handled with AWS
           Amplify.
         </p>
         <div className="button-container">
@@ -41,8 +42,9 @@ const randomspanish = () => {
       </div>
 
       {/* <RandomSpanishCards /> */}
+      <RandomSpanishCarousel />
     </section>
   )
 }
 
-export default randomspanish
+export default RandomSpanish

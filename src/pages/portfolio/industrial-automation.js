@@ -4,7 +4,7 @@ import React from "react"
 // import MainImage from "../../../components/Industrial-Automation/MainImage"
 // import About from "../../../components/Industrial-Automation/About"
 
-const workprojects = () => {
+const WorkProjects = () => {
   return (
     <section id="industrialautomation">
       {/* <Header title={"Industrial Automation"} /> */}
@@ -23,4 +23,4 @@ const workprojects = () => {
   )
 }
 
-export default workprojects
+export default WorkProjects

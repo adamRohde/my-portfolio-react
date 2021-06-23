@@ -3,10 +3,10 @@ import industrialautomation from "./images/work-projects.jpg"
 import expensetracker from "./images/expensetracker.jpg"
 import rockpaperscissors from "./images/rockpaperscissors.jpg"
 import calc from "./images/calc.jpg"
-import translate_gif from "./gifs/translate.gif"
-import testYourself from "./images/testyourself.png"
-import savePhrases from "./images/savephrases.png"
 import githubImage from "./images/icons/github.png"
+import translate_gif from "./images/rs-translate.jpg"
+import testYourself from "./images/rs-test.jpg"
+import savePhrases from "./images/rs-save.jpg"
 
 let dummy
 
@@ -66,11 +66,11 @@ export default {
       id: 5, //DO NOT CHANGE THIS (Please)😅
       title: "React Expense Tracker",
       para:
-        "Simple app that allows you to save your expenses.  This was app was my introduction to React.",
+        "Simple app that allows you to save your expenses.  This was app was my introduction to React and the power had using a language that takes care of state automagically!",
       technologies: [
         "React",
         "Functional Components",
-        "Hosted on Heroku",
+        "AWS Amplify",
         "Bootstrap",
         "Localstorage",
       ],
@@ -78,7 +78,7 @@ export default {
       imageSrc: expensetracker,
       target: "_blank",
       repo_url: "https://github.com/adamRohde/expense-tracker",
-      app_url: "https://expense-tracker-2020-12-30.herokuapp.com/",
+      app_url: "https://main.d1zr4sutdwcexh.amplifyapp.com/",
       app_btn_text: "See the app",
     },
     {
@@ -87,10 +87,11 @@ export default {
       para:
         "Mobile friendly rock, paper, scissors game. Used CSS grid, and Flex-box to try and make responsive.",
       technologies: [
-        "Vanilla Javascript",
-        "CSS Grid and Flexbox",
-        "Dark and light themes",
-        "Settings page for customization",
+        "vanilla Javascript",
+        "CSS Grid",
+        "Flexbox",
+        "dark and light themes",
+        "settings page for customization",
         "Localstorage",
       ],
       imageSrc: rockpaperscissors,
@@ -104,44 +105,17 @@ export default {
       id: 7, //DO NOT CHANGE THIS (Please)😅
       title: "Calculator",
       para:
-        "Simple calculator app using vanilla js. The app also incorporates a dark or light theme.  No eval function was used... that would be too easy :)",
+        "Simple calculator app using vanilla js. The app also incorporates a dark or light theme.",
       technologies: [
-        "Vanilla Javascript",
-        "No use of eval function",
-        "Dark and light theme",
+        "vanilla Javascript",
+        "NO EVAL FUNCTION",
+        "dark and light theme",
       ],
       imageSrc: calc,
       target: "_blank",
       repo_url: "https://github.com/adamRohde/calculator",
       app_url: "https://adamrohde.github.io/calculator/",
       app_btn_text: "See the app",
-    },
-  ],
-
-  workProjectsEquipment: [
-    {
-      id: 8,
-      name: "1) PLC (Programmable Logic Controller)",
-      description:
-        "It is the brains for most industrial machinery. Code is written to this device so that the machine becomes automated. The languages used for PLCs varies from vendor to vendor. I have the most experience with a language called Structured Text which is definied within the IEC 61131. This language borrows it's syntax from Pascal.",
-    },
-    {
-      id: 9,
-      name: "2) HMI (Human Machine Interface)",
-      description:
-        "It is the interface for the operator of the machine. Historically the GUIs for HMIs have been written with native development environments created by the vendor of the HMI. Recently there has been a trend towards using more open source web technologies to create these interfaces.",
-    },
-    {
-      id: 10,
-      name: "3) Servo Drive/Amplifier",
-      description:
-        "These are used to control electric servo motors (4) which are capable of following precise motion trajectories. Position data is fead back to them via the orange cable so the drive knows exactly where the motor is at all times.",
-    },
-    {
-      id: 11,
-      name: "4) Servo Motor",
-      description:
-        "These motors allow for precise motion control. They are used in robotics, machines tool (CNC) and web handling applications",
     },
   ],
 
