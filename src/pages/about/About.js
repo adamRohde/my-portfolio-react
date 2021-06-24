@@ -8,7 +8,7 @@ const About = () => {
     <>
       <section className="about-section" id="about">
         <div className="about-me-container">
-          <h2>Hi, I'm Adam!</h2>
+          <h1>Hi, I'm Adam!</h1>
           <p>
             {" "}
             I have been working in the field of Industrial automation for 13

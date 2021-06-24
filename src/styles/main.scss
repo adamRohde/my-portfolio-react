@@ -37,6 +37,7 @@ main {
 
 p {
   font-family: "Roboto Mono", monospace;
+  padding: 1rem 0rem 0rem 2rem;
 }
 
 h1 {
@@ -58,8 +59,7 @@ a {
 section {
   display: grid;
   width: 100%;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding: 5rem;
   background-color: $bg-primary;
   @include media("<=tablet") {
     width: 100%;
@@ -87,7 +87,7 @@ section:nth-of-type(even) {
 h1 {
   color: black;
   font-size: $fs-h1-desktop;
-  margin: 1rem 0rem 1rem 5rem;
+  margin: 1rem 0rem 1rem 0rem;
   @include media("<=tablet") {
     margin: 2rem 0rem 1rem 0rem;
     text-align: justify;
@@ -98,7 +98,7 @@ h1 {
 h2 {
   color: black;
   font-size: $fs-h2-desktop;
-  margin: 1rem 0rem 1rem 5rem;
+  margin: 1rem 0rem 1rem 0rem;
   @include media("<=tablet") {
     margin: 1rem 0rem 1rem 0rem;
     text-align: justify;
@@ -120,9 +120,8 @@ h3 {
 
 p {
   color: rgb(60, 60, 60);
-  width: 55%;
+  width: 80%;
   font-size: $fs-p-desktop;
-  margin: 2rem 0 2rem 7rem;
   text-align: justify;
   @include media("<=tablet") {
     margin: 0rem 0rem 0rem 0rem;

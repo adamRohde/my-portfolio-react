@@ -14,7 +14,6 @@ const IndexPage = () => {
         <div className="section-main" id="contact">
           <Contact />
         </div>
-        <Footer />
       </>
     </>
   )

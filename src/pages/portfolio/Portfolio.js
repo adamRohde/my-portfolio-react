@@ -13,7 +13,6 @@ const Work = () => {
   return (
     <>
       <SEO title="Adam's Portfolio" />
-      <Navbar1 />
       <Fade bottom cascade>
         <Navbar2 />
       </Fade>
@@ -33,7 +32,6 @@ const Work = () => {
         <Mobile />
         <IndustrialAutomation />
       </div>
-      <Footer />
     </>
   )
 }

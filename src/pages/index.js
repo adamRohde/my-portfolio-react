@@ -14,7 +14,6 @@ const IndexPage = () => {
     <>
       <SEO title="Adam's Portfolio" />
       <Navbar />
-      <Navbar2 />
       <About />
       <Portfolio />
       <Contact />
