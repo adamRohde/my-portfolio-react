@@ -27,11 +27,13 @@
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 main {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 // .section-main {
@@ -66,10 +68,11 @@ a {
 
 section {
   display: grid;
-  width: 100%;
+
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: $bg-primary;
+  overflow: hidden;
   @include media("<=tablet") {
     width: 100%;
     display: flex;
@@ -80,10 +83,10 @@ section {
 }
 section:nth-of-type(even) {
   display: grid;
-  width: 100%;
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: $bg-highlight;
+  overflow: hidden;
   @include media("<=tablet") {
     width: 100%;
     display: flex;
