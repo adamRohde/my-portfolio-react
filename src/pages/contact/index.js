@@ -12,9 +12,9 @@ const IndexPage = () => {
       <>
         <SEO title="Adam's Portfolio" />
         <Navbar1 />
-        <div className="section-main">
+        <section className="section-main" id="contact">
           <Contact />
-        </div>
+        </section>
         <Footer />
       </>
     </>

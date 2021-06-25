@@ -1,60 +1,63 @@
 @import "../../styles/variables.scss";
 
-.contact-container {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 15vh;
-  background-color: white;
-  h2 {
-    @include media(">=phone", "<tablet") {
-      font-size: 2rem;
-      line-height: 1rem;
-    }
-  }
-
-  h4 {
-    @include media(">=phone", "<tablet") {
-      font-size: 1rem;
-    }
-  }
-
-  .form-container {
-    width: 70vw;
-  }
-
-  .mb-3 {
+#contact {
+  margin-top: 7rem;
+  .contact-container {
     width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15vh;
     background-color: white;
+    // h2 {
+    //   @include media(">=phone", "<tablet") {
+    //     font-size: 2rem;
+    //     line-height: 1rem;
+    //   }
+    // }
 
-    input {
-      border: solid 1px black;
+    // h4 {
+    //   @include media(">=phone", "<tablet") {
+    //     font-size: 1rem;
+    //   }
+    // }
+
+    .form-container {
+      width: 70vw;
     }
 
-    textarea {
-      border: solid 1px black;
-    }
-  }
+    .mb-3 {
+      width: 100%;
+      background-color: white;
 
-  .email-link {
-    color: black;
-    @include media(">=phone", "<tablet") {
-      font-size: 1.3rem;
+      input {
+        border: solid 1px black;
+      }
+
+      textarea {
+        border: solid 1px black;
+      }
     }
-  }
-  .social-icons {
-    margin-top: 20px;
-    img {
-      height: 2rem;
-      margin: 10px;
+
+    .email-link {
+      color: black;
+      @include media(">=phone", "<tablet") {
+        font-size: 1.3rem;
+      }
     }
-  }
-  span {
-    margin-top: 10px;
-  }
-  icon {
-    color: red;
+    .social-icons {
+      margin-top: 20px;
+      img {
+        height: 2rem;
+        margin: 10px;
+      }
+    }
+    span {
+      margin-top: 10px;
+    }
+    icon {
+      color: red;
+    }
   }
 }
