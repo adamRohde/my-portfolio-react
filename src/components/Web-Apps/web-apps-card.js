@@ -14,6 +14,7 @@ const WebAppsCard = () => {
               backgroundColor: "black",
               height: "1px",
               width: "100%",
+              margin: "0rem 1rem 0rem 1rem",
             }}
           ></hr>
 

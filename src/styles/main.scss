@@ -44,8 +44,8 @@ section {
   border: solid 2px black;
   // overflow: hidden;
   @include media("<=tablet") {
-    width: 100%;
     display: flex;
+    margin: 1rem auto;
     flex-direction: column;
     align-items: center;
     padding: 0em 0em 2em 0em;
@@ -79,7 +79,8 @@ h1 {
   @include media("<=tablet") {
     margin: 1rem;
     text-align: justify;
-    font-size: $fs-h1-mobile;
+    // font-size: $fs-h1-mobile;
+    font-size: 2.5rem;
   }
 }
 
@@ -90,7 +91,8 @@ h2 {
   @include media("<=tablet") {
     margin: 1rem;
     text-align: justify;
-    font-size: $fs-h2-mobile;
+    // font-size: $fs-h2-mobile;
+    font-size: 1.4rem;
   }
 }
 
@@ -102,7 +104,8 @@ h3 {
   @include media("<=tablet") {
     // margin: 1rem 0rem 1rem 0rem;
     text-align: justify;
-    font-size: $fs-h3-mobile;
+    // font-size: $fs-h3-mobile;
+    font-size: 1.2rem;
   }
 }
 
@@ -115,7 +118,8 @@ p {
     margin: 0rem 0rem 0rem 0rem;
     width: 75vw;
     text-align: justify;
-    font-size: $fs-p-mobile;
+    // font-size: $fs-p-mobile;
+    font-size: 0.8rem;
   }
 }
 
