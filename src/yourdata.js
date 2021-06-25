@@ -1,4 +1,6 @@
-import myface from "./images/4.jpg"
+// import myface from "./images/4.jpg"
+import myface from "./images/mi-mustache-face.png"
+
 import industrialautomation from "./images/work-projects.jpg"
 import expensetracker from "./images/expensetracker.jpg"
 import rockpaperscissors from "./images/rockpaperscissors.jpg"

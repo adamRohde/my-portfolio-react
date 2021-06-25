@@ -50,6 +50,10 @@
   @include media("<desktop") {
     justify-content: space-evenly;
 
+    a {
+      font-size: 1rem;
+    }
+
     .navbar-links {
       height: 100%;
       margin-right: 0rem;

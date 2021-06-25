@@ -10,6 +10,7 @@ const WebAppsCard = () => {
       {data.WebApps.map(webapp => (
         <>
           <hr
+            className="divider-line"
             style={{
               backgroundColor: "black",
               height: "1px",

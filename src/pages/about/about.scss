@@ -1,35 +1,19 @@
 @import "../../styles/variables.scss";
 
 .about-section {
-  display: grid;
-  grid-template-columns: 60% 40%;
+  display: flex;
+  flex-direction: row;
   margin-top: 7rem;
-  height: 70%;
 
   .about-me-container {
-    display: grid;
-    // border: solid 2px black;
-    width: 90%;
-    height: fit-content;
-    align-content: center;
-    justify-self: center;
-    align-self: center;
-    margin-left: 4rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem 2rem;
     background-color: rgba(255, 255, 255, 0);
-    h2 {
-      margin: 0;
-    }
-    p {
-      width: 100%;
-      margin: 0;
-      padding: 1rem 0rem 0rem 2rem;
-    }
   }
 
   .image-container {
-    // border: solid 2px black;
-    justify-self: center;
     align-self: center;
     width: 80%;
     img {
@@ -41,21 +25,10 @@
   }
 
   @include media("<desktop") {
-    grid-template-columns: 100%;
-    grid-template-rows: 3fr 5fr;
-    justify-items: center;
-    align-content: center;
+    flex-direction: column-reverse;
 
     .image-container {
-      width: 55%;
-      margin-top: 5rem;
-      grid-row: 1/2;
-      margin: 0;
-      padding: 6rem 0rem 2em 0rem;
-
-      img {
-        max-width: 100%;
-      }
+      padding: 2rem;
     }
 
     .about-me-container {

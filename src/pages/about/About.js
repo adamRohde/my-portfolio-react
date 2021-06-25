@@ -8,22 +8,24 @@ const About = () => {
     <>
       <section className="about-section">
         <div className="about-me-container">
-          <h2>Hi, I'm Adam!</h2>
-          <p>
-            {" "}
-            I'm a software developer living in Minneapolis, MN. For the past 13
-            years I've been working in Industrial Automation programming
-            machines.
-            <br />
-            <br />
-            Skills -
-            <span style={{ fontWeight: "bold" }}>
+          <div>
+            <h2>Hi, I'm Adam!</h2>
+            <p>
               {" "}
-              React, OOP, Android development, training, industrial automation,
-              PLC development, technical writing.
-            </span>
-            <br />
-          </p>
+              I'm a software developer living in Minneapolis, MN. For the past
+              13 years I've been working in Industrial Automation programming
+              machines.
+              <br />
+              <br />
+              Skills -
+              <span style={{ fontWeight: "bold" }}>
+                {" "}
+                React, OOP, Android development, training, industrial
+                automation, PLC development, technical writing.
+              </span>
+              <br />
+            </p>
+          </div>
         </div>
         <div className="image-container">
           <img src={data.aboutImage} alt="about"></img>
