@@ -1,33 +1,28 @@
 @import "../../styles/variables.scss";
 
 .grid-container {
-  margin: 0;
-  padding: 0;
+  margin: 2rem 0rem 2rem 0rem;
+  padding: 0rem;
   background-color: rgb(255, 255, 255);
   background-size: cover;
   border-radius: 0rem;
   height: auto;
   width: 100vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
   text-decoration: none;
+  border: none;
   // border: solid 1px black;
 
   .wa-about-section {
-    margin: 0rem 0rem 0rem 7rem;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
   }
 
-  h3 {
-    font-size: $fs-h3-desktop;
-    color: rgb(0, 0, 0);
-    border-radius: 0.5rem;
-  }
-
-  p {
-    width: 70%;
-    color: black;
-    margin: 0 0 1rem 0.5rem;
-    font-size: 1rem;
+  .wa-about-section > div {
+    width: 60%;
   }
 
   .about {

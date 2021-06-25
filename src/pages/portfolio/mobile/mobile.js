@@ -1,6 +1,6 @@
 import React from "react"
-import androidIcon from "../../images/icons/android_icon.jpg"
-import androidGif from "../../gifs/android.gif"
+import androidIcon from "../../../images/icons/android_icon.jpg"
+import androidGif from "../../../gifs/android.gif"
 
 const Mobile = () => {
   return (

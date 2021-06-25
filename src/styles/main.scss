@@ -3,51 +3,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 // Components
-@import "../pages/about/about.scss";
 @import "./portfolio.scss";
-@import "./random-spanish.scss";
-@import "./web-apps.scss";
-@import "./mobile.scss";
-@import "./industrial-automation.scss";
+@import "../pages/about/about.scss";
+@import "../pages/portfolio/random-spanish/random-spanish.scss";
+@import "../pages/portfolio/web-apps/web-apps.scss";
+@import "../components/Web-Apps/web-apps-cards.scss";
+@import "../pages/portfolio/mobile/mobile.scss";
+@import "../pages//portfolio/industrial-automation/industrial-automation.scss";
+@import "../pages/contact/contact.scss";
 @import "./skills.scss";
 @import "./promotion.scss";
-@import "../pages/contact/contact.scss";
 @import "../components/Layout/footer/footer.scss";
-@import "../components/Web-Apps/web-apps.scss";
 @import "../components/Random-Spanish/random-spanish-cards.scss";
 @import "./skewed.scss";
 @import "../components/Layout/navbar2/navbar2.scss";
 @import "../components//Layout/navbar/navbar.scss";
 @import "./variables.scss";
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  background-color: burlywood;
+  box-sizing: border-box;
 }
 
 main {
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
-// .section-main {
-//   overflow: hidden;
-//   background: $bg-primary;
-//   width: auto;
-//   height: auto;
-//   margin: 0;
-//   padding: 0;
+// #gatsby-focus-wrapper {
 // }
+
+section {
+  display: flex;
+  width: 90%;
+  padding: 5rem;
+  margin: 2rem auto;
+  background-color: $bg-primary;
+  border: solid 2px black;
+  // overflow: hidden;
+  @include media("<=tablet") {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0em 0em 2em 0em;
+  }
+}
 
 p {
   font-family: "Roboto Mono", monospace;
-  padding: 1rem 0rem 0rem 2rem;
 }
 
 h1 {
@@ -66,42 +72,12 @@ a {
   font-family: "Roboto Mono", monospace;
 }
 
-section {
-  display: grid;
-
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: $bg-primary;
-  overflow: hidden;
-  @include media("<=tablet") {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0em 0em 2em 0em;
-  }
-}
-section:nth-of-type(even) {
-  display: grid;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: $bg-highlight;
-  overflow: hidden;
-  @include media("<=tablet") {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0em 0em 2em 0em;
-  }
-}
-
 h1 {
   color: black;
   font-size: $fs-h1-desktop;
-  margin: 1rem 0rem 1rem 5rem;
+  margin: 1rem;
   @include media("<=tablet") {
-    margin: 2rem 0rem 1rem 0rem;
+    margin: 1rem;
     text-align: justify;
     font-size: $fs-h1-mobile;
   }
@@ -110,9 +86,9 @@ h1 {
 h2 {
   color: black;
   font-size: $fs-h2-desktop;
-  margin: 1rem 0rem 1rem 5rem;
+  margin: 1rem;
   @include media("<=tablet") {
-    margin: 1rem 0rem 1rem 0rem;
+    margin: 1rem;
     text-align: justify;
     font-size: $fs-h2-mobile;
   }
@@ -122,7 +98,7 @@ h3 {
   color: rgb(0, 0, 0);
   font-size: $fs-h3-desktop;
   font-weight: normal;
-  // margin: 1rem 0rem 1rem 5rem;
+  margin: 1rem;
   @include media("<=tablet") {
     // margin: 1rem 0rem 1rem 0rem;
     text-align: justify;
@@ -132,9 +108,8 @@ h3 {
 
 p {
   color: rgb(60, 60, 60);
-  width: 55%;
   font-size: $fs-p-desktop;
-  margin: 2rem 0 2rem 7rem;
+  margin: 2rem;
   text-align: justify;
   @include media("<=tablet") {
     margin: 0rem 0rem 0rem 0rem;
