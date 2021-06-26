@@ -6,7 +6,7 @@ import data from "../../yourdata"
 const About = () => {
   return (
     <>
-      <section className="about-section">
+      <section className="about-section" id="about">
         <div className="about-me-container">
           <div>
             <h2>Hi, I'm Adam!</h2>

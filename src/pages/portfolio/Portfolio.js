@@ -2,7 +2,6 @@ import React from "react"
 import SEO from "../../components/seo"
 import Navbar1 from "../../components/Layout/navbar/Navbar"
 import Navbar2 from "../../components/Layout/navbar2/Navbar2"
-import Footer from "../../components/Layout/footer/Footer"
 import RandomSpanish from "../portfolio/random-spanish/random-spanish"
 import WebApps from "../portfolio/web-apps/web-apps"
 import IndustrialAutomation from "../portfolio/industrial-automation/industrial-automation"
@@ -18,7 +17,7 @@ const Work = () => {
         <Navbar2 />
       </Fade>
       <div>
-        <section className="mywork">
+        <section className="mywork" id="mywork">
           <div classname="mywork-container">
             <h1>My Work</h1>
             <p className="about-paragraph">
@@ -33,7 +32,6 @@ const Work = () => {
         <Mobile />
         <IndustrialAutomation />
       </div>
-      <Footer />
     </>
   )
 }

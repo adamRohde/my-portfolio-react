@@ -38,8 +38,9 @@
   }
 
   .navbar-links li:hover {
-    // background-color: #555;
+    color: blue;
     transform: scale(1.05);
+    cursor: pointer;
   }
 
   .active {

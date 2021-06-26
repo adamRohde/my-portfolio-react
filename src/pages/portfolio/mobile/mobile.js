@@ -30,7 +30,7 @@ const Mobile = () => {
           <div className="button-container">
             <a
               className="btn btn-primary"
-              href="https://github.com/adamRohde/Android-Survey"
+              href="https://github1s.com/adamRohde/Android-Survey"
               target="_blank"
             >
               Repo
