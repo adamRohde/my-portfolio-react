@@ -4,15 +4,17 @@ import myface from "./images/mi-professional-face.jpg"
 import industrialautomation from "./images/beer.jpg"
 import expensetracker from "./images/expensetracker.jpg"
 import rockpaperscissors from "./images/rockpaperscissors.jpg"
+
 import calc from "./images/calc.jpg"
 import githubImage from "./images/icons/github.png"
 import translate_gif from "./images/rs-translate.jpg"
 import testYourself from "./images/rs-test.jpg"
 import savePhrases from "./images/rs-save.jpg"
 
-import hola from "./images/hola.jpg"
+import hola from "./images/hola2.jpg"
 import webapps from "./images/web-apps.jpg"
 import beer from "./images/beer.jpg"
+import mobile from "./images/mobile2.jpg"
 
 let dummy
 
@@ -151,7 +153,7 @@ export default {
       //Project Image - Add Your Project Image Here
       imageSrc: hola,
       //Project URL - Add Your Project Url Here
-      url: "randomspanish.com",
+      url: "#randomspanish",
       btn_text: "RandomSpanish.com",
     },
     {
@@ -159,9 +161,9 @@ export default {
       title: "Web Apps", //Project Title - Add Your Project Title Here
       para: "Say something", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: beer,
+      imageSrc: webapps,
       //Project URL - Add Your Project Url Here
-      url: "",
+      url: "#webapps",
       btn_text: "Web Apps",
     },
     {
@@ -169,10 +171,20 @@ export default {
       title: "Work Projects", //Project Title - Add Your Project Title Here
       para: "Say something", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: webapps,
+      imageSrc: mobile,
       //Project URL - Add Your Project Url Here
-      url: "",
+      url: "#mobile",
       btn_text: "Mobile Apps",
+    },
+    {
+      id: 18, //DO NOT CHANGE THIS (Please)😅
+      title: "Industrial Automation", //Project Title - Add Your Project Title Here
+      para: "Say something", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc: beer,
+      //Project URL - Add Your Project Url Here
+      url: "#industrialautomation",
+      btn_text: "Industrial Automation",
     },
   ],
 

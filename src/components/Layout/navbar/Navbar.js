@@ -21,11 +21,11 @@ const Navbar = () => {
 
   return (
     <>
-      {actLink === "portfolio" && (
+      {/* {actLink === "portfolio" && (
         <Fade bottom cascade>
           <Navbar2 />
         </Fade>
-      )}
+      )} */}
 
       <nav className="navbar">
         <div className="navbar-links">

@@ -33,13 +33,6 @@ const RandomSpanish = () => {
         </div>
         <div className="button-container">
           <a
-            className="btn btn-primary"
-            href="https://github1s.com/adamRohde/randspan"
-            target="_blank"
-          >
-            Repo
-          </a>
-          <a
             style={{ marginLeft: "1rem" }}
             className="btn btn-primary"
             href="https://www.randomspanish.com"

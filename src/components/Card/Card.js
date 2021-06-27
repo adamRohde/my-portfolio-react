@@ -1,5 +1,6 @@
 import "./card.scss"
 import React from "react"
+import scrollTo from "gatsby-plugin-smoothscroll"
 
 const Card = ({
   heading,
@@ -22,18 +23,16 @@ const Card = ({
     >
       {/* <h1>{heading}</h1> */}
       {/* <p>{paragraph}</p> */}
-      <butt
+      <button
         className=".btn"
-        href={projectLink ? projectLink : "#"}
+        // href={projectLink ? projectLink : "#"}
         target={target}
         rel="noopener noreferrer"
         className="btn"
-        onClick={() => {
-          console.log("clicked")
-        }}
+        onClick={() => scrollTo(projectLink)}
       >
         {buttonText}
-      </butt>
+      </button>
     </div>
   )
 }
