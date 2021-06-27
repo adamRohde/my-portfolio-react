@@ -19,12 +19,14 @@
 @import "../components/Layout/navbar2/navbar2.scss";
 @import "../components//Layout/navbar/navbar.scss";
 @import "./variables.scss";
+@import "../components//Cards/cards.scss";
+@import "../components/Card/card.scss";
 
 body {
   margin: 0;
   padding: 0;
-  background-color: burlywood;
-  // background-color: white;
+  // background-color: burlywood;
+  background-color: white;
   box-sizing: border-box;
 }
 
@@ -105,6 +107,7 @@ h3 {
   @include media("<=tablet") {
     // margin: 1rem 0rem 1rem 0rem;
     text-align: justify;
+    margin: 0rem;
     // font-size: $fs-h3-mobile;
     font-size: 1.2rem;
   }
@@ -121,6 +124,7 @@ p {
     text-align: justify;
     // font-size: $fs-p-mobile;
     font-size: 0.8rem;
+    margin: 0rem;
   }
 }
 

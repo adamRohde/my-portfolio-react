@@ -1,7 +1,6 @@
 @import "../../styles/variables.scss";
 
 #contact {
-  margin-top: 7rem;
   .contact-container {
     width: 100%;
     min-height: 100vh;
@@ -47,5 +46,9 @@
     icon {
       color: red;
     }
+  }
+
+  @include media("<=tablet") {
+    padding-top: 5vh;
   }
 }

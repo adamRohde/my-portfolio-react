@@ -131,3 +131,77 @@ const Navbar2 = () => {
 }
 
 export default Navbar2
+
+import React from "react"
+import Card from "../Card/Card"
+import Fade from "react-reveal/Fade"
+import data from "../../yourdata"
+
+const Cards = () => {
+  return (
+    <div className="section" id="work">
+      <div className="container">
+        <div className="projects-wrapper">
+          <h2>Projects</h2>
+          <div className="projects-grid">
+            <Fade bottom cascade>
+              {data.projects.map(project => (
+                <div className="projects-card-container">
+                  {/* <div>
+                     <a
+                      key={project.id}
+                            href={project.url ? project.url : "#"}
+                       target={project.target}
+                    >
+                      <h4> {project.title}</h4>
+                    </a>
+                  </div>  */}
+                  <Card
+                    key={project.id}
+                    heading={project.title}
+                    paragraph={project.para}
+                    imgUrl={project.imageSrc}
+                    //  target={project.target}
+                    //     projectLink={project.url}
+                    // buttonText={project.btn_text}
+                    // layout={project.setLayout}
+                  ></Card>
+                </div>
+              ))}
+            </Fade>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+export default Cards
+
+
+.content {
+  // font-family: "Open Sans";
+  // text-align: center;
+  // padding: 1rem;
+  // opacity: 0;
+  // transition: all 500ms ease-in-out;
+  // transform: translate(0, 20px);
+  // cursor: pointer;
+  // h1 {
+  //   font-size: 1rem;
+  //   color: white;
+  // }
+  // p {
+  //   font-size: 10px;
+  //   color: white;
+  //   margin-bottom: 20px;
+  // }
+
+  // &:hover {
+  //   opacity: 1;
+  //   transform: translate(0, 0px);
+  // }
+  // &:hover {
+  //   opacity: 1;
+  //   transform: translate(0, 0px);
+  // }
+}

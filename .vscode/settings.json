@@ -1,4 +1,6 @@
 {
         "workbench.tree.renderIndentGuides": "always",
-        "editor.cursorStyle": "block"
+        "terminal.integrated.cursorStyle": "line",
+        "editor.cursorStyle": "line-thin",
+        "editor.renderLineHighlight": "gutter"
 }

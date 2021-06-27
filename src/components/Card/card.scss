@@ -1,0 +1,26 @@
+.card-wrapper {
+  width: 20rem;
+  height: 15rem;
+  // overflow: hidden !important;
+  border-radius: 0.5rem;
+  background-size: cover;
+  // background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column-reverse;
+  // align-content: flex-end;
+  // align-items: flex-end;
+  // align-self: flex-end;
+
+  p {
+    color: white;
+  }
+
+  .btn {
+    display: flex;
+    color: white;
+    background-color: firebrick;
+    justify-content: center;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+  }
+}

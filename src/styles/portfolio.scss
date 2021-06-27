@@ -1,10 +1,9 @@
 @import "./variables.scss";
 
 .mywork {
-  margin-top: 10rem;
   overflow: hidden;
-
+  display: flex;
+  flex-direction: column;
   @include media("<=tablet") {
-    margin-top: 5rem;
   }
 }
