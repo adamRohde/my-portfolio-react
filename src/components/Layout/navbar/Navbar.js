@@ -44,7 +44,7 @@ const Navbar = () => {
               <li>
                 <a
                   onClick={() => {
-                    scrollTo("#mywork")
+                    scrollTo("#portfolio")
                     activeLink("portfolio")
                   }}
                 >

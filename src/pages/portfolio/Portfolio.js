@@ -11,9 +11,9 @@ const Work = () => {
     <>
       <SEO title="Adam's Portfolio" />
 
-      <section className="mywork" id="mywork">
+      <section className="portfolio" id="portfolio">
         <div classname="mywork-container">
-          <h1>My Work</h1>
+          <h1>Portfolio</h1>
           <p className="about-paragraph">
             All of these projects I completed in the past year. I will be
             updating this section regularly as I build new things.
