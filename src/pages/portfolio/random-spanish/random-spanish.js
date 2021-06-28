@@ -4,8 +4,8 @@ import graphqlIcon from "../../../images/icons/graphql_icon.png"
 import googleTranslateIcon from "../../../images/icons/Google_Translate_Icon.png"
 import mongodb_icon from "../../../images/icons/mongodb_icon.png"
 import aws_icon from "../../../images/icons/aws_icon.png"
-// import RandomSpanishCards from "../../../components/Random-Spanish/random-spanish-cards"
-// import RandomSpanishCarousel from "../../../components/Random-Spanish/rs-carousel"
+import RandomSpanishCards from "../../../components/Random-Spanish/random-spanish-cards"
+import RandomSpanishCarousel from "../../../components/Random-Spanish/rs-carousel"
 
 const RandomSpanish = () => {
   return (
@@ -31,6 +31,9 @@ const RandomSpanish = () => {
             <span> </span> <img className="icon" src={aws_icon}></img>
           </span>
         </div>
+
+        <RandomSpanishCards />
+
         <div className="button-container">
           <a
             style={{ marginLeft: "1rem" }}
