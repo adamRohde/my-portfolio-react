@@ -25,8 +25,8 @@ const Work = () => {
       </section>
 
       <RandomSpanish />
-      <WebApps />
       <Mobile />
+      <WebApps />
       <IndustrialAutomation />
     </>
   )

@@ -158,16 +158,6 @@ export default {
     },
     {
       id: 16, //DO NOT CHANGE THIS (Please)😅
-      title: "Web Apps", //Project Title - Add Your Project Title Here
-      para: "Say something", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc: webapps,
-      //Project URL - Add Your Project Url Here
-      url: "#webapps",
-      btn_text: "Web Apps",
-    },
-    {
-      id: 17, //DO NOT CHANGE THIS (Please)😅
       title: "Work Projects", //Project Title - Add Your Project Title Here
       para: "Say something", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -175,6 +165,16 @@ export default {
       //Project URL - Add Your Project Url Here
       url: "#mobile",
       btn_text: "Mobile Apps",
+    },
+    {
+      id: 17, //DO NOT CHANGE THIS (Please)😅
+      title: "Web Apps", //Project Title - Add Your Project Title Here
+      para: "Say something", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc: webapps,
+      //Project URL - Add Your Project Url Here
+      url: "#webapps",
+      btn_text: "Web Apps",
     },
     {
       id: 18, //DO NOT CHANGE THIS (Please)😅
