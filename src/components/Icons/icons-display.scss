@@ -1,0 +1,46 @@
+.icons-container {
+  margin: 2rem;
+
+  .icon {
+    height: auto;
+    width: 7rem;
+
+    margin: 0rem 0 0 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .icon:hover {
+    transform: scale(1.05);
+  }
+
+  .googleIcon {
+    height: auto;
+    width: 3rem;
+    margin: 0rem 0 0 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .googleIcon:hover {
+    transform: scale(1.05);
+  }
+
+  @include media("<=tablet") {
+    .icons-container {
+      margin: 2rem;
+    }
+
+    .icon {
+      height: auto;
+      width: 4rem;
+    }
+
+    .googleIcon {
+      height: auto;
+      width: 1.9rem;
+    }
+    #icon,
+    #googleIcon {
+      transform: scale(0.9);
+    }
+  }
+}

@@ -5,16 +5,27 @@ import industrialautomation from "./images/beer.jpg"
 import expensetracker from "./images/expensetracker.jpg"
 import rockpaperscissors from "./images/rockpaperscissors.jpg"
 
+//Web apps images
 import calc from "./images/calc.jpg"
 import githubImage from "./images/icons/github.png"
 import translate_gif from "./images/rs-translate.jpg"
 import testYourself from "./images/rs-test.jpg"
 import savePhrases from "./images/rs-save.jpg"
 
+//Tiles/Cards images
 import hola from "./images/hola2.jpg"
 import webapps from "./images/web-apps.jpg"
 import beer from "./images/beer.jpg"
 import mobile from "./images/mobile2.jpg"
+
+//Icon
+import reactIcon from "./images/icons/react_icon.png"
+import graphqlIcon from "./images/icons/graphql_icon.png"
+import googleTranslateIcon from "./images/icons/google_translate_icon.png"
+import mongodbIcon from "./images/icons/mongodb_icon.png"
+import androidIcon from "./images/icons/android_icon.jpg"
+import githubIcon from "./images/icons/github.png"
+import awsIcon from "./images/icons/aws_icon.png"
 
 let dummy
 
@@ -186,6 +197,16 @@ export default {
       url: "#industrialautomation",
       btn_text: "Industrial Automation",
     },
+  ],
+
+  IconsArray: [
+    { icon: reactIcon, cn: "icon" },
+    { icon: graphqlIcon, cn: "icon" },
+    { icon: googleTranslateIcon, cn: "googleIcon" },
+    { icon: mongodbIcon, cn: "icon" },
+    { icon: awsIcon, cn: "icon" },
+    { icon: githubIcon, cn: "icon" },
+    { icon: androidIcon, cn: "icon" },
   ],
 
   aboutParaMain:

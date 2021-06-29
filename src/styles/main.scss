@@ -21,14 +21,14 @@
 @import "./variables.scss";
 @import "../components//Cards/cards.scss";
 @import "../components/Card/card.scss";
+@import "../components/Icons/icons-display.scss";
 
 body {
   margin: 0;
   padding: 0;
   // background-color: burlywood;
-  background-color: rgb(205, 11, 11);
-
-  // background-color: white;
+  // background-color: rgb(205, 11, 11);
+  background-color: $stripedbackground;
   box-sizing: border-box;
 }
 
