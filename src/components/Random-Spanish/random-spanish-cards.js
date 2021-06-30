@@ -7,7 +7,7 @@ const RandomSpanishCards = () => {
       {data.randomSpanishCards.map(cards => (
         <div className="card-row">
           <div className="caption-container">
-            <h3>{cards.text}</h3>
+            <p>{cards.text}</p>
           </div>
           {console.log("Helloo from cards ", cards.src)}
           <img src={cards.src} />
