@@ -30,7 +30,7 @@ const RsCarousel = () => {
     <>
       <div className="card-row">
         <div className="caption-container">
-          <h3>{testArray[index]}</h3>
+          <p>{testArray[index]}</p>
         </div>
         <ImageFadeIn src={srcArray[index]} />
       </div>
