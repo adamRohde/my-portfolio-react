@@ -2,7 +2,7 @@ import React from "react"
 import data from "../../../yourdata"
 import reactIcon from "../../../images/icons/react_icon.png"
 import graphqlIcon from "../../../images/icons/graphql_icon.png"
-import googleTranslateIcon from "../../../images/icons/google_translate_icon.png"
+// import googleTranslateIcon from "../../../images/icons/google_translate_icon.png"
 import mongodb_icon from "../../../images/icons/mongodb_icon.png"
 import aws_icon from "../../../images/icons/aws_icon.png"
 import RandomSpanishCards from "../../../components/Random-Spanish/random-spanish-cards"
@@ -45,8 +45,6 @@ const RandomSpanish = () => {
           </a>
         </div>
       </div>
-
-      {/* <RandomSpanishCarousel /> */}
     </section>
   )
 }
