@@ -21,7 +21,7 @@ import mobile from "./images/mobile2.jpg"
 //Icon
 import reactIcon from "./images/icons/react_icon.png"
 import graphqlIcon from "./images/icons/graphql_icon.png"
-import googleTranslateIcon from "./images/icons/google_translate_icon.png"
+// import googleTranslateIcon from "./images/icons/google_translate_icon.png"
 import mongodbIcon from "./images/icons/mongodb_icon.png"
 import androidIcon from "./images/icons/android_icon.jpg"
 import githubIcon from "./images/icons/github.png"
@@ -202,7 +202,7 @@ export default {
   IconsArray: [
     { icon: reactIcon, cn: "icon" },
     { icon: graphqlIcon, cn: "icon" },
-    { icon: googleTranslateIcon, cn: "googleIcon" },
+    // { icon: googleTranslateIcon, cn: "googleIcon" },
     { icon: mongodbIcon, cn: "icon" },
     { icon: awsIcon, cn: "icon" },
     { icon: githubIcon, cn: "icon" },
