@@ -20,7 +20,7 @@ import mobile from "./images/mobile2.jpg"
 //Icons
 import reactIcon from "./images/icons/react_icon.png"
 import graphqlIcon from "./images/icons/graphql_icon.png"
-import googleTranslateIcon from "./images/icons/google_translate_icon.png"
+import googleTranslateIcon from "./images/icons/translate_icon.png"
 import mongodbIcon from "./images/icons/mongodb_icon.png"
 import androidIcon from "./images/icons/android_icon.png"
 import awsIcon from "./images/icons/aws_icon.png"

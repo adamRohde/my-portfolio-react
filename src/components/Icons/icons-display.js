@@ -1,14 +1,6 @@
 import React from "react"
 import data from "../../yourdata"
 
-// import androidIcon from "../../images/icons/android_icon.jpg"
-// import awsIcon from "../../images/icons/aws_icon.png"
-// import githubIcon from "../../images/icons/github.png"
-// import googleTranslateIcon from "../../images/icons/google_translate_icon.png"
-// import graphqlIcon from "../../images/icons/graphql_icon.png"
-// import mongodbIcon from "../../images/icons/mongodb_icon.png"
-// import reactIcon from "../../images/icons/react_icon.png"
-
 const IconsDisplay = icons => {
   return (
     <div className="icons-container">
