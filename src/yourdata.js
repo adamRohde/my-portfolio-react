@@ -22,7 +22,7 @@ import reactIcon from "./images/icons/react_icon.png"
 import graphqlIcon from "./images/icons/graphql_icon.png"
 import googleTranslateIcon from "./images/icons/google_translate_icon.png"
 import mongodbIcon from "./images/icons/mongodb_icon.png"
-import androidIcon from "./images/icons/android_icon.jpg"
+import androidIcon from "./images/icons/android_icon.png"
 import awsIcon from "./images/icons/aws_icon.png"
 
 //Social Icons
@@ -209,7 +209,7 @@ export default {
     { icon: mongodbIcon, cn: "icon" },
     { icon: awsIcon, cn: "icon" },
     { icon: githubIcon, cn: "icon" },
-    { icon: androidIcon, cn: "icon" },
+    { icon: androidIcon, cn: "googleIcon" },
     { icon: twitterIcon, cn: "icon" },
   ],
 

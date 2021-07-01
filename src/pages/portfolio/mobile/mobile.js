@@ -1,11 +1,12 @@
 import React from "react"
-import androidIcon from "../../../images/icons/android_icon.jpg"
-import androidGif from "../../../gifs/android.gif"
-
+import data from "../../../yourdata"
+import IconsDisplay from "../../../components/Icons/icons-display"
+import androidGif from "../../../images/gifs/android.gif"
 const Mobile = () => {
+  const IconsArray = [
+    { icon: data.IconsArray[6].icon, cn: data.IconsArray[6].cn },
+  ]
   return (
-    // <section id="mobile">
-
     <section className="mobile" id="mobile">
       <div className="two-column">
         <div className="about-paragraph">
@@ -26,6 +27,8 @@ const Mobile = () => {
             them up with career paths that the app deemed a good fit, given how
             they answered the questions.
           </p>
+
+          <IconsDisplay icons={IconsArray} />
 
           <div className="button-container">
             <a
