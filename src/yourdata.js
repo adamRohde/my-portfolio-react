@@ -7,7 +7,6 @@ import rockpaperscissors from "./images/rockpaperscissors.jpg"
 
 //Web apps images
 import calc from "./images/calc.jpg"
-import githubImage from "./images/icons/github.png"
 import translate_gif from "./images/rs-translate.jpg"
 import testYourself from "./images/rs-test.jpg"
 import savePhrases from "./images/rs-save.jpg"
@@ -18,14 +17,18 @@ import webapps from "./images/web-apps.jpg"
 import beer from "./images/beer.jpg"
 import mobile from "./images/mobile2.jpg"
 
-//Icon
+//Icons
 import reactIcon from "./images/icons/react_icon.png"
 import graphqlIcon from "./images/icons/graphql_icon.png"
-// import googleTranslateIcon from "./images/icons/google_translate_icon.png"
+import googleTranslateIcon from "./images/icons/google_translate_icon.png"
 import mongodbIcon from "./images/icons/mongodb_icon.png"
 import androidIcon from "./images/icons/android_icon.jpg"
-import githubIcon from "./images/icons/github.png"
 import awsIcon from "./images/icons/aws_icon.png"
+
+//Social Icons
+import twitterIcon from "./images/icons/twitter.png"
+import linkedInIcon from "./images/icons/linkedin.png"
+import githubIcon from "./images/icons/github.png"
 
 let dummy
 
@@ -202,11 +205,12 @@ export default {
   IconsArray: [
     { icon: reactIcon, cn: "icon" },
     { icon: graphqlIcon, cn: "icon" },
-    // { icon: googleTranslateIcon, cn: "googleIcon" },
+    { icon: googleTranslateIcon, cn: "googleIcon" },
     { icon: mongodbIcon, cn: "icon" },
     { icon: awsIcon, cn: "icon" },
     { icon: githubIcon, cn: "icon" },
     { icon: androidIcon, cn: "icon" },
+    { icon: twitterIcon, cn: "icon" },
   ],
 
   aboutParaMain:
@@ -225,43 +229,6 @@ export default {
   randomSpanishImage: dummy,
   workProjectsImage: dummy,
 
-  //################################################ Skills  ################################################
-  //################################################ Skills  ################################################
-  //################################################ Skills  ################################################
-
-  skills: [
-    {
-      id: 1,
-      img: dummy,
-      para: "",
-    },
-    {
-      id: 2,
-      img: dummy,
-      para: "",
-    },
-    {
-      id: 3,
-      img: dummy,
-      para: "",
-    },
-    {
-      id: 4,
-      img: dummy,
-      para: "",
-    },
-    {
-      id: 5,
-      img: dummy,
-      para: "",
-    },
-    {
-      id: 6,
-      img: dummy,
-      para: "",
-    },
-  ],
-
   promotionHeading: "",
   promotionPara: "",
   // End Promotion Section -----------------
@@ -270,7 +237,12 @@ export default {
   contactSubHeading: "",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubImage, url: "https://github.com/adamRohde" },
+    { img: githubIcon, url: "https://github.com/adamRohde" },
+    {
+      img: linkedInIcon,
+      url: "https://www.linkedin.com/in/adam-rohde-94217611/",
+    },
+    { img: twitterIcon, url: "https://twitter.com/rollyroad" },
   ],
 
   // End Contact Section ---------------
