@@ -8,13 +8,11 @@ const About = () => {
       <section className="about-section" id="about">
         <div className="about-me-container">
           <div>
-            <h1>Hi, I'm Adam!</h1>
-            <p>
+            <h1>Hi, I'm Adam!</h1>-
               {" "}
               I'm a software developer living in Minneapolis, MN. I have a
               background in Industrial Automation, which is where I started
-              programming. I really appreciate the art of writing clean as well
-              as the art of learning new technologies.
+              programming. I really enjoy writing clean code and learning new technologies.  Currently I'm focusing on Full Stack developement as well as Android development. 
               <br />
               <br />
               Skills -
