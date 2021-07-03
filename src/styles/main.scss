@@ -37,6 +37,10 @@ main {
   padding: 0;
 }
 
+section:nth-child(odd) {
+  background-color: rgb(235, 235, 235);
+}
+
 section {
   display: flex;
   width: 90%;
@@ -44,7 +48,6 @@ section {
   margin: 2rem auto;
   background-color: $bg-primary;
   border: solid 2px black;
-  // overflow: hidden;
   @include media("<=tablet") {
     display: flex;
     margin: 1rem auto;

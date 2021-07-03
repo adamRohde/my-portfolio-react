@@ -10,10 +10,10 @@ const Card = ({
   target,
   buttonText,
 }) => {
-  console.log("This is the page context from the card ")
   return (
-    <div
+    <a
       className="card-wrapper"
+      onClick={() => scrollTo(projectLink)}
       style={{
         backgroundImage:
           "linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.2)),url(" +
@@ -21,19 +21,15 @@ const Card = ({
           ")",
       }}
     >
-      {/* <h1>{heading}</h1> */}
-      {/* <p>{paragraph}</p> */}
-      <button
+      <a
         className=".btn"
-        // href={projectLink ? projectLink : "#"}
         target={target}
         rel="noopener noreferrer"
         className="btn"
-        onClick={() => scrollTo(projectLink)}
       >
         {buttonText}
-      </button>
-    </div>
+      </a>
+    </a>
   )
 }
 export default Card
