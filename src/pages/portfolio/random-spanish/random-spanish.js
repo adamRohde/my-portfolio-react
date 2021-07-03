@@ -1,7 +1,7 @@
 import React from "react"
 import data from "../../../yourdata"
 import RandomSpanishCards from "../../../components/Random-Spanish/random-spanish-cards"
-import IconsDisplay from "../../../components/Icons/icons-display"
+import IconsDisplay from "../../../components/Icons/icons_display"
 
 const RandomSpanish = () => {
   const IconsArray = [
@@ -33,6 +33,7 @@ const RandomSpanish = () => {
             className="btn btn-primary"
             href="https://www.randomspanish.com"
             target="_blank"
+            rel="noreferrer"
           >
             See the app
           </a>

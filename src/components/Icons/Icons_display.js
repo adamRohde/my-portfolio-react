@@ -1,5 +1,4 @@
 import React from "react"
-import data from "../../yourdata"
 
 const IconsDisplay = icons => {
   return (

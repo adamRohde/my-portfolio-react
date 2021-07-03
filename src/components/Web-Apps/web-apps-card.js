@@ -1,8 +1,5 @@
 import React from "react"
 import data from "../../yourdata"
-import rps_image from "../../images/rockpaperscissors.jpg"
-import calc from "../../images/calc.jpg"
-import expenseTracker from "../../images/expensetracker.jpg"
 
 const WebAppsCard = () => {
   return (
@@ -38,7 +35,11 @@ const WebAppsCard = () => {
                     ))}
                   </p>
                 </div>
-                <img className="wa-image" src={webapp.imageSrc} />
+                <img
+                  className="wa-image"
+                  src={webapp.imageSrc}
+                  alt="Web Apps"
+                />
               </div>
 
               <div className="the-buttons">

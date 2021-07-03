@@ -10,7 +10,7 @@ const RandomSpanishCards = () => {
             <p>{cards.text}</p>
           </div>
           {console.log("Helloo from cards ", cards.src)}
-          <img src={cards.src} />
+          <img src={cards.src} alt="RandomSpanish Functions" />
         </div>
       ))}
     </>

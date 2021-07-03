@@ -8,18 +8,22 @@ const Navbar2 = () => {
         <div class="navbar-links">
           <ul>
             <li>
-              <a onClick={() => scrollTo("#randomspanish")}>
+              <a href="#" onClick={() => scrollTo("#randomspanish")}>
                 RandomSpanish.com
               </a>
             </li>
             <li>
-              <a onClick={() => scrollTo("#webapps")}>Web Apps</a>
+              <a href="#" onClick={() => scrollTo("#webapps")}>
+                Web Apps
+              </a>
             </li>
             <li>
-              <a onClick={() => scrollTo("#mobile")}>Mobile</a>
+              <a href="#" onClick={() => scrollTo("#mobile")}>
+                Mobile
+              </a>
             </li>
             <li>
-              <a onClick={() => scrollTo("#industrialautomation")}>
+              <a href="#" onClick={() => scrollTo("#industrialautomation")}>
                 Industrial Automation
               </a>
             </li>

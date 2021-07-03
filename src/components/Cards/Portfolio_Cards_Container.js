@@ -1,5 +1,5 @@
 import React from "react"
-import Card from "../Card/Card"
+import Card from "../Card/Portfolio_Card"
 import Fade from "react-reveal/Fade"
 import data from "../../yourdata"
 

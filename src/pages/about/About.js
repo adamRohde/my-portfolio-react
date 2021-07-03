@@ -1,5 +1,4 @@
 import React from "react"
-import Fade from "react-reveal/Fade"
 import data from "../../yourdata"
 // import Footer from "../../components/Layout/footer/Footer"
 
@@ -12,17 +11,17 @@ const About = () => {
             <h1>Hi, I'm Adam!</h1>
             <p>
               {" "}
-              I'm a software developer living in Minneapolis, MN. For the past
-              13 years I've been working in Industrial Automation programming
-              PLCs and windows apps/forms using C#'s' WPF platform. In the past
-              year I have dove into the world of web developement
+              I'm a software developer living in Minneapolis, MN. I have a
+              background in Industrial Automation, which is where I started
+              programming. I really appreciate the art of writing clean as well
+              as the art of learning new technologies.
               <br />
               <br />
               Skills -
               <span style={{ fontWeight: "bold" }}>
                 {" "}
-                React, OOP, Android development, training, industrial
-                automation, PLC development, technical writing.
+                React, OOP, Android development, Training, Industrial
+                Automation, PLC Development, Technical Writing.
               </span>
               <br />
             </p>

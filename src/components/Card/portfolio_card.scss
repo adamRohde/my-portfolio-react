@@ -1,17 +1,15 @@
 .card-wrapper {
   width: 20rem;
   height: 15rem;
-  // overflow: hidden !important;
   border-radius: 0.5rem;
   background-size: cover;
-  // background-repeat: no-repeat;
   background-position: center;
   display: flex;
   flex-direction: column-reverse;
   margin: 1rem;
 
   p {
-    color: white;
+    color: blue;
   }
 
   .btn {
@@ -20,5 +18,15 @@
     background-color: rgb(0, 0, 0);
     justify-content: center;
     border-radius: 0rem 0rem 0.5rem 0.5rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 15rem;
+    height: 10rem;
+  }
+
+  @media (max-width: 600px) {
+    width: 15rem;
+    height: 10rem;
   }
 }

@@ -1,4 +1,4 @@
-import "./card.scss"
+import "./portfolio_card.scss"
 import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
 

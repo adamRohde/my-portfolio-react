@@ -1,6 +1,6 @@
 import React from "react"
 import data from "../../../yourdata"
-import IconsDisplay from "../../../components/Icons/icons-display"
+import IconsDisplay from "../../../components/Icons/Icons_display"
 import androidGif from "../../../images/gifs/android.gif"
 const Mobile = () => {
   const IconsArray = [
@@ -35,6 +35,7 @@ const Mobile = () => {
               className="btn btn-primary"
               href="https://github1s.com/adamRohde/Android-Survey"
               target="_blank"
+              rel="noreferrer"
             >
               Repo
             </a>

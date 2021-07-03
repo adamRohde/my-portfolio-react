@@ -1,14 +1,10 @@
 import React, { useState } from "react"
-import Navbar2 from "../navbar2/Navbar2"
 import scrollTo from "gatsby-plugin-smoothscroll"
-import Fade from "react-reveal/Fade"
 
 const Navbar = () => {
   const [actLink, setActLink] = useState("")
 
   // handleItemClick = (e, { name }) => this.setState({ activeItem: name })
-
-  let isActive = ""
 
   function activeLink(linkClicked) {
     setActLink(linkClicked)

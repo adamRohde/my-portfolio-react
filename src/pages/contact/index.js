@@ -1,7 +1,6 @@
 import React from "react"
 import SEO from "../../components/seo"
 import Contact from "./Contact"
-import Navbar1 from "../../components/Layout/navbar/Navbar"
 
 const IndexPage = () => {
   return (

@@ -4,7 +4,7 @@ import RandomSpanish from "../portfolio/random-spanish/random-spanish"
 import WebApps from "../portfolio/web-apps/web-apps"
 import IndustrialAutomation from "../portfolio/industrial-automation/industrial-automation"
 import Mobile from "../portfolio/mobile/mobile"
-import Cards from "../../components/Cards/Cards"
+import Cards from "../../components/Cards/Portfolio_Cards_Container"
 
 const Work = () => {
   return (
