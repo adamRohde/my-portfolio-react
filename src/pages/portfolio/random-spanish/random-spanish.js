@@ -1,7 +1,7 @@
 import React from "react"
 import data from "../../../yourdata"
 import RandomSpanishCards from "../../../components/Random-Spanish/random-spanish-cards"
-import IconsDisplay from "../../../components/Icons/icons_display"
+import IconsDisplay from "../../../components/Icons/Icons_display"
 
 const RandomSpanish = () => {
   const IconsArray = [

@@ -8,11 +8,13 @@ const About = () => {
       <section className="about-section" id="about">
         <div className="about-me-container">
           <div>
-            <h1>Hi, I'm Adam!</h1>-
-              {" "}
-              I'm a software developer living in Minneapolis, MN. I have a
+            <h1>Hi, I'm Adam!</h1>
+            <p>
+              - I'm a software developer living in Minneapolis, MN. I have a
               background in Industrial Automation, which is where I started
-              programming. I really enjoy writing clean code and learning new technologies.  Currently I'm focusing on Full Stack developement as well as Android development. 
+              programming. I really enjoy writing clean code and learning new
+              technologies. Currently I'm focusing on Full Stack developement as
+              well as Android development.
               <br />
               <br />
               Skills -
@@ -24,11 +26,10 @@ const About = () => {
               <br />
             </p>
           </div>
+          <div className="image-container">
+            <img src={data.aboutImage} alt="about"></img>
+          </div>
         </div>
-        <div className="image-container">
-          <img src={data.aboutImage} alt="about"></img>
-        </div>
-        {/* <Footer /> */}
       </section>
     </>
   )
