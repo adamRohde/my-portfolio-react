@@ -11,11 +11,11 @@
 @import "../pages/portfolio/mobile/mobile.scss";
 @import "../pages//portfolio/industrial-automation/industrial-automation.scss";
 @import "../pages/contact/contact.scss";
-@import "./skills.scss";
-@import "./promotion.scss";
+// @import "./skills.scss";
+// @import "./promotion.scss";
 @import "../components/Layout/footer/footer.scss";
 @import "../components/Random-Spanish/random-spanish-cards.scss";
-@import "./skewed.scss";
+// @import "./skewed.scss";
 @import "../components/Layout/navbar2/navbar2.scss";
 @import "../components//Layout/navbar/navbar.scss";
 @import "./variables.scss";
@@ -37,17 +37,27 @@ main {
   padding: 0;
 }
 
+section:first-of-type {
+  width: 100%;
+  background-color: white;
+  border: none;
+  padding: 3rem 0rem;
+  margin: 0rem;
+}
+
 section:nth-child(odd) {
-  background-color: rgb(255, 255, 255);
+  background-color: #fffadb;
+  // background-color: complement($color: #fffadb);
 }
 
 section {
   display: flex;
   width: 90%;
-  padding: 5rem;
+  // padding: 5rem;
+  padding: 3rem 0rem;
   margin: 2rem auto;
   background-color: $bg-primary;
-  border: solid 2px black;
+  // border: solid 2px black;
   @include media("<=tablet") {
     display: flex;
     margin: 1rem auto;
