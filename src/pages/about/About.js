@@ -13,22 +13,21 @@ const About = () => {
               - I'm a software developer living in Minneapolis, MN. I have a
               background in Industrial Automation, which is where I started
               programming. I really enjoy writing clean code and learning new
-              technologies. Currently I'm focusing on Full Stack developement as
-              well as Android development.
+              technologies.
               <br />
-              <br />
+              {/* <br />
               Skills -
               <span style={{ fontWeight: "bold" }}>
                 {" "}
                 React, OOP, Android development, Training, Industrial
                 Automation, PLC Development, Technical Writing.
               </span>
-              <br />
+              <br /> */}
             </p>
           </div>
-          <div className="image-container">
+          {/* <div className="image-container">
             <img src={data.aboutImage} alt="about"></img>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

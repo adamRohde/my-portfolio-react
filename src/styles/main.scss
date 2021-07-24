@@ -43,11 +43,11 @@ section:nth-child(odd) {
 
 section {
   display: flex;
-  width: 90%;
+  width: 100%;
   padding: 5rem;
   margin: 2rem auto;
   background-color: $bg-primary;
-  border: solid 2px black;
+  // border: solid 2px black;
   @include media("<=tablet") {
     display: flex;
     margin: 1rem auto;
@@ -55,6 +55,28 @@ section {
     align-items: center;
     padding: 0em 0em 2em 0em;
   }
+}
+
+#about {
+  background-color: $bg-primary;
+}
+#portfolio {
+  background-color: $bg-secondary;
+}
+#randomspanish {
+  background-color: $bg-primary;
+}
+#mobile {
+  background-color: $bg-secondary;
+}
+#webapps {
+  background-color: $bg-primary;
+}
+#industrialautomation {
+  background-color: $bg-secondary;
+}
+#webapps {
+  background-color: $bg-primary;
 }
 
 p {
