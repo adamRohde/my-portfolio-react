@@ -88,7 +88,7 @@ export default {
       id: 5, //DO NOT CHANGE THIS (Please)😅
       title: "React Expense Tracker",
       para:
-        "Simple app that allows you to save your expenses.  This was app was my introduction to React and the power had using a language that takes care of state automagically!",
+        "This app allows you to track your expenses.  The app was written using React, create-react-app and functional components",
       technologies: [
         "React",
         "Functional Components",
@@ -107,7 +107,7 @@ export default {
       id: 6, //DO NOT CHANGE THIS (Please)😅
       title: "Rock-Paper-Scissors",
       para:
-        "Mobile friendly rock, paper, scissors game. Used CSS grid, and Flex-box to try and make responsive.",
+        "Mobile friendly rock, paper, scissors game. Uses CSS grid, and Flex-box.",
       technologies: [
         "vanilla Javascript",
         "CSS Grid",
@@ -127,12 +127,8 @@ export default {
       id: 7, //DO NOT CHANGE THIS (Please)😅
       title: "Calculator",
       para:
-        "Simple calculator app using vanilla js. The app also incorporates a dark or light theme.",
-      technologies: [
-        "vanilla Javascript",
-        "NO EVAL FUNCTION",
-        "dark and light theme",
-      ],
+        "Simple calculator app using vanilla js. The app also incorporates a dark or light theme.  No EVAL function was used to make this app!",
+      technologies: ["vanilla Javascript", "dark and light theme"],
       imageSrc: calc,
       target: "_blank",
       repo_url: "https://github1s.com/adamRohde/calculator",

@@ -9,9 +9,8 @@ const WebApps = () => {
       <div>
         <h2>Web Apps</h2>
         <p>
-          These are small fun apps I created when attending Andy Sterkowitz's
-          Web Bootcamp. These apps were my introduction to HTML, CSS and
-          Javascript.{" "}
+          These are apps I created when attending Andy Sterkowitz's Web
+          Bootcamp. They were my introduction to HTML, CSS and Javascript.{" "}
           <strong style={{ color: "black" }}>
             All of them were written by me and me alone. No tutorials were
             followed.{"  "}
