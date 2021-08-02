@@ -21,14 +21,24 @@ const WorkProjects = () => {
               Android app that allows workers to find relevant production data
               from a machine
             </li>
-
+            <br />
             <li>C Program for Bosch XDK IoT Device</li>
+            <br />
             <li>
               WPF C# Application for serial commissioning of the safety
               parameters for a Rexroth servo drive
             </li>
+            <br />
             <li>
               VBA application that formats XML data to work as OPC UA driver
+              <br />
+              <br />
+              <a
+                className="btn btn-primary"
+                href="https://github1s.com/adamRohde/OPC-Driver-Sheet-Builder-Files/blob/HEAD/Class%20Modules/Class1.cls"
+              >
+                Repo
+              </a>
             </li>
           </ul>
         </p>
