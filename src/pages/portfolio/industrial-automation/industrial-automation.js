@@ -7,13 +7,9 @@ const WorkProjects = () => {
       <h2>Industrial Automation</h2>
       <div className="ia-grid">
         <p>
-          For 13 years I have worked in the field of industrial automation.
-          Working in this field was my first introduction to writing code. More
-          and more this world is merging with IT and high-level programmming
-          lanagues. Also, the new trend has become going away from native IDEs
-          and instead look to web technologies. Below is examples of projects I
-          have worked on that exhibits some of this integration of Industrial
-          Automation and more traditional IT technologies.
+          For 13 years I have worked in the field of industrial automation. This
+          is where I began programming. Below are a few projects I created while
+          working in this field.
           <br></br>
           <br></br>
           <ul>
@@ -36,6 +32,7 @@ const WorkProjects = () => {
               <a
                 className="btn btn-primary"
                 href="https://github1s.com/adamRohde/OPC-Driver-Sheet-Builder-Files/blob/HEAD/Class%20Modules/Class1.cls"
+                target="_blank"
               >
                 Repo
               </a>

@@ -26,9 +26,7 @@
 body {
   margin: 0;
   padding: 0;
-  // background-color: burlywood;
   background-color: rgb(255, 255, 255);
-  // background: $stripedbackground;
   box-sizing: border-box;
 }
 
@@ -45,7 +43,7 @@ section {
   display: flex;
   width: 100%;
   padding: 5rem;
-  margin: 2rem auto;
+  // margin: 2rem auto;
   background-color: $bg-primary;
   // border: solid 2px black;
   @include media("<=tablet") {
@@ -57,9 +55,6 @@ section {
   }
 }
 
-#about {
-  background-color: $bg-primary;
-}
 #portfolio {
   background-color: $bg-secondary;
 }

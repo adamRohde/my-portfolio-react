@@ -4,13 +4,25 @@
   display: flex;
   flex-direction: row;
   padding-top: 8rem;
+  // background-color: $bg-primary;
+  background: url("../images/rippledwater1.jpg") no-repeat center fixed;
+  background-size: cover;
+  height: 85vh;
 
   .about-me-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 0rem 2rem;
+    // align-items: center;
+    // padding: 0rem 2rem;
     background-color: rgba(255, 255, 255, 0);
+
+    h1 {
+      color: white;
+    }
+
+    p {
+      color: white;
+    }
   }
 
   .image-container {
@@ -25,8 +37,6 @@
   }
 
   @include media("<desktop") {
-    flex-direction: column-reverse;
-
     .image-container {
       padding: 2rem;
     }
