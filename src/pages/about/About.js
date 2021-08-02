@@ -12,7 +12,7 @@ const About = () => {
           </div>
           <div className="about-paragraph">
             <p>
-              - I'm a software developer living in Minneapolis, MN. I have a
+              I'm a software developer living in Minneapolis, MN. I have a
               background in Industrial Automation, which is where I started
               programming. I really enjoy writing clean code and learning new
               technologies!
