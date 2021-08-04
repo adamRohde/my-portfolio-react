@@ -4,27 +4,19 @@
   display: flex;
   flex-direction: column;
   padding-top: 8rem;
-  background: url("../images/rippledwater3.jpg") no-repeat center fixed;
-  background-size: cover;
+  background-color: rgb(19, 15, 15);
+  justify-content: center;
   height: 85vh;
 
   .about-me-container {
-    display: flex;
-    flex-direction: column;
-    // background-color: rgba(255, 255, 255, 0);
-
     .about-header {
-      width: fit-content;
-      background-color: rgba(0, 0, 0, 0.453);
       align-self: flex-start;
     }
 
     .about-paragraph {
-      margin-top: 3rem;
+      margin-top: 1rem;
       margin-left: 5rem;
-      width: fit-content;
       align-self: flex-end;
-      background-color: rgba(0, 0, 0, 0.453);
     }
 
     h1 {
