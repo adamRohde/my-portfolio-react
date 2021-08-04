@@ -6,6 +6,38 @@ const About = () => {
   return (
     <>
       <section className="about-section" id="about">
+        {/* <div className="box-container-1">
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+        </div>
+
+        <div className="box-container-2">
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+        </div> */}
+
+        {/* <div className="box-container-3">
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+        </div>
+
+        <div className="box-container-4">
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+        </div> */}
+
         <div className="about-me-container">
           <div className="about-header">
             <h1>Hi, I'm Adam!</h1>
