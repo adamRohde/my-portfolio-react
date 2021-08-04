@@ -3,11 +3,13 @@
 .about-section {
   display: flex;
   flex-direction: column;
-  padding-top: 8rem;
-  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  height: 95vh;
+  background: url("../images/rippledwater4.jpg") no-repeat center 2rem fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  height: 85vh;
-  // background: url("../images/rippledwater3.jpg") no-repeat center fixed;
 
   .box-container-1 {
     height: fit-content;
@@ -68,6 +70,7 @@
       width: fit-content;
       align-self: flex-start;
       z-index: 1;
+      background-color: rgba(245, 245, 245, 0.611);
     }
 
     .about-paragraph {
@@ -76,7 +79,7 @@
       width: fit-content;
       align-self: flex-end;
       z-index: 1;
-      // background-color: rgb(0, 0, 0);
+      background-color: rgba(245, 245, 245, 0.611);
     }
 
     h1 {
