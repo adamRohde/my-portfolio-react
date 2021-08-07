@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   height: 95vh;
-
   background: url("../images/rippledwater4.jpg") no-repeat center 2rem fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -26,7 +25,7 @@
     }
 
     .about-paragraph {
-      margin: 1rem 18rem 0rem 5rem;
+      margin: 1rem 13rem 0rem 5rem;
       width: fit-content;
       align-self: flex-end;
       z-index: 1;
@@ -56,16 +55,21 @@
 //######################################## Large ########################################
 @media (max-width: 991.98px) {
   .about-section {
+    background: url("../images/rippledwater4.jpg") no-repeat -12rem 2rem fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     .about-me-container {
       .about-paragraph {
-        margin: 0rem 10rem 0rem 3rem;
+        margin: 0rem 7rem 0rem 3rem;
       }
 
       h1 {
         font-size: 4rem;
       }
       p {
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin: 0rem;
       }
     }
@@ -75,6 +79,11 @@
 //######################################## Medium ########################################
 @media (max-width: 768px) {
   .about-section {
+    background: url("../images/rippledwater4.jpg") no-repeat -22rem 2rem fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     .about-me-container {
       display: flex;
       flex-direction: column;
@@ -83,7 +92,7 @@
       z-index: 0;
 
       .about-paragraph {
-        margin: 0rem 3rem 0rem 3rem;
+        margin: 0rem 5rem 0rem 3rem;
       }
 
       h1 {
@@ -100,7 +109,6 @@
 @media (max-width: 576px) {
   .about-section {
     background-image: none;
-
     .about-me-container {
       display: flex;
       flex-direction: column;
