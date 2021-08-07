@@ -23,6 +23,26 @@
 @import "../components/Card/portfolio_card.scss";
 @import "../components/Icons/icons_display.scss";
 
+p {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  font-family: "Roboto Mono", monospace;
+}
+
+h2 {
+  font-family: "Roboto Mono", monospace;
+}
+
+h3 {
+  font-family: "Roboto Mono", monospace;
+}
+
+a {
+  font-family: "Roboto Mono", monospace;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -45,7 +65,7 @@ section {
   padding: 5rem;
   background-color: $bg-primary;
   @media (max-width: 576px) {
-    padding: 2rem;
+    padding: 1rem;
   }
 }
 
@@ -68,32 +88,11 @@ section {
   background-color: $bg-primary;
 }
 
-p {
-  font-family: "Roboto Mono", monospace;
-}
-
-h1 {
-  font-family: "Roboto Mono", monospace;
-}
-
-h2 {
-  font-family: "Roboto Mono", monospace;
-}
-
-h3 {
-  font-family: "Roboto Mono", monospace;
-}
-
-a {
-  font-family: "Roboto Mono", monospace;
-}
-
 h1 {
   color: black;
   font-size: $fs-h1-desktop;
   margin: 1rem;
-  @include media("<=tablet") {
-    margin: 1rem;
+  @media (max-width: 576px) {
     text-align: justify;
     font-size: 2.5rem;
   }
@@ -103,8 +102,7 @@ h2 {
   color: black;
   font-size: $fs-h2-desktop;
   margin: 1rem;
-  @include media("<=tablet") {
-    margin: 1rem;
+  @media (max-width: 576px) {
     text-align: justify;
     font-size: 1.4rem;
   }
@@ -115,9 +113,8 @@ h3 {
   font-size: $fs-h3-desktop;
   font-weight: normal;
   margin: 1rem;
-  @include media("<=tablet") {
+  @media (max-width: 576px) {
     text-align: justify;
-    margin: 0rem;
     font-size: 1.2rem;
   }
 }
@@ -127,7 +124,20 @@ p {
   font-size: $fs-p-desktop;
   margin: 2rem;
   text-align: justify;
+  @media (max-width: 576px) {
+    margin: 1rem;
+  }
 }
+
+.container-center {
+  display: grid;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+//####################################################################################
+//####################################################################################
+//####################################################################################
 
 .fade-in-image {
   animation: fadeIn 500ms;
@@ -189,10 +199,4 @@ p {
     opacity: 1;
     transform: translate3d(0, 0, 0);
   }
-}
-
-.container-center {
-  display: grid;
-  justify-content: center;
-  margin-top: 5vh;
 }

@@ -6,7 +6,7 @@ const WebApps = () => {
   // console.log("layoutContext  ", layoutContext)
   return (
     <section className="webapps" id="webapps">
-      <div>
+      <div className="about-paragraph">
         <h2>Web Apps</h2>
         <p>
           These are apps I created when attending Andy Sterkowitz's Web

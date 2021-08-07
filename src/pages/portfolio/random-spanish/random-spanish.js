@@ -13,9 +13,8 @@ const RandomSpanish = () => {
 
   return (
     <section className="randomspanish" id="randomspanish">
-      <h2>RandomSpanish.com</h2>
-
       <div className="about-paragraph">
+        <h2>RandomSpanish.com</h2>
         <p>
           I built this site to try and learn Spanish. The first rendition used
           PHP, SQL, Javascript, HTML and CSS. I rebuilt the site using React,
