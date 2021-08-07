@@ -5,59 +5,12 @@
   flex-direction: column;
   justify-content: center;
   height: 95vh;
+
   background: url("../images/rippledwater4.jpg") no-repeat center 2rem fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-  .box-container-1 {
-    height: fit-content;
-    width: fit-content;
-    inset: 0em 0em;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    z-index: 0;
-  }
-
-  .box-container-2 {
-    height: fit-content;
-    width: fit-content;
-    inset: 0em 0em;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    z-index: 0;
-  }
-
-  .box-container-3 {
-    margin-top: 5rem;
-    height: fit-content;
-    width: fit-content;
-    inset: 0em 30em;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    z-index: 0;
-  }
-
-  .box-container-4 {
-    height: fit-content;
-    width: fit-content;
-    inset: 0em 30em;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    z-index: 0;
-  }
-
-  .box {
-    background-color: blue;
-    width: 10vw;
-    height: 10vh;
-    margin: 0.2em;
-  }
 
   .about-me-container {
     display: flex;
@@ -70,15 +23,13 @@
       width: fit-content;
       align-self: flex-start;
       z-index: 1;
-      // background-color: rgba(245, 245, 245, 0.611);
     }
 
     .about-paragraph {
-      margin: 1rem 25rem 0rem 5rem;
+      margin: 1rem 18rem 0rem 5rem;
       width: fit-content;
       align-self: flex-end;
       z-index: 1;
-      // background-color: rgba(245, 245, 245, 0.611);
     }
 
     h1 {
@@ -86,6 +37,7 @@
     }
     p {
       color: rgb(33, 33, 33);
+      margin: 0rem;
     }
   }
 
@@ -99,23 +51,82 @@
       border-radius: 50%;
     }
   }
+}
 
-  @media (max-width: 768px) {
+//######################################## Large ########################################
+@media (max-width: 991.98px) {
+  .about-section {
     .about-me-container {
-      align-self: center;
-      justify-content: center;
-
-      .about-header {
-        align-self: center;
-      }
       .about-paragraph {
-        align-self: center;
-        margin-left: 0rem;
+        margin: 0rem 10rem 0rem 3rem;
+      }
+
+      h1 {
+        font-size: 4rem;
+      }
+      p {
+        font-size: 0.8rem;
+        margin: 0rem;
       }
     }
+  }
+}
 
-    .image-container {
-      padding: 2rem;
+//######################################## Medium ########################################
+@media (max-width: 768px) {
+  .about-section {
+    .about-me-container {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      inset: 4rem 0rem;
+      z-index: 0;
+
+      .about-paragraph {
+        margin: 0rem 3rem 0rem 3rem;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        margin: 0rem;
+      }
+    }
+  }
+}
+
+//######################################## Small ########################################
+@media (max-width: 576px) {
+  .about-section {
+    background-image: none;
+
+    .about-me-container {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      // inset: 4rem 0rem;
+      z-index: 0;
+
+      .about-header {
+        width: fit-content;
+        align-self: flex-start;
+        z-index: 1;
+      }
+
+      .about-paragraph {
+        margin: 0rem 0rem 0rem 0rem;
+        width: fit-content;
+        align-self: flex-end;
+        z-index: 1;
+      }
+
+      h1 {
+        font-size: 1.9rem;
+      }
+      p {
+        color: rgb(33, 33, 33);
+      }
     }
   }
 }
