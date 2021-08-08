@@ -64,8 +64,8 @@ section {
   width: 100%;
   padding: 5rem;
   background-color: $bg-primary;
-  @media (max-width: 576px) {
-    padding: 1rem;
+  @media (max-width: 768px) {
+    padding: 2rem;
   }
 }
 
@@ -121,18 +121,12 @@ h3 {
 
 p {
   color: rgb(60, 60, 60);
+  padding: 0rem 1rem 2rem 2rem;
   font-size: $fs-p-desktop;
-  // padding: 0rem 2rem 0rem 2rem;
   text-align: justify;
   @media (max-width: 576px) {
-    // padding: 0rem;
+    font-size: 0.8rem;
   }
-}
-
-.container-center {
-  display: grid;
-  justify-content: center;
-  margin-top: 5vh;
 }
 
 //####################################################################################

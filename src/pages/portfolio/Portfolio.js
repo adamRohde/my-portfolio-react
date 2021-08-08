@@ -12,9 +12,9 @@ const Work = () => {
       <SEO title="Adam's Portfolio" />
 
       <section className="portfolio" id="portfolio">
-        <div classname="mywork-container">
-          <h1>Portfolio</h1>
-          <p className="about-paragraph">
+        <div className="about-paragraph">
+          <h2>Portfolio</h2>
+          <p>
             All of these projects I completed in the past year. I will be
             updating this section regularly as I build new things.
           </p>

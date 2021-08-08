@@ -9,10 +9,10 @@ const WebAppsCard = () => {
           <hr
             className="divider-line"
             style={{
-              backgroundColor: "black",
+              backgroundColor: "lightgrey",
               height: "1px",
               width: "100%",
-              margin: "0rem 1rem 0rem 1rem",
+              margin: "0rem 1rem 0rem 3rem",
             }}
           ></hr>
 

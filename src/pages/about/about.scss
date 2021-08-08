@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   height: 95vh;
-  background: url("../images/rippledwater4.jpg") no-repeat center 2rem fixed;
+  background: url("../images/rippledwater4.jpg") no-repeat center 3vw fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,18 +25,10 @@
     }
 
     .about-paragraph {
-      margin: 1rem 13rem 0rem 2rem;
+      margin: 1rem 17rem 0rem 2rem;
       width: fit-content;
       align-self: flex-end;
       z-index: 1;
-    }
-
-    h1 {
-      color: rgb(0, 0, 0);
-    }
-    p {
-      color: rgb(33, 33, 33);
-      margin: 0rem;
     }
   }
 
@@ -55,7 +47,7 @@
 //######################################## Large ########################################
 @media (max-width: 991.98px) {
   .about-section {
-    background: url("../images/rippledwater4.jpg") no-repeat -12rem 2rem fixed;
+    background: url("../images/rippledwater4.jpg") no-repeat -18vw 2vh fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -63,15 +55,11 @@
     .about-me-container {
       inset: 0rem 0rem;
       .about-paragraph {
-        margin: 0rem 7rem 0rem 3rem;
+        margin: 0rem 13rem 0rem 3rem;
       }
 
       h1 {
         font-size: 4rem;
-      }
-      p {
-        font-size: 1rem;
-        margin: 0rem;
       }
     }
   }
@@ -93,7 +81,7 @@
       z-index: 0;
 
       .about-paragraph {
-        margin: 0rem 5rem 0rem 3rem;
+        margin: 0rem 10rem 0rem 2rem;
       }
 
       h1 {
@@ -109,7 +97,11 @@
 //######################################## Small ########################################
 @media (max-width: 576px) {
   .about-section {
-    background-image: none;
+    background: url("../images/rippledwater4.jpg") no-repeat -32rem 2rem fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     .about-me-container {
       display: flex;
       flex-direction: column;
@@ -126,9 +118,12 @@
 
       h1 {
         font-size: 2.5rem;
+        background-color: rgba(255, 255, 255, 0.75);
+        padding: 0.2rem;
       }
       p {
-        color: rgb(33, 33, 33);
+        background-color: rgba(255, 255, 255, 0.75);
+        padding: 0.2rem;
       }
     }
   }
