@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
+import AR from "../../../images/AR.png"
 
 const Navbar = () => {
   const [actLink, setActLink] = useState("")
