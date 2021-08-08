@@ -32,6 +32,10 @@
 
   .wa-about-section > div {
     width: 60%;
+
+    // p {
+    //   padding: 0rem 1rem 3rem 2rem;
+    // }
   }
 
   .about {
@@ -75,7 +79,8 @@
     }
 
     h3 {
-      margin: 0rem 0rem 0rem 3rem;
+      margin: 0rem 0rem 0rem 2rem;
+      padding: 0;
     }
     .wa-about-section {
       margin: 0;
