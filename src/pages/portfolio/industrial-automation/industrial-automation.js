@@ -8,8 +8,11 @@ const WorkProjects = () => {
       <div className="ia-grid">
         <p>
           For 13 years I have worked in the field of industrial automation. This
-          is where I began programming. Below are a few projects I created while
-          working in this field.
+          is where I began programming. My start was building C# application for
+          customers, to demonstrate particular functionality with an API our
+          company offered. Over the years I have explored quite a few different
+          technologies. From C# to C and and as of recently more and more web
+          technologies.
           <br></br>
           <br></br>
           <ul>

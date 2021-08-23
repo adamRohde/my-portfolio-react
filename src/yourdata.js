@@ -118,8 +118,8 @@ export default {
       ],
       imageSrc: rockpaperscissors,
       target: "_blank",
-      repo_url: "https://github1s.com/adamRohde/rock-paper-scissors-responsive",
-      app_url: "https://adamrohde.github.io/rock-paper-scissors-responsive/",
+      repo_url: "https://github1s.com/adamRohde/rock-paper-scissors",
+      app_url: "https://adamrohde.github.io/rock-paper-scissors/",
       app_btn_text: "Play!",
     },
 
