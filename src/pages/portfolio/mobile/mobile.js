@@ -32,8 +32,21 @@ const Mobile = () => {
             machine. This included operations like speed selection and culling.
             This app was shown at the 2016 Pack Expo show located at the
             McCormick Center in downtown Chicago.
-            <br></br>
-            <br></br>
+            <IconsDisplay icons={IconsArray} />
+            <div className="button-container">
+              <a
+                className="btn btn-primary"
+                href="https://github1s.com/adamRohde/Android-Survey"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Trade show app repo
+              </a>
+            </div>
+          </p>
+          <br></br>
+
+          <p>
             The second app I worked on with a team of individuals I met through
             a Facebook group dedicated to software development. I was brought on
             to help with the front end implementation for an app there were
@@ -42,31 +55,18 @@ const Mobile = () => {
             back-end. The app had users ask a series of questions which would
             guage their values systems and marry them up with career paths that
             the app deemed a good fit, given how they answered the questions.
+            <IconsDisplay icons={IconsArray} />
+            <div className="button-container">
+              <a
+                className="btn btn-primary"
+                href="https://github1s.com/adamRohde/Android-Survey"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Trade show app repo
+              </a>
+            </div>
           </p>
-
-          <IconsDisplay icons={IconsArray} />
-
-          <div className="button-container">
-            <a
-              className="btn btn-primary"
-              href="https://github1s.com/adamRohde/Android-Survey"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Trade show app repo
-            </a>
-          </div>
-
-          <div className="button-container">
-            <a
-              className="btn btn-primary"
-              href="https://github1s.com/adamRohde/OCE_2016_PackExpo_App"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Questionaire app repo
-            </a>
-          </div>
         </div>
 
         <img style={{ borderRadius: "2em" }} src={androidGif}></img>
