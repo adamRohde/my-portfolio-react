@@ -15,8 +15,8 @@ const WebApps = () => {
             All of them were written by me and me alone. No tutorials were
             followed.{"  "}
           </strong>
-          Despite the simplicity I am still proud of this work. We all have
-          beginnings, these simple apps were mine :).
+          Despite the simplicity I am proud of this work. We all have
+          beginnings, these apps were mine.
         </p>
       </div>
 

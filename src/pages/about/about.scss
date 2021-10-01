@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   height: 95vh;
-  background: url("../images/rippledwater4.jpg") no-repeat center 3vw fixed;
+  background: url("../images/rippledwater5.jpg") no-repeat center 3vw fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -30,6 +30,14 @@
       align-self: flex-end;
       z-index: 1;
     }
+
+    h1 {
+      color: white;
+    }
+
+    p {
+      color: white;
+    }
   }
 
   .image-container {
@@ -47,7 +55,7 @@
 //######################################## Large ########################################
 @media (max-width: 991.98px) {
   .about-section {
-    background: url("../images/rippledwater4.jpg") no-repeat -18vw 2vh fixed;
+    background: url("../images/rippledwater5.jpg") no-repeat -18vw 2vh fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -60,6 +68,11 @@
 
       h1 {
         font-size: 4rem;
+        color: white;
+      }
+
+      p {
+        color: white;
       }
     }
   }
@@ -68,7 +81,7 @@
 //######################################## Medium ########################################
 @media (max-width: 768px) {
   .about-section {
-    background: url("../images/rippledwater4.jpg") no-repeat -22rem 2rem fixed;
+    background: url("../images/rippledwater5.jpg") no-repeat -22rem 2rem fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -86,9 +99,11 @@
 
       h1 {
         font-size: 3rem;
+        color: white;
       }
       p {
         margin: 0rem;
+        color: white;
       }
     }
   }
@@ -97,7 +112,7 @@
 //######################################## Small ########################################
 @media (max-width: 576px) {
   .about-section {
-    background: url("../images/rippledwater4.jpg") no-repeat -32rem 2rem fixed;
+    background: url("../images/rippledwater5.jpg") no-repeat -32rem 2rem fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -118,11 +133,11 @@
 
       h1 {
         font-size: 2.5rem;
-        background-color: rgba(255, 255, 255, 0.75);
+        // background-color: rgba(255, 255, 255, 0.75);
         padding: 0.2rem;
       }
       p {
-        background-color: rgba(255, 255, 255, 0.75);
+        // background-color: rgba(255, 255, 255, 0.75);
         padding: 0.2rem;
       }
     }
