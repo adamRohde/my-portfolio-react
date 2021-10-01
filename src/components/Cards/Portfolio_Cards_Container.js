@@ -9,15 +9,6 @@ const Cards = () => {
       <Fade bottom cascade>
         {data.projects.map(project => (
           <div>
-            {/* <div>
-              <a
-                key={project.id}
-                href={project.url ? project.url : "#"}
-                target={project.target}
-              >
-                <h4> {project.title}</h4>
-              </a>
-            </div> */}
             <Card
               key={project.id}
               heading={project.title}

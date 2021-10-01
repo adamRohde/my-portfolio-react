@@ -40,7 +40,7 @@ const Mobile = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Trade show app repo
+                Trade Show App Repo
               </a>
             </div>
           </p>
@@ -63,7 +63,7 @@ const Mobile = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Trade show app repo
+                Android Survey App Repo
               </a>
             </div>
           </p>

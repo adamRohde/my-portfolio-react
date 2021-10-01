@@ -14,10 +14,6 @@ const Work = () => {
       <section className="portfolio" id="portfolio">
         <div className="about-paragraph">
           <h2>Portfolio</h2>
-          {/* <p>
-            All of these projects I completed in the past year. I will be
-            updating this section regularly as I build new things.
-          </p> */}
         </div>
         <div>
           <Cards />

@@ -1,8 +1,6 @@
 import React from "react"
-// import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import About from "./about/About"
-// import { layoutContext } from "../../provider"
 import Navbar from "../components/Layout/navbar/Navbar"
 import Footer from "../components/Layout/footer/Footer"
 import Portfolio from "../pages/portfolio/Portfolio"
